@@ -1,0 +1,46 @@
+{
+  "project": "demo",
+  "timestamp": "2026-10-09T00:00:00Z",
+  "checks": {
+    "build": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "component": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "browser": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "responsive": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "a11y": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "asset": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "performance": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    },
+    "security": {
+      "status": "not-run",
+      "evidence": [],
+      "notes": "Run in target project"
+    }
+  }
+}

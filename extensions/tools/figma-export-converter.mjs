@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+// Offline, conservative importer for user-owned Figma node export JSON.
+import fs from 'node:fs';
+const clamp=(v,a,b)=>Math.min(b,Math.max(a,v));
+const px=v=>`${clamp(Number(v)||0,0,2000)}px`;
+function safeName(s){return String(s||'frame').replace(/[^\w\u0600-\u06ff-]+/g,'-').slice(0,80);}
+function cssAutoLayout(n){let d={display:'flex',flexDirection:n.layoutMode==='VERTICAL'?'column':'row',gap:px(n.itemSpacing),justifyContent:({'MIN':'flex-start','CENTER':'center','MAX':'flex-end','SPACE_BETWEEN':'space-between'})[n.primaryAxisAlignItems]||'flex-start',alignItems:({'MIN':'flex-start','CENTER':'center','MAX':'flex-end','STRETCH':'stretch'})[n.counterAxisAlignItems]||'stretch',padding:`${px(n.paddingTop)} ${px(n.paddingRight)} ${px(n.paddingBottom)} ${px(n.paddingLeft)}`};return d;}
+export function inspectDesign(root){const nodes=[],warnings=[];function walk(n,level=0){if(!n||level>50||nodes.length>=2500)return;const out={name:safeName(n.name),type:n.type,layout:n.layoutMode&&n.layoutMode!=='NONE'?cssAutoLayout(n):null,text:n.type==='TEXT'?String(n.characters||'').slice(0,300):null,children:(n.children||[]).length};if(n.type==='TEXT'&&!n.style)warnings.push(`Missing style for ${out.name}`);nodes.push(out);for(const c of(n.children||[]))walk(c,level+1);}walk(root);return {nodes,warnings,notes:'This is a conservative report for authorized local JSON exports; it does not reconstruct unprovided interactive behavior.'};}
+const a=process.argv.slice(2);if(a.includes('--input')){const p=a[a.indexOf('--input')+1],out=a[a.indexOf('--out')+1];if(!p||!out)throw Error('Use --input local-figma-export.json --out report.json');const v=inspectDesign(JSON.parse(fs.readFileSync(p,'utf8')));fs.writeFileSync(out,JSON.stringify(v,null,2));console.log(`Inspected ${v.nodes.length} nodes; ${v.warnings.length} warnings`);}

@@ -1,0 +1,691 @@
+[
+  {
+    "id": "critical-reviewer",
+    "title": "Adversarial Design Critic",
+    "mission": "Find high-impact visual, functional, and product flaws, independently of positive reviewers",
+    "checks": [
+      "Map one primary user journey",
+      "Find the top five failures",
+      "Identify low-value interactions",
+      "Classify each blocker by user impact"
+    ],
+    "evidence": "annotated screenshots, reproduction steps, component paths",
+    "category": "core"
+  },
+  {
+    "id": "positive-advocate",
+    "title": "Design Advocate and Strengths Analyst",
+    "mission": "Defend working design decisions with concrete evidence and identify strengths worth preserving",
+    "checks": [
+      "Identify visual hierarchy that works",
+      "Document effective interactions",
+      "Note consistent brand motifs",
+      "Identify accessibility successes"
+    ],
+    "evidence": "screenshots, successful tests, reference design tokens",
+    "category": "core"
+  },
+  {
+    "id": "brand-guardian",
+    "title": "Brand Identity and Consistency Auditor",
+    "mission": "Compare rendered UI against approved brand identity and motion language",
+    "checks": [
+      "Check approved palette token use",
+      "Compare typography scale",
+      "Check logo spacing/usage",
+      "Audit visual motifs and animation tone"
+    ],
+    "evidence": "brand-identity.json, style tokens, screenshots",
+    "category": "core"
+  },
+  {
+    "id": "accessibility-auditor",
+    "title": "Accessibility and Inclusive Design Auditor",
+    "mission": "Verify keyboard, semantics, reflow, focus, contrast, assistive-tech assumptions",
+    "checks": [
+      "Traverse with keyboard",
+      "Check 320px reflow",
+      "Inspect aria states",
+      "Verify prefers-reduced-motion policy"
+    ],
+    "evidence": "axe results, keyboard recordings, DOM, computed styles",
+    "category": "core"
+  },
+  {
+    "id": "ux-task-flow",
+    "title": "User Task Flow Auditor",
+    "mission": "Evaluate task completion friction and affordance from start to finish",
+    "checks": [
+      "Trace critical task step by step",
+      "Check visible system feedback",
+      "Locate confusing labels",
+      "Verify recovery paths"
+    ],
+    "evidence": "journey notes, interaction logs, screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "functional-test",
+    "title": "Functional QA Auditor",
+    "mission": "Discover broken navigation, inert controls and error handling",
+    "checks": [
+      "Check every primary CTA",
+      "Verify loading states",
+      "Exercise form errors",
+      "Check browser console and network failures"
+    ],
+    "evidence": "Playwright report, network/console logs, DOM snapshots",
+    "category": "core"
+  },
+  {
+    "id": "performance-web",
+    "title": "Frontend Performance Auditor",
+    "mission": "Find web vitals, loading and runtime responsiveness risks",
+    "checks": [
+      "Inspect image loading",
+      "Look for heavy blocking scripts",
+      "Check LCP/INP/CLS evidence",
+      "Identify redundant rerenders"
+    ],
+    "evidence": "trace, Lighthouse, bundle analysis, profiler",
+    "category": "specialist"
+  },
+  {
+    "id": "security-privacy",
+    "title": "Security and Privacy Reviewer",
+    "mission": "Audit privacy-sensitive UI, exposed secrets and unsafe client behavior",
+    "checks": [
+      "Check accidental secrets in client bundle",
+      "Check unsafe HTML injection",
+      "Review data retention consent",
+      "Ensure no credential leaks"
+    ],
+    "evidence": "code scans, network logs, policy",
+    "category": "specialist"
+  },
+  {
+    "id": "code-maintainability",
+    "title": "Frontend Architecture Reviewer",
+    "mission": "Identify implementation defects, ownership conflicts and hard-to-maintain code",
+    "checks": [
+      "Review component boundaries",
+      "Check state ownership",
+      "Find duplicated logic",
+      "Check error boundaries"
+    ],
+    "evidence": "git diff, files and line numbers, test output",
+    "category": "specialist"
+  },
+  {
+    "id": "responsive-layout",
+    "title": "Responsive and Reflow Specialist",
+    "mission": "Evaluate mobile/tablet/ultrawide layouts and container-dependent composition",
+    "checks": [
+      "Check 320/390/768/1440 reflow",
+      "Test text growth",
+      "Test RTL",
+      "Check safe area, sticky overlays"
+    ],
+    "evidence": "screenshots per viewport, computed DOM boxes",
+    "category": "specialist"
+  },
+  {
+    "id": "bilingual-typography",
+    "title": "Bilingual Typography and Bidi Specialist",
+    "mission": "Review Persian/English font loading, bidi isolation and typography quality",
+    "checks": [
+      "Check font actually loads",
+      "Verify Persian glyph shaping",
+      "Confirm English font fallback",
+      "Validate mixed number/bidi rendering"
+    ],
+    "evidence": "font network requests, screenshots, computed font family",
+    "category": "specialist"
+  },
+  {
+    "id": "color-system",
+    "title": "Color Science and Contrast Specialist",
+    "mission": "Audit hue/chroma consistency, semantics and five rendered palettes",
+    "checks": [
+      "Compare five actual component previews",
+      "Check contrast",
+      "Check active/focus/error roles",
+      "Check monochrome constraints"
+    ],
+    "evidence": "token files, calculated ratios, palette screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "motion-orchestrator",
+    "title": "Motion Design and Timeline Auditor",
+    "mission": "Identify motion conflicts, inconsistent rhythm and reduced-motion defects",
+    "checks": [
+      "Audit timeline authority",
+      "Check reverse scroll",
+      "Verify hover and scroll independence",
+      "Assess easing and gesture feedback"
+    ],
+    "evidence": "animation frame captures, CSS/JS owner mapping",
+    "category": "specialist"
+  },
+  {
+    "id": "scroll-timeline",
+    "title": "Scroll-linked Interaction Auditor",
+    "mission": "Audit pin/scrub progress, nested scroll and browser fallback",
+    "checks": [
+      "Exercise forward/backward scroll",
+      "Check resize triggers",
+      "Verify smooth scrolling owner",
+      "Validate native timeline fallback"
+    ],
+    "evidence": "scroll positions, recordings, screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "pointer-gesture",
+    "title": "Pointer and Touch Interaction Auditor",
+    "mission": "Test hover, magnetic, drag and touch interaction parity",
+    "checks": [
+      "Check pen/mouse/touch",
+      "Check pointercapture",
+      "Verify keyboard equivalent",
+      "Ensure hit target remains stable"
+    ],
+    "evidence": "pointer traces, touch simulations, event listeners",
+    "category": "specialist"
+  },
+  {
+    "id": "three-placement",
+    "title": "3D Spatial Composition Auditor",
+    "mission": "Verify real projected model placement relative to DOM text and viewports",
+    "checks": [
+      "Measure Box3",
+      "Project 3D corners to screen",
+      "Compare against safe text regions",
+      "Check camera on resize"
+    ],
+    "evidence": "camera matrices, model bounds, DOM rectangles, frames",
+    "category": "specialist"
+  },
+  {
+    "id": "three-renderer",
+    "title": "Three.js Rendering and GPU Reviewer",
+    "mission": "Find GPU rendering bottlenecks and degradation failures",
+    "checks": [
+      "Inspect draw call counts",
+      "Check renderer pixel ratio",
+      "Audit cleanup",
+      "Check LOD/material fallbacks"
+    ],
+    "evidence": "renderer.info, frame timing, device screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "animation-frame",
+    "title": "Deterministic Animation Frame Reviewer",
+    "mission": "Verify text, scroll, pointer and 3D animation at reproducible progress values",
+    "checks": [
+      "Capture 0/25/50/75/100%",
+      "Compare forward and reverse",
+      "Check missing transitions",
+      "Test reduced motion"
+    ],
+    "evidence": "frame series, timestamps, computed transforms",
+    "category": "specialist"
+  },
+  {
+    "id": "visual-regression",
+    "title": "Visual Regression Root Cause Reviewer",
+    "mission": "Attribute unexpected visual diffs to probable CSS/DOM/source changes",
+    "checks": [
+      "Compare DOM rectangle shifts",
+      "Check CSS fonts",
+      "Locate component source",
+      "Attach exact diff region and re-test recipe"
+    ],
+    "evidence": "baseline/candidate images, DOM snapshots, git diff",
+    "category": "specialist"
+  },
+  {
+    "id": "seo-discoverability",
+    "title": "SEO and Metadata Specialist",
+    "mission": "Validate crawlable content, links and structured metadata",
+    "checks": [
+      "Check title/canonical",
+      "Verify heading hierarchy",
+      "Audit link semantics",
+      "Check indexability and social previews"
+    ],
+    "evidence": "rendered head, sitemap, robots, URL inspections",
+    "category": "specialist"
+  },
+  {
+    "id": "content-writing",
+    "title": "Content Design and Microcopy Reviewer",
+    "mission": "Check headings, CTAs, empty states, errors and tone alignment",
+    "checks": [
+      "Find vague CTAs",
+      "Check instructions",
+      "Assess scannability",
+      "Validate success and failure copy"
+    ],
+    "evidence": "copy inventory, UX journeys, screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "internationalization",
+    "title": "Localization and Locale Specialist",
+    "mission": "Check localization beyond translation: dates, plurals, direction, content overflow",
+    "checks": [
+      "Check fa/en toggle",
+      "Verify locale numbers",
+      "Test long translated strings",
+      "Check dir and language annotations"
+    ],
+    "evidence": "locale files, screenshot matrix, DOM attrs",
+    "category": "specialist"
+  },
+  {
+    "id": "analytics-consent",
+    "title": "Measurement and Consent Auditor",
+    "mission": "Review privacy-preserving analytics instrumentation and consent choices",
+    "checks": [
+      "Check necessary vs optional scripts",
+      "Audit event semantics",
+      "Verify opt-out effect",
+      "Verify no PII in URLs"
+    ],
+    "evidence": "network inspection, analytics plans, consent UI",
+    "category": "specialist"
+  },
+  {
+    "id": "ecommerce-catalog",
+    "title": "Ecommerce Catalog Specialist",
+    "mission": "Validate product discovery, category navigation and search/filter logic",
+    "checks": [
+      "Check sort/filter combinations",
+      "Empty states",
+      "SKU variants and stock",
+      "Product media and pagination"
+    ],
+    "evidence": "catalog scenarios, screenshot, test data",
+    "category": "specialist"
+  },
+  {
+    "id": "ecommerce-checkout",
+    "title": "Checkout and Payment Experience Specialist",
+    "mission": "Audit cart-to-order journey including validation and recovery",
+    "checks": [
+      "Check cart totals",
+      "Shipping/tax explanations",
+      "Error retry",
+      "Mobile checkout form"
+    ],
+    "evidence": "checkout test scenarios, validation evidence",
+    "category": "specialist"
+  },
+  {
+    "id": "ecommerce-trust",
+    "title": "Commerce Trust and Product Detail Specialist",
+    "mission": "Evaluate seller trust, shipping clarity, policies, accessible buying",
+    "checks": [
+      "Check shipping/returns clarity",
+      "Review product disclosure",
+      "Check trust elements",
+      "Avoid false urgency"
+    ],
+    "evidence": "product detail screenshots, copy inventory",
+    "category": "specialist"
+  },
+  {
+    "id": "saas-onboarding",
+    "title": "SaaS Activation and Onboarding Specialist",
+    "mission": "Review path from signup to first successful action",
+    "checks": [
+      "Map first-use steps",
+      "Check empty projects",
+      "Track activation feedback",
+      "Examine progressive disclosure"
+    ],
+    "evidence": "signup flow screenshots, flow logs",
+    "category": "specialist"
+  },
+  {
+    "id": "saas-pricing",
+    "title": "SaaS Pricing and Conversion Specialist",
+    "mission": "Verify pricing comparison, billing semantics and CTA hierarchy",
+    "checks": [
+      "Check plan feature matrix",
+      "Contrast billing periods",
+      "Avoid misleading tier highlight",
+      "Validate accessible comparison"
+    ],
+    "evidence": "pricing screenshots, plan schema",
+    "category": "specialist"
+  },
+  {
+    "id": "dashboard-data",
+    "title": "Dashboard Information Architecture Specialist",
+    "mission": "Ensure charts and KPIs support decisions and accessible data",
+    "checks": [
+      "Audit KPI definitions",
+      "Check chart titles and units",
+      "Test empty/error data",
+      "Inspect dense layout"
+    ],
+    "evidence": "dashboard screenshots, data schema, table fallback",
+    "category": "specialist"
+  },
+  {
+    "id": "dashboard-filters",
+    "title": "Dashboard Filtering and Stateful UI Specialist",
+    "mission": "Ensure filters, URL state, ranges and pagination work as expected",
+    "checks": [
+      "Check filter dependencies",
+      "Reset consistency",
+      "Deep links",
+      "Loading and no-result cases"
+    ],
+    "evidence": "recorded filter steps, route state",
+    "category": "specialist"
+  },
+  {
+    "id": "editorial-reading",
+    "title": "Editorial Reading and Long-form Reviewer",
+    "mission": "Audit reading typography, navigation and content depth",
+    "checks": [
+      "Check line length and hierarchy",
+      "Table of contents anchors",
+      "Images captions",
+      "Reading comfort at zoom"
+    ],
+    "evidence": "article screenshots, CSS metrics",
+    "category": "specialist"
+  },
+  {
+    "id": "docs-navigation",
+    "title": "Documentation Navigation and API Discoverability Specialist",
+    "mission": "Validate docs hierarchy, search, code examples and version labels",
+    "checks": [
+      "Check TOC and breadcrumbs",
+      "Copy code actions",
+      "Version switching",
+      "Search empty state"
+    ],
+    "evidence": "docs page captures, navigation tests",
+    "category": "specialist"
+  },
+  {
+    "id": "portfolio-storytelling",
+    "title": "Portfolio Art Direction Specialist",
+    "mission": "Evaluate case study narrative and role attribution",
+    "checks": [
+      "Check before/problem/process/outcome",
+      "Visual pacing",
+      "Context of outcomes",
+      "Mobile case-study layouts"
+    ],
+    "evidence": "case study screenshots, content map",
+    "category": "specialist"
+  },
+  {
+    "id": "agency-brand",
+    "title": "Agency and Studio Showcase Specialist",
+    "mission": "Audit agency voice, differentiated identity and project reveal rhythm",
+    "checks": [
+      "Check original visual motifs",
+      "Service clarity",
+      "Credible work samples",
+      "Contact conversion"
+    ],
+    "evidence": "hero/portfolio captures, brand tokens",
+    "category": "specialist"
+  },
+  {
+    "id": "immersive-3d",
+    "title": "Immersive 3D Website Specialist",
+    "mission": "Evaluate scroll-led scenes, camera storytelling, fallback and motion sickness",
+    "checks": [
+      "Check camera choreography",
+      "Text safe areas",
+      "Reduced motion",
+      "Touch and weak GPU fallbacks"
+    ],
+    "evidence": "3D frame captures, renderer logs",
+    "category": "specialist"
+  },
+  {
+    "id": "game-interaction",
+    "title": "Game-like Web Experience Specialist",
+    "mission": "Audit controls, instructions, performance and gameplay feedback",
+    "checks": [
+      "Check input hints",
+      "Keyboard touch parity",
+      "Interaction states",
+      "Pause/restart and accessibility alternatives"
+    ],
+    "evidence": "interaction replay, FPS trace",
+    "category": "specialist"
+  },
+  {
+    "id": "education-learning",
+    "title": "Learning Product Interaction Specialist",
+    "mission": "Assess pedagogy, lesson structure and learner feedback",
+    "checks": [
+      "Check progression",
+      "Exercise answers",
+      "Error feedback",
+      "Screen reader instructional flow"
+    ],
+    "evidence": "lesson flow, exercise examples",
+    "category": "specialist"
+  },
+  {
+    "id": "health-content-safety",
+    "title": "Health UI Clarity and Caution Specialist",
+    "mission": "Identify dangerous ambiguity, consent and accessibility in health interfaces",
+    "checks": [
+      "Check advice disclaimers",
+      "Surface urgent safety actions",
+      "Distinguish general vs personalized info",
+      "Check privacy"
+    ],
+    "evidence": "screen captures, content map",
+    "category": "specialist"
+  },
+  {
+    "id": "finance-trust",
+    "title": "Finance Interface Clarity Specialist",
+    "mission": "Review risk disclosures, currency, data latency and transaction confirmation",
+    "checks": [
+      "Check currency format",
+      "Fee visibility",
+      "Transaction confirmation",
+      "Risk presentation"
+    ],
+    "evidence": "payment flows, price snapshots",
+    "category": "specialist"
+  },
+  {
+    "id": "government-accessibility",
+    "title": "Public Service Inclusivity Specialist",
+    "mission": "Ensure forms, identity flows, multilingual accessibility and error recovery",
+    "checks": [
+      "Check eligibility",
+      "Language quality",
+      "Identification recovery",
+      "Accessibility with low digital literacy"
+    ],
+    "evidence": "forms audit, policy copy",
+    "category": "specialist"
+  },
+  {
+    "id": "media-playback",
+    "title": "Audio and Video Product Specialist",
+    "mission": "Audit captions, player controls, buffering and playback states",
+    "checks": [
+      "Check keyboard shortcuts",
+      "Caption language",
+      "Error/retry",
+      "Reduced-motion animations"
+    ],
+    "evidence": "player screenshots, media logs",
+    "category": "specialist"
+  },
+  {
+    "id": "booking-availability",
+    "title": "Reservation and Booking UX Specialist",
+    "mission": "Audit date picker, inventory, confirmation and time zone clarity",
+    "checks": [
+      "Validate timezone",
+      "Availability error states",
+      "Guest details",
+      "Reschedule or cancellation paths"
+    ],
+    "evidence": "reservation flows, date tests",
+    "category": "specialist"
+  },
+  {
+    "id": "community-moderation",
+    "title": "Community Safety and Moderation UX Specialist",
+    "mission": "Review posting, privacy, abuse/report routes and inclusive interaction",
+    "checks": [
+      "Check reporting visibility",
+      "Block controls",
+      "Profile privacy",
+      "Empty feed"
+    ],
+    "evidence": "community flow captures, moderation policy",
+    "category": "specialist"
+  },
+  {
+    "id": "nonprofit-impact",
+    "title": "Nonprofit and Donation Experience Specialist",
+    "mission": "Review impact clarity, donation trust and recurring consent",
+    "checks": [
+      "Audit impact evidence",
+      "Frequency toggle",
+      "Fee transparency",
+      "Receipt confirmation"
+    ],
+    "evidence": "donation scenarios, page captures",
+    "category": "specialist"
+  },
+  {
+    "id": "realestate-maps",
+    "title": "Real Estate and Mapping Specialist",
+    "mission": "Check listing filters, map controls, property media and geographic clarity",
+    "checks": [
+      "Check map/list sync",
+      "Accessible search",
+      "Image galleries",
+      "Localized prices"
+    ],
+    "evidence": "map screenshots, route state",
+    "category": "specialist"
+  },
+  {
+    "id": "travel-itinerary",
+    "title": "Travel and Multi-stop Journey Specialist",
+    "mission": "Audit itinerary grouping, transport, maps and timezone handling",
+    "checks": [
+      "Check route sequencing",
+      "Travel time claims",
+      "Date local time",
+      "Offline mobile fallback"
+    ],
+    "evidence": "itinerary view, route logs",
+    "category": "specialist"
+  },
+  {
+    "id": "enterprise-workflow",
+    "title": "Enterprise Workflow and Permission Specialist",
+    "mission": "Review role-gated workflows, audit trails and bulk tasks",
+    "checks": [
+      "Check role restrictions",
+      "Bulk actions",
+      "Confirmation",
+      "Keyboard productivity"
+    ],
+    "evidence": "permission matrix, admin flows",
+    "category": "specialist"
+  },
+  {
+    "id": "search-discovery",
+    "title": "Sitewide Search and Discovery Specialist",
+    "mission": "Assess query handling, results relevance and filtering UX",
+    "checks": [
+      "Check typo states",
+      "No results",
+      "Highlighting",
+      "Keyboard result navigation"
+    ],
+    "evidence": "search scenarios, UI screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "form-resilience",
+    "title": "Forms and Validation Specialist",
+    "mission": "Review validation timing, error language, state retention and submit safety",
+    "checks": [
+      "Check invalid inputs",
+      "Field focus on error",
+      "Duplicate submit",
+      "Network failure recovery"
+    ],
+    "evidence": "form trace, test cases",
+    "category": "specialist"
+  },
+  {
+    "id": "mobile-interaction",
+    "title": "Mobile-First Interaction Reviewer",
+    "mission": "Review mobile performance, thumb reach, safe areas and offline behavior",
+    "checks": [
+      "Check 44px targets",
+      "Sticky bottom CTA",
+      "Touch gesture conflict",
+      "Reduced data mode"
+    ],
+    "evidence": "mobile screenshots, touch test logs",
+    "category": "specialist"
+  },
+  {
+    "id": "visual-originality",
+    "title": "Distinctiveness and Anti-Template Reviewer",
+    "mission": "Spot generic AI-generated layouts and propose grounded brand alternatives",
+    "checks": [
+      "Check meaningless gradients",
+      "Repeated three-card grids",
+      "Unmotivated glass",
+      "Brand-specific visual motif"
+    ],
+    "evidence": "comparison board, brand identity, screenshots",
+    "category": "specialist"
+  },
+  {
+    "id": "verification-gate",
+    "title": "Evidence and Completion Gatekeeper",
+    "mission": "Only certify completed claims backed by reproducible proof",
+    "checks": [
+      "Distinguish run vs not run",
+      "Verify screenshots real",
+      "Verify test paths",
+      "Mark unsupported claims"
+    ],
+    "evidence": "test logs, screenshot manifest, environment reports",
+    "category": "core"
+  },
+  {
+    "id": "arbitration-judge",
+    "title": "Independent Final Arbitration Judge",
+    "mission": "Resolve conflicting review reports after evidence-oriented deduplication; never override a verified blocker without reproduction.",
+    "checks": [
+      "Read all valid individual role reports",
+      "Test contradictory claims against supplied evidence",
+      "Preserve strengths when proposing remediations",
+      "Prioritize verified fixes and mark unresolved unknowns"
+    ],
+    "evidence": "team-summary.json, original evidence paths and reviewer reports",
+    "category": "adjudicator"
+  }
+]

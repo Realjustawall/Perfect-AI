@@ -1,0 +1,3 @@
+/** Optional GSAP adapters: import GSAP and registered plugins from target project's own dependencies. */
+export function sharedFlipTransition({Flip,targets,change,duration=.7,reducedMotion=false}={}){if(!Flip||typeof change!=='function')throw new Error('Flip and change required');if(reducedMotion){change();return null}const state=Flip.getState(targets);change();return Flip.from(state,{duration,ease:'power2.inOut',absolute:true,nested:true});}
+export function connectFrameStoryScroll({ScrollTrigger,trigger,renderFrame,pin=true}={}){if(!ScrollTrigger||typeof renderFrame!=='function')throw new Error('ScrollTrigger and renderFrame required');return ScrollTrigger.create({trigger,start:'top top',end:'+=200%',scrub:true,pin,onUpdate:self=>renderFrame(self.progress)});}

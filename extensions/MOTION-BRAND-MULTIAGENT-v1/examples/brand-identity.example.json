@@ -1,0 +1,54 @@
+{
+  "status": "DRAFT_EXAMPLE_NOT_APPROVED",
+  "brand": {
+    "name": "REPLACE_WITH_REAL_BRAND",
+    "sector": "",
+    "positioning": "",
+    "audience": [
+      ""
+    ],
+    "personality": [
+      ""
+    ],
+    "values": [
+      ""
+    ],
+    "voice": "",
+    "tagline": "",
+    "must_keep": [],
+    "must_avoid": []
+  },
+  "visual": {
+    "logo_file": "",
+    "logo_rules": "",
+    "palette": {
+      "mode": "unset",
+      "locked_hex": [],
+      "forbidden_hex": []
+    },
+    "typography": {
+      "fa": {
+        "heading": "",
+        "body": ""
+      },
+      "en": {
+        "heading": "",
+        "body": ""
+      }
+    },
+    "imagery": "",
+    "composition": "",
+    "motion": "",
+    "references": []
+  },
+  "goals": {
+    "primary_action": "",
+    "success_metrics": [],
+    "accessibility_level": "WCAG AA"
+  },
+  "approval": {
+    "approved": false,
+    "approved_by": "",
+    "revision": 1
+  }
+}

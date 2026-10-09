@@ -1,0 +1,22 @@
+{
+  "name": "perfect-ai-realtime-3d-studio-demo",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1",
+    "test:browser": "node tests/browser-smoke.mjs"
+  },
+  "dependencies": {
+    "three": "^0.180.0",
+    "@pmndrs/vanilla": "^1.20.5",
+    "postprocessing": "^6.39.5",
+    "mediabunny": "^1.61.3"
+  },
+  "devDependencies": {
+    "vite": "^7.0.0",
+    "@playwright/test": "^1.55.0"
+  }
+}

@@ -1,0 +1,44 @@
+# GitHub research and optional source import
+
+- [vercel-labs/agent-skills](https://github.com/vercel-labs/agent-skills): React performance, web interface guidelines, composition patterns. MIT, verify selected skill license.
+- [anthropics/skills](https://github.com/anthropics/skills): Frontend design artistic direction and layout systems. Repository files have per-skill license; check before copying.
+- [nextlevelbuilder/ui-ux-pro-max-skill](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill): Design intelligence, palette typologies, font pairing. MIT, verify version.
+- [addyosmani/web-quality-skills](https://github.com/addyosmani/web-quality-skills): Lighthouse, Core Web Vitals, search and accessibility. MIT, verify version.
+- [obra/superpowers](https://github.com/obra/superpowers): Debugging, TDD, planning and verification workflow. Check original license.
+- [shadcn-ui/ui](https://github.com/shadcn-ui/ui): Open-code accessible interface primitives and local component ownership. MIT.
+- [radix-ui/primitives](https://github.com/radix-ui/primitives): Accessible low-level input/disclosure components. MIT.
+- [pmndrs/react-three-fiber](https://github.com/pmndrs/react-three-fiber): Declarative React Three.js scene architecture. MIT, verify installed version.
+- [pmndrs/drei](https://github.com/pmndrs/drei): Reusable helpers for React Three Fiber. Check original license.
+- [DavidHDev/react-bits](https://github.com/DavidHDev/react-bits): Animated component examples and compositional references. MIT + Commons Clause; inspect restrictions.
+- [magicuidesign/magicui](https://github.com/magicuidesign/magicui): Hero/text/marquee/particles patterns and skills. Check registry and license before import.
+- [juliangarnier/anime](https://github.com/juliangarnier/anime): Anime.js library code and v4 API guides. Check Anime.js LICENSE and version.
+- [mrdoob/three.js](https://github.com/mrdoob/three.js): Three.js engine and examples. MIT.
+- [motiondivision/motion](https://github.com/motiondivision/motion): Motion for React and JS animation primitives. MIT; verify package versions.
+- [greensock/GSAP](https://github.com/greensock/GSAP): Timeline engine and ScrollTrigger. Consult GSAP current licensing.
+- [tailwindlabs/tailwindcss](https://github.com/tailwindlabs/tailwindcss): Utility CSS and mobile-first composition. MIT.
+- [microsoft/playwright](https://github.com/microsoft/playwright): Browser automation, interaction and viewport testing. Apache-2.0.
+- [storybookjs/storybook](https://github.com/storybookjs/storybook): Isolated component stories and visual QA. MIT.
+- [vitejs/vite](https://github.com/vitejs/vite): Fast ESM frontend build tooling. MIT.
+- [facebook/react](https://github.com/facebook/react): React runtime and lifecycle fundamentals. MIT.
+- [vercel/next.js](https://github.com/vercel/next.js): App Router performance patterns and server rendering. MIT.
+- [vitest-dev/vitest](https://github.com/vitest-dev/vitest): Frontend unit and integration test runner. MIT.
+- [testing-library/react-testing-library](https://github.com/testing-library/react-testing-library): Behavior-led React component tests. MIT.
+- [dequelabs/axe-core](https://github.com/dequelabs/axe-core): Automated accessibility rule engine. MPL 2.0.
+- [mdn/content](https://github.com/mdn/content): Community maintained web platform documentation. Mixed documentation/content license.
+- [WICG/scroll-animations](https://github.com/WICG/scroll-animations): Scroll-driven animation spec and browser work. Check original license.
+- [adobe/react-spectrum](https://github.com/adobe/react-spectrum): React Aria/stately accessible components. Apache-2.0.
+- [floating-ui/floating-ui](https://github.com/floating-ui/floating-ui): Overlay positioning and collision detection. MIT.
+- [lucide-icons/lucide](https://github.com/lucide-icons/lucide): SVG icon system and accessibility. ISC / check package.
+- [xyflow/xyflow](https://github.com/xyflow/xyflow): Interactive node and graph UI. MIT.
+- [tldraw/tldraw](https://github.com/tldraw/tldraw): Canvas editor interactions and patterns. Check licensing for commercial use.
+- [GoogleChrome/lighthouse](https://github.com/GoogleChrome/lighthouse): Web quality diagnostics and lab budgets. Apache-2.0.
+- [GoogleChrome/web-vitals](https://github.com/GoogleChrome/web-vitals): Real user LCP/CLS/INP measurements. Apache-2.0.
+- [TanStack/query](https://github.com/TanStack/query): Async server-state and mutation architecture. MIT.
+- [TanStack/table](https://github.com/TanStack/table): Headless high-density data tables. MIT.
+- [chakra-ui/ark](https://github.com/chakra-ui/ark): Accessible headless UI components. MIT.
+- [framer/motion](https://github.com/framer/motion): Animation implementation references. Redirect/legacy repo: prefer motiondivision/motion.
+- [web-platform-tests/wpt](https://github.com/web-platform-tests/wpt): Cross-browser conformance tests. BSD-3-Clause; check current.
+- [pmndrs/zustand](https://github.com/pmndrs/zustand): State management for interactive apps. MIT.
+- [pmndrs/three-stdlib](https://github.com/pmndrs/three-stdlib): Reusable Three.js helpers and loaders. Check package and license.
+
+**No repository was cloned into this archive.** The accompanying original Codex Skills provide task-specific integration recipes and upstream links. Inspect each license and release before importing upstream source. No MCP is used.

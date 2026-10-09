@@ -1,0 +1,12 @@
+:root, [data-bs-theme="dark"] {
+  --zt-canvas: #09090b;
+  --zt-surface: #18181b;
+  --zt-text: #fafafa;
+  --zt-muted: #d4d4d8;
+  --zt-border: #71717a;
+  --zt-accent: #e4e4e7;
+  --zt-focus: #fafafa;
+  --bs-body-bg: #09090b;
+  --bs-body-color: #fafafa;
+  --bs-border-color: #71717a;
+}

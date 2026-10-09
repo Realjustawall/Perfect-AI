@@ -1,0 +1,87 @@
+{
+  "extension": "GITHUB-13-FRONTEND-PRO-v1",
+  "created_utc": "2026-10-09",
+  "base_file": "Perfect_AI_MULTIAGENT_SPECIALISTS_All_In_One_Codex_Skills.zip",
+  "distribution": "independent Perfect_AI adaptations, no upstream source copied",
+  "mcp_required": false,
+  "skills": [
+    {
+      "name": "ztx11-design-intelligence-pro-max",
+      "title": "UI/UX Pro Max — Design Intelligence",
+      "source_url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-gstack-design-review",
+      "title": "gstack — Screenshot-Based Design Review",
+      "source_url": "https://github.com/garrytan/gstack/blob/main/design-review/SKILL.md",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-microsoft-frontend-design-review",
+      "title": "Microsoft — Frontend Design Review",
+      "source_url": "https://github.com/microsoft/skills/blob/main/.github/skills/frontend-design-review/SKILL.md",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-stitch-local-design-extractor",
+      "title": "Google Stitch — Local Design Extraction (No MCP)",
+      "source_url": "https://github.com/google-labs-code/stitch-skills/blob/main/plugins/stitch-design/skills/extract-design-md/SKILL.md",
+      "license_handling": "Apache-2.0"
+    },
+    {
+      "name": "ztx11-vibe-design-system-reconstruction",
+      "title": "Vibe Design MD — Reference to DESIGN.md",
+      "source_url": "https://github.com/aakashdhar/vibe-skill/blob/main/vibe-design-md/SKILL.md",
+      "license_handling": "not confirmed; independent adaptation"
+    },
+    {
+      "name": "ztx11-designer-design-flow",
+      "title": "Designer Skills — Full Design Flow",
+      "source_url": "https://github.com/julianoczkowski/designer-skills/blob/main/design-flow/SKILL.md",
+      "license_handling": "Apache-2.0"
+    },
+    {
+      "name": "ztx11-playwright-cli-browser-qa",
+      "title": "Playwright CLI — Browser QA Without MCP",
+      "source_url": "https://github.com/microsoft/playwright/blob/main/docs/src/getting-started-cli.md",
+      "license_handling": "Apache-2.0"
+    },
+    {
+      "name": "ztx11-three-modern-webgpu",
+      "title": "Three.js Modern — WebGPU, TSL and Fallback",
+      "source_url": "https://github.com/Picaresco/threejs-skill",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-three-cinematic-website-architect",
+      "title": "3D Website Architect — Cinematic Site",
+      "source_url": "https://github.com/deveshpunjabi/3d-website-skill/blob/main/skills/3d-website-architect/SKILL.md",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-web3d-glb-production-pipeline",
+      "title": "Web 3D Asset Pipeline — GLB/LOD/KTX2",
+      "source_url": "https://github.com/openai/plugins/blob/main/plugins/game-studio/skills/web-3d-asset-pipeline/SKILL.md",
+      "license_handling": "not verified in repository; independent adaptation"
+    },
+    {
+      "name": "ztx11-visual-regression-ci",
+      "title": "Navigator — Visual Regression and CI",
+      "source_url": "https://github.com/alekspetrov/navigator/blob/main/skills/visual-regression/SKILL.md",
+      "license_handling": "MIT"
+    },
+    {
+      "name": "ztx11-accessibility-auditor",
+      "title": "Accessibility Skills — WCAG 2.2 AA",
+      "source_url": "https://github.com/mgifford/accessibility-skills",
+      "license_handling": "AGPL-3.0 repository; no upstream source copied"
+    },
+    {
+      "name": "ztx11-owasp-secure-agent-frontend",
+      "title": "OWASP — Secure Agent and Frontend Review",
+      "source_url": "https://github.com/OWASP/secure-agent-playbook",
+      "license_handling": "CC-BY-4.0; independent procedures with attribution"
+    }
+  ]
+}

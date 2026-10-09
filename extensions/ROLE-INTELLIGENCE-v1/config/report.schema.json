@@ -1,0 +1,90 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "role",
+    "status",
+    "findings",
+    "strengths",
+    "unknowns"
+  ],
+  "properties": {
+    "role": {
+      "type": "string"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "concern",
+        "blocked",
+        "not_verified"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "severity",
+          "confidence",
+          "claim",
+          "evidence_path",
+          "evidence_locator",
+          "component",
+          "suggested_fix",
+          "verification"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "severity": {
+            "type": "string",
+            "enum": [
+              "critical",
+              "high",
+              "medium",
+              "low"
+            ]
+          },
+          "confidence": {
+            "type": "number"
+          },
+          "claim": {
+            "type": "string"
+          },
+          "evidence_path": {
+            "type": "string"
+          },
+          "evidence_locator": {
+            "type": "string"
+          },
+          "component": {
+            "type": "string"
+          },
+          "suggested_fix": {
+            "type": "string"
+          },
+          "verification": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "strengths": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "unknowns": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}

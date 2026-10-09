@@ -1,0 +1,1 @@
+Three comparable variants must exist in project and be routed by `?variant=A|B|C`. This harness captures real Chromium screenshots and checks JavaScript errors and overflow. It does NOT hallucinate a numeric aesthetic score; use independent brand/visual reviewers for artistic decisions. Do not compare PNG baselines across unrelated GPU drivers without tolerance.

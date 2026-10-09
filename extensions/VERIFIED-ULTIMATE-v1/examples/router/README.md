@@ -1,0 +1,1 @@
+Registry is precomputed from all existing/new SKILL.md. Use route CLI to select candidates; it does not read or execute skills and returns reasoned score. It is not semantic embeddings search; specialized NLP can be added only after benchmarking against known tasks.

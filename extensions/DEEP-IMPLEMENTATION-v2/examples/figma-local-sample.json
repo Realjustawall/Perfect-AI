@@ -1,0 +1,1 @@
+{"type":"FRAME","name":"Home","layoutMode":"VERTICAL","itemSpacing":24,"paddingTop":32,"paddingBottom":32,"paddingLeft":24,"paddingRight":24,"children":[{"type":"FRAME","name":"Navbar","layoutMode":"HORIZONTAL","itemSpacing":16,"children":[]},{"type":"FRAME","name":"Cards","layoutMode":"HORIZONTAL","itemSpacing":24,"children":[]}]}

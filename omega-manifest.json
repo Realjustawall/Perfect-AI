@@ -1,0 +1,24 @@
+{
+  "pack": "Perfect_AI OMEGA Codex Skills",
+  "created_at": "2026-10-09",
+  "no_mcp": true,
+  "local_skills": 187,
+  "prior_ultra_skills": 91,
+  "new_focused_skills": 96,
+  "vibefarsi_local_specs": 279,
+  "github_upstream_references": 47,
+  "new_deep_references": 29,
+  "responsive_patterns": 30,
+  "runtime_examples": [
+    "examples/live-lab",
+    "examples/responsive-lab",
+    "examples/motion-engines-lab"
+  ],
+  "executables": [
+    "tools/color-engine.mjs",
+    "tools/palette-decision.mjs",
+    "tools/browser-matrix.mjs",
+    "tools/validate_pack.py"
+  ],
+  "chromium_browser_qa": "8 viewport widths × 2 motion modes + menu/theme/filter/form smoke tests"
+}

@@ -1,0 +1,249 @@
+{
+  "font_families": [
+    {
+      "locale": "fa",
+      "name": "Vazirmatn",
+      "license_status": "open-source",
+      "best_for": "UI, dashboards, body",
+      "notes": "Modern neutral and legible; variable font",
+      "source": "https://fontsource.org/fonts/vazirmatn/about"
+    },
+    {
+      "locale": "fa",
+      "name": "Estedad",
+      "license_status": "check-upstream",
+      "best_for": "modern digital brand, headlines",
+      "notes": "Distinct Persian display and UI; test numeral spacing",
+      "source": "https://fonts.google.com/specimen/Estedad"
+    },
+    {
+      "locale": "fa",
+      "name": "Sahel",
+      "license_status": "check-upstream",
+      "best_for": "calm reading pages",
+      "notes": "Test current license and optical small size",
+      "source": "https://github.com/rastikerdar/sahel-font"
+    },
+    {
+      "locale": "fa",
+      "name": "Shabnam",
+      "license_status": "check-upstream",
+      "best_for": "friendly readable product",
+      "notes": "Check weights and license before bundling",
+      "source": "https://github.com/rastikerdar/shabnam-font"
+    },
+    {
+      "locale": "fa",
+      "name": "Samim",
+      "license_status": "check-upstream",
+      "best_for": "friendly, informal UI",
+      "notes": "Check brand voice and digits",
+      "source": "https://github.com/rastikerdar/samim-font"
+    },
+    {
+      "locale": "fa",
+      "name": "Lalezar",
+      "license_status": "OFL-check",
+      "best_for": "bold display headlines only",
+      "notes": "Not recommended as long-form body",
+      "source": "https://fonts.google.com/specimen/Lalezar"
+    },
+    {
+      "locale": "fa",
+      "name": "Noto Sans Arabic",
+      "license_status": "OFL-check",
+      "best_for": "coverage fallback, formal UI",
+      "notes": "Strong glyph coverage; compare numeral metrics",
+      "source": "https://fonts.google.com/noto/specimen/Noto+Sans+Arabic"
+    },
+    {
+      "locale": "fa",
+      "name": "IBM Plex Sans Arabic",
+      "license_status": "OFL-check",
+      "best_for": "enterprise, documentation",
+      "notes": "Technical neutral mood",
+      "source": "https://fonts.google.com/specimen/IBM+Plex+Sans+Arabic"
+    },
+    {
+      "locale": "fa",
+      "name": "Noto Naskh Arabic",
+      "license_status": "OFL-check",
+      "best_for": "formal editorial text",
+      "notes": "Serif/Naskh reading texture, not default app UI",
+      "source": "https://fonts.google.com/noto/specimen/Noto+Naskh+Arabic"
+    },
+    {
+      "locale": "fa",
+      "name": "Amiri",
+      "license_status": "OFL-check",
+      "best_for": "classical literary display",
+      "notes": "Not default dashboard font",
+      "source": "https://fonts.google.com/specimen/Amiri"
+    },
+    {
+      "locale": "fa",
+      "name": "Cairo",
+      "license_status": "OFL-check",
+      "best_for": "contemporary display",
+      "notes": "Arabic-script, verify Persian shaping",
+      "source": "https://fonts.google.com/specimen/Cairo"
+    },
+    {
+      "locale": "fa",
+      "name": "Tajawal",
+      "license_status": "OFL-check",
+      "best_for": "clean contemporary UI",
+      "notes": "Check Persian letter coverage",
+      "source": "https://fonts.google.com/specimen/Tajawal"
+    },
+    {
+      "locale": "en",
+      "name": "Inter",
+      "license_status": "OFL-check",
+      "best_for": "neutral UI/product",
+      "notes": "Superb forms and variable weights",
+      "source": "https://fonts.google.com/specimen/Inter"
+    },
+    {
+      "locale": "en",
+      "name": "Manrope",
+      "license_status": "OFL-1.1",
+      "best_for": "premium modern product",
+      "notes": "Smooth variable geometric sans",
+      "source": "https://fontsource.org/fonts/manrope/about"
+    },
+    {
+      "locale": "en",
+      "name": "DM Sans",
+      "license_status": "OFL-check",
+      "best_for": "friendly product",
+      "notes": "Legible contemporary sans",
+      "source": "https://fonts.google.com/specimen/DM+Sans"
+    },
+    {
+      "locale": "en",
+      "name": "Plus Jakarta Sans",
+      "license_status": "OFL-check",
+      "best_for": "SaaS dashboards",
+      "notes": "Modern tech with warmth",
+      "source": "https://fonts.google.com/specimen/Plus+Jakarta+Sans"
+    },
+    {
+      "locale": "en",
+      "name": "Space Grotesk",
+      "license_status": "OFL-check",
+      "best_for": "experimental/editorial headings",
+      "notes": "Expressive; pair readable body",
+      "source": "https://fonts.google.com/specimen/Space+Grotesk"
+    },
+    {
+      "locale": "en",
+      "name": "Sora",
+      "license_status": "OFL-check",
+      "best_for": "technical futuristic",
+      "notes": "Geometric display, test body at small sizes",
+      "source": "https://fonts.google.com/specimen/Sora"
+    },
+    {
+      "locale": "en",
+      "name": "Outfit",
+      "license_status": "OFL-check",
+      "best_for": "consumer friendly brand",
+      "notes": "Round geometric rhythm",
+      "source": "https://fonts.google.com/specimen/Outfit"
+    },
+    {
+      "locale": "en",
+      "name": "Source Sans 3",
+      "license_status": "OFL-check",
+      "best_for": "data documentation",
+      "notes": "Editorial readability",
+      "source": "https://fonts.google.com/specimen/Source+Sans+3"
+    },
+    {
+      "locale": "en",
+      "name": "IBM Plex Sans",
+      "license_status": "OFL-check",
+      "best_for": "enterprise and developer UI",
+      "notes": "Match IBM Plex Sans Arabic family",
+      "source": "https://fonts.google.com/specimen/IBM+Plex+Sans"
+    },
+    {
+      "locale": "en",
+      "name": "Fraunces",
+      "license_status": "OFL-check",
+      "best_for": "luxury editorial headings",
+      "notes": "Variable serif; body companion needed",
+      "source": "https://fonts.google.com/specimen/Fraunces"
+    },
+    {
+      "locale": "en",
+      "name": "Playfair Display",
+      "license_status": "OFL-check",
+      "best_for": "heritage/luxury headlines",
+      "notes": "Serif only for distinct heading roles",
+      "source": "https://fonts.google.com/specimen/Playfair+Display"
+    },
+    {
+      "locale": "en",
+      "name": "JetBrains Mono",
+      "license_status": "OFL-check",
+      "best_for": "code/data only",
+      "notes": "Not suitable as main copy font",
+      "source": "https://fonts.google.com/specimen/JetBrains+Mono"
+    }
+  ],
+  "pairings": [
+    {
+      "fa": "Vazirmatn",
+      "en": "Inter",
+      "mood": "minimal SaaS"
+    },
+    {
+      "fa": "Estedad",
+      "en": "Manrope",
+      "mood": "modern creative tech"
+    },
+    {
+      "fa": "IBM Plex Sans Arabic",
+      "en": "IBM Plex Sans",
+      "mood": "enterprise"
+    },
+    {
+      "fa": "Vazirmatn",
+      "en": "Space Grotesk",
+      "mood": "experimental studio headings"
+    },
+    {
+      "fa": "Noto Naskh Arabic",
+      "en": "Fraunces",
+      "mood": "editorial"
+    },
+    {
+      "fa": "Vazirmatn",
+      "en": "DM Sans",
+      "mood": "friendly product"
+    },
+    {
+      "fa": "Sahel",
+      "en": "Source Sans 3",
+      "mood": "reading-heavy"
+    },
+    {
+      "fa": "Lalezar",
+      "en": "Outfit",
+      "mood": "playful display ONLY"
+    },
+    {
+      "fa": "Estedad",
+      "en": "Sora",
+      "mood": "technical futurism"
+    },
+    {
+      "fa": "Shabnam",
+      "en": "Plus Jakarta Sans",
+      "mood": "approachable dashboard"
+    }
+  ],
+  "policy": "Treat license_status ending -check as unverified; verify before bundling binaries. No font files included."
+}

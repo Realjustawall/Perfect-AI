@@ -1,0 +1,23 @@
+{
+  "approved": false,
+  "name": "",
+  "audience": [],
+  "mission": "",
+  "tone": [],
+  "colors": {
+    "primary": "",
+    "surface": "",
+    "text": ""
+  },
+  "font": {
+    "fa": "",
+    "en": ""
+  },
+  "motion": {
+    "intensity": "moderate",
+    "reduced_motion": true
+  },
+  "avoid": [],
+  "source_documents": [],
+  "approved_by": ""
+}

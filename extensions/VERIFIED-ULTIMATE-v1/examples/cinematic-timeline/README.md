@@ -1,0 +1,1 @@
+Deterministic logical time in milliseconds. Anime `seek(ms)` vs GSAP `timeline.time(ms/1000)` vs Motion `controls.time=ms/1000`. Three must render an absolute state, not additive increments. Tests: `node --test timeline.test.mjs`. Actual integration requires matching installed packages.

@@ -1,0 +1,53 @@
+# فهرست مهارت‌های VERIFIED ENGINE
+
+- [ztx12-storybook-vitest-production](skills/ztx12-storybook-vitest-production/SKILL.md) — Storybook + Vitest component verification
+- [ztx12-playwright-trace-diagnostics](skills/ztx12-playwright-trace-diagnostics/SKILL.md) — Playwright trace-driven failure diagnosis
+- [ztx12-gltf-transform-asset-lab](skills/ztx12-gltf-transform-asset-lab/SKILL.md) — glTF optimization + validation lab
+- [ztx12-lighthouse-ci-gates](skills/ztx12-lighthouse-ci-gates/SKILL.md) — Lighthouse CI budgets + performance regression
+- [ztx12-style-dictionary-token-pipeline](skills/ztx12-style-dictionary-token-pipeline/SKILL.md) — Style Dictionary brand tokens and cross-framework CSS
+- [ztx12-storybook-play-interactions](skills/ztx12-storybook-play-interactions/SKILL.md) — Play functions and state transitions
+- [ztx12-storybook-accessibility](skills/ztx12-storybook-accessibility/SKILL.md) — Storybook a11y strict mode
+- [ztx12-storybook-multilingual](skills/ztx12-storybook-multilingual/SKILL.md) — Persian/English story matrix
+- [ztx12-storybook-canvas-3d](skills/ztx12-storybook-canvas-3d/SKILL.md) — WebGL canvas fallback stories
+- [ztx12-storybook-visual-states](skills/ztx12-storybook-visual-states/SKILL.md) — Visual state matrix
+- [ztx12-storybook-cleanup](skills/ztx12-storybook-cleanup/SKILL.md) — Unmount/mount lifecycle
+- [ztx12-trace-recorder](skills/ztx12-trace-recorder/SKILL.md) — Precise trace recording
+- [ztx12-trace-root-cause](skills/ztx12-trace-root-cause/SKILL.md) — DOM/CSS failure localization
+- [ztx12-trace-scroll-timeline](skills/ztx12-trace-scroll-timeline/SKILL.md) — Scroll-bound motion timeline
+- [ztx12-trace-mouse-touch](skills/ztx12-trace-mouse-touch/SKILL.md) — Mouse/touch interaction coverage
+- [ztx12-trace-bilingual](skills/ztx12-trace-bilingual/SKILL.md) — BiDi and font trace
+- [ztx12-trace-reduced-motion](skills/ztx12-trace-reduced-motion/SKILL.md) — Reduced motion parity
+- [ztx12-gltf-inventory](skills/ztx12-gltf-inventory/SKILL.md) — glTF asset inventory
+- [ztx12-gltf-meshopt](skills/ztx12-gltf-meshopt/SKILL.md) — Meshopt geometry pipeline
+- [ztx12-gltf-draco](skills/ztx12-gltf-draco/SKILL.md) — Draco geometry pipeline
+- [ztx12-gltf-ktx2](skills/ztx12-gltf-ktx2/SKILL.md) — KTX2 texture pipeline
+- [ztx12-gltf-pivot-framing](skills/ztx12-gltf-pivot-framing/SKILL.md) — Pivot/unit/camera regression
+- [ztx12-gltf-mobile-variants](skills/ztx12-gltf-mobile-variants/SKILL.md) — Mobile GLB tiers
+- [ztx12-lighthouse-budget-ci](skills/ztx12-lighthouse-budget-ci/SKILL.md) — CI assertions
+- [ztx12-lighthouse-lcp](skills/ztx12-lighthouse-lcp/SKILL.md) — LCP priority
+- [ztx12-lighthouse-cls](skills/ztx12-lighthouse-cls/SKILL.md) — CLS stability
+- [ztx12-lighthouse-inp](skills/ztx12-lighthouse-inp/SKILL.md) — Real-user INP
+- [ztx12-lighthouse-a11y-seo](skills/ztx12-lighthouse-a11y-seo/SKILL.md) — A11y/SEO quality gates
+- [ztx12-tokens-dtcg](skills/ztx12-tokens-dtcg/SKILL.md) — DTCG schema
+- [ztx12-tokens-light-dark](skills/ztx12-tokens-light-dark/SKILL.md) — Light/dark semantic modes
+- [ztx12-tokens-tailwind-v4](skills/ztx12-tokens-tailwind-v4/SKILL.md) — Tailwind v4 bridge
+- [ztx12-tokens-bootstrap-53](skills/ztx12-tokens-bootstrap-53/SKILL.md) — Bootstrap 5.3 bridge
+- [ztx12-tokens-rtl-ltr](skills/ztx12-tokens-rtl-ltr/SKILL.md) — RTL + bidirectional tokens
+- [ztx12-tokens-versioning](skills/ztx12-tokens-versioning/SKILL.md) — Token regression/compatibility
+- [ztx12-quality-animation-verification](skills/ztx12-quality-animation-verification/SKILL.md) — Animation/Anime.js/GSAP/Motion
+- [ztx12-quality-scroll-verification](skills/ztx12-quality-scroll-verification/SKILL.md) — Scroll scenes
+- [ztx12-quality-pointer-verification](skills/ztx12-quality-pointer-verification/SKILL.md) — Mouse/touch interactions
+- [ztx12-quality-three-scene-verification](skills/ztx12-quality-three-scene-verification/SKILL.md) — 3D scene placement
+- [ztx12-quality-responsive-verification](skills/ztx12-quality-responsive-verification/SKILL.md) — Fluid responsive
+- [ztx12-quality-mobile-performance](skills/ztx12-quality-mobile-performance/SKILL.md) — Mobile budgets
+- [ztx12-quality-multilingual-type](skills/ztx12-quality-multilingual-type/SKILL.md) — Persian/English type
+- [ztx12-quality-brand-consistency](skills/ztx12-quality-brand-consistency/SKILL.md) — Brand identity
+- [ztx12-quality-color-science](skills/ztx12-quality-color-science/SKILL.md) — Color contrast
+- [ztx12-quality-component-architecture](skills/ztx12-quality-component-architecture/SKILL.md) — Components
+- [ztx12-quality-bootstrap-tailwind](skills/ztx12-quality-bootstrap-tailwind/SKILL.md) — Bootstrap/Tailwind
+- [ztx12-quality-vibefarsi](skills/ztx12-quality-vibefarsi/SKILL.md) — VibeFarsi components
+- [ztx12-quality-page-systems](skills/ztx12-quality-page-systems/SKILL.md) — Page/user journeys
+- [ztx12-quality-security-accessibility](skills/ztx12-quality-security-accessibility/SKILL.md) — Security/a11y
+- [ztx12-quality-multiagent-evidence](skills/ztx12-quality-multiagent-evidence/SKILL.md) — Multi-agent evidence
+- [ztx12-quality-production-gates](skills/ztx12-quality-production-gates/SKILL.md) — Production release
+- [ztx12-verified-engine-master](skills/ztx12-verified-engine-master/SKILL.md) — Perfect_AI VERIFIED ENGINE Master

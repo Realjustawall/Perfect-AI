@@ -1,0 +1,195 @@
+{
+  "core": [
+    "critical-reviewer",
+    "positive-advocate",
+    "brand-guardian",
+    "accessibility-auditor",
+    "functional-test",
+    "verification-gate"
+  ],
+  "profiles": {
+    "landing": [
+      "ux-task-flow",
+      "content-writing",
+      "visual-originality",
+      "motion-orchestrator",
+      "seo-discoverability",
+      "responsive-layout",
+      "pointer-gesture"
+    ],
+    "saas": [
+      "saas-onboarding",
+      "saas-pricing",
+      "form-resilience",
+      "ux-task-flow",
+      "performance-web",
+      "security-privacy",
+      "responsive-layout"
+    ],
+    "ecommerce": [
+      "ecommerce-catalog",
+      "ecommerce-checkout",
+      "ecommerce-trust",
+      "search-discovery",
+      "form-resilience",
+      "mobile-interaction",
+      "security-privacy"
+    ],
+    "dashboard": [
+      "dashboard-data",
+      "dashboard-filters",
+      "enterprise-workflow",
+      "performance-web",
+      "responsive-layout",
+      "color-system"
+    ],
+    "blog": [
+      "editorial-reading",
+      "seo-discoverability",
+      "content-writing",
+      "bilingual-typography",
+      "responsive-layout"
+    ],
+    "documentation": [
+      "docs-navigation",
+      "search-discovery",
+      "content-writing",
+      "internationalization",
+      "accessibility-auditor"
+    ],
+    "portfolio": [
+      "portfolio-storytelling",
+      "visual-originality",
+      "motion-orchestrator",
+      "three-placement",
+      "responsive-layout"
+    ],
+    "agency": [
+      "agency-brand",
+      "portfolio-storytelling",
+      "visual-originality",
+      "motion-orchestrator",
+      "color-system"
+    ],
+    "immersive-3d": [
+      "immersive-3d",
+      "three-placement",
+      "three-renderer",
+      "animation-frame",
+      "motion-orchestrator",
+      "mobile-interaction",
+      "scroll-timeline"
+    ],
+    "game": [
+      "game-interaction",
+      "three-renderer",
+      "pointer-gesture",
+      "mobile-interaction",
+      "accessibility-auditor",
+      "performance-web"
+    ],
+    "education": [
+      "education-learning",
+      "ux-task-flow",
+      "content-writing",
+      "accessibility-auditor",
+      "bilingual-typography"
+    ],
+    "health": [
+      "health-content-safety",
+      "security-privacy",
+      "accessibility-auditor",
+      "form-resilience",
+      "content-writing"
+    ],
+    "finance": [
+      "finance-trust",
+      "security-privacy",
+      "form-resilience",
+      "internationalization",
+      "accessibility-auditor"
+    ],
+    "government": [
+      "government-accessibility",
+      "internationalization",
+      "accessibility-auditor",
+      "form-resilience",
+      "security-privacy"
+    ],
+    "media": [
+      "media-playback",
+      "performance-web",
+      "mobile-interaction",
+      "accessibility-auditor",
+      "search-discovery"
+    ],
+    "booking": [
+      "booking-availability",
+      "form-resilience",
+      "mobile-interaction",
+      "internationalization",
+      "security-privacy"
+    ],
+    "community": [
+      "community-moderation",
+      "security-privacy",
+      "search-discovery",
+      "form-resilience",
+      "accessibility-auditor"
+    ],
+    "nonprofit": [
+      "nonprofit-impact",
+      "finance-trust",
+      "accessibility-auditor",
+      "content-writing",
+      "form-resilience"
+    ],
+    "realestate": [
+      "realestate-maps",
+      "search-discovery",
+      "mobile-interaction",
+      "responsive-layout",
+      "form-resilience"
+    ],
+    "travel": [
+      "travel-itinerary",
+      "booking-availability",
+      "mobile-interaction",
+      "internationalization",
+      "responsive-layout"
+    ],
+    "enterprise": [
+      "enterprise-workflow",
+      "dashboard-data",
+      "security-privacy",
+      "form-resilience",
+      "performance-web"
+    ]
+  },
+  "default_max_agents": 12,
+  "absolute_max_agents": 24,
+  "default_concurrency": 3,
+  "site_types": [
+    "landing",
+    "saas",
+    "ecommerce",
+    "dashboard",
+    "blog",
+    "documentation",
+    "portfolio",
+    "agency",
+    "immersive-3d",
+    "game",
+    "education",
+    "health",
+    "finance",
+    "government",
+    "media",
+    "booking",
+    "community",
+    "nonprofit",
+    "realestate",
+    "travel",
+    "enterprise"
+  ]
+}

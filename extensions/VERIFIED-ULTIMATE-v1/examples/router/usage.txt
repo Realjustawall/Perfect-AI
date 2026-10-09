@@ -1,0 +1,1 @@
+python scripts/skill_router.py route --index data/skill-index.json --task "ساخت سایت سه بعدی با اسکرول و تست" --framework three --top 8 --explain

@@ -1,0 +1,10 @@
+const menu=document.querySelector('#menu');const nav=document.querySelector('#nav');const mode=document.querySelector('#mode');
+menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.dataset.open=String(open)});
+function closeNav(){nav.dataset.open='false';menu.setAttribute('aria-expanded','false')}
+nav.querySelectorAll('a').forEach(link=>link.addEventListener('click',closeNav));
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){closeNav();menu.focus()}});
+mode.addEventListener('click',()=>{const enabled=document.documentElement.dataset.light!=='true';document.documentElement.dataset.light=String(enabled);mode.setAttribute('aria-pressed',String(enabled));mode.textContent=enabled?'حالت تیره':'حالت روشن'});
+const search=document.querySelector('#filter'),tiles=[...document.querySelectorAll('#tiles .tile')],result=document.querySelector('#result');
+search.addEventListener('input',()=>{const q=search.value.trim().toLocaleLowerCase('fa');let count=0;tiles.forEach(tile=>{const hidden=!tile.textContent.toLocaleLowerCase('fa').includes(q)&&!tile.dataset.search.toLocaleLowerCase('fa').includes(q);tile.hidden=hidden;if(!hidden)count++});result.textContent=count?`${count.toLocaleString('fa-IR')} مورد`:'موردی یافت نشد'});
+const form=document.querySelector('#demo-form'),feedback=document.querySelector('#feedback');form.addEventListener('submit',event=>{event.preventDefault();const input=document.querySelector('#mail');if(!input.checkValidity()){feedback.textContent='لطفاً یک ایمیل معتبر وارد کنید.';input.setAttribute('aria-invalid','true');input.focus();return}input.removeAttribute('aria-invalid');feedback.textContent='فرمت ایمیل معتبر است. این یک نمونهٔ آموزشی است و اطلاعات ارسال نشد.'});
+let scheduled=0;addEventListener('scroll',()=>{if(scheduled)return;scheduled=requestAnimationFrame(()=>{scheduled=0;const max=Math.max(1,document.documentElement.scrollHeight-innerHeight);document.documentElement.style.setProperty('--scroll',`${Math.min(100,scrollY/max*100)}%`)})},{passive:true});

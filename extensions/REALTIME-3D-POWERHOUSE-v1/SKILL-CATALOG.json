@@ -1,0 +1,362 @@
+{
+  "version": 1,
+  "systems": {
+    "gaussian-splatting": {
+      "title": "Gaussian Splatting Engine",
+      "repo": "https://github.com/pmndrs/drei-vanilla",
+      "specialists": 9
+    },
+    "shader-graph": {
+      "title": "Visual Shader Graph Studio",
+      "repo": "https://github.com/takahirox/tsl-node-editor",
+      "specialists": 10
+    },
+    "cinematic-postfx": {
+      "title": "Cinematic Post-Processing Studio",
+      "repo": "https://github.com/pmndrs/postprocessing",
+      "specialists": 9
+    },
+    "video-3d-fusion": {
+      "title": "Video \u00d7 3D Fusion Engine",
+      "repo": "https://github.com/Vanilagy/mediabunny",
+      "specialists": 10
+    },
+    "realtime-scene-editor": {
+      "title": "Real-Time 3D Scene Editor",
+      "repo": "https://github.com/repalash/threepipe",
+      "specialists": 11
+    }
+  },
+  "skills": [
+    {
+      "name": "ztp3d-realtime-visual-powerhouse-master",
+      "path": "skills/ztp3d-realtime-visual-powerhouse-master/SKILL.md",
+      "system": "all",
+      "type": "master"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting",
+      "path": "skills/ztp3d-gaussian-splatting/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "primary"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-asset-ingestion-and-policy",
+      "path": "skills/ztp3d-gaussian-splatting-asset-ingestion-and-policy/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-streaming-and-load-state",
+      "path": "skills/ztp3d-gaussian-splatting-streaming-and-load-state/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-alpha-compositing-and-sort",
+      "path": "skills/ztp3d-gaussian-splatting-alpha-compositing-and-sort/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-hybrid-splat-and-glb",
+      "path": "skills/ztp3d-gaussian-splatting-hybrid-splat-and-glb/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-mobile-memory-profile",
+      "path": "skills/ztp3d-gaussian-splatting-mobile-memory-profile/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-camera-and-occlusion",
+      "path": "skills/ztp3d-gaussian-splatting-camera-and-occlusion/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-ownership-and-disposal",
+      "path": "skills/ztp3d-gaussian-splatting-ownership-and-disposal/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-privacy-and-provenance",
+      "path": "skills/ztp3d-gaussian-splatting-privacy-and-provenance/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-gaussian-splatting-real-image-verification",
+      "path": "skills/ztp3d-gaussian-splatting-real-image-verification/SKILL.md",
+      "system": "gaussian-splatting",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph",
+      "path": "skills/ztp3d-shader-graph/SKILL.md",
+      "system": "shader-graph",
+      "type": "primary"
+    },
+    {
+      "name": "ztp3d-shader-graph-typed-graph-contract",
+      "path": "skills/ztp3d-shader-graph-typed-graph-contract/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-cycle-and-type-inference",
+      "path": "skills/ztp3d-shader-graph-cycle-and-type-inference/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-tsl-code-generation",
+      "path": "skills/ztp3d-shader-graph-tsl-code-generation/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-graph-visual-editor",
+      "path": "skills/ztp3d-shader-graph-graph-visual-editor/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-material-preview",
+      "path": "skills/ztp3d-shader-graph-material-preview/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-subgraphs-and-custom-functions",
+      "path": "skills/ztp3d-shader-graph-subgraphs-and-custom-functions/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-source-maps-and-debugging",
+      "path": "skills/ztp3d-shader-graph-source-maps-and-debugging/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-library-and-version-pinning",
+      "path": "skills/ztp3d-shader-graph-library-and-version-pinning/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-graph-ui-a11y",
+      "path": "skills/ztp3d-shader-graph-graph-ui-a11y/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-shader-graph-shader-asset-security",
+      "path": "skills/ztp3d-shader-graph-shader-asset-security/SKILL.md",
+      "system": "shader-graph",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx",
+      "path": "skills/ztp3d-cinematic-postfx/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "primary"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-composer-lifecycle",
+      "path": "skills/ztp3d-cinematic-postfx-composer-lifecycle/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-linear-color-pipeline",
+      "path": "skills/ztp3d-cinematic-postfx-linear-color-pipeline/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-bloom-thresholds",
+      "path": "skills/ztp3d-cinematic-postfx-bloom-thresholds/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-camera-lens-suite",
+      "path": "skills/ztp3d-cinematic-postfx-camera-lens-suite/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-grading-presets",
+      "path": "skills/ztp3d-cinematic-postfx-grading-presets/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-gpu-budget-and-scaling",
+      "path": "skills/ztp3d-cinematic-postfx-gpu-budget-and-scaling/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-depth-effects",
+      "path": "skills/ztp3d-cinematic-postfx-depth-effects/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-quality-fallback",
+      "path": "skills/ztp3d-cinematic-postfx-quality-fallback/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-cinematic-postfx-postfx-regression",
+      "path": "skills/ztp3d-cinematic-postfx-postfx-regression/SKILL.md",
+      "system": "cinematic-postfx",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion",
+      "path": "skills/ztp3d-video-3d-fusion/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "primary"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-media-container-intake",
+      "path": "skills/ztp3d-video-3d-fusion-media-container-intake/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-precision-sample-seeking",
+      "path": "skills/ztp3d-video-3d-fusion-precision-sample-seeking/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-canvas-texture-upload",
+      "path": "skills/ztp3d-video-3d-fusion-canvas-texture-upload/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-single-clock-camera",
+      "path": "skills/ztp3d-video-3d-fusion-single-clock-camera/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-audio-video-sync",
+      "path": "skills/ztp3d-video-3d-fusion-audio-video-sync/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-timeline-edit-and-export",
+      "path": "skills/ztp3d-video-3d-fusion-timeline-edit-and-export/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-texture-alpha-and-depth",
+      "path": "skills/ztp3d-video-3d-fusion-texture-alpha-and-depth/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-browser-codec-matrix",
+      "path": "skills/ztp3d-video-3d-fusion-browser-codec-matrix/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-subtitles-and-accessibility",
+      "path": "skills/ztp3d-video-3d-fusion-subtitles-and-accessibility/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-video-3d-fusion-memory-and-decoder-budget",
+      "path": "skills/ztp3d-video-3d-fusion-memory-and-decoder-budget/SKILL.md",
+      "system": "video-3d-fusion",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor",
+      "path": "skills/ztp3d-realtime-scene-editor/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "primary"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-editor-document-contract",
+      "path": "skills/ztp3d-realtime-scene-editor-editor-document-contract/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-raycast-selection",
+      "path": "skills/ztp3d-realtime-scene-editor-raycast-selection/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-transform-gizmos",
+      "path": "skills/ztp3d-realtime-scene-editor-transform-gizmos/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-material-inspector",
+      "path": "skills/ztp3d-realtime-scene-editor-material-inspector/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-camera-light-editor",
+      "path": "skills/ztp3d-realtime-scene-editor-camera-light-editor/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-asset-import-and-export",
+      "path": "skills/ztp3d-realtime-scene-editor-asset-import-and-export/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-scene-history",
+      "path": "skills/ztp3d-realtime-scene-editor-scene-history/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-threepipe-plugin-bridge",
+      "path": "skills/ztp3d-realtime-scene-editor-threepipe-plugin-bridge/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-collaboration-and-state",
+      "path": "skills/ztp3d-realtime-scene-editor-collaboration-and-state/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-editor-usability",
+      "path": "skills/ztp3d-realtime-scene-editor-editor-usability/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    },
+    {
+      "name": "ztp3d-realtime-scene-editor-scene-render-verification",
+      "path": "skills/ztp3d-realtime-scene-editor-scene-render-verification/SKILL.md",
+      "system": "realtime-scene-editor",
+      "type": "specialist"
+    }
+  ]
+}

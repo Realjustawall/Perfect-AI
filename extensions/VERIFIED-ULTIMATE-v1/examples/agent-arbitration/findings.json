@@ -1,0 +1,42 @@
+[
+  {
+    "role": "visual-critic",
+    "component": "hero",
+    "issue": "text overlap",
+    "action": "move model right",
+    "severity": "high",
+    "evidence": [
+      "artifact://hero-390.png: heading bbox intersects model"
+    ]
+  },
+  {
+    "role": "brand-auditor",
+    "component": "hero",
+    "issue": "text overlap",
+    "action": "move model right",
+    "severity": "high",
+    "evidence": [
+      "artifact://brand-review.json: headline must be clear"
+    ]
+  },
+  {
+    "role": "3d-composer",
+    "component": "hero",
+    "issue": "animation intensity",
+    "action": "reduce motion",
+    "severity": "medium",
+    "evidence": [
+      "artifact://trace.json: dropped frames"
+    ]
+  },
+  {
+    "role": "motion-director",
+    "component": "hero",
+    "issue": "animation intensity",
+    "action": "increase motion",
+    "severity": "medium",
+    "evidence": [
+      "artifact://creative-brief.md: request for kinetic hero"
+    ]
+  }
+]

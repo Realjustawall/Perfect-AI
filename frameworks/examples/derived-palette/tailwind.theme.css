@@ -1,0 +1,10 @@
+@import "tailwindcss";
+@theme {
+  --color-zt-canvas: #09090b;
+  --color-zt-surface: #18181b;
+  --color-zt-text: #fafafa;
+  --color-zt-muted: #d4d4d8;
+  --color-zt-border: #71717a;
+  --color-zt-accent: #e4e4e7;
+  --color-zt-focus: #fafafa;
+}

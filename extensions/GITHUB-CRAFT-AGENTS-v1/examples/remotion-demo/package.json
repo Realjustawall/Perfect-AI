@@ -1,0 +1,6 @@
+{
+  "name":"ztgc-remotion-authored-demo","private":true,"version":"0.1.0","type":"module",
+  "scripts":{"preview":"remotion studio src/index.tsx","render":"remotion render src/index.tsx PerfectAITitle out/PerfectAI-title.mp4","stills":"remotion still src/index.tsx PerfectAITitle out/frame.png --frame=45"},
+  "dependencies":{"react":"^19.0.0","react-dom":"^19.0.0","remotion":"^4.0.0","@remotion/cli":"^4.0.0"},
+  "description":"Independent authored demo. npm packages not included; respect current Remotion license."
+}

@@ -1,0 +1,7 @@
+{
+  "goal":"Build accessible cinematic 3D creative portfolio in Persian and English, scroll-driven responsive website",
+  "features":["responsive", "three", "gpu", "scroll", "color", "rtl", "visual qa"],
+  "stack":["React", "Three.js", "Anime.js"],
+  "constraints":["monochrome preferred", "mobile fallback", "no MCP", "do not overwrite existing files"],
+  "weights":{"responsive":2,"3d":3,"color":1}
+}

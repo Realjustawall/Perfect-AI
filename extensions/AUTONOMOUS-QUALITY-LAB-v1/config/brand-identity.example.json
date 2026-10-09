@@ -1,0 +1,15 @@
+{
+  "approved": false,
+  "name": "REPLACE_WITH_APPROVED_BRAND",
+  "site_type": "landing",
+  "audience": ["REQUIRED_REAL_AUDIENCE"],
+  "positioning": "REQUIRED_REAL_POSITIONING",
+  "voice": "REQUIRED_REAL_VOICE",
+  "palette": {"primary": "#111111", "mode": "monochrome", "locked": ["#111111","#FFFFFF"], "forbidden": []},
+  "typography": {"fa": {"heading": "Vazirmatn", "body": "Vazirmatn"}, "en": {"heading": "Inter", "body": "Inter"}},
+  "motion": {"personality": "purposeful", "duration_ms": {"micro": 160, "enter": 420, "exit": 240}, "reduced_motion": "simplified"},
+  "must_keep": ["approved logo", "legibility"],
+  "must_avoid": ["random neon gradients", "generic glassmorphism"],
+  "reference_urls": [],
+  "owner_approval": {"name": "", "revision": 0, "date": ""}
+}

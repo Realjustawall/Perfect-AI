@@ -1,0 +1,26 @@
+{
+  "schema": "perfect-ai/verified-quality-contract/v1",
+  "required_evidence": [
+    "build",
+    "component",
+    "browser",
+    "responsive",
+    "a11y",
+    "asset",
+    "performance",
+    "security"
+  ],
+  "statuses": [
+    "pass",
+    "fail",
+    "not-run"
+  ],
+  "rules": {
+    "not_run_is_not_pass": true,
+    "no_fake_mobile_gpu_data": true,
+    "no_mcp": true,
+    "never_overwrite_previous_files": true,
+    "no_agent_claims_without_artifacts": true
+  },
+  "report_example": "examples/report-example.json"
+}

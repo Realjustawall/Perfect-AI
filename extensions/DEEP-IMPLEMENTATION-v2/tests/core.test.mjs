@@ -1,0 +1,17 @@
+import test from 'node:test';import assert from 'node:assert/strict';
+import {palette,contrast,toHex} from '../tools/colors.mjs';
+import {route} from '../tools/router.mjs';
+import {QualityGovernor,p95} from '../tools/quality.mjs';
+test('OKLCH black and white endpoints are stable',()=>{assert.equal(toHex(0,0,0),'#000000');assert.equal(toHex(1,0,0),'#ffffff')});
+test('WCAG contrast black-white 21',()=>assert.equal(Math.round(contrast('#000000','#ffffff')),21));
+test('Five palette options with bounded hex tokens',()=>{const p=palette({seedHue:225,dark:false});assert.equal(p.length,5);for(const v of p)for(const col of Object.values(v.tokens))assert.match(col,/^#[a-f0-9]{6}$/)});
+test('Monochrome palettes truly gray',()=>{const p=palette({monochrome:true,dark:true});for(const v of p)for(const h of Object.values(v.tokens))assert.equal(h[1]+h[2],h[3]+h[4])});
+test('Five monochrome alternatives are different tonal distributions',()=>{const p=palette({monochrome:true,dark:true});assert.equal(new Set(p.map(x=>x.tokens.canvas)).size,5)});
+test('Palettes pass primary text and accent contrast on canvas',()=>{for(const dark of [true,false])for(const monochrome of [true,false])for(const v of palette({dark,monochrome}))assert.ok(contrast(v.tokens.ink,v.tokens.canvas)>=4.5&&contrast(v.tokens.accent,v.tokens.canvas)>=4.5)});
+test('Theme is not forcibly neon/purple for every brief',()=>assert.notDeepEqual(palette({seedHue:30})[0].tokens,palette({seedHue:200})[0].tokens));
+test('Router selects matching topic',()=>{const r=route({goal:'webgl torus shader and GPU particle performance',features:['3d','raymarching','gpu']},7);assert.ok(r.selected.length>0);assert.ok(r.selected.some(x=>x.domain==='advanced-3d'))});
+test('Empty brief flags missing goal',()=>assert.ok(route({}).unresolved.length>0));
+test('router respects count',()=>assert.ok(route({goal:'3D responsive color accessibility typography scroll',features:['3d','mobile','color']},3).selected.length<=3));
+test('quality governor downgrades only after enough samples',()=>{const g=new QualityGovernor();for(let i=0;i<60;i++)g.add(60,10000+i);assert.equal(g.tier,'medium')});
+test('quality config is bounded',()=>{const g=new QualityGovernor();assert.ok(g.config.dpr<=2);assert.ok(g.config.particles<=3000)});
+test('p95 is statistical percentile, not fabricated FPS',()=>assert.equal(p95([10,15,22,30,60]),60));

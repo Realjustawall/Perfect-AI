@@ -1,0 +1,7 @@
+/* Semantic source of truth shared across Tailwind v4 and Bootstrap 5.3. */
+:root { --zt-canvas:#ffffff;--zt-text:#141414;--zt-surface:#f3f3f3;--zt-focus:#064b8e;--zt-radius:1rem; }
+[data-zt-theme="dark"]{--zt-canvas:#101010;--zt-text:#f7f7f7;--zt-surface:#202020;--zt-focus:#a9caff;}
+/* Tailwind v4 can map to these variables with `@theme` in its own build CSS. */
+/* Bootstrap 5.3 overrides: */
+[data-bs-theme] {--bs-body-bg:var(--zt-canvas);--bs-body-color:var(--zt-text);--bs-border-radius:var(--zt-radius);}
+:focus-visible { outline:3px solid var(--zt-focus);outline-offset:2px; }

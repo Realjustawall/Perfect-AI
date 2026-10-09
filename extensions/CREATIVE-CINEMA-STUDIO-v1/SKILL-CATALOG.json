@@ -1,0 +1,169 @@
+{
+  "version": "1.0.0",
+  "systems": [
+    {
+      "slug": "cinematic-transitions",
+      "title": "Cinematic Page Transition Engine",
+      "description": "Maintain spatial continuity when route changes: shared DOM elements, typography, hero imagery, and a persistent WebGL scene/camera.",
+      "module": "transitions.mjs",
+      "subskills": [
+        "shared-element-identity",
+        "spa-native-view-transitions",
+        "persistent-3d-camera",
+        "cross-document-mpa",
+        "focus-and-abort",
+        "shared-element-fallback"
+      ]
+    },
+    {
+      "slug": "image-animation",
+      "title": "Advanced Image Animation Engine",
+      "description": "Build performant image transitions with displacement, liquid distortion, multilayer parallax, 3D flips, soft masks, and touch fallbacks.",
+      "module": "image-effects.mjs",
+      "subskills": [
+        "displacement-map",
+        "liquid-distortion",
+        "multi-layer-parallax",
+        "mask-reveal",
+        "three-d-flip",
+        "texture-lifecycle"
+      ]
+    },
+    {
+      "slug": "kinetic-typography",
+      "title": "Kinetic Typography Studio",
+      "description": "Animate headlines with readable wave, stretch, stroke, shader masks and staged reveals without corrupting Arabic/Persian glyph shaping.",
+      "module": "kinetic-type.mjs",
+      "subskills": [
+        "arabic-script-preservation",
+        "grapheme-stagger",
+        "shader-text",
+        "variable-font-motion",
+        "scroll-and-pointer-type",
+        "accessibility-typography"
+      ]
+    },
+    {
+      "slug": "procedural-layout",
+      "title": "Procedural Layout Animation",
+      "description": "Create elastic image grids, staggered columns, depth shifts and scroll-driven editorial reflows while keeping DOM reading order stable.",
+      "module": "layout-motion.mjs",
+      "subskills": [
+        "grid-deformation",
+        "reflow-flip",
+        "scroll-coupled-depth",
+        "virtualize-large-grids",
+        "responsive-grid-constraints"
+      ]
+    },
+    {
+      "slug": "svg-morph",
+      "title": "SVG Morphing Laboratory",
+      "description": "Transform logos, shapes, buttons and menu icons with point normalization, morph interpolation, outline quality, and accessible SVG fallback.",
+      "module": "svg-morph.mjs",
+      "subskills": [
+        "equal-topology-morph",
+        "arbitrary-svg-paths",
+        "stroke-line-animation",
+        "icon-to-menu-state",
+        "path-quality-validation",
+        "svg-security"
+      ]
+    },
+    {
+      "slug": "product-storytelling",
+      "title": "Apple-Style Product Storytelling",
+      "description": "Tie a cinematic product reveal to scroll progress using decoded frame sequences, responsive crops, prefetch, chapter beats and 3D alternatives.",
+      "module": "product-story.mjs",
+      "subskills": [
+        "scroll-frame-mapping",
+        "priority-frame-loading",
+        "image-sequence-vs-video",
+        "product-chapters",
+        "pinned-story",
+        "asset-failure-recovery"
+      ]
+    },
+    {
+      "slug": "material-studio",
+      "title": "Interactive Material Studio",
+      "description": "Produce glass/chrome/liquid/fabric/paper/holographic PBR material presets, sensible lighting and pointer-responsive highlights.",
+      "module": "material-studio.mjs",
+      "subskills": [
+        "physically-based-presets",
+        "lighting-and-environment",
+        "real-time-material-switching",
+        "shader-and-hologram",
+        "pointer-light-rig",
+        "material-validation"
+      ]
+    },
+    {
+      "slug": "motion-physics",
+      "title": "Motion Physics Language",
+      "description": "Unify spring, inertia, drag and collision behaviors with predictable physical constants and deterministic state updates.",
+      "module": "motion-physics.mjs",
+      "subskills": [
+        "spring-integration",
+        "inertia-and-gestures",
+        "collision-constraints",
+        "timelines-vs-physics",
+        "reduced-motion-physics"
+      ]
+    },
+    {
+      "slug": "immersive-navigation",
+      "title": "Immersive Navigation Engine",
+      "description": "Create spatial navigation, 3D menus and camera-path route changes without losing URL semantics or accessibility.",
+      "module": "immersive-nav.mjs",
+      "subskills": [
+        "spatial-selection",
+        "route-state-machine",
+        "camera-path-nav",
+        "semantic-3d-menu",
+        "device-fallback"
+      ]
+    },
+    {
+      "slug": "product-configurator",
+      "title": "Interactive Product Configurator",
+      "description": "Expose color, material, component and camera variants through a validated state machine and an efficient 3D preview.",
+      "module": "configurator.mjs",
+      "subskills": [
+        "option-schema-validation",
+        "variant-3d-binding",
+        "history-and-share-url",
+        "pricing-and-inventory",
+        "preview-performance",
+        "accessible-controls"
+      ]
+    },
+    {
+      "slug": "creative-preloader",
+      "title": "Creative Preloader & Intro Engine",
+      "description": "Build meaningful cinematic intros gated on actual content readiness, respecting fast connections and reduced motion.",
+      "module": "preloader.mjs",
+      "subskills": [
+        "real-readiness-gate",
+        "intro-choreography",
+        "fast-path-bypass",
+        "error-timeout-handling",
+        "reduced-motion-and-focus"
+      ]
+    },
+    {
+      "slug": "editorial-composition",
+      "title": "Editorial Composition Engine",
+      "description": "Build distinctive asymmetric, magazine-like layouts with consistent typographic hierarchy, whitespace rhythm and scroll choreography.",
+      "module": "editorial.mjs",
+      "subskills": [
+        "asymmetrical-grid",
+        "typographic-scale",
+        "photo-art-direction",
+        "negative-space-scoring",
+        "responsive-composition",
+        "editorial-motion"
+      ]
+    }
+  ]
+}

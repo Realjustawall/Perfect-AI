@@ -1,0 +1,1010 @@
+[
+  {
+    "id": "01-01-color-science-requirements",
+    "title": "Perceptual color science / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-01-color-science-requirements.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-02-color-science-architecture",
+    "title": "Perceptual color science / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-02-color-science-architecture.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-03-color-science-implementation",
+    "title": "Perceptual color science / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-03-color-science-implementation.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-04-color-science-responsive",
+    "title": "Perceptual color science / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-04-color-science-responsive.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-05-color-science-rtl-localization",
+    "title": "Perceptual color science / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-05-color-science-rtl-localization.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-06-color-science-accessibility",
+    "title": "Perceptual color science / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-06-color-science-accessibility.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-07-color-science-motion",
+    "title": "Perceptual color science / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-07-color-science-motion.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-08-color-science-performance",
+    "title": "Perceptual color science / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-08-color-science-performance.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-09-color-science-failure-recovery",
+    "title": "Perceptual color science / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-09-color-science-failure-recovery.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-10-color-science-testing",
+    "title": "Perceptual color science / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-10-color-science-testing.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-11-color-science-production-security",
+    "title": "Perceptual color science / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-11-color-science-production-security.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "01-12-color-science-maintenance",
+    "title": "Perceptual color science / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/01-12-color-science-maintenance.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-01-responsive-systems-requirements",
+    "title": "Adaptive responsive engineering / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-01-responsive-systems-requirements.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-02-responsive-systems-architecture",
+    "title": "Adaptive responsive engineering / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-02-responsive-systems-architecture.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-03-responsive-systems-implementation",
+    "title": "Adaptive responsive engineering / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-03-responsive-systems-implementation.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-04-responsive-systems-responsive",
+    "title": "Adaptive responsive engineering / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-04-responsive-systems-responsive.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-05-responsive-systems-rtl-localization",
+    "title": "Adaptive responsive engineering / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-05-responsive-systems-rtl-localization.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-06-responsive-systems-accessibility",
+    "title": "Adaptive responsive engineering / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-06-responsive-systems-accessibility.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-07-responsive-systems-motion",
+    "title": "Adaptive responsive engineering / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-07-responsive-systems-motion.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-08-responsive-systems-performance",
+    "title": "Adaptive responsive engineering / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-08-responsive-systems-performance.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-09-responsive-systems-failure-recovery",
+    "title": "Adaptive responsive engineering / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-09-responsive-systems-failure-recovery.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-10-responsive-systems-testing",
+    "title": "Adaptive responsive engineering / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-10-responsive-systems-testing.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-11-responsive-systems-production-security",
+    "title": "Adaptive responsive engineering / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-11-responsive-systems-production-security.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "02-12-responsive-systems-maintenance",
+    "title": "Adaptive responsive engineering / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/02-12-responsive-systems-maintenance.md",
+    "official_url": "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_size_and_style_queries",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-01-animejs-v4-requirements",
+    "title": "Anime.js v4 interaction choreography / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-01-animejs-v4-requirements.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-02-animejs-v4-architecture",
+    "title": "Anime.js v4 interaction choreography / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-02-animejs-v4-architecture.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-03-animejs-v4-implementation",
+    "title": "Anime.js v4 interaction choreography / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-03-animejs-v4-implementation.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-04-animejs-v4-responsive",
+    "title": "Anime.js v4 interaction choreography / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-04-animejs-v4-responsive.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-05-animejs-v4-rtl-localization",
+    "title": "Anime.js v4 interaction choreography / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-05-animejs-v4-rtl-localization.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-06-animejs-v4-accessibility",
+    "title": "Anime.js v4 interaction choreography / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-06-animejs-v4-accessibility.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-07-animejs-v4-motion",
+    "title": "Anime.js v4 interaction choreography / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-07-animejs-v4-motion.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-08-animejs-v4-performance",
+    "title": "Anime.js v4 interaction choreography / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-08-animejs-v4-performance.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-09-animejs-v4-failure-recovery",
+    "title": "Anime.js v4 interaction choreography / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-09-animejs-v4-failure-recovery.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-10-animejs-v4-testing",
+    "title": "Anime.js v4 interaction choreography / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-10-animejs-v4-testing.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-11-animejs-v4-production-security",
+    "title": "Anime.js v4 interaction choreography / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-11-animejs-v4-production-security.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "03-12-animejs-v4-maintenance",
+    "title": "Anime.js v4 interaction choreography / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/03-12-animejs-v4-maintenance.md",
+    "official_url": "https://animejs.com/documentation/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-01-threejs-webgl-requirements",
+    "title": "Three.js 3D system architecture / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-01-threejs-webgl-requirements.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-02-threejs-webgl-architecture",
+    "title": "Three.js 3D system architecture / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-02-threejs-webgl-architecture.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-03-threejs-webgl-implementation",
+    "title": "Three.js 3D system architecture / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-03-threejs-webgl-implementation.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-04-threejs-webgl-responsive",
+    "title": "Three.js 3D system architecture / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-04-threejs-webgl-responsive.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-05-threejs-webgl-rtl-localization",
+    "title": "Three.js 3D system architecture / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-05-threejs-webgl-rtl-localization.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-06-threejs-webgl-accessibility",
+    "title": "Three.js 3D system architecture / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-06-threejs-webgl-accessibility.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-07-threejs-webgl-motion",
+    "title": "Three.js 3D system architecture / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-07-threejs-webgl-motion.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-08-threejs-webgl-performance",
+    "title": "Three.js 3D system architecture / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-08-threejs-webgl-performance.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-09-threejs-webgl-failure-recovery",
+    "title": "Three.js 3D system architecture / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-09-threejs-webgl-failure-recovery.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-10-threejs-webgl-testing",
+    "title": "Three.js 3D system architecture / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-10-threejs-webgl-testing.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-11-threejs-webgl-production-security",
+    "title": "Three.js 3D system architecture / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-11-threejs-webgl-production-security.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "04-12-threejs-webgl-maintenance",
+    "title": "Three.js 3D system architecture / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/04-12-threejs-webgl-maintenance.md",
+    "official_url": "https://threejs.org/docs/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-01-motion-engines-requirements",
+    "title": "Motion and GSAP orchestration / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-01-motion-engines-requirements.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-02-motion-engines-architecture",
+    "title": "Motion and GSAP orchestration / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-02-motion-engines-architecture.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-03-motion-engines-implementation",
+    "title": "Motion and GSAP orchestration / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-03-motion-engines-implementation.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-04-motion-engines-responsive",
+    "title": "Motion and GSAP orchestration / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-04-motion-engines-responsive.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-05-motion-engines-rtl-localization",
+    "title": "Motion and GSAP orchestration / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-05-motion-engines-rtl-localization.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-06-motion-engines-accessibility",
+    "title": "Motion and GSAP orchestration / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-06-motion-engines-accessibility.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-07-motion-engines-motion",
+    "title": "Motion and GSAP orchestration / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-07-motion-engines-motion.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-08-motion-engines-performance",
+    "title": "Motion and GSAP orchestration / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-08-motion-engines-performance.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-09-motion-engines-failure-recovery",
+    "title": "Motion and GSAP orchestration / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-09-motion-engines-failure-recovery.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-10-motion-engines-testing",
+    "title": "Motion and GSAP orchestration / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-10-motion-engines-testing.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-11-motion-engines-production-security",
+    "title": "Motion and GSAP orchestration / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-11-motion-engines-production-security.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "05-12-motion-engines-maintenance",
+    "title": "Motion and GSAP orchestration / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/05-12-motion-engines-maintenance.md",
+    "official_url": "https://motion.dev/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-01-accessibility-requirements",
+    "title": "Accessible interaction and assistive technology / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-01-accessibility-requirements.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-02-accessibility-architecture",
+    "title": "Accessible interaction and assistive technology / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-02-accessibility-architecture.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-03-accessibility-implementation",
+    "title": "Accessible interaction and assistive technology / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-03-accessibility-implementation.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-04-accessibility-responsive",
+    "title": "Accessible interaction and assistive technology / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-04-accessibility-responsive.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-05-accessibility-rtl-localization",
+    "title": "Accessible interaction and assistive technology / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-05-accessibility-rtl-localization.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-06-accessibility-accessibility",
+    "title": "Accessible interaction and assistive technology / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-06-accessibility-accessibility.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-07-accessibility-motion",
+    "title": "Accessible interaction and assistive technology / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-07-accessibility-motion.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-08-accessibility-performance",
+    "title": "Accessible interaction and assistive technology / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-08-accessibility-performance.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-09-accessibility-failure-recovery",
+    "title": "Accessible interaction and assistive technology / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-09-accessibility-failure-recovery.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-10-accessibility-testing",
+    "title": "Accessible interaction and assistive technology / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-10-accessibility-testing.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-11-accessibility-production-security",
+    "title": "Accessible interaction and assistive technology / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-11-accessibility-production-security.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "06-12-accessibility-maintenance",
+    "title": "Accessible interaction and assistive technology / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/06-12-accessibility-maintenance.md",
+    "official_url": "https://www.w3.org/WAI/ARIA/apg/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-01-design-systems-requirements",
+    "title": "Component architecture and semantic tokens / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-01-design-systems-requirements.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-02-design-systems-architecture",
+    "title": "Component architecture and semantic tokens / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-02-design-systems-architecture.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-03-design-systems-implementation",
+    "title": "Component architecture and semantic tokens / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-03-design-systems-implementation.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-04-design-systems-responsive",
+    "title": "Component architecture and semantic tokens / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-04-design-systems-responsive.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-05-design-systems-rtl-localization",
+    "title": "Component architecture and semantic tokens / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-05-design-systems-rtl-localization.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-06-design-systems-accessibility",
+    "title": "Component architecture and semantic tokens / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-06-design-systems-accessibility.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-07-design-systems-motion",
+    "title": "Component architecture and semantic tokens / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-07-design-systems-motion.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-08-design-systems-performance",
+    "title": "Component architecture and semantic tokens / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-08-design-systems-performance.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-09-design-systems-failure-recovery",
+    "title": "Component architecture and semantic tokens / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-09-design-systems-failure-recovery.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-10-design-systems-testing",
+    "title": "Component architecture and semantic tokens / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-10-design-systems-testing.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-11-design-systems-production-security",
+    "title": "Component architecture and semantic tokens / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-11-design-systems-production-security.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "07-12-design-systems-maintenance",
+    "title": "Component architecture and semantic tokens / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/07-12-design-systems-maintenance.md",
+    "official_url": "https://ui.shadcn.com/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-01-react-frameworks-requirements",
+    "title": "React and Next.js performance contracts / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-01-react-frameworks-requirements.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-02-react-frameworks-architecture",
+    "title": "React and Next.js performance contracts / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-02-react-frameworks-architecture.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-03-react-frameworks-implementation",
+    "title": "React and Next.js performance contracts / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-03-react-frameworks-implementation.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-04-react-frameworks-responsive",
+    "title": "React and Next.js performance contracts / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-04-react-frameworks-responsive.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-05-react-frameworks-rtl-localization",
+    "title": "React and Next.js performance contracts / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-05-react-frameworks-rtl-localization.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-06-react-frameworks-accessibility",
+    "title": "React and Next.js performance contracts / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-06-react-frameworks-accessibility.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-07-react-frameworks-motion",
+    "title": "React and Next.js performance contracts / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-07-react-frameworks-motion.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-08-react-frameworks-performance",
+    "title": "React and Next.js performance contracts / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-08-react-frameworks-performance.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-09-react-frameworks-failure-recovery",
+    "title": "React and Next.js performance contracts / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-09-react-frameworks-failure-recovery.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-10-react-frameworks-testing",
+    "title": "React and Next.js performance contracts / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-10-react-frameworks-testing.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-11-react-frameworks-production-security",
+    "title": "React and Next.js performance contracts / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-11-react-frameworks-production-security.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "08-12-react-frameworks-maintenance",
+    "title": "React and Next.js performance contracts / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/08-12-react-frameworks-maintenance.md",
+    "official_url": "https://react.dev/reference/react",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-01-web-performance-requirements",
+    "title": "Performance budgets and Core Web Vitals / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-01-web-performance-requirements.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-02-web-performance-architecture",
+    "title": "Performance budgets and Core Web Vitals / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-02-web-performance-architecture.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-03-web-performance-implementation",
+    "title": "Performance budgets and Core Web Vitals / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-03-web-performance-implementation.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-04-web-performance-responsive",
+    "title": "Performance budgets and Core Web Vitals / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-04-web-performance-responsive.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-05-web-performance-rtl-localization",
+    "title": "Performance budgets and Core Web Vitals / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-05-web-performance-rtl-localization.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-06-web-performance-accessibility",
+    "title": "Performance budgets and Core Web Vitals / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-06-web-performance-accessibility.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-07-web-performance-motion",
+    "title": "Performance budgets and Core Web Vitals / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-07-web-performance-motion.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-08-web-performance-performance",
+    "title": "Performance budgets and Core Web Vitals / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-08-web-performance-performance.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-09-web-performance-failure-recovery",
+    "title": "Performance budgets and Core Web Vitals / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-09-web-performance-failure-recovery.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-10-web-performance-testing",
+    "title": "Performance budgets and Core Web Vitals / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-10-web-performance-testing.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-11-web-performance-production-security",
+    "title": "Performance budgets and Core Web Vitals / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-11-web-performance-production-security.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "09-12-web-performance-maintenance",
+    "title": "Performance budgets and Core Web Vitals / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/09-12-web-performance-maintenance.md",
+    "official_url": "https://web.dev/articles/vitals",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-01-testing-qa-requirements",
+    "title": "Browser, accessibility and visual regression testing / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-01-testing-qa-requirements.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-02-testing-qa-architecture",
+    "title": "Browser, accessibility and visual regression testing / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-02-testing-qa-architecture.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-03-testing-qa-implementation",
+    "title": "Browser, accessibility and visual regression testing / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-03-testing-qa-implementation.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-04-testing-qa-responsive",
+    "title": "Browser, accessibility and visual regression testing / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-04-testing-qa-responsive.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-05-testing-qa-rtl-localization",
+    "title": "Browser, accessibility and visual regression testing / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-05-testing-qa-rtl-localization.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-06-testing-qa-accessibility",
+    "title": "Browser, accessibility and visual regression testing / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-06-testing-qa-accessibility.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-07-testing-qa-motion",
+    "title": "Browser, accessibility and visual regression testing / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-07-testing-qa-motion.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-08-testing-qa-performance",
+    "title": "Browser, accessibility and visual regression testing / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-08-testing-qa-performance.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-09-testing-qa-failure-recovery",
+    "title": "Browser, accessibility and visual regression testing / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-09-testing-qa-failure-recovery.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-10-testing-qa-testing",
+    "title": "Browser, accessibility and visual regression testing / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-10-testing-qa-testing.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-11-testing-qa-production-security",
+    "title": "Browser, accessibility and visual regression testing / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-11-testing-qa-production-security.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "10-12-testing-qa-maintenance",
+    "title": "Browser, accessibility and visual regression testing / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/10-12-testing-qa-maintenance.md",
+    "official_url": "https://playwright.dev/docs/intro",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-01-vibefarsi-local-requirements",
+    "title": "VibeFarsi offline catalog and CLI workflows / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-01-vibefarsi-local-requirements.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-02-vibefarsi-local-architecture",
+    "title": "VibeFarsi offline catalog and CLI workflows / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-02-vibefarsi-local-architecture.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-03-vibefarsi-local-implementation",
+    "title": "VibeFarsi offline catalog and CLI workflows / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-03-vibefarsi-local-implementation.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-04-vibefarsi-local-responsive",
+    "title": "VibeFarsi offline catalog and CLI workflows / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-04-vibefarsi-local-responsive.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-05-vibefarsi-local-rtl-localization",
+    "title": "VibeFarsi offline catalog and CLI workflows / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-05-vibefarsi-local-rtl-localization.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-06-vibefarsi-local-accessibility",
+    "title": "VibeFarsi offline catalog and CLI workflows / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-06-vibefarsi-local-accessibility.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-07-vibefarsi-local-motion",
+    "title": "VibeFarsi offline catalog and CLI workflows / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-07-vibefarsi-local-motion.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-08-vibefarsi-local-performance",
+    "title": "VibeFarsi offline catalog and CLI workflows / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-08-vibefarsi-local-performance.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-09-vibefarsi-local-failure-recovery",
+    "title": "VibeFarsi offline catalog and CLI workflows / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-09-vibefarsi-local-failure-recovery.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-10-vibefarsi-local-testing",
+    "title": "VibeFarsi offline catalog and CLI workflows / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-10-vibefarsi-local-testing.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-11-vibefarsi-local-production-security",
+    "title": "VibeFarsi offline catalog and CLI workflows / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-11-vibefarsi-local-production-security.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "11-12-vibefarsi-local-maintenance",
+    "title": "VibeFarsi offline catalog and CLI workflows / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/11-12-vibefarsi-local-maintenance.md",
+    "official_url": "https://vibefarsi.ir/docs",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-01-product-ux-requirements",
+    "title": "Product information architecture and usability / Acceptance contract",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-01-product-ux-requirements.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-02-product-ux-architecture",
+    "title": "Product information architecture and usability / System boundaries",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-02-product-ux-architecture.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-03-product-ux-implementation",
+    "title": "Product information architecture and usability / Concrete implementation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-03-product-ux-implementation.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-04-product-ux-responsive",
+    "title": "Product information architecture and usability / Container and viewport adaptation",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-04-product-ux-responsive.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-05-product-ux-rtl-localization",
+    "title": "Product information architecture and usability / Persian/English integration",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-05-product-ux-rtl-localization.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-06-product-ux-accessibility",
+    "title": "Product information architecture and usability / Inclusive controls",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-06-product-ux-accessibility.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-07-product-ux-motion",
+    "title": "Product information architecture and usability / Animation and timing",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-07-product-ux-motion.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-08-product-ux-performance",
+    "title": "Product information architecture and usability / Performance discipline",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-08-product-ux-performance.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-09-product-ux-failure-recovery",
+    "title": "Product information architecture and usability / Error and capability fallback",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-09-product-ux-failure-recovery.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-10-product-ux-testing",
+    "title": "Product information architecture and usability / Test evidence",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-10-product-ux-testing.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-11-product-ux-production-security",
+    "title": "Product information architecture and usability / Production reliability and supply chain",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-11-product-ux-production-security.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  },
+  {
+    "id": "12-12-product-ux-maintenance",
+    "title": "Product information architecture and usability / Refactoring and lifecycle",
+    "path": "skills/perfect-ai-master/references/expert-atlas/12-12-product-ux-maintenance.md",
+    "official_url": "https://www.w3.org/WAI/WCAG22/",
+    "kind": "local_expert_chapter"
+  }
+]

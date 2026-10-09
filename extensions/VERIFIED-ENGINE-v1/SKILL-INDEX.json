@@ -1,0 +1,341 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-10-09",
+  "exclude": [
+    "NVIDIA SkillEvaluator",
+    "Skill A/B evaluator"
+  ],
+  "skills": [
+    {
+      "name": "ztx12-storybook-vitest-production",
+      "group": "storybook",
+      "title": "Storybook + Vitest component verification",
+      "file": "skills/ztx12-storybook-vitest-production/SKILL.md"
+    },
+    {
+      "name": "ztx12-playwright-trace-diagnostics",
+      "group": "playwright",
+      "title": "Playwright trace-driven failure diagnosis",
+      "file": "skills/ztx12-playwright-trace-diagnostics/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-transform-asset-lab",
+      "group": "gltf",
+      "title": "glTF optimization + validation lab",
+      "file": "skills/ztx12-gltf-transform-asset-lab/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-ci-gates",
+      "group": "lighthouse",
+      "title": "Lighthouse CI budgets + performance regression",
+      "file": "skills/ztx12-lighthouse-ci-gates/SKILL.md"
+    },
+    {
+      "name": "ztx12-style-dictionary-token-pipeline",
+      "group": "tokens",
+      "title": "Style Dictionary brand tokens and cross-framework CSS",
+      "file": "skills/ztx12-style-dictionary-token-pipeline/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-play-interactions",
+      "group": "storybook",
+      "title": "Play functions and state transitions",
+      "file": "skills/ztx12-storybook-play-interactions/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-accessibility",
+      "group": "storybook",
+      "title": "Storybook a11y strict mode",
+      "file": "skills/ztx12-storybook-accessibility/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-multilingual",
+      "group": "storybook",
+      "title": "Persian/English story matrix",
+      "file": "skills/ztx12-storybook-multilingual/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-canvas-3d",
+      "group": "storybook",
+      "title": "WebGL canvas fallback stories",
+      "file": "skills/ztx12-storybook-canvas-3d/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-visual-states",
+      "group": "storybook",
+      "title": "Visual state matrix",
+      "file": "skills/ztx12-storybook-visual-states/SKILL.md"
+    },
+    {
+      "name": "ztx12-storybook-cleanup",
+      "group": "storybook",
+      "title": "Unmount/mount lifecycle",
+      "file": "skills/ztx12-storybook-cleanup/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-recorder",
+      "group": "playwright",
+      "title": "Precise trace recording",
+      "file": "skills/ztx12-trace-recorder/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-root-cause",
+      "group": "playwright",
+      "title": "DOM/CSS failure localization",
+      "file": "skills/ztx12-trace-root-cause/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-scroll-timeline",
+      "group": "playwright",
+      "title": "Scroll-bound motion timeline",
+      "file": "skills/ztx12-trace-scroll-timeline/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-mouse-touch",
+      "group": "playwright",
+      "title": "Mouse/touch interaction coverage",
+      "file": "skills/ztx12-trace-mouse-touch/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-bilingual",
+      "group": "playwright",
+      "title": "BiDi and font trace",
+      "file": "skills/ztx12-trace-bilingual/SKILL.md"
+    },
+    {
+      "name": "ztx12-trace-reduced-motion",
+      "group": "playwright",
+      "title": "Reduced motion parity",
+      "file": "skills/ztx12-trace-reduced-motion/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-inventory",
+      "group": "gltf",
+      "title": "glTF asset inventory",
+      "file": "skills/ztx12-gltf-inventory/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-meshopt",
+      "group": "gltf",
+      "title": "Meshopt geometry pipeline",
+      "file": "skills/ztx12-gltf-meshopt/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-draco",
+      "group": "gltf",
+      "title": "Draco geometry pipeline",
+      "file": "skills/ztx12-gltf-draco/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-ktx2",
+      "group": "gltf",
+      "title": "KTX2 texture pipeline",
+      "file": "skills/ztx12-gltf-ktx2/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-pivot-framing",
+      "group": "gltf",
+      "title": "Pivot/unit/camera regression",
+      "file": "skills/ztx12-gltf-pivot-framing/SKILL.md"
+    },
+    {
+      "name": "ztx12-gltf-mobile-variants",
+      "group": "gltf",
+      "title": "Mobile GLB tiers",
+      "file": "skills/ztx12-gltf-mobile-variants/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-budget-ci",
+      "group": "lighthouse",
+      "title": "CI assertions",
+      "file": "skills/ztx12-lighthouse-budget-ci/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-lcp",
+      "group": "lighthouse",
+      "title": "LCP priority",
+      "file": "skills/ztx12-lighthouse-lcp/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-cls",
+      "group": "lighthouse",
+      "title": "CLS stability",
+      "file": "skills/ztx12-lighthouse-cls/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-inp",
+      "group": "lighthouse",
+      "title": "Real-user INP",
+      "file": "skills/ztx12-lighthouse-inp/SKILL.md"
+    },
+    {
+      "name": "ztx12-lighthouse-a11y-seo",
+      "group": "lighthouse",
+      "title": "A11y/SEO quality gates",
+      "file": "skills/ztx12-lighthouse-a11y-seo/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-dtcg",
+      "group": "tokens",
+      "title": "DTCG schema",
+      "file": "skills/ztx12-tokens-dtcg/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-light-dark",
+      "group": "tokens",
+      "title": "Light/dark semantic modes",
+      "file": "skills/ztx12-tokens-light-dark/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-tailwind-v4",
+      "group": "tokens",
+      "title": "Tailwind v4 bridge",
+      "file": "skills/ztx12-tokens-tailwind-v4/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-bootstrap-53",
+      "group": "tokens",
+      "title": "Bootstrap 5.3 bridge",
+      "file": "skills/ztx12-tokens-bootstrap-53/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-rtl-ltr",
+      "group": "tokens",
+      "title": "RTL + bidirectional tokens",
+      "file": "skills/ztx12-tokens-rtl-ltr/SKILL.md"
+    },
+    {
+      "name": "ztx12-tokens-versioning",
+      "group": "tokens",
+      "title": "Token regression/compatibility",
+      "file": "skills/ztx12-tokens-versioning/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-animation-verification",
+      "group": "quality",
+      "title": "Animation/Anime.js/GSAP/Motion",
+      "file": "skills/ztx12-quality-animation-verification/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-scroll-verification",
+      "group": "quality",
+      "title": "Scroll scenes",
+      "file": "skills/ztx12-quality-scroll-verification/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-pointer-verification",
+      "group": "quality",
+      "title": "Mouse/touch interactions",
+      "file": "skills/ztx12-quality-pointer-verification/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-three-scene-verification",
+      "group": "quality",
+      "title": "3D scene placement",
+      "file": "skills/ztx12-quality-three-scene-verification/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-responsive-verification",
+      "group": "quality",
+      "title": "Fluid responsive",
+      "file": "skills/ztx12-quality-responsive-verification/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-mobile-performance",
+      "group": "quality",
+      "title": "Mobile budgets",
+      "file": "skills/ztx12-quality-mobile-performance/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-multilingual-type",
+      "group": "quality",
+      "title": "Persian/English type",
+      "file": "skills/ztx12-quality-multilingual-type/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-brand-consistency",
+      "group": "quality",
+      "title": "Brand identity",
+      "file": "skills/ztx12-quality-brand-consistency/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-color-science",
+      "group": "quality",
+      "title": "Color contrast",
+      "file": "skills/ztx12-quality-color-science/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-component-architecture",
+      "group": "quality",
+      "title": "Components",
+      "file": "skills/ztx12-quality-component-architecture/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-bootstrap-tailwind",
+      "group": "quality",
+      "title": "Bootstrap/Tailwind",
+      "file": "skills/ztx12-quality-bootstrap-tailwind/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-vibefarsi",
+      "group": "quality",
+      "title": "VibeFarsi components",
+      "file": "skills/ztx12-quality-vibefarsi/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-page-systems",
+      "group": "quality",
+      "title": "Page/user journeys",
+      "file": "skills/ztx12-quality-page-systems/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-security-accessibility",
+      "group": "quality",
+      "title": "Security/a11y",
+      "file": "skills/ztx12-quality-security-accessibility/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-multiagent-evidence",
+      "group": "quality",
+      "title": "Multi-agent evidence",
+      "file": "skills/ztx12-quality-multiagent-evidence/SKILL.md"
+    },
+    {
+      "name": "ztx12-quality-production-gates",
+      "group": "quality",
+      "title": "Production release",
+      "file": "skills/ztx12-quality-production-gates/SKILL.md"
+    },
+    {
+      "name": "ztx12-verified-engine-master",
+      "group": "quality",
+      "title": "Perfect_AI VERIFIED ENGINE Master",
+      "file": "skills/ztx12-verified-engine-master/SKILL.md"
+    }
+  ],
+  "domain_quality_areas": [
+    "animation-verification",
+    "scroll-verification",
+    "pointer-verification",
+    "three-scene-verification",
+    "responsive-verification",
+    "mobile-performance",
+    "multilingual-type",
+    "brand-consistency",
+    "color-science",
+    "component-architecture",
+    "bootstrap-tailwind",
+    "vibefarsi",
+    "page-systems",
+    "security-accessibility",
+    "multiagent-evidence",
+    "production-gates"
+  ],
+  "reference_docs": [
+    "storybook",
+    "playwright",
+    "gltf",
+    "lighthouse",
+    "tokens"
+  ]
+}

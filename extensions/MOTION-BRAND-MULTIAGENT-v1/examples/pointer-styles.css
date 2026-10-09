@@ -1,0 +1,9 @@
+.zt-tilt-surface { perspective: 900px; }
+.zt-tilt-surface > .zt-tilt-content {
+  transform: translate3d(var(--zt-pointer-offset-x, 0px),var(--zt-pointer-offset-y, 0px),0px)
+             rotateX(var(--zt-pointer-rotate-x, 0deg)) rotateY(var(--zt-pointer-rotate-y, 0deg));
+  transform-style: preserve-3d; will-change: transform;
+}
+@media (prefers-reduced-motion: reduce), (pointer:coarse) {
+ .zt-tilt-surface > .zt-tilt-content { transform: none !important; will-change:auto; }
+}

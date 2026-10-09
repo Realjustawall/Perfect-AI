@@ -1,0 +1,9 @@
+@import "tailwindcss";
+/* Place generated tokens.css before this file in the final app CSS order. */
+@theme inline {
+  --color-surface: var(--semantic-surface);
+  --color-text-main: var(--semantic-text);
+  --color-control-border: var(--semantic-border);
+}
+:root { color-scheme: light; }
+[data-theme="dark"] { --semantic-surface:#101010; --semantic-text:#f5f5f5; --semantic-border:#9a9a9a; color-scheme:dark; }

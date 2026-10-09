@@ -1,0 +1,1 @@
+The budget controller uses observed durations, p95, cooldown and progressive degradation. Integrate actual `requestAnimationFrame` samples and avoid affecting critical content. Real phone FPS testing is a separate hardware-only acceptance gate.

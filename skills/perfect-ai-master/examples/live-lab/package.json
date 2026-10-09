@@ -1,0 +1,8 @@
+{
+  "name":"perfect-ai-anime-three-live-lab",
+  "private":true,
+  "type":"module",
+  "scripts":{"dev":"vite --host 127.0.0.1","build":"vite build","preview":"vite preview"},
+  "dependencies":{"animejs":"^4.2.0","three":"^0.180.0"},
+  "devDependencies":{"vite":"^7.1.0"}
+}

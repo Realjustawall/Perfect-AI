@@ -1,0 +1,1 @@
+Use Three.js Box3 from loaded model, convert its eight corners to viewport coordinates with camera projection, then score against DOM text rects at each breakpoint. Pure calculations are tested; real WebGL layout must be verified in the destination browser.

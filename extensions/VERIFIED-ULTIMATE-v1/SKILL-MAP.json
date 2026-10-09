@@ -1,0 +1,117 @@
+{
+  "module_count": 10,
+  "modules": [
+    {
+      "slug": "router",
+      "title": "Intelligent Skill Router 3.0",
+      "specialists": [
+        "repository-fingerprint",
+        "skill-registry-schema",
+        "dependency-closure",
+        "conflict-resolution",
+        "relevance-ranking",
+        "context-budget",
+        "route-explainability"
+      ]
+    },
+    {
+      "slug": "visual-benchmark",
+      "title": "Visual Benchmark Laboratory",
+      "specialists": [
+        "variant-generation",
+        "brand-constraint-score",
+        "deterministic-screenshots",
+        "interaction-path-comparison",
+        "benchmark-evidence"
+      ]
+    },
+    {
+      "slug": "cross-browser-ci",
+      "title": "Cross-Browser CI Engine",
+      "specialists": [
+        "browser-project-matrix",
+        "rtl-and-font-verification",
+        "reduced-motion-matrix",
+        "trace-on-failure",
+        "github-actions-template"
+      ]
+    },
+    {
+      "slug": "cinematic-timeline",
+      "title": "Deterministic Cinematic Timeline",
+      "specialists": [
+        "global-playhead",
+        "anime-js-adapter",
+        "gsap-adapter",
+        "motion-adapter",
+        "three-scene-adapter",
+        "scroll-seek-bridge"
+      ]
+    },
+    {
+      "slug": "scene-constraint",
+      "title": "3D Scene Constraint Solver",
+      "specialists": [
+        "projected-3d-bounds",
+        "text-safe-zones",
+        "candidate-camera-search",
+        "layout-overlap-penalty",
+        "resize-observer-stability"
+      ]
+    },
+    {
+      "slug": "gpu-compat",
+      "title": "WebGL/WebGPU Compatibility Lab",
+      "specialists": [
+        "webgpu-backend-negotiation",
+        "webgl2-fallback",
+        "shader-feature-audit",
+        "renderer-lifecycle"
+      ]
+    },
+    {
+      "slug": "mobile-motion",
+      "title": "Mobile Motion Budget Engine",
+      "specialists": [
+        "frame-budget-quantiles",
+        "adaptive-dpr",
+        "particle-lod-hysteresis",
+        "motion-accessibility",
+        "mobile-profiling"
+      ]
+    },
+    {
+      "slug": "design-tokens",
+      "title": "DTCG Design Tokens Standard Engine",
+      "specialists": [
+        "dtcg-type-validation",
+        "alias-cycle-detection",
+        "semantic-theme-mapping",
+        "css-tailwind-bootstrap-output"
+      ]
+    },
+    {
+      "slug": "agent-arbitration",
+      "title": "Multi-Agent Evidence Arbitration 2.0",
+      "specialists": [
+        "evidence-contract",
+        "role-separation",
+        "duplicate-fingerprint",
+        "contradictory-finding-resolution",
+        "judicial-audit-trail"
+      ]
+    },
+    {
+      "slug": "production-telemetry",
+      "title": "Production Telemetry & Regression Watch",
+      "specialists": [
+        "web-vitals-client",
+        "privacy-sampling",
+        "cohort-p75-aggregation",
+        "regression-thresholds",
+        "rollout-decision"
+      ]
+    }
+  ],
+  "new_skill_count": 62
+}

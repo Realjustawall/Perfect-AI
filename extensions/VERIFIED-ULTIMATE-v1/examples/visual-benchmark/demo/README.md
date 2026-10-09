@@ -1,0 +1,1 @@
+Run `python -m http.server 4173 --directory demo` inside this directory, then `npm install && npm run benchmark` in the benchmark parent directory. NOTE the sample ring is CSS decorative and not a Three.js GPU performance test.

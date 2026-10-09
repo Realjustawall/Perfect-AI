@@ -1,0 +1,19 @@
+{
+  "baseline": "/mnt/data/ztx9_work/extensions/FRAME-SPACE-DEVICE-LAB-v1/examples/proof-360.png",
+  "current": "/mnt/data/ztx9_work/extensions/FRAME-SPACE-DEVICE-LAB-v1/examples/proof-360-changed.png",
+  "viewportPixels": [
+    360,
+    844
+  ],
+  "changedPixelRatio": 0.012671,
+  "changedPixels": 3850,
+  "threshold": 30,
+  "changedBounds": {
+    "x": 30,
+    "y": 90,
+    "width": 70,
+    "height": 55
+  },
+  "suspects": [],
+  "warning": "Attribution is heuristic; source paths are only reported from explicit mapping."
+}

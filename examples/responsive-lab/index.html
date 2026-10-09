@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="آزمایشگاه ریسپانسیو Perfect_AI: کامپوننت‌ها، RTL و تست تطبیقی.">
+  <title>Perfect_AI • Responsive Lab</title>
+  <link rel="stylesheet" href="./style.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">پرش به محتوای اصلی</a>
+  <div class="progress" aria-hidden="true"></div>
+  <header class="header">
+    <div class="shell header__body">
+      <a href="#home" class="brand" aria-label="Perfect AI - خانه"><span class="brand__mark" aria-hidden="true">Z/</span><bdi>Perfect_AI</bdi></a>
+      <button class="nav-trigger" id="menu" type="button" aria-controls="nav" aria-expanded="false">منو <span aria-hidden="true">☰</span></button>
+      <nav class="nav" id="nav" aria-label="ناوبری اصلی" data-open="false">
+        <a href="#systems">سیستم‌ها</a><a href="#components">کامپوننت‌ها</a><a href="#about">راهنما</a><a href="#contact">تماس</a>
+      </nav>
+      <button type="button" class="mode" id="mode" aria-pressed="false">حالت روشن</button>
+    </div>
+  </header>
+  <main id="main">
+    <section id="home" class="hero shell">
+      <div class="hero__text">
+        <div class="eyebrow"><span class="status" aria-hidden="true"></span> DESIGN • BUILD • TEST</div>
+        <h1>با <bdi>Perfect_AI</bdi><br>شاهکار خلق کنید.</h1>
+        <p class="lead">موتورهای سه‌بعدی، انیمیشن‌های دقیق و تجربه‌ای که در هر اندازهٔ صفحه، طبیعی و سریع باقی می‌ماند.</p>
+        <div class="hero__actions"><a class="button button--primary" href="#components">مشاهدهٔ قابلیت‌ها <span aria-hidden="true">↙</span></a><a class="button button--quiet" href="#about">دربارهٔ سیستم</a></div>
+        <div class="notes"><span>RESPONSIVE-FIRST</span><span>RTL / LTR</span><span>MONOCHROME</span></div>
+      </div>
+      <div class="hero__visual" aria-hidden="true">
+        <div class="orb"><div class="orb__core"></div><div class="orb__ring orb__ring--one"></div><div class="orb__ring orb__ring--two"></div><div class="orb__ring orb__ring--three"></div></div>
+        <span class="visual__caption" dir="ltr">FIG. 01 / ADAPTIVE SYSTEM</span>
+      </div>
+    </section>
+    <section id="systems" class="feature-band">
+      <div class="shell">
+        <div class="heading"><div><p class="kicker">01 / زیرساخت</p><h2>در هر اندازه، دقیق.</h2></div><p>سیستم طراحی انعطاف‌پذیر که به فضای واقعی کامپوننت واکنش می‌دهد، نه صرفاً اندازهٔ نمایشگر.</p></div>
+        <div class="features">
+          <article class="feature-slot"><div class="feature"><span class="feature__number">01</span><div><h3>Container Queries</h3><p>چیدمان مبتنی بر فضای موجود؛ قابل استفاده در سایدبار، کارت، مودال و داشبورد.</p></div><span class="feature__icon" aria-hidden="true">↗</span></div></article>
+          <article class="feature-slot"><div class="feature"><span class="feature__number">02</span><div><h3>Motion Intelligence</h3><p>هماهنگی انیمیشن با اسکرول، توقف با کاهش حرکت، برگشت‌پذیری کامل.</p></div><span class="feature__icon" aria-hidden="true">◎</span></div></article>
+          <article class="feature-slot"><div class="feature"><span class="feature__number">03</span><div><h3>True 3D</h3><p>معماری مستقل برای Three.js، کاهش کیفیت هوشمند و جایگزین قابل‌دسترس.</p></div><span class="feature__icon" aria-hidden="true">◇</span></div></article>
+        </div>
+      </div>
+    </section>
+    <section id="components" class="shell playground">
+      <div class="heading"><div><p class="kicker">02 / کامپوننت‌ها</p><h2>کامپوننت‌های زنده.</h2></div><p>در این نمونه، ورودی‌ها واقعاً کار می‌کنند و چیدمان با عرض والد تغییر می‌کند.</p></div>
+      <div class="workspace">
+        <aside class="filters"><label for="filter">جستجوی قابلیت</label><input id="filter" type="search" placeholder="مثلاً Three.js یا رنگ..." autocomplete="off"><p class="filter-note" id="result" role="status" aria-live="polite">۶ مورد</p></aside>
+        <div class="tiles" id="tiles">
+          <article class="tile" data-search="Three.js سه بعدی مدل"><span class="tile__index">01</span><h3>Three.js</h3><p>هندسه، دوربین، نور، رندر و جایگزین سبک.</p></article>
+          <article class="tile" data-search="Anime.js انیمیشن اسکرول"><span class="tile__index">02</span><h3>Anime.js</h3><p>Timeline، Stagger و ScrollObserver.</p></article>
+          <article class="tile" data-search="Motion animate js حرکت"><span class="tile__index">03</span><h3>Motion animate()</h3><p>موتور مکمل مستقل با مسیرهای انیمیشن ظریف.</p></article>
+          <article class="tile" data-search="Color رنگ OKLCH تیوری"><span class="tile__index">04</span><h3>OKLCH Color</h3><p>رنگ‌های هدفمند، کنتراست و توکن‌های معنایی.</p></article>
+          <article class="tile" data-search="Responsive ریسپانسیو کانتینر"><span class="tile__index">05</span><h3>Adaptive UI</h3><p>موبایل، تبلت، دسکتاپ، RTL و زوم.</p></article>
+          <article class="tile" data-search="VibeFarsi فارسی کامپوننت"><span class="tile__index">06</span><h3>VibeFarsi</h3><p>کاتالوگ محلی و نصب مستقل از MCP.</p></article>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="about"><div class="shell about__inner"><div><p class="kicker">03 / تجربه</p><h2>زیبا. سریع.<br>قابل‌اعتماد.</h2></div><p>حرکت زمانی ارزشمند است که معنا ایجاد کند. هیچ متن مهمی نباید درون Canvas پنهان بماند، هیچ دکمه‌ای نباید نمایشی باشد و هیچ کاربری نباید به خاطر دستگاه ضعیف از قابلیت اصلی محروم شود.</p></div></section>
+    <section id="contact" class="shell contact"><div><p class="kicker">04 / تعامل آزمایشی</p><h2>شروع یک پروژه</h2><p>فرم نمونه برای آزمایش ورودی، راست‌به‌چپ، وضعیت خطا و کیبورد موبایل. داده‌ها به سرور ارسال نمی‌شوند.</p></div><form id="demo-form" novalidate><label for="mail">ایمیل</label><input id="mail" name="email" type="email" dir="ltr" inputmode="email" autocomplete="email" required placeholder="you@example.com"><button class="button button--primary" type="submit">اعتبارسنجی فرم</button><p id="feedback" aria-live="polite" role="status"></p></form></section>
+  </main>
+  <footer class="footer"><div class="shell footer__inner"><bdi>Perfect_AI</bdi><span>Responsive Lab / Offline Demo</span><a href="#home">بازگشت به بالا ↑</a></div></footer>
+</body></html>

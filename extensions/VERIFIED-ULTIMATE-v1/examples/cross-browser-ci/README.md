@@ -1,0 +1,1 @@
+Install `@playwright/test`, `wait-on` and Playwright browser binaries. Copy config/tests only after verifying the application dev/preview start script. CI is a template; adjust npm lockfile, Node version and build command for the destination repository. Mobile browsers here are emulated, not physical devices.

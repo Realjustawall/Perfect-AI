@@ -1,0 +1,25 @@
+{
+  "name": "perfect-ai-ultra-codex-skill-pack",
+  "generated": "2026-10-09",
+  "version": "2.0.0",
+  "license": "original-guidance; verify third-party license before downloading/reusing upstream",
+  "skills": 91,
+  "vibefarsi_catalog": {
+    "components": 78,
+    "blocks": 23,
+    "charts": 15,
+    "animations": 63,
+    "backgrounds": 44,
+    "templates": 30,
+    "sites": 6,
+    "design-systems": 6,
+    "skills": 14
+  },
+  "github_references": 47,
+  "no_mcp": true,
+  "bundled_original_site_source": false,
+  "vibefarsi_upstream_code_bundled": false,
+  "browser_tested": false,
+  "entry_skill": "skills/perfect-ai-master/SKILL.md",
+  "tool": "tools/create-palette.mjs"
+}

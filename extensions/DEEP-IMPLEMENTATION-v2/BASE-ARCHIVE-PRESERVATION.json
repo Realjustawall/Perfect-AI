@@ -1,0 +1,13 @@
+{
+  "edition": "DEEP v2 additive",
+  "base": "Perfect_AI_NEXUS_All_In_One_Codex_Skills.zip",
+  "old_sha256": "d50277aa3746fb330d2523f2dcba386fea3fae2a95ac6b8bfaa021a42ae8356d",
+  "old_files": 4675,
+  "old_entry_digest_sha256": "49cc84460dedee467f556a1254fdd1c055f5d3939a9921e2dd3eec3cd4ae40c6",
+  "append_only": true,
+  "new_files": 680,
+  "no_mcp": true,
+  "new_skills": 321,
+  "new_techniques": 305,
+  "verification": "python extensions/DEEP-IMPLEMENTATION-v2/tools/verify-preservation.py old.zip new.zip"
+}

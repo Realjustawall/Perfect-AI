@@ -1,0 +1,1 @@
+Validate DTCG 2025.10 typed tokens, catch alias cycles, output CSS to bind Tailwind v4 `@theme` and Bootstrap `var(--...)`. Preserve original JSON and `$extensions`; do not claim full support for all DTCG rich types, only those implemented.

@@ -1,0 +1,425 @@
+[
+  {
+    "name": "Vercel React Best Practices",
+    "repo": "vercel-labs/agent-skills",
+    "upstream_path": "skills/react-best-practices",
+    "use": "async waterfalls, bundle, SSR/RSC, memoization",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Vercel Web Design Guidelines",
+    "repo": "vercel-labs/agent-skills",
+    "upstream_path": "skills/web-design-guidelines",
+    "use": "usability, focus, forms, layout, accessibility",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers systematic-debugging",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/systematic-debugging",
+    "use": "root cause, reproductions, instrumentation",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers test-driven-development",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/test-driven-development",
+    "use": "red/green/refactor, independent tests",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers verification-before-completion",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/verification-before-completion",
+    "use": "evidence based verification",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers brainstorming",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/brainstorming",
+    "use": "requirements and tradeoff discovery",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers writing-plans",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/writing-plans",
+    "use": "incremental engineering work plans",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers executing-plans",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/executing-plans",
+    "use": "checkpoints, validation",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers requesting-code-review",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/requesting-code-review",
+    "use": "review gates, severity",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers receiving-code-review",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/receiving-code-review",
+    "use": "evidence-backed change handling",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers using-git-worktrees",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/using-git-worktrees",
+    "use": "isolation and safe workspace",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Superpowers finishing-a-development-branch",
+    "repo": "obra/superpowers",
+    "upstream_path": "skills/finishing-a-development-branch",
+    "use": "merge/cleanup/release",
+    "url": "https://github.com/obra/superpowers",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "UI UX Pro Max",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "upstream_path": ".claude/skills/ui-ux-pro-max",
+    "use": "product-oriented design system selection",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Codex skill-creator",
+    "repo": "openai/skills",
+    "upstream_path": "skills/.system/skill-creator",
+    "use": "progressive disclosure and skill testing",
+    "url": "https://github.com/openai/skills",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "React Three Fiber",
+    "repo": "pmndrs/react-three-fiber",
+    "upstream_path": "",
+    "use": "declarative WebGL React scenes",
+    "url": "https://github.com/pmndrs/react-three-fiber",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Drei",
+    "repo": "pmndrs/drei",
+    "upstream_path": "",
+    "use": "camera/GLTF/helpers useful for R3F",
+    "url": "https://github.com/pmndrs/drei",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "React Postprocessing",
+    "repo": "pmndrs/react-postprocessing",
+    "upstream_path": "",
+    "use": "bloom/DoF/compositing",
+    "url": "https://github.com/pmndrs/react-postprocessing",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Three.js",
+    "repo": "mrdoob/three.js",
+    "upstream_path": "",
+    "use": "scenes/geometry/shader/glTF",
+    "url": "https://github.com/mrdoob/three.js",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Anime.js",
+    "repo": "juliangarnier/anime",
+    "upstream_path": "",
+    "use": "timeline/scroll/SVG/text/WAAPI",
+    "url": "https://github.com/juliangarnier/anime",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "VibeFarsi",
+    "repo": "TronIsHere/vibefarsiui",
+    "upstream_path": "",
+    "use": "RTL components/animations/templates/design systems",
+    "url": "https://github.com/TronIsHere/vibefarsiui",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "shadcn/ui",
+    "repo": "shadcn-ui/ui",
+    "upstream_path": "",
+    "use": "accessible components and distribution",
+    "url": "https://github.com/shadcn-ui/ui",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Tailwind CSS",
+    "repo": "tailwindlabs/tailwindcss",
+    "upstream_path": "",
+    "use": "design tokens utilities",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Radix Primitives",
+    "repo": "radix-ui/primitives",
+    "upstream_path": "",
+    "use": "headless accessibility primitives",
+    "url": "https://github.com/radix-ui/primitives",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Floating UI",
+    "repo": "floating-ui/floating-ui",
+    "upstream_path": "",
+    "use": "anchored popovers and collision handling",
+    "url": "https://github.com/floating-ui/floating-ui",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Motion",
+    "repo": "motiondivision/motion",
+    "upstream_path": "",
+    "use": "animation alternative (avoid conflicting ownership)",
+    "url": "https://github.com/motiondivision/motion",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Lenis",
+    "repo": "darkroomengineering/lenis",
+    "upstream_path": "",
+    "use": "smooth scroll; accessibility/canvas caution",
+    "url": "https://github.com/darkroomengineering/lenis",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "GSAP",
+    "repo": "greensock/GSAP",
+    "upstream_path": "",
+    "use": "independent commercial licensing review required",
+    "url": "https://github.com/greensock/GSAP",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Playwright",
+    "repo": "microsoft/playwright",
+    "upstream_path": "",
+    "use": "browser screenshots, e2e, responsiveness",
+    "url": "https://github.com/microsoft/playwright",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "axe-core",
+    "repo": "dequelabs/axe-core",
+    "upstream_path": "",
+    "use": "accessibility audits",
+    "url": "https://github.com/dequelabs/axe-core",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Lighthouse CI",
+    "repo": "GoogleChrome/lighthouse-ci",
+    "upstream_path": "",
+    "use": "performance regression gating",
+    "url": "https://github.com/GoogleChrome/lighthouse-ci",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Vitest",
+    "repo": "vitest-dev/vitest",
+    "upstream_path": "",
+    "use": "unit test framework",
+    "url": "https://github.com/vitest-dev/vitest",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Testing Library",
+    "repo": "testing-library/react-testing-library",
+    "upstream_path": "",
+    "use": "behavior-focused React tests",
+    "url": "https://github.com/testing-library/react-testing-library",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Zod",
+    "repo": "colinhacks/zod",
+    "upstream_path": "",
+    "use": "runtime form schemas",
+    "url": "https://github.com/colinhacks/zod",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "React Hook Form",
+    "repo": "react-hook-form/react-hook-form",
+    "upstream_path": "",
+    "use": "performant accessible forms",
+    "url": "https://github.com/react-hook-form/react-hook-form",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "TanStack Query",
+    "repo": "TanStack/query",
+    "upstream_path": "",
+    "use": "async data caching",
+    "url": "https://github.com/TanStack/query",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "TanStack Table",
+    "repo": "TanStack/table",
+    "upstream_path": "",
+    "use": "headless table state",
+    "url": "https://github.com/TanStack/table",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "i18next",
+    "repo": "i18next/i18next",
+    "upstream_path": "",
+    "use": "locale and plural translations",
+    "url": "https://github.com/i18next/i18next",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "next-intl",
+    "repo": "amannn/next-intl",
+    "upstream_path": "",
+    "use": "Next.js i18n and routing",
+    "url": "https://github.com/amannn/next-intl",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Embla Carousel",
+    "repo": "davidjerleke/embla-carousel",
+    "upstream_path": "",
+    "use": "accessible gesture carousel",
+    "url": "https://github.com/davidjerleke/embla-carousel",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Lucide",
+    "repo": "lucide-icons/lucide",
+    "upstream_path": "",
+    "use": "iconography system",
+    "url": "https://github.com/lucide-icons/lucide",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Recharts",
+    "repo": "recharts/recharts",
+    "upstream_path": "",
+    "use": "responsive charts",
+    "url": "https://github.com/recharts/recharts",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "visx",
+    "repo": "airbnb/visx",
+    "upstream_path": "",
+    "use": "SVG charts custom",
+    "url": "https://github.com/airbnb/visx",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Leva",
+    "repo": "pmndrs/leva",
+    "upstream_path": "",
+    "use": "developer controls for 3D",
+    "url": "https://github.com/pmndrs/leva",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Theatre.js",
+    "repo": "theatre-js/theatre",
+    "upstream_path": "",
+    "use": "visual timeline authoring",
+    "url": "https://github.com/theatre-js/theatre",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Rive",
+    "repo": "rive-app/rive-js",
+    "upstream_path": "",
+    "use": "state machine authored animations",
+    "url": "https://github.com/rive-app/rive-js",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Lottie Web",
+    "repo": "airbnb/lottie-web",
+    "upstream_path": "",
+    "use": "vector animation player",
+    "url": "https://github.com/airbnb/lottie-web",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  },
+  {
+    "name": "Vazirmatn",
+    "repo": "rastikerdar/vazirmatn",
+    "upstream_path": "",
+    "use": "Persian typeface (licensing to verify)",
+    "url": "https://github.com/rastikerdar/vazirmatn",
+    "embedded": "original Perfect_AI guidance only; upstream source not bundled",
+    "license": "CHECK UPSTREAM LICENSE BEFORE COPYING"
+  }
+]

@@ -1,0 +1,767 @@
+{
+  "version": "v1",
+  "source_archive": "Perfect_AI_MOTION_BRAND_MULTIAGENT_All_In_One.zip",
+  "groups": {
+    "self-correction": [
+      {
+        "skill": "ztx8-self-correction-baseline-preservation",
+        "objective": "Record all existing routes, interactive behavior and screenshots before edits; never regress a passed baseline."
+      },
+      {
+        "skill": "ztx8-self-correction-local-runner",
+        "objective": "Start an allowlisted local development server and verify the ready endpoint rather than trusting process start."
+      },
+      {
+        "skill": "ztx8-self-correction-browser-evidence-matrix",
+        "objective": "Collect screenshots across 320–1920 CSS px, reduced-motion, scroll phases and RTL."
+      },
+      {
+        "skill": "ztx8-self-correction-root-cause-triage",
+        "objective": "Reproduce and isolate a defect before editing; record DOM selector, source file and evidence path."
+      },
+      {
+        "skill": "ztx8-self-correction-bounded-repair",
+        "objective": "Permit max four corrective rounds with explicit write permission and no edits outside project."
+      },
+      {
+        "skill": "ztx8-self-correction-git-safety-gate",
+        "objective": "Require clean working tree before auto-edits; produce git diff for human inspection, never silent reset."
+      },
+      {
+        "skill": "ztx8-self-correction-visual-diff-review",
+        "objective": "Normalize screenshot environment, compare exact dimensions, route states and interaction phases."
+      },
+      {
+        "skill": "ztx8-self-correction-regression-gate",
+        "objective": "Stop repairs when previous high-severity issues increase; preserve successful functionality."
+      },
+      {
+        "skill": "ztx8-self-correction-failure-to-test-conversion",
+        "objective": "Turn every reproduced defect into a repeatable Playwright check."
+      },
+      {
+        "skill": "ztx8-self-correction-quality-report",
+        "objective": "Distinguish PASS, FAIL and NOT_TESTED and link concrete artifacts."
+      },
+      {
+        "skill": "ztx8-self-correction-manual-approval",
+        "objective": "Require human acceptance for subjective composition and brand choices after objective tests."
+      },
+      {
+        "skill": "ztx8-self-correction-rollback-plan",
+        "objective": "Offer safe manually reviewed git restore steps, never destructive cleanup by default."
+      }
+    ],
+    "three-modeling": [
+      {
+        "skill": "ztx8-three-modeling-procedural-mesh-design",
+        "objective": "Choose geometry based on shape silhouette, triangle budget, detail levels and asset units."
+      },
+      {
+        "skill": "ztx8-three-modeling-glb-asset-triage",
+        "objective": "Inspect glTF node graph, texture weight, pivot axes, normals and potential missing textures."
+      },
+      {
+        "skill": "ztx8-three-modeling-box3-fit",
+        "objective": "Run updateWorldMatrix and Box3.setFromObject before computing camera and object transforms."
+      },
+      {
+        "skill": "ztx8-three-modeling-perspective-fit",
+        "objective": "Derive camera distance from horizontal and vertical FOV, target content slot and bounding sphere."
+      },
+      {
+        "skill": "ztx8-three-modeling-orthographic-fit",
+        "objective": "Compute orthographic frustum spans from bounded geometry and slot aspect ratio."
+      },
+      {
+        "skill": "ztx8-three-modeling-text-safe-screen-slot",
+        "objective": "Measure DOM text rectangles and reserve an explicit unobstructed screen-space 3D slot."
+      },
+      {
+        "skill": "ztx8-three-modeling-model-center-pivot",
+        "objective": "Distinguish visual mesh center, rotation pivot, world origin and ground contact anchor."
+      },
+      {
+        "skill": "ztx8-three-modeling-clip-plane-safety",
+        "objective": "Derive camera near/far from model radius and location, verify projected corners for clipping."
+      },
+      {
+        "skill": "ztx8-three-modeling-render-target-resolution",
+        "objective": "Scale canvas resolution to quality budget rather than CSS size times unrestricted DPR."
+      },
+      {
+        "skill": "ztx8-three-modeling-lighting-rig-pbr",
+        "objective": "Select key-fill-rim lights, environment intensity, tone mapping and plausible material roughness."
+      },
+      {
+        "skill": "ztx8-three-modeling-texture-budgeting",
+        "objective": "Compress textures, assign correct color space, downscale mobile mips and preload only visible assets."
+      },
+      {
+        "skill": "ztx8-three-modeling-instancing-particles",
+        "objective": "Merge or instance repeated geometry to minimize GPU draw calls and memory overhead."
+      },
+      {
+        "skill": "ztx8-three-modeling-shader-budgeting",
+        "objective": "Measure instruction complexity, branch divergence and fill rate for GL fragment shaders."
+      },
+      {
+        "skill": "ztx8-three-modeling-wgsl-webgpu-fallback",
+        "objective": "Feature detect navigator.gpu; ship WebGL2 or poster fallback and test it."
+      },
+      {
+        "skill": "ztx8-three-modeling-sdf-raymarching",
+        "objective": "Set max ray steps, early termination, distance epsilon, normal estimate and pixel budget."
+      },
+      {
+        "skill": "ztx8-three-modeling-pathtracing-progressive",
+        "objective": "Progressively accumulate samples, reset on camera move, use capped resolution and fallback."
+      },
+      {
+        "skill": "ztx8-three-modeling-particle-morph",
+        "objective": "Preserve temporal continuity and particle correspondence; simplify shaders on touch devices."
+      },
+      {
+        "skill": "ztx8-three-modeling-fluid-heightfield",
+        "objective": "Use stable 2D wave simulation or baked deformation, bounded timestep and static fallback."
+      },
+      {
+        "skill": "ztx8-three-modeling-collider-physics",
+        "objective": "Decouple physics timestep from display FPS and cap substeps to avoid spiral of death."
+      },
+      {
+        "skill": "ztx8-three-modeling-scene-cleanup",
+        "objective": "Dispose geometry, materials, render targets, textures and event listeners upon unmount."
+      },
+      {
+        "skill": "ztx8-three-modeling-r3f-demand-render",
+        "objective": "Use R3F demand frameloop for idle product scenes and invalidate on genuine changes."
+      },
+      {
+        "skill": "ztx8-three-modeling-camera-scroll-rail",
+        "objective": "Tie camera keyframes to normalized document scroll progress with one motion owner."
+      },
+      {
+        "skill": "ztx8-three-modeling-mouse-raycast-picking",
+        "objective": "Normalize pointer into NDC from canvas bounds, raycast interactive objects and support touch."
+      },
+      {
+        "skill": "ztx8-three-modeling-mobile-lod-fallback",
+        "objective": "Keep primary scene legible with lower LOD, fewer particles and reduced post-processing."
+      },
+      {
+        "skill": "ztx8-three-modeling-projected-occlusion-test",
+        "objective": "Project Box3 corners and compare with safe text rectangle; verify screenshots for mesh overlap."
+      },
+      {
+        "skill": "ztx8-three-modeling-glb-provenance",
+        "objective": "Record model source, license, size, texture use and fallback poster without embedding unlicensed files."
+      }
+    ],
+    "cinematic-motion": [
+      {
+        "skill": "ztx8-cinematic-motion-scroll-timeline-sync",
+        "objective": "Single scroll progress signal drives text, models and camera through deterministic keyframes."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-kinetic-typography",
+        "objective": "Default heading word or grapheme-safe text animation; preserve Persian glyph shaping."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-motion-language",
+        "objective": "Define enter, exit, stagger, hero orbit, hover and focus timing from approved brand tokens."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-text-slide-mask",
+        "objective": "Clip letters or words inside overflow containers without hiding accessibility text."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-pointer-spring",
+        "objective": "Normalize pointer velocity, clamp force and introduce damping without layout reads every frame."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-reversible-scroll",
+        "objective": "Ensure timeline fully reverses to original state on upward scrolling, no incremental drift."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-reduced-motion-fallback",
+        "objective": "Replace large transforms with stable readable content and minimal fades when user prefers."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-animation-conflict-map",
+        "objective": "Assign exclusive owners to transform, opacity and canvas uniforms per element."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-pause-on-hidden",
+        "objective": "Stop optional render loops when hidden/offscreen and resume from deterministic state."
+      },
+      {
+        "skill": "ztx8-cinematic-motion-hero-camera-beats",
+        "objective": "Storyboard scene beats using explicit z/x/y camera positions and safe foreground space."
+      }
+    ],
+    "dynamic-agent-orchestration": [
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-site-type-router",
+        "objective": "Select reviewers based on actual site type and observed features instead of fixed universal prompts."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-brand-guardian",
+        "objective": "Require approved brand JSON and compare each screenshot against its palette and motion rules."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-critical-design-audit",
+        "objective": "Report severity, exact selector, source file and reproduction steps for design defects."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-positive-design-audit",
+        "objective": "Preserve documented strengths so repair loops do not erase working and distinctive choices."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-conversion-review",
+        "objective": "Check meaningful primary action, first-fold information and measured user flow."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-checkout-review",
+        "objective": "Check cart state, pricing consistency, retries, trust and responsive payment flows."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-dashboard-review",
+        "objective": "Check data density, empty/loading/error states, keyboard, chart text alternatives."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-3d-art-director",
+        "objective": "Review camera composition, quality of materials, render placement and model storytelling."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-gpu-budget-critic",
+        "objective": "Review DPR, instancing, shader cost, FPS distribution and asset disposal."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-mobile-gesture-critic",
+        "objective": "Review tap size, scroll trapping, orientation, pointer/touch fallback and low-end devices."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-rtl-linguist",
+        "objective": "Check Arabic/Persian shaping, punctuation, digits, line breaking and actual loaded fonts."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-motion-director",
+        "objective": "Find timing clashes, excessive animations, conflicting transforms and missing reversibility."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-accessibility-auditor",
+        "objective": "Block broken focus order, screen reader labels and reduced-motion violations."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-seo-information-architect",
+        "objective": "Review semantic content structure, nav, page metadata and link architecture."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-security-privacy-auditor",
+        "objective": "Review data handling, form validation and unsafe third-party resource access."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-localization-editor",
+        "objective": "Check text expansion, language-specific copy and direction switching without layout damage."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-site-quality-arbiter",
+        "objective": "Synthesize independent reports with evidence and never erase a blocking failure by averaging scores."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-agent-time-budget",
+        "objective": "Cap reviewer parallelism, output tokens, timeouts and total cost; retry safely once."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-review-schema-validator",
+        "objective": "Normalize reports to JSON evidence schema and reject unsupported claims."
+      },
+      {
+        "skill": "ztx8-dynamic-agent-orchestration-manual-exception-path",
+        "objective": "Declare NOT_TESTED when browser, model, font or approval is unavailable."
+      }
+    ],
+    "color-intelligence": [
+      {
+        "skill": "ztx8-color-intelligence-five-rendered-palettes",
+        "objective": "Render five semantic color variants on real CTA, card, form, navigation and state components."
+      },
+      {
+        "skill": "ztx8-color-intelligence-contrast-gating",
+        "objective": "Calculate WCAG contrast for text/background/CTA pairs and block failed required pairs."
+      },
+      {
+        "skill": "ztx8-color-intelligence-oklch-tone-system",
+        "objective": "Derive perceptually spaced chroma/lightness levels and clamp to output gamut."
+      },
+      {
+        "skill": "ztx8-color-intelligence-brand-color-lock",
+        "objective": "Never change the brand color when approved tokens are locked; vary supporting surfaces only."
+      },
+      {
+        "skill": "ztx8-color-intelligence-dark-light-coherence",
+        "objective": "Synchronize dark and light semantic tokens including border and focus state."
+      },
+      {
+        "skill": "ztx8-color-intelligence-daltonism-check",
+        "objective": "Provide visual color-vision deficiency simulation plus redundant shape/text signals."
+      },
+      {
+        "skill": "ztx8-color-intelligence-hue-distribution",
+        "objective": "Prevent arbitrary equal-intensity accents; choose role-based hue/contrast hierarchy."
+      },
+      {
+        "skill": "ztx8-color-intelligence-p3-gamut-fallback",
+        "objective": "Include display-p3 as enhancement only with stable sRGB fallback."
+      },
+      {
+        "skill": "ztx8-color-intelligence-color-regression",
+        "objective": "Compare same page sections under all five palettes at identical viewport states."
+      }
+    ],
+    "brand-engine": [
+      {
+        "skill": "ztx8-brand-engine-approved-identity-contract",
+        "objective": "Require approved brand positioning, personality, audience, palette, fonts, logo and prohibitions."
+      },
+      {
+        "skill": "ztx8-brand-engine-brand-traceability",
+        "objective": "Record which brand attribute justifies each major visual decision."
+      },
+      {
+        "skill": "ztx8-brand-engine-logo-exclusion-zone",
+        "objective": "Keep logo clear space and minimum rendered size in every responsive configuration."
+      },
+      {
+        "skill": "ztx8-brand-engine-brand-motion-personality",
+        "objective": "Generate standardized animation timing and curves from approved motion adjectives."
+      },
+      {
+        "skill": "ztx8-brand-engine-brand-assets-license",
+        "objective": "Verify provenance of logos, assets and fonts; avoid unknown copyrighted assets."
+      },
+      {
+        "skill": "ztx8-brand-engine-cross-page-consistency",
+        "objective": "Keep tone, spacing and tokens consistent across every route and modal."
+      },
+      {
+        "skill": "ztx8-brand-engine-brand-exception-workflow",
+        "objective": "Require explicit approval to override locked identity constraint."
+      }
+    ],
+    "typography": [
+      {
+        "skill": "ztx8-typography-persian-font-mapping",
+        "objective": "Route fa to a verified Persian-supporting font rather than visually similar unsupported Latin face."
+      },
+      {
+        "skill": "ztx8-typography-english-font-mapping",
+        "objective": "Pair English headings/body to brand voice and x-height, avoiding forced same family."
+      },
+      {
+        "skill": "ztx8-typography-font-loading-check",
+        "objective": "Wait for document.fonts.ready and assert required family actually loaded, not just CSS declared."
+      },
+      {
+        "skill": "ztx8-typography-rtl-line-breaking",
+        "objective": "Test 320px Persian headings, mixed digits, punctuation and long words in real browser."
+      },
+      {
+        "skill": "ztx8-typography-fluid-type",
+        "objective": "Use clamp-based heading/body scale with target measure and no accidental clipping at zoom."
+      },
+      {
+        "skill": "ztx8-typography-bidi-isolation",
+        "objective": "Isolate code, URLs, numbers and user-generated mixed-language spans semantically."
+      },
+      {
+        "skill": "ztx8-typography-font-performance-budget",
+        "objective": "Subset where license permits, prefer WOFF2, avoid excessive preload and CLS."
+      },
+      {
+        "skill": "ztx8-typography-typographic-motion-safety",
+        "objective": "Animate full words or wrappers instead of splitting Persian letters into broken glyphs."
+      }
+    ],
+    "responsive-intelligence": [
+      {
+        "skill": "ztx8-responsive-intelligence-container-query-layout",
+        "objective": "Change component composition based on container width instead of global viewport only."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-content-driven-reflow",
+        "objective": "Let text length drive rows/columns and button wrapping without fixed height clipping."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-foldable-posture",
+        "objective": "Design for foldable segments and hinge-safe bounds with graceful single-screen fallback."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-ultrawide-composition",
+        "objective": "Limit content measure and separately place decorative 3D in ultra-wide space."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-portrait-landscape",
+        "objective": "Verify short landscape heights, sticky sections and safe viewport height units."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-safe-area-insets",
+        "objective": "Account for iOS/Android notches and bottom gesture insets."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-zoom400",
+        "objective": "Test 400 percent zoom using narrow effective viewport; avoid overflow and clipped controls."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-adaptive-canvas-slot",
+        "objective": "Calculate actual DOM slot available to the model at each container size."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-touch-vs-hover",
+        "objective": "Never rely on hover as the only way to access controls or content."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-rtl-ltr-reflow",
+        "objective": "Swap flow direction with logical properties and verify model/text order in both locales."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-density-modes",
+        "objective": "Avoid excessive tiny icons and data grids on mobile; use progressive disclosure."
+      },
+      {
+        "skill": "ztx8-responsive-intelligence-reduced-network",
+        "objective": "Serve lower quality model and poster under Save-Data/slow connection when available."
+      }
+    ],
+    "design-critic": [
+      {
+        "skill": "ztx8-design-critic-file-line-evidence",
+        "objective": "Associate defect with screenshot, DOM selector and source path; use unknown if cannot map."
+      },
+      {
+        "skill": "ztx8-design-critic-severity-prioritization",
+        "objective": "Rank critical usability and brand failures ahead of subtle visual polish."
+      },
+      {
+        "skill": "ztx8-design-critic-fix-preservation",
+        "objective": "Specify exactly what working content, motion and layouts must not change."
+      },
+      {
+        "skill": "ztx8-design-critic-layout-audit",
+        "objective": "Review alignment grid, rhythm, whitespace, contrast and content scan path."
+      },
+      {
+        "skill": "ztx8-design-critic-interaction-state-audit",
+        "objective": "Review hover, focus, active, disabled, pending, error and success states."
+      },
+      {
+        "skill": "ztx8-design-critic-motion-clarity-review",
+        "objective": "Prefer animation serving hierarchy and comprehension instead of unrelated decoration."
+      },
+      {
+        "skill": "ztx8-design-critic-after-fix-evidence",
+        "objective": "Compare controlled before/after evidence to prove intended correction."
+      }
+    ],
+    "visual-originality": [
+      {
+        "skill": "ztx8-visual-originality-anti-generic-audit",
+        "objective": "Flag unsupported neon gradients, glass cards, repeated feature grids and stock-looking heroes."
+      },
+      {
+        "skill": "ztx8-visual-originality-brand-specific-motifs",
+        "objective": "Create motifs and interaction language grounded in real brand narrative and subject matter."
+      },
+      {
+        "skill": "ztx8-visual-originality-distinctive-composition",
+        "objective": "Vary rhythm, asymmetry and hierarchy only when they improve task clarity."
+      },
+      {
+        "skill": "ztx8-visual-originality-novelty-vs-utility",
+        "objective": "Do not sacrifice task completion and accessibility for visual distinctiveness."
+      },
+      {
+        "skill": "ztx8-visual-originality-typography-as-identity",
+        "objective": "Use type contrast, editorial scale and white space instead of random decoration."
+      }
+    ],
+    "motion-design-language": [
+      {
+        "skill": "ztx8-motion-design-language-motion-token-system",
+        "objective": "Define duration/easing/delay/distance and reduced-motion variants as reusable tokens."
+      },
+      {
+        "skill": "ztx8-motion-design-language-microinteractions",
+        "objective": "Keep click/hover response fast and restrained; avoid startling motion on every event."
+      },
+      {
+        "skill": "ztx8-motion-design-language-stagger-orchestration",
+        "objective": "Use grouped stagger with cap on total entrance sequence duration."
+      },
+      {
+        "skill": "ztx8-motion-design-language-page-transitions",
+        "objective": "Preserve navigation context, focus, scroll restoration and reduced-motion behavior."
+      },
+      {
+        "skill": "ztx8-motion-design-language-scroll-kinetics",
+        "objective": "Treat scroll as progress not velocity-dependent accumulated transforms."
+      },
+      {
+        "skill": "ztx8-motion-design-language-spring-consistency",
+        "objective": "Use physically coherent damping and mass across cards, camera and cursor where appropriate."
+      },
+      {
+        "skill": "ztx8-motion-design-language-timeline-authority",
+        "objective": "Declare one owner for every animated property to prevent competing CSS/GSAP/Anime updates."
+      }
+    ],
+    "gpu-optimization": [
+      {
+        "skill": "ztx8-gpu-optimization-dpr-controller",
+        "objective": "Use runtime p95 frametime feedback to lower DPR smoothly with hysteresis."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-draw-call-budget",
+        "objective": "Use InstancedMesh and geometry batching when objects share geometry and material."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-lod-controller",
+        "objective": "Choose LOD by projected pixel size and mobile device budget."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-postprocessing-budget",
+        "objective": "Reduce expensive bloom, DOF and SSR passes before destroying primary motion."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-shader-instrumentation",
+        "objective": "Profile shader instruction hotspots and overdraw on target hardware."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-memory-disposal",
+        "objective": "Release geometries/materials/textures when switching routes or models."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-offscreen-suspension",
+        "objective": "Suspend hidden canvases and unobserved timelines to save battery."
+      },
+      {
+        "skill": "ztx8-gpu-optimization-frame-time-p95",
+        "objective": "Use 95th percentile frame time, not only average FPS, when choosing quality level."
+      }
+    ],
+    "scroll-performance": [
+      {
+        "skill": "ztx8-scroll-performance-single-raf-owner",
+        "objective": "Centralize visual DOM reads and writes on one animation frame pipeline."
+      },
+      {
+        "skill": "ztx8-scroll-performance-passive-scroll-listeners",
+        "objective": "Use passive scroll listeners and avoid work in wheel handlers."
+      },
+      {
+        "skill": "ztx8-scroll-performance-intersection-suspend",
+        "objective": "Suspend expensive animation work outside viewport while keeping scroll state correct."
+      },
+      {
+        "skill": "ztx8-scroll-performance-layout-thrashing-audit",
+        "objective": "Batch getBoundingClientRect reads before modifying layout-affecting properties."
+      },
+      {
+        "skill": "ztx8-scroll-performance-progress-timeline",
+        "objective": "Derive normalized section progress from actual geometry on resize and content change."
+      },
+      {
+        "skill": "ztx8-scroll-performance-pinned-sticky-safety",
+        "objective": "Avoid stacking or clipping bugs from nested transform and overflow parents."
+      },
+      {
+        "skill": "ztx8-scroll-performance-scroll-reverse-fidelity",
+        "objective": "Guarantee reverse scrubbing returns original transform/opacity every time."
+      },
+      {
+        "skill": "ztx8-scroll-performance-lenis-coordination",
+        "objective": "If smooth-scroll used, keep native navigation/accessibility behavior and sync one source."
+      }
+    ],
+    "font-performance": [
+      {
+        "skill": "ztx8-font-performance-self-hosting",
+        "objective": "Self-host verified licensed WOFF2 font assets; do not bundle proprietary fonts."
+      },
+      {
+        "skill": "ztx8-font-performance-subset-pipeline",
+        "objective": "Separate Persian and Latin Unicode ranges with safe shaping and fallback coverage."
+      },
+      {
+        "skill": "ztx8-font-performance-font-display-policy",
+        "objective": "Choose font-display strategy according to CLS and legibility requirements."
+      },
+      {
+        "skill": "ztx8-font-performance-preload-discipline",
+        "objective": "Only preload critical font files and avoid speculative font downloads."
+      },
+      {
+        "skill": "ztx8-font-performance-font-fallback-metrics",
+        "objective": "Use size-adjust and metric overrides where measured to reduce layout shift."
+      }
+    ],
+    "code-quality": [
+      {
+        "skill": "ztx8-code-quality-component-boundaries",
+        "objective": "Limit component responsibility and separate render engine lifecycle from UI view tree."
+      },
+      {
+        "skill": "ztx8-code-quality-effect-cleanup",
+        "objective": "Review event listeners, observers and animation contexts for deterministic disposal."
+      },
+      {
+        "skill": "ztx8-code-quality-runtime-validation",
+        "objective": "Validate unknown API/asset data and produce user-facing error states."
+      },
+      {
+        "skill": "ztx8-code-quality-typecheck-test-gates",
+        "objective": "Run TypeScript compiler, lint, unit and browser tests before declaring success."
+      },
+      {
+        "skill": "ztx8-code-quality-immutable-state",
+        "objective": "Avoid mutated React state and expensive render churn with proper memo boundaries."
+      },
+      {
+        "skill": "ztx8-code-quality-source-reproducibility",
+        "objective": "Use deterministic dependency lockfile and scripts documented for Windows."
+      }
+    ],
+    "dependency-intelligence": [
+      {
+        "skill": "ztx8-dependency-intelligence-framework-matrix",
+        "objective": "Inspect installed react/three/fiber/drei/tailwind/bootstrap versions, not guesses."
+      },
+      {
+        "skill": "ztx8-dependency-intelligence-animation-conflicts",
+        "objective": "Audit multiple versions of GSAP/Anime/Motion controlling same element."
+      },
+      {
+        "skill": "ztx8-dependency-intelligence-lockfile-integrity",
+        "objective": "Use npm ci/pnpm frozen lockfile where appropriate, no uncontrolled auto-update."
+      },
+      {
+        "skill": "ztx8-dependency-intelligence-peer-dependency-audit",
+        "objective": "Check peer compatibility of React Three Fiber and React versions."
+      },
+      {
+        "skill": "ztx8-dependency-intelligence-security-advisory-check",
+        "objective": "Run package audit and interpret alerts for actual exposure, no blind breaking updates."
+      },
+      {
+        "skill": "ztx8-dependency-intelligence-asset-license-check",
+        "objective": "Document licenses for third-party models, fonts and visuals."
+      }
+    ],
+    "mobile-performance": [
+      {
+        "skill": "ztx8-mobile-performance-adaptive-motion-density",
+        "objective": "Retain hero and primary transitions while shrinking optional particle and blur budgets."
+      },
+      {
+        "skill": "ztx8-mobile-performance-battery-aware-loop",
+        "objective": "Lower dormant animation refresh and idle GPU usage instead of disabling entire scene."
+      },
+      {
+        "skill": "ztx8-mobile-performance-reduced-data-mode",
+        "objective": "Honor supported Save-Data and constrained network with lite asset paths."
+      },
+      {
+        "skill": "ztx8-mobile-performance-thermal-avoidance",
+        "objective": "Use sustained frame-time feedback rather than unsupported thermal APIs."
+      },
+      {
+        "skill": "ztx8-mobile-performance-input-latency-gate",
+        "objective": "Check touch reaction time and avoid costly per-pointer DOM writes."
+      },
+      {
+        "skill": "ztx8-mobile-performance-portrait-3d-reframe",
+        "objective": "Recompute FOV/framing when canvas aspect ratio changes; never crop essential subject."
+      },
+      {
+        "skill": "ztx8-mobile-performance-real-device-proof",
+        "objective": "Label emulator as emulator; verify actual low-end Android and iOS before strong FPS claims."
+      },
+      {
+        "skill": "ztx8-mobile-performance-quality-level-explanation",
+        "objective": "Report trade-offs (DPR, LOD, shadows, postFx) in quality policy evidence."
+      }
+    ],
+    "accessibility": [
+      {
+        "skill": "ztx8-accessibility-reduced-motion-semantics",
+        "objective": "Preserve full content and controls when animations simplify or stop."
+      },
+      {
+        "skill": "ztx8-accessibility-keyboard-focus",
+        "objective": "Check tab sequence and visible focus for all interactive elements."
+      },
+      {
+        "skill": "ztx8-accessibility-semantic-3d",
+        "objective": "Give models alt/context description and equivalent non-WebGL content."
+      },
+      {
+        "skill": "ztx8-accessibility-contrast-color-independent",
+        "objective": "Avoid relying on color alone for success/error indicators."
+      },
+      {
+        "skill": "ztx8-accessibility-form-errors",
+        "objective": "Associate validation errors to input, announce via accessible live region."
+      },
+      {
+        "skill": "ztx8-accessibility-pointer-alternatives",
+        "objective": "Provide keyboard/touch actions for drag-only and hover-only interactions."
+      },
+      {
+        "skill": "ztx8-accessibility-zoom-reflow",
+        "objective": "Maintain controls and text at narrow widths corresponding to high zoom."
+      }
+    ],
+    "browser-testing": [
+      {
+        "skill": "ztx8-browser-testing-cross-viewport",
+        "objective": "Collect viewport screenshot matrix and report overflow/heading visibility."
+      },
+      {
+        "skill": "ztx8-browser-testing-scroll-phase-capture",
+        "objective": "Capture exact 0/33/68/100% scroll positions and compare expected scene state."
+      },
+      {
+        "skill": "ztx8-browser-testing-reduced-motion-matrix",
+        "objective": "Test no-preference and reduce modes separately."
+      },
+      {
+        "skill": "ztx8-browser-testing-rtl-switch-test",
+        "objective": "Toggle RTL/LTR, await fonts, inspect actual typography and clipping."
+      },
+      {
+        "skill": "ztx8-browser-testing-console-network-evidence",
+        "objective": "Collect pageerror and requestfailed rather than hiding them."
+      },
+      {
+        "skill": "ztx8-browser-testing-visual-baseline-diff",
+        "objective": "Keep environmental constants, compare same screenshots, require review for intended changes."
+      },
+      {
+        "skill": "ztx8-browser-testing-screenshot-stability",
+        "objective": "Expose a test hook for WebGL timeline progress to freeze custom canvas loops."
+      },
+      {
+        "skill": "ztx8-browser-testing-component-flow-test",
+        "objective": "Exercise nav, forms, dialogs and buttons rather than screenshot-only audits."
+      },
+      {
+        "skill": "ztx8-browser-testing-real-device-matrix",
+        "objective": "Add manual device testing checklists for Safari and physical Android beyond emulation."
+      }
+    ]
+  },
+  "master": "ztx8-autonomous-lab-master",
+  "site_categories": 15,
+  "model_blueprints": 26
+}

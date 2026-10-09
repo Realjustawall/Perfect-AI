@@ -1,0 +1,2255 @@
+{
+  "base_archive": "Perfect_AI_NEXUS_All_In_One_Codex_Skills.zip",
+  "mode": "append only",
+  "scope": "15 domains",
+  "techniques": 305,
+  "skills": [
+    {
+      "name": "ztx4-design-intelligence-brief-normalization",
+      "domain": "design-intelligence",
+      "task": "brief-normalization",
+      "description": "Convert messy project input to typed goals, constraints, languages and unknowns without inventing facts.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/brief-normalization.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-brand-evidence-extraction",
+      "domain": "design-intelligence",
+      "task": "brand-evidence-extraction",
+      "description": "Audit actual logos, wordmarks, typography, color use and tone; mark inference as inference.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/brand-evidence-extraction.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-personas-with-evidence",
+      "domain": "design-intelligence",
+      "task": "personas-with-evidence",
+      "description": "Describe user jobs, cognitive load, device and access needs without claiming invented user research.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/personas-with-evidence.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-industry-archetype-resistant",
+      "domain": "design-intelligence",
+      "task": "industry-archetype-resistant",
+      "description": "Differentiate sites of the same business category via content, typography and hierarchy, not neon gradients.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/industry-archetype-resistant.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-visual-direction-proposals",
+      "domain": "design-intelligence",
+      "task": "visual-direction-proposals",
+      "description": "Generate three materially different layout and mood concepts using the same functional requirements.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/visual-direction-proposals.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-visual-style-scoring",
+      "domain": "design-intelligence",
+      "task": "visual-style-scoring",
+      "description": "Score readability, distinctiveness, brand recognition, complexity, coherence and accessibility separately.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/visual-style-scoring.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-site-map-from-jobs",
+      "domain": "design-intelligence",
+      "task": "site-map-from-jobs",
+      "description": "Build information architecture around customer journeys and measurable primary actions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/site-map-from-jobs.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-copy-density-planning",
+      "domain": "design-intelligence",
+      "task": "copy-density-planning",
+      "description": "Reserve realistic content length for Persian and English without placeholder lorem ipsum.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/copy-density-planning.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-font-pairing-decision",
+      "domain": "design-intelligence",
+      "task": "font-pairing-decision",
+      "description": "Pick Persian/Latin font families with real weights, metrics, licenses and fallbacks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/font-pairing-decision.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-palette-routing",
+      "domain": "design-intelligence",
+      "task": "palette-routing",
+      "description": "Generate, contrast-check and rank palettes under explicit user constraints.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/palette-routing.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-motion-engine-ownership",
+      "domain": "design-intelligence",
+      "task": "motion-engine-ownership",
+      "description": "Choose among CSS, Anime.js, GSAP, Motion, Rive, Theatre.js and Three.js per property ownership.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/motion-engine-ownership.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-three-d-necessity-test",
+      "domain": "design-intelligence",
+      "task": "three-d-necessity-test",
+      "description": "Require a communicative role, accessibility fallback and GPU budget before adding WebGL.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/three-d-necessity-test.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-skill-shortlist-ranking",
+      "domain": "design-intelligence",
+      "task": "skill-shortlist-ranking",
+      "description": "Rank relevant installed SKILL.md by task, prerequisites and conflicts rather than load all files.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/skill-shortlist-ranking.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-anti-template-guard",
+      "domain": "design-intelligence",
+      "task": "anti-template-guard",
+      "description": "Detect generic symmetric three-card layouts, oversized gradient blob heroes and unearned glassmorphism.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/anti-template-guard.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-creative-divergence",
+      "domain": "design-intelligence",
+      "task": "creative-divergence",
+      "description": "Propose nonstandard compositions while retaining obvious affordances and learnability.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/creative-divergence.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-design-decision-record",
+      "domain": "design-intelligence",
+      "task": "design-decision-record",
+      "description": "Produce ADR with alternatives, evidence, constraints, selected solution and verification gates.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/design-decision-record.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-system-conflict-arbitration",
+      "domain": "design-intelligence",
+      "task": "system-conflict-arbitration",
+      "description": "Resolve conflicting CSS frameworks, animators and layout conventions explicitly.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/system-conflict-arbitration.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-design-variant-comparison",
+      "domain": "design-intelligence",
+      "task": "design-variant-comparison",
+      "description": "Make comparable screenshots at identical content/viewport settings and select with documented rationale.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/design-variant-comparison.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-content-first-hierarchy",
+      "domain": "design-intelligence",
+      "task": "content-first-hierarchy",
+      "description": "Prioritize value proposition, proof and action with measurable prominence.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/content-first-hierarchy.md"
+    },
+    {
+      "name": "ztx4-design-intelligence-iterative-redesign-gate",
+      "domain": "design-intelligence",
+      "task": "iterative-redesign-gate",
+      "description": "Block shipping until critical design, technical and accessibility findings are resolved.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence/recipes/iterative-redesign-gate.md"
+    },
+    {
+      "name": "ztx4-design-intelligence",
+      "domain": "design-intelligence",
+      "task": "domain-master",
+      "description": "Turn a product brief into evidence-backed visual and implementation choices, not default AI aesthetics.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-intelligence.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-r3f-canvas-lifecycle",
+      "domain": "advanced-3d",
+      "task": "r3f-canvas-lifecycle",
+      "description": "Mount one Canvas per coherent scene; manage resize, suspense, error boundary, delta clamp and cleanup.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/r3f-canvas-lifecycle.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-drei-controls-and-environment",
+      "domain": "advanced-3d",
+      "task": "drei-controls-and-environment",
+      "description": "Configure OrbitControls/PresentationControls and Environment only when use-case warrants them; bound effects.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/drei-controls-and-environment.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-webgl-renderer-baseline",
+      "domain": "advanced-3d",
+      "task": "webgl-renderer-baseline",
+      "description": "Validate WebGL context availability and color management; document fallback on failure.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/webgl-renderer-baseline.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-webgpu-progressive-enhancement",
+      "domain": "advanced-3d",
+      "task": "webgpu-progressive-enhancement",
+      "description": "Feature gate navigator.gpu and renderer/library compatibility; retain WebGL and static fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/webgpu-progressive-enhancement.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-glsl-vertex-displacement",
+      "domain": "advanced-3d",
+      "task": "glsl-vertex-displacement",
+      "description": "Write bounded vertex displacement using time uniforms and smooth normals under mobile precision.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/glsl-vertex-displacement.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-glsl-fragment-lighting",
+      "domain": "advanced-3d",
+      "task": "glsl-fragment-lighting",
+      "description": "Implement correct coordinate-space, linear color and precision handling with shader compile checks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/glsl-fragment-lighting.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-wgsl-compute-path",
+      "domain": "advanced-3d",
+      "task": "wgsl-compute-path",
+      "description": "Use WGSL or Three TSL only with a proven build and feature checks; maintain alternate simulator.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/wgsl-compute-path.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-procedural-geometry",
+      "domain": "advanced-3d",
+      "task": "procedural-geometry",
+      "description": "Create/update BufferGeometry with stable buffers and finite vertex values; dispose on replacement.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/procedural-geometry.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-sdf-primitives",
+      "domain": "advanced-3d",
+      "task": "sdf-primitives",
+      "description": "Compose signed distance sphere/box/torus with smooth boolean operators and predictable bounds.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/sdf-primitives.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-raymarching-bounds",
+      "domain": "advanced-3d",
+      "task": "raymarching-bounds",
+      "description": "Cap ray steps/distance, adapt epsilon to scene scale, terminate misses, and provide low-step mode.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/raymarching-bounds.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-gpu-particles-instanced",
+      "domain": "advanced-3d",
+      "task": "gpu-particles-instanced",
+      "description": "Use InstancedMesh/Points or GPU ping-pong rather than thousands of independent React components.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/gpu-particles-instanced.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-gpgpu-pingpong-simulation",
+      "domain": "advanced-3d",
+      "task": "gpgpu-pingpong-simulation",
+      "description": "Create two render targets and swap deterministically; check float texture support and fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/gpgpu-pingpong-simulation.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-volumetric-fog",
+      "domain": "advanced-3d",
+      "task": "volumetric-fog",
+      "description": "Render fog at bounded resolution/sample count and stable temporal reprojection where supported.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/volumetric-fog.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-volumetric-light-shafts",
+      "domain": "advanced-3d",
+      "task": "volumetric-light-shafts",
+      "description": "Use limited samples, physically plausible attenuation and fixed overdraw budgets.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/volumetric-light-shafts.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-pbr-material-tuning",
+      "domain": "advanced-3d",
+      "task": "pbr-material-tuning",
+      "description": "Calibrate roughness/metalness, normal intensity, exposure, shadows and renderer color space.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/pbr-material-tuning.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-hdri-ibl-pmrem",
+      "domain": "advanced-3d",
+      "task": "hdri-ibl-pmrem",
+      "description": "Prefilter HDR environment, track texture memory and clean up PMREM-related GPU objects.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/hdri-ibl-pmrem.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-instancing-drawcall-reduction",
+      "domain": "advanced-3d",
+      "task": "instancing-drawcall-reduction",
+      "description": "Batch repeated materials/geometry while preserving per-instance picking and transforms.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/instancing-drawcall-reduction.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-geometry-lod",
+      "domain": "advanced-3d",
+      "task": "geometry-lod",
+      "description": "Switch geometries based on projected pixel radius; add hysteresis to prevent flicker.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/geometry-lod.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-adaptive-dpr",
+      "domain": "advanced-3d",
+      "task": "adaptive-dpr",
+      "description": "Clamp DPR based on frame-time trend and interaction, not solely devicePixelRatio.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/adaptive-dpr.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-skeletal-animation",
+      "domain": "advanced-3d",
+      "task": "skeletal-animation",
+      "description": "Load skinned glTF clips, update AnimationMixer with frame delta and stop/dispose actions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/skeletal-animation.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-morph-targets",
+      "domain": "advanced-3d",
+      "task": "morph-targets",
+      "description": "Animate morphTargetInfluences on supported models and verify topology consistency.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/morph-targets.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-physics-fixed-step",
+      "domain": "advanced-3d",
+      "task": "physics-fixed-step",
+      "description": "Use fixed simulation step, interpolation and collision layers independent of variable render FPS.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/physics-fixed-step.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-rigid-bodies-react-rapier",
+      "domain": "advanced-3d",
+      "task": "rigid-bodies-react-rapier",
+      "description": "Model stable rigid-body interactions and use sleeping, solver/step limits and clear reset behavior.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/rigid-bodies-react-rapier.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-fluid-heightfield",
+      "domain": "advanced-3d",
+      "task": "fluid-heightfield",
+      "description": "Approximate water with a bounded height-field and screen-space or vertex normals on low tiers.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/fluid-heightfield.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-fluid-smoke-simulation",
+      "domain": "advanced-3d",
+      "task": "fluid-smoke-simulation",
+      "description": "Select 2D advection/feedback vs costly 3D textures based on target device and need.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/fluid-smoke-simulation.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-cloth-simulation",
+      "domain": "advanced-3d",
+      "task": "cloth-simulation",
+      "description": "Implement constrained particles/Verlet or verified engine with collision and low-res substitute.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/cloth-simulation.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-path-tracing-opt-in",
+      "domain": "advanced-3d",
+      "task": "path-tracing-opt-in",
+      "description": "Use progressive path tracing only for compatible supported devices and product need; raster fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/path-tracing-opt-in.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-postprocessing-budget",
+      "domain": "advanced-3d",
+      "task": "postprocessing-budget",
+      "description": "Limit SSAO, bloom, depth of field and passes by GPU tier and color-output consistency.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/postprocessing-budget.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-glb-gltf-optimization",
+      "domain": "advanced-3d",
+      "task": "glb-gltf-optimization",
+      "description": "Apply mesh merging, Draco/Meshopt/KTX2 with correct transcoder availability and asset rights.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/glb-gltf-optimization.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-camera-scroll-story",
+      "domain": "advanced-3d",
+      "task": "camera-scroll-story",
+      "description": "Drive one normalized scroll state into camera/group transforms with clamped easing and reverse scroll.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/camera-scroll-story.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-webgl-context-recovery",
+      "domain": "advanced-3d",
+      "task": "webgl-context-recovery",
+      "description": "Pause render, clear invalid resources and offer static replacement after context loss.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/webgl-context-recovery.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-scene-accessibility-layer",
+      "domain": "advanced-3d",
+      "task": "scene-accessibility-layer",
+      "description": "Mirror meaning and controls in semantic HTML; avoid essential content only in 3D canvas.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/scene-accessibility-layer.md"
+    },
+    {
+      "name": "ztx4-advanced-3d-mobile-poster-fallback",
+      "domain": "advanced-3d",
+      "task": "mobile-poster-fallback",
+      "description": "Maintain exact functional content and CTA when WebGL unavailable or reduced data enabled.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d/recipes/mobile-poster-fallback.md"
+    },
+    {
+      "name": "ztx4-advanced-3d",
+      "domain": "advanced-3d",
+      "task": "domain-master",
+      "description": "Build real, bounded, device-aware 3D scenes with fallback and measurable GPU/resource behavior.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-3d.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animejs-timeline",
+      "domain": "cinematic-motion",
+      "task": "animejs-timeline",
+      "description": "Build Anime.js createTimeline sequences with overlap, labels and reversible events.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animejs-timeline.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animejs-stagger",
+      "domain": "cinematic-motion",
+      "task": "animejs-stagger",
+      "description": "Stagger semantic child elements with bounded delay and reset/reveal behavior.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animejs-stagger.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animejs-scroll-observer",
+      "domain": "cinematic-motion",
+      "task": "animejs-scroll-observer",
+      "description": "Connect Scroll Observer to explicit scroll range and progress with reverse-scroll correctness.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animejs-scroll-observer.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animejs-split-text",
+      "domain": "cinematic-motion",
+      "task": "animejs-split-text",
+      "description": "Split textual visual layers while keeping a meaningful accessible text representation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animejs-split-text.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animejs-svg-motion",
+      "domain": "cinematic-motion",
+      "task": "animejs-svg-motion",
+      "description": "Animate path progress, drawable strokes and morphs only on compatible path topology.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animejs-svg-motion.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-gsap-scrolltrigger",
+      "domain": "cinematic-motion",
+      "task": "gsap-scrolltrigger",
+      "description": "Scrub pinned scenes responsibly and refresh trigger measurements on resize.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/gsap-scrolltrigger.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-motion-layout-animate",
+      "domain": "cinematic-motion",
+      "task": "motion-layout-animate",
+      "description": "Animate React layout with Motion ownership and respect exit/unmount transitions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/motion-layout-animate.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-css-native-waapi",
+      "domain": "cinematic-motion",
+      "task": "css-native-waapi",
+      "description": "Prefer CSS transitions/keyframes or Web Animations API for simple isolated motion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/css-native-waapi.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-rive-state-machine",
+      "domain": "cinematic-motion",
+      "task": "rive-state-machine",
+      "description": "Bind Rive state inputs to meaningful product states and provide semantic non-canvas controls.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/rive-state-machine.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-rive-input-routing",
+      "domain": "cinematic-motion",
+      "task": "rive-input-routing",
+      "description": "Map pointer/keyboard actions to Rive inputs with accessible status and cleanup.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/rive-input-routing.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-lottie-renderer",
+      "domain": "cinematic-motion",
+      "task": "lottie-renderer",
+      "description": "Load bounded JSON or dotLottie with poster and reduced-motion first-frame fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/lottie-renderer.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-theatre-sequence",
+      "domain": "cinematic-motion",
+      "task": "theatre-sequence",
+      "description": "Bind Theatre.js sheet objects and sequence positions to real scene or UI state.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/theatre-sequence.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-theatre-camera-rig",
+      "domain": "cinematic-motion",
+      "task": "theatre-camera-rig",
+      "description": "Drive Three.js camera transforms via Theatre sheet props with constrained lens bounds.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/theatre-camera-rig.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-multi-engine-clock",
+      "domain": "cinematic-motion",
+      "task": "multi-engine-clock",
+      "description": "Use one source-of-truth progress for Anime.js, GSAP, Three.js and Theatre where possible.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/multi-engine-clock.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-scroll-cinema-stages",
+      "domain": "cinematic-motion",
+      "task": "scroll-cinema-stages",
+      "description": "Define discrete semantic stages in a sticky section driven by a continuous normalized scroll value.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/scroll-cinema-stages.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-kinetic-typography",
+      "domain": "cinematic-motion",
+      "task": "kinetic-typography",
+      "description": "Animate words/chars via masks with semantic readable baseline and bidi-correct grouping.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/kinetic-typography.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-audio-reactive-motion",
+      "domain": "cinematic-motion",
+      "task": "audio-reactive-motion",
+      "description": "Use Web Audio analyser frequency bins with consent and disabled fallback when audio is absent.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/audio-reactive-motion.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-audio-beat-synchronization",
+      "domain": "cinematic-motion",
+      "task": "audio-beat-synchronization",
+      "description": "Quantize keyframes to audio beat grid with drift correction and explicit playback control.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/audio-beat-synchronization.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-morphing-shape-timeline",
+      "domain": "cinematic-motion",
+      "task": "morphing-shape-timeline",
+      "description": "Interpolate matched 3D topology or normalized SVG paths, avoiding invalid topology jumps.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/morphing-shape-timeline.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-camera-parallax-story",
+      "domain": "cinematic-motion",
+      "task": "camera-parallax-story",
+      "description": "Move camera and scene layers within comfort budgets, provide motion-off experience.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/camera-parallax-story.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-reduced-motion-staging",
+      "domain": "cinematic-motion",
+      "task": "reduced-motion-staging",
+      "description": "Preserve information order without automatic motion when user prefers reduced motion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/reduced-motion-staging.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion-animation-lifecycle-audit",
+      "domain": "cinematic-motion",
+      "task": "animation-lifecycle-audit",
+      "description": "Audit RAF, timers, observers, timelines and cleanup across route mounts and unmounts.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion/recipes/animation-lifecycle-audit.md"
+    },
+    {
+      "name": "ztx4-cinematic-motion",
+      "domain": "cinematic-motion",
+      "task": "domain-master",
+      "description": "Choreograph intentional, reversible animation without competing animation libraries or inaccessible motion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/cinematic-motion.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-container-query-layout",
+      "domain": "adaptive-responsive",
+      "task": "container-query-layout",
+      "description": "Build @container inline-size variants independent of device breakpoint.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/container-query-layout.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-intrinsic-grid",
+      "domain": "adaptive-responsive",
+      "task": "intrinsic-grid",
+      "description": "Use repeat(auto-fit,minmax(min(100%,...))) and allow long words to wrap without overflow.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/intrinsic-grid.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-fluid-type-clamp",
+      "domain": "adaptive-responsive",
+      "task": "fluid-type-clamp",
+      "description": "Build modular fluid type scale with rem and clamp and test 400% zoom reflow.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/fluid-type-clamp.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-fluid-space-tokens",
+      "domain": "adaptive-responsive",
+      "task": "fluid-space-tokens",
+      "description": "Scale section/element spacing with clamp and sensible min/max.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/fluid-space-tokens.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-rtl-logical-properties",
+      "domain": "adaptive-responsive",
+      "task": "rtl-logical-properties",
+      "description": "Prefer inline-start/end, margin-inline and text-align:start over left/right assumptions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/rtl-logical-properties.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-bidi-mixed-text",
+      "domain": "adaptive-responsive",
+      "task": "bidi-mixed-text",
+      "description": "Wrap filenames, numbers, URLs and English names with bdi and dir=auto when necessary.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/bidi-mixed-text.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-foldable-viewport-segments",
+      "domain": "adaptive-responsive",
+      "task": "foldable-viewport-segments",
+      "description": "Avoid hinge with viewport segment APIs behind CSS @supports/@media and single-screen fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/foldable-viewport-segments.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-ultrawide-content-bounds",
+      "domain": "adaptive-responsive",
+      "task": "ultrawide-content-bounds",
+      "description": "Use max-inline-size and grid rails, not unreadably wide lines on 2560+ viewports.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/ultrawide-content-bounds.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-portrait-landscape-reflow",
+      "domain": "adaptive-responsive",
+      "task": "portrait-landscape-reflow",
+      "description": "Test height constraints and horizontal device rotation without clipped CTA.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/portrait-landscape-reflow.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-safearea-notch",
+      "domain": "adaptive-responsive",
+      "task": "safearea-notch",
+      "description": "Use env(safe-area-inset-*) and proper viewport-fit, preserve minimum tap target.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/safearea-notch.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-svh-lvh-dvh",
+      "domain": "adaptive-responsive",
+      "task": "svh-lvh-dvh",
+      "description": "Use small/dynamic viewport units purposely and avoid jumpy fixed-height mobile hero.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/svh-lvh-dvh.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-virtual-keyboard",
+      "domain": "adaptive-responsive",
+      "task": "virtual-keyboard",
+      "description": "Keep focused input and submit button visible with viewport changes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/virtual-keyboard.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-pointer-hover-capability",
+      "domain": "adaptive-responsive",
+      "task": "pointer-hover-capability",
+      "description": "Use (hover:hover) and (pointer:fine) only for enhancements; touch is fully functional.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/pointer-hover-capability.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-keyboard-focus-order",
+      "domain": "adaptive-responsive",
+      "task": "keyboard-focus-order",
+      "description": "Ensure DOM focus follows visual hierarchy across reordering and drawers.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/keyboard-focus-order.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-zoom-400-reflow",
+      "domain": "adaptive-responsive",
+      "task": "zoom-400-reflow",
+      "description": "Meet WCAG reflow expectations in equivalent 320 CSS pixel layout at 400% zoom.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/zoom-400-reflow.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-font-scale-200",
+      "domain": "adaptive-responsive",
+      "task": "font-scale-200",
+      "description": "Test increased text size and line-spacing overrides with no overlap.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/font-scale-200.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-nested-sidebar-container",
+      "domain": "adaptive-responsive",
+      "task": "nested-sidebar-container",
+      "description": "Test identical card in narrow sidebar and full-width main content.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/nested-sidebar-container.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-carousel-touch-gesture",
+      "domain": "adaptive-responsive",
+      "task": "carousel-touch-gesture",
+      "description": "Use directional gestures with keyboard and visible previous/next alternatives.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/carousel-touch-gesture.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-3d-framing-mobile",
+      "domain": "adaptive-responsive",
+      "task": "3d-framing-mobile",
+      "description": "Adapt camera FOV/distance/content safety area, not simply shrink WebGL canvas.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/3d-framing-mobile.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-gpu-quality-profiles",
+      "domain": "adaptive-responsive",
+      "task": "gpu-quality-profiles",
+      "description": "Select low/medium/high visual detail based on measured FPS and data/power settings.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/gpu-quality-profiles.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-image-art-direction",
+      "domain": "adaptive-responsive",
+      "task": "image-art-direction",
+      "description": "Use picture/source sizes and alternative crops to preserve subject across sizes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/image-art-direction.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-layout-shift-prevention",
+      "domain": "adaptive-responsive",
+      "task": "layout-shift-prevention",
+      "description": "Reserve image/media dimensions and avoid dynamic injected-height jumping.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/layout-shift-prevention.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-reduced-motion-mode",
+      "domain": "adaptive-responsive",
+      "task": "reduced-motion-mode",
+      "description": "Remove nonessential motion while maintaining layout, state feedback and content.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/reduced-motion-mode.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-reduced-data-mode",
+      "domain": "adaptive-responsive",
+      "task": "reduced-data-mode",
+      "description": "Avoid unnecessary high-resolution video, 3D assets and animated textures.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/reduced-data-mode.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-container-overflow-detection",
+      "domain": "adaptive-responsive",
+      "task": "container-overflow-detection",
+      "description": "Automate overflow checks for body and nested responsive containers.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/container-overflow-detection.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive-responsive-bilingual-content",
+      "domain": "adaptive-responsive",
+      "task": "responsive-bilingual-content",
+      "description": "Verify Persian/English text growth, RTL layout and localized number formatting.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive/recipes/responsive-bilingual-content.md"
+    },
+    {
+      "name": "ztx4-adaptive-responsive",
+      "domain": "adaptive-responsive",
+      "task": "domain-master",
+      "description": "Make components reflow based on their own available space, user settings and device capability.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/adaptive-responsive.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-brief-to-color-strategy",
+      "domain": "color-intelligence",
+      "task": "brief-to-color-strategy",
+      "description": "Choose visual temperature and chroma intensity based on evidence, audience and brand requirements.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/brief-to-color-strategy.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-color-psychology-cautions",
+      "domain": "color-intelligence",
+      "task": "color-psychology-cautions",
+      "description": "Treat color associations as context-dependent cultural hypotheses, never scientifically universal meanings.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/color-psychology-cautions.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-oklch-color-conversion",
+      "domain": "color-intelligence",
+      "task": "oklch-color-conversion",
+      "description": "Convert OKLCH to linear sRGB then gamut-map and gamma encode without NaNs.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/oklch-color-conversion.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-color-gamut-mapping",
+      "domain": "color-intelligence",
+      "task": "color-gamut-mapping",
+      "description": "Reduce chroma until valid sRGB, preserving perceived lightness and hue where possible.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/color-gamut-mapping.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-display-p3-progressive",
+      "domain": "color-intelligence",
+      "task": "display-p3-progressive",
+      "description": "Use @supports (color:color(display-p3 ...)) with sRGB fallbacks and gamut checks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/display-p3-progressive.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-hue-harmony-algorithms",
+      "domain": "color-intelligence",
+      "task": "hue-harmony-algorithms",
+      "description": "Propose analogous, complementary, split-complementary and triadic hue candidates purposefully.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/hue-harmony-algorithms.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-lightness-hierarchy",
+      "domain": "color-intelligence",
+      "task": "lightness-hierarchy",
+      "description": "Define surface/foreground emphasis using contrast and perceived lightness rather than random luminance.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/lightness-hierarchy.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-chroma-budget",
+      "domain": "color-intelligence",
+      "task": "chroma-budget",
+      "description": "Use restrained saturation for interface foundations and reserve chroma for meaningful status/accent.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/chroma-budget.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-five-palette-generator",
+      "domain": "color-intelligence",
+      "task": "five-palette-generator",
+      "description": "Produce five materially different candidates and never quietly force a neon default.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/five-palette-generator.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-palette-multiobjective-scoring",
+      "domain": "color-intelligence",
+      "task": "palette-multiobjective-scoring",
+      "description": "Score WCAG gating, brand fidelity, distinctiveness, warmth, context and semantic clarity separately.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/palette-multiobjective-scoring.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-wcag-text-contrast",
+      "domain": "color-intelligence",
+      "task": "wcag-text-contrast",
+      "description": "Compute WCAG 2.x relative luminance contrast at normal and large text sizes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/wcag-text-contrast.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-wcag-nontext-contrast",
+      "domain": "color-intelligence",
+      "task": "wcag-nontext-contrast",
+      "description": "Check UI boundaries and icons at 3:1 where the criterion applies.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/wcag-nontext-contrast.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-focus-ring-contrast",
+      "domain": "color-intelligence",
+      "task": "focus-ring-contrast",
+      "description": "Validate visible focus indicators against adjacent colors in both themes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/focus-ring-contrast.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-cvd-protan-deutan-tritan",
+      "domain": "color-intelligence",
+      "task": "cvd-protan-deutan-tritan",
+      "description": "Simulate common color-vision deficiencies approximately and check redundant cues.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/cvd-protan-deutan-tritan.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-semantic-tokens",
+      "domain": "color-intelligence",
+      "task": "semantic-tokens",
+      "description": "Emit background/surface/text/secondary/border/action/status/focus tokens by role.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/semantic-tokens.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-dark-mode-tonal-scale",
+      "domain": "color-intelligence",
+      "task": "dark-mode-tonal-scale",
+      "description": "Build dark mode with elevation and luminance separation rather than invert colors blindly.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/dark-mode-tonal-scale.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-light-mode-tonal-scale",
+      "domain": "color-intelligence",
+      "task": "light-mode-tonal-scale",
+      "description": "Preserve sufficient legibility on high-reflectance backgrounds and large whitespace.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/light-mode-tonal-scale.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-high-contrast-forced-colors",
+      "domain": "color-intelligence",
+      "task": "high-contrast-forced-colors",
+      "description": "Respond to forced-colors and prefers-contrast without suppressing focus and form affordances.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/high-contrast-forced-colors.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-css-color-mix",
+      "domain": "color-intelligence",
+      "task": "css-color-mix",
+      "description": "Use color-mix(in oklch,... ) with fallback and verify predictable blending.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/css-color-mix.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-bootstrap-theme-bridge",
+      "domain": "color-intelligence",
+      "task": "bootstrap-theme-bridge",
+      "description": "Map semantic tokens onto Bootstrap 5.3 custom properties and data-bs-theme.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/bootstrap-theme-bridge.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-tailwind-v4-theme-bridge",
+      "domain": "color-intelligence",
+      "task": "tailwind-v4-theme-bridge",
+      "description": "Map to Tailwind v4 @theme and runtime semantic CSS vars without color-class explosion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/tailwind-v4-theme-bridge.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-chart-categorical-palette",
+      "domain": "color-intelligence",
+      "task": "chart-categorical-palette",
+      "description": "Select categories distinguishable by value/shape/pattern, with no color-only encoding.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/chart-categorical-palette.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-chart-sequential-diverging",
+      "domain": "color-intelligence",
+      "task": "chart-sequential-diverging",
+      "description": "Use perceptually ordered lightness and meaningful zero/neutral midpoint.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/chart-sequential-diverging.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-gradient-band-prevention",
+      "domain": "color-intelligence",
+      "task": "gradient-band-prevention",
+      "description": "Choose gamma-aware, subtle gradient stops with fallback for reduced color quality.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/gradient-band-prevention.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-palette-regression-snapshots",
+      "domain": "color-intelligence",
+      "task": "palette-regression-snapshots",
+      "description": "Compare token outputs across modes, pages and components and flag color drift.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/palette-regression-snapshots.md"
+    },
+    {
+      "name": "ztx4-color-intelligence-palette-approval-report",
+      "domain": "color-intelligence",
+      "task": "palette-approval-report",
+      "description": "Document five candidates, reasons for winning, contrast matrix and assumptions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence/recipes/palette-approval-report.md"
+    },
+    {
+      "name": "ztx4-color-intelligence",
+      "domain": "color-intelligence",
+      "task": "domain-master",
+      "description": "Generate palettes grounded in context using perceptual color, explicit accessibility rules and honest scoring.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/color-intelligence.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-reference-capture-matrix",
+      "domain": "visual-reverse",
+      "task": "reference-capture-matrix",
+      "description": "Capture 8 viewports and interaction states with identical DPR and fonts.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/reference-capture-matrix.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-dom-measurement",
+      "domain": "visual-reverse",
+      "task": "dom-measurement",
+      "description": "Collect boundingClientRect, computed style and text metrics for permitted DOM references.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/dom-measurement.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-font-identification",
+      "domain": "visual-reverse",
+      "task": "font-identification",
+      "description": "Identify font via CSS/network asset manifest or measured fallback, respecting licenses.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/font-identification.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-spacing-grid-extraction",
+      "domain": "visual-reverse",
+      "task": "spacing-grid-extraction",
+      "description": "Derive recurring spacing/column constraints with robust median estimates.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/spacing-grid-extraction.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-scroll-frame-recording",
+      "domain": "visual-reverse",
+      "task": "scroll-frame-recording",
+      "description": "Sample normalized scroll progress, fixed/sticky transforms and animation keyframes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/scroll-frame-recording.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-webgl-canvas-inspection",
+      "domain": "visual-reverse",
+      "task": "webgl-canvas-inspection",
+      "description": "Compare image frames; do not assume hidden geometry/code from rendered pixels.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/webgl-canvas-inspection.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-animation-timebase-analysis",
+      "domain": "visual-reverse",
+      "task": "animation-timebase-analysis",
+      "description": "Identify scroll vs time driven stages via controlled pause/rewind.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/animation-timebase-analysis.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-3d-camera-inference",
+      "domain": "visual-reverse",
+      "task": "3d-camera-inference",
+      "description": "Approximate camera/projection using landmark ratios; label unknown depth as estimated.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/3d-camera-inference.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-asset-manifest-with-rights",
+      "domain": "visual-reverse",
+      "task": "asset-manifest-with-rights",
+      "description": "Track filenames, locations and permission/licenses for every retained/reproduced asset.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/asset-manifest-with-rights.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-deterministic-screenshot-diff",
+      "domain": "visual-reverse",
+      "task": "deterministic-screenshot-diff",
+      "description": "Align viewport/fonts/transitions and compare with threshold, mask only justified dynamic regions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/deterministic-screenshot-diff.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-ssim-and-perceptual-diff",
+      "domain": "visual-reverse",
+      "task": "ssim-and-perceptual-diff",
+      "description": "Combine pixel RMSE/SSIM with structured layout checks; avoid scoring on one metric.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/ssim-and-perceptual-diff.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-dom-vs-visual-diff",
+      "domain": "visual-reverse",
+      "task": "dom-vs-visual-diff",
+      "description": "Separate semantic DOM/keyboard problems from image-level visual mismatch.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/dom-vs-visual-diff.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-iteration-backlog",
+      "domain": "visual-reverse",
+      "task": "iteration-backlog",
+      "description": "Rank changes by perceptual impact and functional risk, validate each fix in screenshots.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/iteration-backlog.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-independent-reconstruction",
+      "domain": "visual-reverse",
+      "task": "independent-reconstruction",
+      "description": "Produce a technically independent implementation while documenting visual inspiration.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/independent-reconstruction.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-copyright-boundaries",
+      "domain": "visual-reverse",
+      "task": "copyright-boundaries",
+      "description": "Never silently redistribute proprietary visual code/assets or assert permission unverified.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/copyright-boundaries.md"
+    },
+    {
+      "name": "ztx4-visual-reverse-uncertainty-register",
+      "domain": "visual-reverse",
+      "task": "uncertainty-register",
+      "description": "Document all unseen source details, inferred motion curves and remaining mismatch.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse/recipes/uncertainty-register.md"
+    },
+    {
+      "name": "ztx4-visual-reverse",
+      "domain": "visual-reverse",
+      "task": "domain-master",
+      "description": "Reconstruct behavior from permitted references while distinguishing observable evidence from missing proprietary implementation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-reverse.md"
+    },
+    {
+      "name": "ztx4-component-system-component-contracts",
+      "domain": "component-system",
+      "task": "component-contracts",
+      "description": "Write typed props, emitted events, controlled state and semantic DOM requirements.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/component-contracts.md"
+    },
+    {
+      "name": "ztx4-component-system-radix-primitive-composition",
+      "domain": "component-system",
+      "task": "radix-primitive-composition",
+      "description": "Compose accessible Radix primitives with a shared design token layer.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/radix-primitive-composition.md"
+    },
+    {
+      "name": "ztx4-component-system-shadcn-ui-patterns",
+      "domain": "component-system",
+      "task": "shadcn-ui-patterns",
+      "description": "Use shadcn component source as owned application code and keep changes reviewable.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/shadcn-ui-patterns.md"
+    },
+    {
+      "name": "ztx4-component-system-ark-ui-state-machines",
+      "domain": "component-system",
+      "task": "ark-ui-state-machines",
+      "description": "Map Ark UI logic/presentation slots and state to the product context.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/ark-ui-state-machines.md"
+    },
+    {
+      "name": "ztx4-component-system-headless-ui-dialogs",
+      "domain": "component-system",
+      "task": "headless-ui-dialogs",
+      "description": "Integrate Headless UI focus trapping, labels and restoration.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/headless-ui-dialogs.md"
+    },
+    {
+      "name": "ztx4-component-system-storybook-state-matrix",
+      "domain": "component-system",
+      "task": "storybook-state-matrix",
+      "description": "Create stories for default/loading/error/empty/disabled/focus/RTL/dark/narrow.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/storybook-state-matrix.md"
+    },
+    {
+      "name": "ztx4-component-system-controlled-uncontrolled-props",
+      "domain": "component-system",
+      "task": "controlled-uncontrolled-props",
+      "description": "Avoid desynchronization between parent state and internal uncontrolled behavior.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/controlled-uncontrolled-props.md"
+    },
+    {
+      "name": "ztx4-component-system-accessibility-naming",
+      "domain": "component-system",
+      "task": "accessibility-naming",
+      "description": "Ensure label/role/value and accessible descriptions for every interactive affordance.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/accessibility-naming.md"
+    },
+    {
+      "name": "ztx4-component-system-focus-trap-and-return",
+      "domain": "component-system",
+      "task": "focus-trap-and-return",
+      "description": "Implement modal focus containment and restore focus on close without deadlocks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/focus-trap-and-return.md"
+    },
+    {
+      "name": "ztx4-component-system-keyboard-roving-tabindex",
+      "domain": "component-system",
+      "task": "keyboard-roving-tabindex",
+      "description": "Use roving tabindex for composite widgets rather than multiple tabbable duplicates.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/keyboard-roving-tabindex.md"
+    },
+    {
+      "name": "ztx4-component-system-forms-validation-states",
+      "domain": "component-system",
+      "task": "forms-validation-states",
+      "description": "Validate field on appropriate timing, identify problems in text and preserve input.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/forms-validation-states.md"
+    },
+    {
+      "name": "ztx4-component-system-empty-loading-error-success",
+      "domain": "component-system",
+      "task": "empty-loading-error-success",
+      "description": "Design four non-happy-path states with accessible announcements and retry logic.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/empty-loading-error-success.md"
+    },
+    {
+      "name": "ztx4-component-system-component-tokens",
+      "domain": "component-system",
+      "task": "component-tokens",
+      "description": "Bind typography, spacing, radius, color and motion durations semantically.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/component-tokens.md"
+    },
+    {
+      "name": "ztx4-component-system-css-framework-adapters",
+      "domain": "component-system",
+      "task": "css-framework-adapters",
+      "description": "Produce Tailwind and Bootstrap adapters without doubling interaction ownership.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/css-framework-adapters.md"
+    },
+    {
+      "name": "ztx4-component-system-rtl-and-bidi-contract",
+      "domain": "component-system",
+      "task": "rtl-and-bidi-contract",
+      "description": "Keep DOM meaningful when toggling direction; mirror only directional decorative assets.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/rtl-and-bidi-contract.md"
+    },
+    {
+      "name": "ztx4-component-system-responsive-component-containers",
+      "domain": "component-system",
+      "task": "responsive-component-containers",
+      "description": "Make component render correctly in 280px sidebar and 1200px main region.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/responsive-component-containers.md"
+    },
+    {
+      "name": "ztx4-component-system-storybook-visual-qa",
+      "domain": "component-system",
+      "task": "storybook-visual-qa",
+      "description": "Capture component stories per theme/viewport for screenshot comparison.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/storybook-visual-qa.md"
+    },
+    {
+      "name": "ztx4-component-system-version-upgrade-policy",
+      "domain": "component-system",
+      "task": "version-upgrade-policy",
+      "description": "Audit dependency/changelog conflicts and avoid blind mass upgrades.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/version-upgrade-policy.md"
+    },
+    {
+      "name": "ztx4-component-system-package-tree-shaking",
+      "domain": "component-system",
+      "task": "package-tree-shaking",
+      "description": "Keep component imports narrow and document expected bundle impact.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/package-tree-shaking.md"
+    },
+    {
+      "name": "ztx4-component-system-component-api-docs",
+      "domain": "component-system",
+      "task": "component-api-docs",
+      "description": "Document usage examples, limitations and decision records with each component.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system/recipes/component-api-docs.md"
+    },
+    {
+      "name": "ztx4-component-system",
+      "domain": "component-system",
+      "task": "domain-master",
+      "description": "Produce reusable, accessible, testable components with explicit contracts across headless/UI frameworks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/component-system.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-persian-latin-font-pairing",
+      "domain": "advanced-typography",
+      "task": "persian-latin-font-pairing",
+      "description": "Match x-height, perceived stroke, script coverage and weight families between Persian/Latin.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/persian-latin-font-pairing.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-font-license-loading",
+      "domain": "advanced-typography",
+      "task": "font-license-loading",
+      "description": "Self-host only licensed formats with correct preload/crossorigin and font-display.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/font-license-loading.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-variable-font-axes",
+      "domain": "advanced-typography",
+      "task": "variable-font-axes",
+      "description": "Use font-variation-settings and real wght/wdth/opsz axes when font supports them.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/variable-font-axes.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-optical-sizing",
+      "domain": "advanced-typography",
+      "task": "optical-sizing",
+      "description": "Enable font-optical-sizing where the font supports opsz; compare legibility in tiny captions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/optical-sizing.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-fluid-modular-scale",
+      "domain": "advanced-typography",
+      "task": "fluid-modular-scale",
+      "description": "Use clamp/rem fluid type levels with stable hierarchy at all widths.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/fluid-modular-scale.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-max-line-measure",
+      "domain": "advanced-typography",
+      "task": "max-line-measure",
+      "description": "Limit long-form line length per script and break overlong tokens.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/max-line-measure.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-line-height-and-diacritics",
+      "domain": "advanced-typography",
+      "task": "line-height-and-diacritics",
+      "description": "Avoid clipping Persian diacritics and adjust glyph-safe vertical rhythm.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/line-height-and-diacritics.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-letter-spacing-script-safety",
+      "domain": "advanced-typography",
+      "task": "letter-spacing-script-safety",
+      "description": "Avoid Latin-style letter spacing that damages Arabic-script joining.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/letter-spacing-script-safety.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-figures-numeral-localization",
+      "domain": "advanced-typography",
+      "task": "figures-numeral-localization",
+      "description": "Implement localized numeral display while keeping IDs/URLs machine-readable.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/figures-numeral-localization.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-bidi-isolate-code",
+      "domain": "advanced-typography",
+      "task": "bidi-isolate-code",
+      "description": "Use bdi and dir=auto for mixed filenames, paths, Latin brands and numbers.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/bidi-isolate-code.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-kinetic-type-word",
+      "domain": "advanced-typography",
+      "task": "kinetic-type-word",
+      "description": "Animate word spans with semantic full string preserved for screen readers.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/kinetic-type-word.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-kinetic-type-char",
+      "domain": "advanced-typography",
+      "task": "kinetic-type-char",
+      "description": "Use accessible duplicate/source text and avoid tearing Arabic ligatures into unusable chars.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/kinetic-type-char.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-text-masking",
+      "domain": "advanced-typography",
+      "task": "text-masking",
+      "description": "Create overflow/mask reveal without hiding focus or essential copy.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/text-masking.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-3d-extruded-typography",
+      "domain": "advanced-typography",
+      "task": "3d-extruded-typography",
+      "description": "Generate SDF/extruded text meshes with correct font atlas, bounds and DOM equivalent.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/3d-extruded-typography.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-font-fallback-metric",
+      "domain": "advanced-typography",
+      "task": "font-fallback-metric",
+      "description": "Use size-adjust/ascent-override where justified to prevent CLS.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/font-fallback-metric.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-svg-type-path",
+      "domain": "advanced-typography",
+      "task": "svg-type-path",
+      "description": "Animate text on SVG path while retaining accessible plain text fallback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/svg-type-path.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-editorial-layout",
+      "domain": "advanced-typography",
+      "task": "editorial-layout",
+      "description": "Build asymmetric editorial type hierarchy preserving reading sequence and touch access.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/editorial-layout.md"
+    },
+    {
+      "name": "ztx4-advanced-typography-font-resilience-test",
+      "domain": "advanced-typography",
+      "task": "font-resilience-test",
+      "description": "Test missing fonts, slow networks and user-customized fonts for overlap.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography/recipes/font-resilience-test.md"
+    },
+    {
+      "name": "ztx4-advanced-typography",
+      "domain": "advanced-typography",
+      "task": "domain-master",
+      "description": "Create fluent bilingual, responsive and accessible type systems, including controlled typographic motion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/advanced-typography.md"
+    },
+    {
+      "name": "ztx4-performance-auto-frame-time-observer",
+      "domain": "performance-auto",
+      "task": "frame-time-observer",
+      "description": "Sample real frame deltas and compute rolling median/p95 excluding idle backgrounds.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/frame-time-observer.md"
+    },
+    {
+      "name": "ztx4-performance-auto-dpr-governor",
+      "domain": "performance-auto",
+      "task": "dpr-governor",
+      "description": "Adjust DPR with hysteresis and cooldown to avoid oscillation and resize thrash.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/dpr-governor.md"
+    },
+    {
+      "name": "ztx4-performance-auto-gpu-drawcall-audit",
+      "domain": "performance-auto",
+      "task": "gpu-drawcall-audit",
+      "description": "Inspect renderer.info and batching opportunity, verify picture parity.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/gpu-drawcall-audit.md"
+    },
+    {
+      "name": "ztx4-performance-auto-geometry-budget",
+      "domain": "performance-auto",
+      "task": "geometry-budget",
+      "description": "Track triangles/vertices/material switches per scene and quality tier.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/geometry-budget.md"
+    },
+    {
+      "name": "ztx4-performance-auto-shader-iteration-budget",
+      "domain": "performance-auto",
+      "task": "shader-iteration-budget",
+      "description": "Limit ray steps/noise octaves/post passes and cap high-frequency loops.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/shader-iteration-budget.md"
+    },
+    {
+      "name": "ztx4-performance-auto-gputexture-memory-estimate",
+      "domain": "performance-auto",
+      "task": "gputexture-memory-estimate",
+      "description": "Estimate mipmaps/compressed/uncompressed texture residency and render targets.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/gputexture-memory-estimate.md"
+    },
+    {
+      "name": "ztx4-performance-auto-asset-compression-pipeline",
+      "domain": "performance-auto",
+      "task": "asset-compression-pipeline",
+      "description": "Use modern images, AVIF/WebP fallback, Meshopt/Draco/KTX2 based on support.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/asset-compression-pipeline.md"
+    },
+    {
+      "name": "ztx4-performance-auto-javascript-bundle-budget",
+      "domain": "performance-auto",
+      "task": "javascript-bundle-budget",
+      "description": "Run build analyzer; split feature code by routes and interaction points.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/javascript-bundle-budget.md"
+    },
+    {
+      "name": "ztx4-performance-auto-lcp-optimization",
+      "domain": "performance-auto",
+      "task": "lcp-optimization",
+      "description": "Prioritize hero render, preload critical resources and avoid render blocking.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/lcp-optimization.md"
+    },
+    {
+      "name": "ztx4-performance-auto-inp-optimization",
+      "domain": "performance-auto",
+      "task": "inp-optimization",
+      "description": "Defer heavy handlers, yield long tasks, avoid synchronous layout reads/writes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/inp-optimization.md"
+    },
+    {
+      "name": "ztx4-performance-auto-cls-optimization",
+      "domain": "performance-auto",
+      "task": "cls-optimization",
+      "description": "Reserve layout boxes, preload critical fonts and never inject height without bounds.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/cls-optimization.md"
+    },
+    {
+      "name": "ztx4-performance-auto-scroll-jank-analysis",
+      "domain": "performance-auto",
+      "task": "scroll-jank-analysis",
+      "description": "Trace scroll/wheel handlers, passive listeners and sync layout read thrash.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/scroll-jank-analysis.md"
+    },
+    {
+      "name": "ztx4-performance-auto-battery-data-adaptation",
+      "domain": "performance-auto",
+      "task": "battery-data-adaptation",
+      "description": "Use reduced-data and power-hint proxies cautiously; user override must work.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/battery-data-adaptation.md"
+    },
+    {
+      "name": "ztx4-performance-auto-visibility-throttling",
+      "domain": "performance-auto",
+      "task": "visibility-throttling",
+      "description": "Pause rendering or lower FPS in hidden tabs and offscreen sections.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/visibility-throttling.md"
+    },
+    {
+      "name": "ztx4-performance-auto-adaptive-postprocessing",
+      "domain": "performance-auto",
+      "task": "adaptive-postprocessing",
+      "description": "Disable costly effects on lower tiers while preserving object silhouette.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/adaptive-postprocessing.md"
+    },
+    {
+      "name": "ztx4-performance-auto-worker-offscreen-canvas",
+      "domain": "performance-auto",
+      "task": "worker-offscreen-canvas",
+      "description": "Move CPU-heavy deterministic workloads to workers where architecture permits.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/worker-offscreen-canvas.md"
+    },
+    {
+      "name": "ztx4-performance-auto-performance-ci-budgets",
+      "domain": "performance-auto",
+      "task": "performance-ci-budgets",
+      "description": "Create threshold-based trend gates without treating lab scores as field metrics.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/performance-ci-budgets.md"
+    },
+    {
+      "name": "ztx4-performance-auto-before-after-proof",
+      "domain": "performance-auto",
+      "task": "before-after-proof",
+      "description": "Attach measured traces and functional screenshots before claiming any improvement.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto/recipes/before-after-proof.md"
+    },
+    {
+      "name": "ztx4-performance-auto",
+      "domain": "performance-auto",
+      "task": "domain-master",
+      "description": "Measure and adapt rendering/interaction cost instead of optimizing blindly.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/performance-auto.md"
+    },
+    {
+      "name": "ztx4-visual-qa-playwright-viewport-matrix",
+      "domain": "visual-qa",
+      "task": "playwright-viewport-matrix",
+      "description": "Automate 320/360/390/430/768/1024/1440/1920 viewport coverage.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/playwright-viewport-matrix.md"
+    },
+    {
+      "name": "ztx4-visual-qa-deterministic-animation-clock",
+      "domain": "visual-qa",
+      "task": "deterministic-animation-clock",
+      "description": "Freeze/canonicalize time and animations for reproducible screenshot captures.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/deterministic-animation-clock.md"
+    },
+    {
+      "name": "ztx4-visual-qa-visual-snapshot-baselines",
+      "domain": "visual-qa",
+      "task": "visual-snapshot-baselines",
+      "description": "Use toHaveScreenshot with versioned baseline per platform and intentional updates.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/visual-snapshot-baselines.md"
+    },
+    {
+      "name": "ztx4-visual-qa-dom-overflow-check",
+      "domain": "visual-qa",
+      "task": "dom-overflow-check",
+      "description": "Locate wide elements with bounding boxes and report selector offenders.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/dom-overflow-check.md"
+    },
+    {
+      "name": "ztx4-visual-qa-container-overflow-check",
+      "domain": "visual-qa",
+      "task": "container-overflow-check",
+      "description": "Detect child scrollWidth violations in nested card, dialog, sidebar.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/container-overflow-check.md"
+    },
+    {
+      "name": "ztx4-visual-qa-keyboard-journey-tests",
+      "domain": "visual-qa",
+      "task": "keyboard-journey-tests",
+      "description": "Exercise Tab, Shift+Tab, Esc, Enter and arrow keys on composite controls.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/keyboard-journey-tests.md"
+    },
+    {
+      "name": "ztx4-visual-qa-axe-accessibility-audit",
+      "domain": "visual-qa",
+      "task": "axe-accessibility-audit",
+      "description": "Run automated a11y scans then manually verify semantics and contrast nuances.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/axe-accessibility-audit.md"
+    },
+    {
+      "name": "ztx4-visual-qa-rtl-ltr-parity",
+      "domain": "visual-qa",
+      "task": "rtl-ltr-parity",
+      "description": "Compare functionality and logical alignment in fa/rtl and en/ltr.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/rtl-ltr-parity.md"
+    },
+    {
+      "name": "ztx4-visual-qa-zoom-reflow-test",
+      "domain": "visual-qa",
+      "task": "zoom-reflow-test",
+      "description": "Test browser zoom emulation with narrow effective CSS viewport and reflow.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/zoom-reflow-test.md"
+    },
+    {
+      "name": "ztx4-visual-qa-focus-indicator-test",
+      "domain": "visual-qa",
+      "task": "focus-indicator-test",
+      "description": "Verify focus visibility in light, dark, scroll and sticky overlays.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/focus-indicator-test.md"
+    },
+    {
+      "name": "ztx4-visual-qa-3d-render-fallback-test",
+      "domain": "visual-qa",
+      "task": "3d-render-fallback-test",
+      "description": "Disable WebGL and ensure alt controls and CTA remain functional.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/3d-render-fallback-test.md"
+    },
+    {
+      "name": "ztx4-visual-qa-scroll-animation-reverse",
+      "domain": "visual-qa",
+      "task": "scroll-animation-reverse",
+      "description": "Assert same scene state when progress is approached from up and down.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/scroll-animation-reverse.md"
+    },
+    {
+      "name": "ztx4-visual-qa-visual-regression-triage",
+      "domain": "visual-qa",
+      "task": "visual-regression-triage",
+      "description": "Use differential screenshots with allowed masks only for true nondeterminism.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/visual-regression-triage.md"
+    },
+    {
+      "name": "ztx4-visual-qa-console-network-audit",
+      "domain": "visual-qa",
+      "task": "console-network-audit",
+      "description": "Capture unhandled promise, JS errors, resource 404 and CSP warnings.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/console-network-audit.md"
+    },
+    {
+      "name": "ztx4-visual-qa-broken-interaction-test",
+      "domain": "visual-qa",
+      "task": "broken-interaction-test",
+      "description": "Click every meaningful CTA and validate expected state navigation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/broken-interaction-test.md"
+    },
+    {
+      "name": "ztx4-visual-qa-color-contrast-batch",
+      "domain": "visual-qa",
+      "task": "color-contrast-batch",
+      "description": "Evaluate background/foreground pairings in every semantic state.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/color-contrast-batch.md"
+    },
+    {
+      "name": "ztx4-visual-qa-qa-prioritized-fix-loop",
+      "domain": "visual-qa",
+      "task": "qa-prioritized-fix-loop",
+      "description": "Group issues by root cause, fix highest severity and rerun matrix.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/qa-prioritized-fix-loop.md"
+    },
+    {
+      "name": "ztx4-visual-qa-evidence-honesty-report",
+      "domain": "visual-qa",
+      "task": "evidence-honesty-report",
+      "description": "Separate passed, failed, skipped and unexecuted checks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa/recipes/evidence-honesty-report.md"
+    },
+    {
+      "name": "ztx4-visual-qa",
+      "domain": "visual-qa",
+      "task": "domain-master",
+      "description": "Close the loop between rendered UI evidence, detected defects and verified fixes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/visual-qa.md"
+    },
+    {
+      "name": "ztx4-interaction-system-pointer-event-normalization",
+      "domain": "interaction-system",
+      "task": "pointer-event-normalization",
+      "description": "Use pointerdown/move/up/cancel with capture and pointerId tracking.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/pointer-event-normalization.md"
+    },
+    {
+      "name": "ztx4-interaction-system-drag-drop-keyboard",
+      "domain": "interaction-system",
+      "task": "drag-drop-keyboard",
+      "description": "Provide sortable dragging with keyboard pickup/drop/reorder equivalent.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/drag-drop-keyboard.md"
+    },
+    {
+      "name": "ztx4-interaction-system-gesture-velocity-inertia",
+      "domain": "interaction-system",
+      "task": "gesture-velocity-inertia",
+      "description": "Estimate velocity from timestamps and apply friction with capped displacement.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/gesture-velocity-inertia.md"
+    },
+    {
+      "name": "ztx4-interaction-system-spring-gesture-physics",
+      "domain": "interaction-system",
+      "task": "spring-gesture-physics",
+      "description": "Integrate damped spring with bounded delta to prevent numerical blow-up.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/spring-gesture-physics.md"
+    },
+    {
+      "name": "ztx4-interaction-system-magnetic-button",
+      "domain": "interaction-system",
+      "task": "magnetic-button",
+      "description": "Apply subtle pointer attraction only as decoration; keep semantic fixed hit target.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/magnetic-button.md"
+    },
+    {
+      "name": "ztx4-interaction-system-custom-cursor",
+      "domain": "interaction-system",
+      "task": "custom-cursor",
+      "description": "Enable only fine pointers and never hide focus/required UI.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/custom-cursor.md"
+    },
+    {
+      "name": "ztx4-interaction-system-hover-3d-tilt",
+      "domain": "interaction-system",
+      "task": "hover-3d-tilt",
+      "description": "Map normalized pointer coordinates to shallow rotations and reset on blur.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/hover-3d-tilt.md"
+    },
+    {
+      "name": "ztx4-interaction-system-canvas-hit-testing",
+      "domain": "interaction-system",
+      "task": "canvas-hit-testing",
+      "description": "Use raycaster or ID buffer with clear hover/focus alternatives.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/canvas-hit-testing.md"
+    },
+    {
+      "name": "ztx4-interaction-system-scroll-velocity-effects",
+      "domain": "interaction-system",
+      "task": "scroll-velocity-effects",
+      "description": "Low-pass filter scroll velocity and avoid nausea inducing high amplitude.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/scroll-velocity-effects.md"
+    },
+    {
+      "name": "ztx4-interaction-system-state-machine-ui",
+      "domain": "interaction-system",
+      "task": "state-machine-ui",
+      "description": "Specify idle/hover/pressed/loading/success/failure transitions and one animation owner.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/state-machine-ui.md"
+    },
+    {
+      "name": "ztx4-interaction-system-rive-state-machine-bridge",
+      "domain": "interaction-system",
+      "task": "rive-state-machine-bridge",
+      "description": "Bridge semantic HTML events to exported Rive state input names.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/rive-state-machine-bridge.md"
+    },
+    {
+      "name": "ztx4-interaction-system-pinch-zoom",
+      "domain": "interaction-system",
+      "task": "pinch-zoom",
+      "description": "Support two-pointer pinch where relevant with min/max and wheel/keyboard controls.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/pinch-zoom.md"
+    },
+    {
+      "name": "ztx4-interaction-system-long-press-touch",
+      "domain": "interaction-system",
+      "task": "long-press-touch",
+      "description": "Implement clear hold affordance and cancellation; avoid inaccessible hidden-only actions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/long-press-touch.md"
+    },
+    {
+      "name": "ztx4-interaction-system-swipe-carousel",
+      "domain": "interaction-system",
+      "task": "swipe-carousel",
+      "description": "Avoid horizontal page-scroll traps and show arrow alternatives.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/swipe-carousel.md"
+    },
+    {
+      "name": "ztx4-interaction-system-gesture-conflict-arbitration",
+      "domain": "interaction-system",
+      "task": "gesture-conflict-arbitration",
+      "description": "Resolve nested scroll, drag and zoom ownership with touch-action policy.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/gesture-conflict-arbitration.md"
+    },
+    {
+      "name": "ztx4-interaction-system-pointer-capture-cleanup",
+      "domain": "interaction-system",
+      "task": "pointer-capture-cleanup",
+      "description": "Release capture on cancellation/unmount and reset stuck state.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/pointer-capture-cleanup.md"
+    },
+    {
+      "name": "ztx4-interaction-system-haptic-and-sound-optional",
+      "domain": "interaction-system",
+      "task": "haptic-and-sound-optional",
+      "description": "Use optional feedback with user gesture and preference; do not autoplay audio.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/haptic-and-sound-optional.md"
+    },
+    {
+      "name": "ztx4-interaction-system-input-latency-budget",
+      "domain": "interaction-system",
+      "task": "input-latency-budget",
+      "description": "Keep interaction handler work low and defer nonessential computation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/input-latency-budget.md"
+    },
+    {
+      "name": "ztx4-interaction-system-reduced-motion-interactions",
+      "domain": "interaction-system",
+      "task": "reduced-motion-interactions",
+      "description": "Preserve affordance and success feedback without spatial motion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system/recipes/reduced-motion-interactions.md"
+    },
+    {
+      "name": "ztx4-interaction-system",
+      "domain": "interaction-system",
+      "task": "domain-master",
+      "description": "Make rich gestures learnable, keyboard-equivalent, robust and conflict-free with animation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/interaction-system.md"
+    },
+    {
+      "name": "ztx4-product-systems-landing-page",
+      "domain": "product-systems",
+      "task": "landing-page",
+      "description": "Hero, proof, capabilities, comparison, CTA and accessible navigation with meaningful hierarchy.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/landing-page.md"
+    },
+    {
+      "name": "ztx4-product-systems-saas-marketing",
+      "domain": "product-systems",
+      "task": "saas-marketing",
+      "description": "Pricing tiers, features, case studies, trial flow, FAQ and plan decision states.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/saas-marketing.md"
+    },
+    {
+      "name": "ztx4-product-systems-ecommerce-storefront",
+      "domain": "product-systems",
+      "task": "ecommerce-storefront",
+      "description": "Catalog, faceted search, product detail, cart, checkout error/empty states.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/ecommerce-storefront.md"
+    },
+    {
+      "name": "ztx4-product-systems-analytics-dashboard",
+      "domain": "product-systems",
+      "task": "analytics-dashboard",
+      "description": "Filters, charts, data tables, loading/empty/errors and responsive dense layout.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/analytics-dashboard.md"
+    },
+    {
+      "name": "ztx4-product-systems-blog-publication",
+      "domain": "product-systems",
+      "task": "blog-publication",
+      "description": "Archives, author metadata, article typography, related content, SEO and RSS.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/blog-publication.md"
+    },
+    {
+      "name": "ztx4-product-systems-portfolio-creative",
+      "domain": "product-systems",
+      "task": "portfolio-creative",
+      "description": "Project case studies, credits, galleries, contact and reduced-motion portfolio navigation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/portfolio-creative.md"
+    },
+    {
+      "name": "ztx4-product-systems-product-documentation",
+      "domain": "product-systems",
+      "task": "product-documentation",
+      "description": "Versioned nav, search, code blocks, anchors, TOC and keyboard support.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/product-documentation.md"
+    },
+    {
+      "name": "ztx4-product-systems-admin-console",
+      "domain": "product-systems",
+      "task": "admin-console",
+      "description": "Permissions, CRUD, audit trails, tables, bulk actions and confirmation patterns.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/admin-console.md"
+    },
+    {
+      "name": "ztx4-product-systems-course-learning",
+      "domain": "product-systems",
+      "task": "course-learning",
+      "description": "Lessons, progress, media transcripts, quiz errors, resume states and navigation.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/course-learning.md"
+    },
+    {
+      "name": "ztx4-product-systems-3d-studio-showcase",
+      "domain": "product-systems",
+      "task": "3d-studio-showcase",
+      "description": "3D hero with poster alternative and accessible project details.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/3d-studio-showcase.md"
+    },
+    {
+      "name": "ztx4-product-systems-onboarding-wizard",
+      "domain": "product-systems",
+      "task": "onboarding-wizard",
+      "description": "Progressive disclosure, step validation, back/forward preservation and review.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/onboarding-wizard.md"
+    },
+    {
+      "name": "ztx4-product-systems-account-settings",
+      "domain": "product-systems",
+      "task": "account-settings",
+      "description": "Profile, privacy, notifications, destructive actions and audit feedback.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/account-settings.md"
+    },
+    {
+      "name": "ztx4-product-systems-search-discovery",
+      "domain": "product-systems",
+      "task": "search-discovery",
+      "description": "Autosuggest, filters, pagination, zero-results and debouncing.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/search-discovery.md"
+    },
+    {
+      "name": "ztx4-product-systems-booking-workflow",
+      "domain": "product-systems",
+      "task": "booking-workflow",
+      "description": "Date/time selection, time zone handling, constraints, confirmation and errors.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/booking-workflow.md"
+    },
+    {
+      "name": "ztx4-product-systems-design-system-site",
+      "domain": "product-systems",
+      "task": "design-system-site",
+      "description": "Component docs, live controls, tokens, accessibility notes and changelog.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/design-system-site.md"
+    },
+    {
+      "name": "ztx4-product-systems-product-roadmap",
+      "domain": "product-systems",
+      "task": "product-roadmap",
+      "description": "Projects, milestones, sortable views, filtering and editing permissions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/product-roadmap.md"
+    },
+    {
+      "name": "ztx4-product-systems-help-center",
+      "domain": "product-systems",
+      "task": "help-center",
+      "description": "Semantic search, suggested articles, ticket creation and accessibility.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/help-center.md"
+    },
+    {
+      "name": "ztx4-product-systems-real-time-dashboard",
+      "domain": "product-systems",
+      "task": "real-time-dashboard",
+      "description": "Socket reconnection, stale data, live-announcement throttling and graceful offline.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/real-time-dashboard.md"
+    },
+    {
+      "name": "ztx4-product-systems-multi-tenant-saas",
+      "domain": "product-systems",
+      "task": "multi-tenant-saas",
+      "description": "Tenant isolation UI, role selection, scoped navigation and error states.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/multi-tenant-saas.md"
+    },
+    {
+      "name": "ztx4-product-systems-rtl-bilingual-product",
+      "domain": "product-systems",
+      "task": "rtl-bilingual-product",
+      "description": "Full locale switch retaining state and adjusting typography/logical alignment.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/rtl-bilingual-product.md"
+    },
+    {
+      "name": "ztx4-product-systems-payment-ui-safety",
+      "domain": "product-systems",
+      "task": "payment-ui-safety",
+      "description": "Never mimic storing card details; use provider tokens and validated error flows.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/payment-ui-safety.md"
+    },
+    {
+      "name": "ztx4-product-systems-full-journey-integration",
+      "domain": "product-systems",
+      "task": "full-journey-integration",
+      "description": "Assert two or more end-to-end flows with screenshot and network error handling.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems/recipes/full-journey-integration.md"
+    },
+    {
+      "name": "ztx4-product-systems",
+      "domain": "product-systems",
+      "task": "domain-master",
+      "description": "Produce functioning multi-page product flows, not isolated decorative landing screenshots.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/product-systems.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-json-ingestion",
+      "domain": "design-to-code",
+      "task": "figma-json-ingestion",
+      "description": "Parse locally exported Figma JSON with schema validation; never assume undocumented fields.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-json-ingestion.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-token-extraction",
+      "domain": "design-to-code",
+      "task": "figma-token-extraction",
+      "description": "Map fill/stroke/type/effect variables to stable semantic token names.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-token-extraction.md"
+    },
+    {
+      "name": "ztx4-design-to-code-auto-layout-to-css",
+      "domain": "design-to-code",
+      "task": "auto-layout-to-css",
+      "description": "Convert horizontal/vertical stack and gap/padding constraints to flex/grid.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/auto-layout-to-css.md"
+    },
+    {
+      "name": "ztx4-design-to-code-constraints-to-responsive",
+      "domain": "design-to-code",
+      "task": "constraints-to-responsive",
+      "description": "Replace fixed positions with minimum/intrinsic widths and container behavior.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/constraints-to-responsive.md"
+    },
+    {
+      "name": "ztx4-design-to-code-component-variants-from-design",
+      "domain": "design-to-code",
+      "task": "component-variants-from-design",
+      "description": "Generate variants and states from design components with safe defaults.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/component-variants-from-design.md"
+    },
+    {
+      "name": "ztx4-design-to-code-svg-asset-cleanup",
+      "domain": "design-to-code",
+      "task": "svg-asset-cleanup",
+      "description": "Sanitize SVG, strip scripts/foreignObject where unsafe, preserve viewBox.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/svg-asset-cleanup.md"
+    },
+    {
+      "name": "ztx4-design-to-code-images-export-map",
+      "domain": "design-to-code",
+      "task": "images-export-map",
+      "description": "Deduplicate exports and record source/license/size/alt semantics.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/images-export-map.md"
+    },
+    {
+      "name": "ztx4-design-to-code-persian-font-metrics",
+      "domain": "design-to-code",
+      "task": "persian-font-metrics",
+      "description": "Map text styles with script-safe fallback, fluid line height and RTL.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/persian-font-metrics.md"
+    },
+    {
+      "name": "ztx4-design-to-code-color-system-normalization",
+      "domain": "design-to-code",
+      "task": "color-system-normalization",
+      "description": "Consolidate near-equal colors by intended role, not only distance.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/color-system-normalization.md"
+    },
+    {
+      "name": "ztx4-design-to-code-local-screenshot-geometry",
+      "domain": "design-to-code",
+      "task": "local-screenshot-geometry",
+      "description": "Infer columns/margins from provided screenshot while labeling guesses.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/local-screenshot-geometry.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-to-react-components",
+      "domain": "design-to-code",
+      "task": "figma-to-react-components",
+      "description": "Create semantic React composition and preserve focus/label relationships.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-to-react-components.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-to-tailwind-v4",
+      "domain": "design-to-code",
+      "task": "figma-to-tailwind-v4",
+      "description": "Generate Tailwind v4 classes and @theme from local semantic tokens.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-to-tailwind-v4.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-to-bootstrap-53",
+      "domain": "design-to-code",
+      "task": "figma-to-bootstrap-53",
+      "description": "Generate Bootstrap structure, CSS var bridges and RTL stylesheet plan.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-to-bootstrap-53.md"
+    },
+    {
+      "name": "ztx4-design-to-code-figma-to-vanilla-css",
+      "domain": "design-to-code",
+      "task": "figma-to-vanilla-css",
+      "description": "Generate semantic HTML/CSS with progressive enhancement for simple sites.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/figma-to-vanilla-css.md"
+    },
+    {
+      "name": "ztx4-design-to-code-design-diff-roundtrip",
+      "domain": "design-to-code",
+      "task": "design-diff-roundtrip",
+      "description": "Capture implementation screenshot and record matched/mismatched regions.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/design-diff-roundtrip.md"
+    },
+    {
+      "name": "ztx4-design-to-code-design-asset-license-check",
+      "domain": "design-to-code",
+      "task": "design-asset-license-check",
+      "description": "Verify user rights to exports before bundling; report unlicensed assets.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code/recipes/design-asset-license-check.md"
+    },
+    {
+      "name": "ztx4-design-to-code",
+      "domain": "design-to-code",
+      "task": "domain-master",
+      "description": "Convert permitted local Figma exports/reference assets to structured, accessible, maintainable UI without MCP.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/design-to-code.md"
+    },
+    {
+      "name": "ztx4-premium-critic-brand-fidelity-review",
+      "domain": "premium-critic",
+      "task": "brand-fidelity-review",
+      "description": "Verify logo, spacing, voice and color alignment with provided identity evidence.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/brand-fidelity-review.md"
+    },
+    {
+      "name": "ztx4-premium-critic-visual-hierarchy-critique",
+      "domain": "premium-critic",
+      "task": "visual-hierarchy-critique",
+      "description": "Check visual priority matches user task and primary action, not random decoration.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/visual-hierarchy-critique.md"
+    },
+    {
+      "name": "ztx4-premium-critic-anti-ai-template-audit",
+      "domain": "premium-critic",
+      "task": "anti-ai-template-audit",
+      "description": "Flag clichéd gradients, glass cards, repetitive symmetry and generic imagery without evidence.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/anti-ai-template-audit.md"
+    },
+    {
+      "name": "ztx4-premium-critic-composition-balance",
+      "domain": "premium-critic",
+      "task": "composition-balance",
+      "description": "Assess mass, alignment, whitespace, asymmetry and focal points across breakpoints.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/composition-balance.md"
+    },
+    {
+      "name": "ztx4-premium-critic-color-taste-review",
+      "domain": "premium-critic",
+      "task": "color-taste-review",
+      "description": "Inspect palette coherence, neutral role distribution and restrained use of chroma.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/color-taste-review.md"
+    },
+    {
+      "name": "ztx4-premium-critic-typography-quality",
+      "domain": "premium-critic",
+      "task": "typography-quality",
+      "description": "Assess letter shaping, bilingual rhythm, headline display and readable long-form measures.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/typography-quality.md"
+    },
+    {
+      "name": "ztx4-premium-critic-motion-meaning-critique",
+      "domain": "premium-critic",
+      "task": "motion-meaning-critique",
+      "description": "Ensure every movement clarifies state/navigation or adds intentional atmosphere.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/motion-meaning-critique.md"
+    },
+    {
+      "name": "ztx4-premium-critic-3d-value-critique",
+      "domain": "premium-critic",
+      "task": "3d-value-critique",
+      "description": "Confirm 3D helps narrative and does not obstruct content or accessibility.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/3d-value-critique.md"
+    },
+    {
+      "name": "ztx4-premium-critic-content-credibility",
+      "domain": "premium-critic",
+      "task": "content-credibility",
+      "description": "Reject fake testimonials, fabricated logos, impossible claims and placeholder claims.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/content-credibility.md"
+    },
+    {
+      "name": "ztx4-premium-critic-cta-clarity",
+      "domain": "premium-critic",
+      "task": "cta-clarity",
+      "description": "Check that primary action is obvious, correct and placed where user can act.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/cta-clarity.md"
+    },
+    {
+      "name": "ztx4-premium-critic-mobile-specific-aesthetics",
+      "domain": "premium-critic",
+      "task": "mobile-specific-aesthetics",
+      "description": "Critique independent mobile composition, not only scaled desktop.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/mobile-specific-aesthetics.md"
+    },
+    {
+      "name": "ztx4-premium-critic-reduced-motion-quality",
+      "domain": "premium-critic",
+      "task": "reduced-motion-quality",
+      "description": "Confirm reduced-motion output still looks deliberate and premium.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/reduced-motion-quality.md"
+    },
+    {
+      "name": "ztx4-premium-critic-error-state-design",
+      "domain": "premium-critic",
+      "task": "error-state-design",
+      "description": "Evaluate empty/loading/error as carefully as success state.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/error-state-design.md"
+    },
+    {
+      "name": "ztx4-premium-critic-consistency-governance",
+      "domain": "premium-critic",
+      "task": "consistency-governance",
+      "description": "Check tokens, radius and animation duration across pages.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/consistency-governance.md"
+    },
+    {
+      "name": "ztx4-premium-critic-pixel-diff-with-judgment",
+      "domain": "premium-critic",
+      "task": "pixel-diff-with-judgment",
+      "description": "Use visual diff as evidence not aesthetic truth; account for acceptable differences.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/pixel-diff-with-judgment.md"
+    },
+    {
+      "name": "ztx4-premium-critic-prioritized-redesign",
+      "domain": "premium-critic",
+      "task": "prioritized-redesign",
+      "description": "Produce a fix plan with severity, effort and user impact estimate labeled subjective.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/prioritized-redesign.md"
+    },
+    {
+      "name": "ztx4-premium-critic-design-signoff-report",
+      "domain": "premium-critic",
+      "task": "design-signoff-report",
+      "description": "Record evaluated states, strengths, verified issues and remaining unknowns.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic/recipes/design-signoff-report.md"
+    },
+    {
+      "name": "ztx4-premium-critic",
+      "domain": "premium-critic",
+      "task": "domain-master",
+      "description": "Review real rendered evidence to detect shallow templates and improve clarity, brand and delight without hallucinating benchmarks.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/premium-critic.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-origin-manifest",
+      "domain": "skill-trust-security",
+      "task": "origin-manifest",
+      "description": "Record URL, revision/hash, author, license and date for source material.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/origin-manifest.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-license-matrix",
+      "domain": "skill-trust-security",
+      "task": "license-matrix",
+      "description": "Distinguish MIT/Apache/BSD attribution from restricted/proprietary sources.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/license-matrix.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-file-hash-preservation",
+      "domain": "skill-trust-security",
+      "task": "file-hash-preservation",
+      "description": "Use SHA-256 per archive member to prove all old files byte-identical.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/file-hash-preservation.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-prompt-injection-audit",
+      "domain": "skill-trust-security",
+      "task": "prompt-injection-audit",
+      "description": "Flag instructions in untrusted docs that attempt to override system/user requirements.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/prompt-injection-audit.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-exfiltration-pattern-scan",
+      "domain": "skill-trust-security",
+      "task": "exfiltration-pattern-scan",
+      "description": "Detect suspicious reads of secrets and outbound network to unknown endpoints.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/exfiltration-pattern-scan.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-destructive-command-scan",
+      "domain": "skill-trust-security",
+      "task": "destructive-command-scan",
+      "description": "Highlight rm -rf, Remove-Item -Recurse, forced git resets, credential ops and remote shell pipes.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/destructive-command-scan.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-dependency-lock-policy",
+      "domain": "skill-trust-security",
+      "task": "dependency-lock-policy",
+      "description": "Pin runtime/library versions and require lockfile/known compatible peer dependencies.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/dependency-lock-policy.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-skill-namespace-isolation",
+      "domain": "skill-trust-security",
+      "task": "skill-namespace-isolation",
+      "description": "Prevent name collision and refuse overwrite until conflict explicitly resolved.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/skill-namespace-isolation.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-skill-relevance-ranking",
+      "domain": "skill-trust-security",
+      "task": "skill-relevance-ranking",
+      "description": "Limit retrieval to task-relevant skills and document why each was loaded.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/skill-relevance-ranking.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-provenance-attestation",
+      "domain": "skill-trust-security",
+      "task": "provenance-attestation",
+      "description": "Include machine-readable manifest with sourced links and declared authoring mode.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/provenance-attestation.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-rollback-safe-install",
+      "domain": "skill-trust-security",
+      "task": "rollback-safe-install",
+      "description": "Support dry-run/default skip, backups and reversible additions with no old deletion.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/rollback-safe-install.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-credential-handling",
+      "domain": "skill-trust-security",
+      "task": "credential-handling",
+      "description": "Avoid secrets in logs, test fixtures or generated source files.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/credential-handling.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-github-repository-vetting",
+      "domain": "skill-trust-security",
+      "task": "github-repository-vetting",
+      "description": "Check README, releases, ownership, stars as weak signal, last maintenance and license.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/github-repository-vetting.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security-skill-quality-scorecard",
+      "domain": "skill-trust-security",
+      "task": "skill-quality-scorecard",
+      "description": "Evaluate specificity, runnable artifacts, accessible fallbacks, tests and dependency risk.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security/recipes/skill-quality-scorecard.md"
+    },
+    {
+      "name": "ztx4-skill-trust-security",
+      "domain": "skill-trust-security",
+      "task": "domain-master",
+      "description": "Treat untrusted skill packages and generated code as code supply-chain inputs requiring explicit verification.",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/references/skill-trust-security.md"
+    },
+    {
+      "name": "ztx4-deep-implementation-master",
+      "domain": "orchestration",
+      "task": "master",
+      "description": "Full additive control plane",
+      "recipe": "extensions/DEEP-IMPLEMENTATION-v2/RUNBOOK-FA.md"
+    }
+  ]
+}

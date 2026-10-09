@@ -1,0 +1,14 @@
+/* npm i @fontsource-variable/vazirmatn @fontsource-variable/inter
+   In JS: import '@fontsource-variable/vazirmatn'; import '@fontsource-variable/inter';
+   If brand mandates a different font, override design tokens after checking licenses. */
+:root { --zt-font-fa: 'Vazirmatn Variable','Noto Sans Arabic',sans-serif;
+        --zt-font-en: 'Inter Variable',system-ui,sans-serif; }
+html:lang(fa), :lang(fa) { font-family:var(--zt-font-fa); }
+html:lang(en), :lang(en) { font-family:var(--zt-font-en); }
+[dir="rtl"] { direction:rtl; }
+[dir="ltr"] { direction:ltr; }
+.zt-bi-token { unicode-bidi:isolate; direction:ltr; display:inline-block; }
+.zt-display { font-size:clamp(2.2rem,5vw + 1rem,6rem); line-height:1.12; }
+:lang(fa) .zt-display { line-height:1.35; letter-spacing:normal; }
+:lang(en) .zt-display { line-height:1.08; letter-spacing:-0.035em; }
+@media (prefers-reduced-motion:reduce) { .zt-motion-word { transform:none!important; transition:none!important; } }

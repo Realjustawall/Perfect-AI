@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@custom-variant dark (&:where([data-theme="dark"], [data-theme="dark"] *));
+@theme {
+  --color-zt-white: #fafafa;
+  --color-zt-black: #09090b;
+  --color-zt-line: #52525b;
+  --font-zt: system-ui, "Segoe UI", Tahoma, sans-serif;
+  --breakpoint-wide: 90rem;
+  --radius-zt: 1.25rem;
+}
+:root { --zt-bg: #f8f8f8; --zt-text: #111111; --zt-surface: #ffffff; --zt-line: #a1a1aa; }
+[data-theme="dark"] { --zt-bg: #09090b; --zt-text: #f4f4f5; --zt-surface: #18181b; --zt-line: #52525b; }
+@layer base {
+ html { scroll-behavior:smooth; }
+ body { margin:0; background:var(--zt-bg);color:var(--zt-text);font-family:var(--font-zt); }
+ :focus-visible { outline:3px solid var(--zt-text); outline-offset:3px; }
+}
+.zt-surface { background:var(--zt-surface); border-color:var(--zt-line); }
+#zt-canvas { position:absolute;inset:0;width:100%;height:100%;z-index:0;pointer-events:none;opacity:.7; }
+.zt-copy { position:relative;z-index:1; }
+@media (prefers-reduced-motion:reduce) { *,*::before,*::after { scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important; } }
+@media (forced-colors:active) {.zt-surface {border:1px solid CanvasText;} }

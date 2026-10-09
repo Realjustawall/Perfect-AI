@@ -1,0 +1,56 @@
+# Role allocation and specialization
+
+Every role has a different mission and output gate. The coordinator should not assign two specialists to independently edit the same file. The critic locates weaknesses; the advocate preserves proven strengths; brand guardian audits approved identity; the verification agent rejects invented evidence. Domain specialists activate by website type. See JSON profiles for complete mappings.
+
+- **Adversarial Design Critic** (`critical-reviewer`): Find high-impact visual, functional, and product flaws, independently of positive reviewers Evidence: annotated screenshots, reproduction steps, component paths.
+- **Design Advocate and Strengths Analyst** (`positive-advocate`): Defend working design decisions with concrete evidence and identify strengths worth preserving Evidence: screenshots, successful tests, reference design tokens.
+- **Brand Identity and Consistency Auditor** (`brand-guardian`): Compare rendered UI against approved brand identity and motion language Evidence: brand-identity.json, style tokens, screenshots.
+- **Accessibility and Inclusive Design Auditor** (`accessibility-auditor`): Verify keyboard, semantics, reflow, focus, contrast, assistive-tech assumptions Evidence: axe results, keyboard recordings, DOM, computed styles.
+- **User Task Flow Auditor** (`ux-task-flow`): Evaluate task completion friction and affordance from start to finish Evidence: journey notes, interaction logs, screenshots.
+- **Functional QA Auditor** (`functional-test`): Discover broken navigation, inert controls and error handling Evidence: Playwright report, network/console logs, DOM snapshots.
+- **Frontend Performance Auditor** (`performance-web`): Find web vitals, loading and runtime responsiveness risks Evidence: trace, Lighthouse, bundle analysis, profiler.
+- **Security and Privacy Reviewer** (`security-privacy`): Audit privacy-sensitive UI, exposed secrets and unsafe client behavior Evidence: code scans, network logs, policy.
+- **Frontend Architecture Reviewer** (`code-maintainability`): Identify implementation defects, ownership conflicts and hard-to-maintain code Evidence: git diff, files and line numbers, test output.
+- **Responsive and Reflow Specialist** (`responsive-layout`): Evaluate mobile/tablet/ultrawide layouts and container-dependent composition Evidence: screenshots per viewport, computed DOM boxes.
+- **Bilingual Typography and Bidi Specialist** (`bilingual-typography`): Review Persian/English font loading, bidi isolation and typography quality Evidence: font network requests, screenshots, computed font family.
+- **Color Science and Contrast Specialist** (`color-system`): Audit hue/chroma consistency, semantics and five rendered palettes Evidence: token files, calculated ratios, palette screenshots.
+- **Motion Design and Timeline Auditor** (`motion-orchestrator`): Identify motion conflicts, inconsistent rhythm and reduced-motion defects Evidence: animation frame captures, CSS/JS owner mapping.
+- **Scroll-linked Interaction Auditor** (`scroll-timeline`): Audit pin/scrub progress, nested scroll and browser fallback Evidence: scroll positions, recordings, screenshots.
+- **Pointer and Touch Interaction Auditor** (`pointer-gesture`): Test hover, magnetic, drag and touch interaction parity Evidence: pointer traces, touch simulations, event listeners.
+- **3D Spatial Composition Auditor** (`three-placement`): Verify real projected model placement relative to DOM text and viewports Evidence: camera matrices, model bounds, DOM rectangles, frames.
+- **Three.js Rendering and GPU Reviewer** (`three-renderer`): Find GPU rendering bottlenecks and degradation failures Evidence: renderer.info, frame timing, device screenshots.
+- **Deterministic Animation Frame Reviewer** (`animation-frame`): Verify text, scroll, pointer and 3D animation at reproducible progress values Evidence: frame series, timestamps, computed transforms.
+- **Visual Regression Root Cause Reviewer** (`visual-regression`): Attribute unexpected visual diffs to probable CSS/DOM/source changes Evidence: baseline/candidate images, DOM snapshots, git diff.
+- **SEO and Metadata Specialist** (`seo-discoverability`): Validate crawlable content, links and structured metadata Evidence: rendered head, sitemap, robots, URL inspections.
+- **Content Design and Microcopy Reviewer** (`content-writing`): Check headings, CTAs, empty states, errors and tone alignment Evidence: copy inventory, UX journeys, screenshots.
+- **Localization and Locale Specialist** (`internationalization`): Check localization beyond translation: dates, plurals, direction, content overflow Evidence: locale files, screenshot matrix, DOM attrs.
+- **Measurement and Consent Auditor** (`analytics-consent`): Review privacy-preserving analytics instrumentation and consent choices Evidence: network inspection, analytics plans, consent UI.
+- **Ecommerce Catalog Specialist** (`ecommerce-catalog`): Validate product discovery, category navigation and search/filter logic Evidence: catalog scenarios, screenshot, test data.
+- **Checkout and Payment Experience Specialist** (`ecommerce-checkout`): Audit cart-to-order journey including validation and recovery Evidence: checkout test scenarios, validation evidence.
+- **Commerce Trust and Product Detail Specialist** (`ecommerce-trust`): Evaluate seller trust, shipping clarity, policies, accessible buying Evidence: product detail screenshots, copy inventory.
+- **SaaS Activation and Onboarding Specialist** (`saas-onboarding`): Review path from signup to first successful action Evidence: signup flow screenshots, flow logs.
+- **SaaS Pricing and Conversion Specialist** (`saas-pricing`): Verify pricing comparison, billing semantics and CTA hierarchy Evidence: pricing screenshots, plan schema.
+- **Dashboard Information Architecture Specialist** (`dashboard-data`): Ensure charts and KPIs support decisions and accessible data Evidence: dashboard screenshots, data schema, table fallback.
+- **Dashboard Filtering and Stateful UI Specialist** (`dashboard-filters`): Ensure filters, URL state, ranges and pagination work as expected Evidence: recorded filter steps, route state.
+- **Editorial Reading and Long-form Reviewer** (`editorial-reading`): Audit reading typography, navigation and content depth Evidence: article screenshots, CSS metrics.
+- **Documentation Navigation and API Discoverability Specialist** (`docs-navigation`): Validate docs hierarchy, search, code examples and version labels Evidence: docs page captures, navigation tests.
+- **Portfolio Art Direction Specialist** (`portfolio-storytelling`): Evaluate case study narrative and role attribution Evidence: case study screenshots, content map.
+- **Agency and Studio Showcase Specialist** (`agency-brand`): Audit agency voice, differentiated identity and project reveal rhythm Evidence: hero/portfolio captures, brand tokens.
+- **Immersive 3D Website Specialist** (`immersive-3d`): Evaluate scroll-led scenes, camera storytelling, fallback and motion sickness Evidence: 3D frame captures, renderer logs.
+- **Game-like Web Experience Specialist** (`game-interaction`): Audit controls, instructions, performance and gameplay feedback Evidence: interaction replay, FPS trace.
+- **Learning Product Interaction Specialist** (`education-learning`): Assess pedagogy, lesson structure and learner feedback Evidence: lesson flow, exercise examples.
+- **Health UI Clarity and Caution Specialist** (`health-content-safety`): Identify dangerous ambiguity, consent and accessibility in health interfaces Evidence: screen captures, content map.
+- **Finance Interface Clarity Specialist** (`finance-trust`): Review risk disclosures, currency, data latency and transaction confirmation Evidence: payment flows, price snapshots.
+- **Public Service Inclusivity Specialist** (`government-accessibility`): Ensure forms, identity flows, multilingual accessibility and error recovery Evidence: forms audit, policy copy.
+- **Audio and Video Product Specialist** (`media-playback`): Audit captions, player controls, buffering and playback states Evidence: player screenshots, media logs.
+- **Reservation and Booking UX Specialist** (`booking-availability`): Audit date picker, inventory, confirmation and time zone clarity Evidence: reservation flows, date tests.
+- **Community Safety and Moderation UX Specialist** (`community-moderation`): Review posting, privacy, abuse/report routes and inclusive interaction Evidence: community flow captures, moderation policy.
+- **Nonprofit and Donation Experience Specialist** (`nonprofit-impact`): Review impact clarity, donation trust and recurring consent Evidence: donation scenarios, page captures.
+- **Real Estate and Mapping Specialist** (`realestate-maps`): Check listing filters, map controls, property media and geographic clarity Evidence: map screenshots, route state.
+- **Travel and Multi-stop Journey Specialist** (`travel-itinerary`): Audit itinerary grouping, transport, maps and timezone handling Evidence: itinerary view, route logs.
+- **Enterprise Workflow and Permission Specialist** (`enterprise-workflow`): Review role-gated workflows, audit trails and bulk tasks Evidence: permission matrix, admin flows.
+- **Sitewide Search and Discovery Specialist** (`search-discovery`): Assess query handling, results relevance and filtering UX Evidence: search scenarios, UI screenshots.
+- **Forms and Validation Specialist** (`form-resilience`): Review validation timing, error language, state retention and submit safety Evidence: form trace, test cases.
+- **Mobile-First Interaction Reviewer** (`mobile-interaction`): Review mobile performance, thumb reach, safe areas and offline behavior Evidence: mobile screenshots, touch test logs.
+- **Distinctiveness and Anti-Template Reviewer** (`visual-originality`): Spot generic AI-generated layouts and propose grounded brand alternatives Evidence: comparison board, brand identity, screenshots.
+- **Evidence and Completion Gatekeeper** (`verification-gate`): Only certify completed claims backed by reproducible proof Evidence: test logs, screenshot manifest, environment reports.

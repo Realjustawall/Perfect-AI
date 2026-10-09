@@ -1,0 +1,7 @@
+/* Import generated tokens.css before Bootstrap overrides. Semantic values are sourced from Style Dictionary. */
+:root, [data-bs-theme="light"] {
+  --bs-body-bg:var(--semantic-surface);--bs-body-color:var(--semantic-text);--bs-border-color:var(--semantic-border);
+}
+[data-bs-theme="dark"] {
+  --bs-body-bg:#101010;--bs-body-color:#f5f5f5;--bs-border-color:#9a9a9a;
+}

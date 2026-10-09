@@ -1,0 +1,13 @@
+import test from 'node:test';import assert from 'node:assert/strict';import fs from 'node:fs';import path from 'node:path';
+const root=new URL('../',import.meta.url).pathname;
+const skills=fs.readdirSync(path.join(root,'skills')).filter(n=>fs.existsSync(path.join(root,'skills',n,'SKILL.md')));
+const master=fs.readFileSync(path.join(root,'skills/perfect-ai-master/SKILL.md'),'utf8');
+const refs=fs.readdirSync(path.join(root,'skills/perfect-ai-master/references'));
+const patterns=fs.readdirSync(path.join(root,'skills/perfect-ai-master/patterns/responsive'));
+test('skills preserve prior 91 and 90+ more',{concurrency:false},()=>assert.ok(skills.length>=180,skills.length));
+test('all skills have frontmatter and unique names',()=>{const seen=new Set;for(const skill of skills){const src=fs.readFileSync(path.join(root,'skills',skill,'SKILL.md'),'utf8');assert.ok(src.startsWith('---\n'),skill);assert.ok(src.includes('\nname: '),skill);assert.ok(src.includes('\ndescription: '),skill);const name=src.match(/\nname: ([^\n]+)/)?.[1];assert.equal(name,skill);assert.ok(!seen.has(name));seen.add(name)}});
+test('prior VibeFarsi 279 full specification cards retained',()=>{const dir=path.join(root,'skills/perfect-ai-master/registry/vibefarsi-items');const walk=p=>fs.readdirSync(p,{withFileTypes:true}).reduce((n,f)=>n+(f.isDirectory()?walk(path.join(p,f.name)):(f.name.endsWith('.md')?1:0)),0);assert.equal(walk(dir),279)});
+test('all 29 new reference chapters retained',()=>{assert.ok(refs.length>=49,refs.length);for(let i=22;i<=50;i++)assert.ok(refs.some(x=>x.startsWith(i+'-')))});
+test('30 responsive patterns retained',()=>assert.equal(patterns.filter(x=>x.endsWith('.md')).length,30));
+test('master references new chapters',()=>assert.ok(master.includes('## OMEGA extension')));
+test('lab offline and semantic',()=>{const s=fs.readFileSync(path.join(root,'examples/responsive-lab/index.html'),'utf8');assert.ok(s.includes('dir="rtl"'));assert.ok(s.includes('aria-expanded'));assert.ok(s.includes('<main'));assert.ok(s.includes('type="email"'))});

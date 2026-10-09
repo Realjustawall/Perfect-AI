@@ -1,0 +1,17 @@
+{
+  "title": "Perfect_AI Multi-Agent Specialists",
+  "version": "1.0.0",
+  "built_date": "2026-10-09",
+  "base": "Perfect_AI_FRAME_SPACE_DEVICE_LAB_All_In_One_Codex_Skills.zip",
+  "preserved_previous_files": 5927,
+  "preserved_previous_skills": 2333,
+  "additional_files": 85,
+  "additional_skills": 69,
+  "total_skills": 2402,
+  "specialist_roles": 53,
+  "site_types": 21,
+  "mcp_required": false,
+  "external_sources_bundled": false,
+  "live_codex_tests": "not run; fake CLI subprocess tests passed",
+  "source_compliance": "adapted original role skills with links; no third-party GitHub code was copied"
+}

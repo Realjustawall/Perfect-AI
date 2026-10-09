@@ -1,0 +1,1 @@
+Install `web-vitals`, enable telemetry only with consent and a configured same-origin endpoint. PII scrub, retention, cohort sampling and security controls must be implemented by operator. Report computes p75 with sample-size gates; synthetic data is demo only.

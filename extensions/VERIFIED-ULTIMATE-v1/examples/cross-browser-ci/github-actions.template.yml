@@ -1,0 +1,27 @@
+name: perfect-ai-browser-matrix
+on:
+  push:
+  pull_request:
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: {node-version: '22'}
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium firefox webkit
+      - run: npm run build
+      - name: Start preview
+        run: npm run preview -- --host 127.0.0.1 --port 4173 > preview.log 2>&1 &
+      - run: npx wait-on http://127.0.0.1:4173
+      - run: npx playwright test
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-proof
+          path: |
+            playwright-report/
+            test-results/
+            preview.log

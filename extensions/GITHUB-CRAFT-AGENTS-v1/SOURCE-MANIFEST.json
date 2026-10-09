@@ -1,0 +1,97 @@
+{
+  "release": "2026-10-09",
+  "mode": "independent-local-skills-with-optional-original-source-staging",
+  "source_files_vendored": false,
+  "sources": [
+    {
+      "key": "impeccable",
+      "name": "Impeccable Design Craft",
+      "repo": "pbakaus/impeccable",
+      "path": ".agents/skills/impeccable",
+      "license": "Apache-2.0",
+      "runtime": "Optional: npx impeccable skills install (manual upstream installer)",
+      "main": "ztgc-impeccable-design-craft",
+      "sha": "b9d82965dd59a45596c5b63a1cf4207168a272a7"
+    },
+    {
+      "key": "emil",
+      "name": "Emil Design Engineering",
+      "repo": "emilkowalski/skills",
+      "path": "skills",
+      "license": "MIT",
+      "runtime": "None for authored guidance; optional Motion/GSAP project dependencies",
+      "main": "ztgc-emil-design-engineering",
+      "sha": "62ce902af8dd32c590ea7203e9ab2edb1d6ef81a"
+    },
+    {
+      "key": "taste",
+      "name": "Taste Skill",
+      "repo": "Leonxlnx/taste-skill",
+      "path": "skills",
+      "license": "MIT",
+      "runtime": "Optional: Python/GSAP only when selected; avoid treating style recipes as universal rules",
+      "main": "ztgc-taste-creative-direction",
+      "sha": "03ed209b8fdc0a3cd6bccf8a5b3bfffe56aa4558"
+    },
+    {
+      "key": "shadcn",
+      "name": "Official shadcn/ui Workflow",
+      "repo": "shadcn-ui/ui",
+      "path": "skills/shadcn",
+      "license": "MIT",
+      "runtime": "Node.js + npx shadcn@latest (or pnpm/bun equivalent)",
+      "main": "ztgc-shadcn-ui-workflow",
+      "sha": "c1e7388d2d9b9e90af44af9a5f135dae1b3a870a"
+    },
+    {
+      "key": "browser",
+      "name": "Agent Browser CLI",
+      "repo": "vercel-labs/agent-browser",
+      "path": "skills/agent-browser",
+      "license": "Apache-2.0",
+      "runtime": "npm i -g agent-browser; agent-browser install; CLI only",
+      "main": "ztgc-agent-browser-cli",
+      "sha": "dc9bb54a22e9cd7ad9c982a0fe5ae2e204751b12"
+    },
+    {
+      "key": "doctor",
+      "name": "React Doctor CLI",
+      "repo": "millionco/react-doctor",
+      "path": "skills/react-doctor",
+      "license": "Modified MIT: AI training and substantially paid hosted service restrictions",
+      "runtime": "npx react-doctor@latest --verbose --scope changed",
+      "main": "ztgc-react-doctor-cli",
+      "sha": "a5199823de09d38b1fffd01fa0e7ab5c7d98091c"
+    },
+    {
+      "key": "remotion",
+      "name": "Remotion Production Skills",
+      "repo": "remotion-dev/skills",
+      "path": "skills",
+      "license": "NO clear top-level redistributable license discovered in skills repo; Remotion runtime has separate eligible-use license",
+      "runtime": "npx skills add remotion-dev/skills (only after reviewing upstream terms); Remotion npm dependencies",
+      "main": "ztgc-remotion-production",
+      "sha": "77537a314531982ca870478d276de97982ec57bf"
+    },
+    {
+      "key": "improve",
+      "name": "shadcn Improve Advisor",
+      "repo": "shadcn/improve",
+      "path": "skills/improve",
+      "license": "MIT",
+      "runtime": "None, source-read-only advice mode",
+      "main": "ztgc-shadcn-improve-advisor",
+      "sha": "df5b9001adda5ee72697ab5f7d3efe74c212e478"
+    },
+    {
+      "key": "prototype",
+      "name": "Emil Prototype Variants",
+      "repo": "emilkowalski/skills",
+      "path": "skills/prototype",
+      "license": "MIT",
+      "runtime": "React or vanilla CSS/HTML; local visual picker; no MCP",
+      "main": "ztgc-emil-prototype-variants",
+      "sha": "dbcc1a23c66933f7372c0aacbce2b0d7cc6100b6"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+.zt3d{--ink:#fff;--paper:#0c0c0d;min-height:clamp(34rem,90svh,68rem);padding:clamp(1rem,5cqi,5rem);display:grid;grid-template-columns:repeat(2,minmax(0,1fr));align-items:center;position:relative;isolation:isolate;overflow:clip;background:var(--paper);color:var(--ink);container-type:inline-size;gap:clamp(1.5rem,4cqi,4rem)}
+.zt3d__canvas{width:100%;height:min(68svh,42rem);min-height:16rem;grid-column:1;grid-row:1;pointer-events:none}
+.zt3d__copy{position:relative;grid-column:2;grid-row:1;max-width:48rem}
+.zt3d__copy h1{font-size:clamp(2.5rem,6.6cqi,7rem);line-height:1.13;letter-spacing:-.02em;margin:.7rem 0 1.3rem;overflow-wrap:anywhere}
+.zt3d__copy p{font-size:clamp(1rem,1.6cqi,1.35rem);line-height:1.85;color:#e5e5e5}
+.zt3d__eyebrow{font:600 .75rem/1.4 system-ui;letter-spacing:.14em;direction:ltr}
+.zt3d__link{display:inline-flex;min-height:44px;align-items:center;padding:.8rem 1.4rem;border:1px solid #eee;border-radius:100px;color:#fff;text-decoration:none}
+.zt3d__link:focus-visible{outline:3px solid #fff;outline-offset:5px}
+.zt3d__poster{height:100%;display:grid;place-items:center;font-size:clamp(8rem,30cqi,30rem);color:#9a9a9a}
+@container (max-width:42rem){.zt3d{grid-template-columns:minmax(0,1fr);padding:1.25rem}.zt3d__canvas{grid-column:1;grid-row:1;height:34svh;min-height:14rem}.zt3d__copy{grid-column:1;grid-row:2}.zt3d__copy h1{font-size:clamp(2.2rem,11cqi,4rem)}}
+@media(prefers-reduced-motion:reduce){.zt3d *{scroll-behavior:auto!important;animation-duration:0.01ms!important;transition-duration:0.01ms!important}}

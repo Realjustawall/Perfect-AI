@@ -1,0 +1,17 @@
+{
+  "landing": ["conversion", "originality", "motion_director", "brand_guardian"],
+  "saas": ["onboarding", "forms", "data_privacy", "accessibility"],
+  "ecommerce": ["checkout", "inventory_states", "pricing_integrity", "merchandising"],
+  "dashboard": ["data_visualization", "information_architecture", "keyboard_navigation"],
+  "portfolio": ["typography", "storytelling", "visual_craft"],
+  "documentation": ["search_experience", "navigation", "readability"],
+  "education": ["learning_experience", "readability", "progress_states"],
+  "fintech": ["trust_signals", "pricing_integrity", "privacy_sensitivity"],
+  "health": ["privacy_sensitivity", "accessibility", "readability"],
+  "3d-experience": ["3d_placement", "gpu_budget", "camera_choreography", "fallback_quality"],
+  "real-estate": ["map_interaction", "3d_placement", "conversion"],
+  "agency": ["storytelling", "motion_director", "originality"],
+  "game": ["input_latency", "gpu_budget", "fallback_quality"],
+  "blog": ["seo", "content_editorial", "readability"],
+  "multilingual": ["bidi_typography", "font_loading", "localization"]
+}

@@ -1,0 +1,32 @@
+{
+  "color": {
+    "primitive": {
+      "ink": {
+        "$type": "color",
+        "$value": "#101010"
+      },
+      "paper": {
+        "$type": "color",
+        "$value": "#F5F5F5"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "#5A5A5A"
+      }
+    }
+  },
+  "semantic": {
+    "surface": {
+      "$type": "color",
+      "$value": "{color.primitive.paper}"
+    },
+    "text": {
+      "$type": "color",
+      "$value": "{color.primitive.ink}"
+    },
+    "border": {
+      "$type": "color",
+      "$value": "{color.primitive.accent}"
+    }
+  }
+}

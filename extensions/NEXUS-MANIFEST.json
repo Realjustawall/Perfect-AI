@@ -1,0 +1,12 @@
+{
+  "base_archive": "Perfect_AI_TITAN_PLUS_All_In_One_Codex_Skills.zip",
+  "base_archive_sha256": "e4507e952b62e95cca76ca6785827c2285eee871405f377a998c98389a35cf3e",
+  "legacy_file_count": 4424,
+  "legacy_skill_count": 1532,
+  "added_skills": 197,
+  "added_domain_chapters": 15,
+  "added_focus_skills": 181,
+  "catalog_count": 1729,
+  "source_references": 18,
+  "policy": "all original ZIP members are carried forward unmodified; new paths only"
+}

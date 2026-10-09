@@ -1,0 +1,402 @@
+[
+  {
+    "name": "ztg-vercel-labs-agent-skills",
+    "repo": "vercel-labs/agent-skills",
+    "url": "https://github.com/vercel-labs/agent-skills",
+    "value": "React performance, web interface guidelines, composition patterns",
+    "license_note": "MIT, verify selected skill license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-anthropics-skills",
+    "repo": "anthropics/skills",
+    "url": "https://github.com/anthropics/skills",
+    "value": "Frontend design artistic direction and layout systems",
+    "license_note": "Repository files have per-skill license; check before copying",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-nextlevelbuilder-ui-ux-pro-max-skill",
+    "repo": "nextlevelbuilder/ui-ux-pro-max-skill",
+    "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
+    "value": "Design intelligence, palette typologies, font pairing",
+    "license_note": "MIT, verify version",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-addyosmani-web-quality-skills",
+    "repo": "addyosmani/web-quality-skills",
+    "url": "https://github.com/addyosmani/web-quality-skills",
+    "value": "Lighthouse, Core Web Vitals, search and accessibility",
+    "license_note": "MIT, verify version",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-obra-superpowers",
+    "repo": "obra/superpowers",
+    "url": "https://github.com/obra/superpowers",
+    "value": "Debugging, TDD, planning and verification workflow",
+    "license_note": "Check original license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-shadcn-ui-ui",
+    "repo": "shadcn-ui/ui",
+    "url": "https://github.com/shadcn-ui/ui",
+    "value": "Open-code accessible interface primitives and local component ownership",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-radix-ui-primitives",
+    "repo": "radix-ui/primitives",
+    "url": "https://github.com/radix-ui/primitives",
+    "value": "Accessible low-level input/disclosure components",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-pmndrs-react-three-fiber",
+    "repo": "pmndrs/react-three-fiber",
+    "url": "https://github.com/pmndrs/react-three-fiber",
+    "value": "Declarative React Three.js scene architecture",
+    "license_note": "MIT, verify installed version",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-pmndrs-drei",
+    "repo": "pmndrs/drei",
+    "url": "https://github.com/pmndrs/drei",
+    "value": "Reusable helpers for React Three Fiber",
+    "license_note": "Check original license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-davidhdev-react-bits",
+    "repo": "DavidHDev/react-bits",
+    "url": "https://github.com/DavidHDev/react-bits",
+    "value": "Animated component examples and compositional references",
+    "license_note": "MIT + Commons Clause; inspect restrictions",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-magicuidesign-magicui",
+    "repo": "magicuidesign/magicui",
+    "url": "https://github.com/magicuidesign/magicui",
+    "value": "Hero/text/marquee/particles patterns and skills",
+    "license_note": "Check registry and license before import",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-juliangarnier-anime",
+    "repo": "juliangarnier/anime",
+    "url": "https://github.com/juliangarnier/anime",
+    "value": "Anime.js library code and v4 API guides",
+    "license_note": "Check Anime.js LICENSE and version",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-mrdoob-three-js",
+    "repo": "mrdoob/three.js",
+    "url": "https://github.com/mrdoob/three.js",
+    "value": "Three.js engine and examples",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-motiondivision-motion",
+    "repo": "motiondivision/motion",
+    "url": "https://github.com/motiondivision/motion",
+    "value": "Motion for React and JS animation primitives",
+    "license_note": "MIT; verify package versions",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-greensock-gsap",
+    "repo": "greensock/GSAP",
+    "url": "https://github.com/greensock/GSAP",
+    "value": "Timeline engine and ScrollTrigger",
+    "license_note": "Consult GSAP current licensing",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-tailwindlabs-tailwindcss",
+    "repo": "tailwindlabs/tailwindcss",
+    "url": "https://github.com/tailwindlabs/tailwindcss",
+    "value": "Utility CSS and mobile-first composition",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-microsoft-playwright",
+    "repo": "microsoft/playwright",
+    "url": "https://github.com/microsoft/playwright",
+    "value": "Browser automation, interaction and viewport testing",
+    "license_note": "Apache-2.0",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-storybookjs-storybook",
+    "repo": "storybookjs/storybook",
+    "url": "https://github.com/storybookjs/storybook",
+    "value": "Isolated component stories and visual QA",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-vitejs-vite",
+    "repo": "vitejs/vite",
+    "url": "https://github.com/vitejs/vite",
+    "value": "Fast ESM frontend build tooling",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-facebook-react",
+    "repo": "facebook/react",
+    "url": "https://github.com/facebook/react",
+    "value": "React runtime and lifecycle fundamentals",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-vercel-next-js",
+    "repo": "vercel/next.js",
+    "url": "https://github.com/vercel/next.js",
+    "value": "App Router performance patterns and server rendering",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-vitest-dev-vitest",
+    "repo": "vitest-dev/vitest",
+    "url": "https://github.com/vitest-dev/vitest",
+    "value": "Frontend unit and integration test runner",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-testing-library-react-testing-library",
+    "repo": "testing-library/react-testing-library",
+    "url": "https://github.com/testing-library/react-testing-library",
+    "value": "Behavior-led React component tests",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-dequelabs-axe-core",
+    "repo": "dequelabs/axe-core",
+    "url": "https://github.com/dequelabs/axe-core",
+    "value": "Automated accessibility rule engine",
+    "license_note": "MPL 2.0",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-mdn-content",
+    "repo": "mdn/content",
+    "url": "https://github.com/mdn/content",
+    "value": "Community maintained web platform documentation",
+    "license_note": "Mixed documentation/content license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-wicg-scroll-animations",
+    "repo": "WICG/scroll-animations",
+    "url": "https://github.com/WICG/scroll-animations",
+    "value": "Scroll-driven animation spec and browser work",
+    "license_note": "Check original license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-adobe-react-spectrum",
+    "repo": "adobe/react-spectrum",
+    "url": "https://github.com/adobe/react-spectrum",
+    "value": "React Aria/stately accessible components",
+    "license_note": "Apache-2.0",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-floating-ui-floating-ui",
+    "repo": "floating-ui/floating-ui",
+    "url": "https://github.com/floating-ui/floating-ui",
+    "value": "Overlay positioning and collision detection",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-lucide-icons-lucide",
+    "repo": "lucide-icons/lucide",
+    "url": "https://github.com/lucide-icons/lucide",
+    "value": "SVG icon system and accessibility",
+    "license_note": "ISC / check package",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-xyflow-xyflow",
+    "repo": "xyflow/xyflow",
+    "url": "https://github.com/xyflow/xyflow",
+    "value": "Interactive node and graph UI",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-tldraw-tldraw",
+    "repo": "tldraw/tldraw",
+    "url": "https://github.com/tldraw/tldraw",
+    "value": "Canvas editor interactions and patterns",
+    "license_note": "Check licensing for commercial use",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-googlechrome-lighthouse",
+    "repo": "GoogleChrome/lighthouse",
+    "url": "https://github.com/GoogleChrome/lighthouse",
+    "value": "Web quality diagnostics and lab budgets",
+    "license_note": "Apache-2.0",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-googlechrome-web-vitals",
+    "repo": "GoogleChrome/web-vitals",
+    "url": "https://github.com/GoogleChrome/web-vitals",
+    "value": "Real user LCP/CLS/INP measurements",
+    "license_note": "Apache-2.0",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-tanstack-query",
+    "repo": "TanStack/query",
+    "url": "https://github.com/TanStack/query",
+    "value": "Async server-state and mutation architecture",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-tanstack-table",
+    "repo": "TanStack/table",
+    "url": "https://github.com/TanStack/table",
+    "value": "Headless high-density data tables",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-chakra-ui-ark",
+    "repo": "chakra-ui/ark",
+    "url": "https://github.com/chakra-ui/ark",
+    "value": "Accessible headless UI components",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-framer-motion",
+    "repo": "framer/motion",
+    "url": "https://github.com/framer/motion",
+    "value": "Animation implementation references",
+    "license_note": "Redirect/legacy repo: prefer motiondivision/motion",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-web-platform-tests-wpt",
+    "repo": "web-platform-tests/wpt",
+    "url": "https://github.com/web-platform-tests/wpt",
+    "value": "Cross-browser conformance tests",
+    "license_note": "BSD-3-Clause; check current",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-pmndrs-zustand",
+    "repo": "pmndrs/zustand",
+    "url": "https://github.com/pmndrs/zustand",
+    "value": "State management for interactive apps",
+    "license_note": "MIT",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  },
+  {
+    "name": "ztg-pmndrs-three-stdlib",
+    "repo": "pmndrs/three-stdlib",
+    "url": "https://github.com/pmndrs/three-stdlib",
+    "value": "Reusable Three.js helpers and loaders",
+    "license_note": "Check package and license",
+    "authored_in_pack": true,
+    "upstream_bundled": false,
+    "verification": "curated reference; installed package version must be checked"
+  }
+]

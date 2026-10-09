@@ -1,0 +1,13 @@
+{
+  "repo_revision": "unknown",
+  "url": "http://localhost:3000",
+  "timestamp": "2026-10-09T00:00:00Z",
+  "locales": [
+    "fa",
+    "en"
+  ],
+  "screenshots": [],
+  "test_reports": [],
+  "device_traces": [],
+  "notes": "No test has been run: examples only, do not treat as evidence."
+}

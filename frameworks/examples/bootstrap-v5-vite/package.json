@@ -1,0 +1,18 @@
+{
+  "name": "perfect-ai-bootstrap-v5-lab",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1"
+  },
+  "dependencies": {
+    "bootstrap": "^5.3.8",
+    "animejs": "^4.0.0",
+    "three": "^0.180.0"
+  },
+  "devDependencies": {
+    "vite": "^6.0.0"
+  }
+}

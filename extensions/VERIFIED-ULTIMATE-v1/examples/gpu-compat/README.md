@@ -1,0 +1,1 @@
+Use `renderer.mjs` with installed matching `three` version and `WebGPURenderer` exported by three/webgpu. Browser-test initialization and device loss; prefer 2D/DOM fallback on unsupported systems. WebGPURenderer may have internal WebGL2 fallback; avoid overstating backend detection.
