@@ -30,18 +30,6 @@ This is a complete Codex skills collection for frontend engineering, 3D, motion,
 
 The installer skips existing skill directories rather than overwriting them. Run without `-Execute` to preview.
 
-## Upload every file to this GitHub repository
-
-Install Git for Windows and authenticate with GitHub first. Then run:
-
-```powershell
-git clone https://github.com/Realjustawall/Perfect-AI.git
-cd Perfect-AI
-.\tools\push-perfect-ai.ps1 -ZipPath "C:\Users\YOU\Downloads\Perfect_AI_by_JustAWall_All_In_One_Codex_Skills.zip"
-```
-
-The wrapper verifies the exact ZIP digest, and executes the verified uploader bundled inside it. The uploader checks all source files against the live manifest, refuses conflicting overwrites, and stages source under `package/` and the ZIP under `releases/`.
-
 ## Verification
 
 Inside the downloaded archive, run:
