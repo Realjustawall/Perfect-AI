@@ -38,7 +38,7 @@ try {
   $sourceDest=Join-Path $repoDir 'package'
   New-Item -ItemType Directory -Path $sourceDest -Force | Out-Null
   $added=0
-  foreach($f in Get-ChildItem -LiteralPath $sourceRoot -File -Recurse) {
+  foreach($f in (Get-ChildItem -LiteralPath $sourceRoot -File -Recurse)) {
     $rel=$f.FullName.Substring($sourceRoot.Length).TrimStart('\','/')
     $target=Join-Path $sourceDest $rel
     if (Test-Path -LiteralPath $target) {
