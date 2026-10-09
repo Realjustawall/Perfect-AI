@@ -1,55 +1,55 @@
 # Perfect AI
 
-**Perfect AI** is the new name of the former Zero_Tech GITHUB DESIGN ENGINEERING all-in-one Codex skills pack.
+**Perfect AI** — created and published by **JustAWall**.
 
-> **Publication status:** The repository contains the publication guide and helper. The complete source tree and ZIP release are **not on GitHub until the upload command below succeeds**.
+**Official GitHub:** https://github.com/Realjustawall/Perfect-AI
 
-## Current release
+This is a complete Codex skills collection for frontend engineering, 3D, motion, design, testing, accessibility, automation and production quality, **without requiring MCP**. Individual tools may need npm, Python or a GPU for integration tests.
 
-- Filename: `Perfect_AI_All_In_One_Codex_Skills.zip`
-- Package root: `Perfect-AI/`
-- Original files preserved byte-for-byte: **6,571**
-- Codex skills: **2,702**
-- New additive files: **6**
-- ZIP size: **18,667,144 bytes**
-- ZIP SHA-256: `77dfa38d913d6d2308a0fd6f928b811366d0ccdc6ba5d07920dbc32a6ddf5108`
-- MCP: **not required**
-- Jiro.build sources/examples: **not included**
+## Full distribution
 
-The root folder was renamed, while the bytes of all original files are preserved. Legacy internal documents may still mention Zero_Tech as a former name.
+- Package: `Perfect_AI_by_JustAWall_All_In_One_Codex_Skills.zip`
+- Distribution root: `Perfect-AI/`
+- Complete members: **6,580**
+- `SKILL.md` files: **2,702**
+- Creator: **JustAWall**
+- SHA-256: `fbe8fd334217717a0e5b059382c262e70990a2a9f8510a4c5de7aa0865514f23`
+- No Jiro samples or assets are included.
 
-## Install Codex skills on Windows
+> **Publication status:** This repository currently includes setup and upload instructions. The full source tree and original ZIP must be uploaded using the command below. Do not mistake the README for a complete upload.
 
-1. Download **Perfect_AI_All_In_One_Codex_Skills.zip** from the ChatGPT conversation.
-2. Extract it. Open PowerShell in the extracted `Perfect-AI` directory.
-3. Run:
+## Install on Windows
+
+1. Download the complete ZIP from the ChatGPT conversation.
+2. Extract it into a directory named `Perfect-AI`.
+3. Open PowerShell inside that directory and run:
 
 ```powershell
 .\install\install-perfect-ai.ps1 -ProjectPath "C:\Projects\MyWebsite" -Execute -CopyExtensionAssets
 ```
 
-The project directory must exist. Installation skips all existing skills and extension directories; it never overwrites them. Remove `-Execute` to preview. Restart Codex.
+The installer skips existing skill directories rather than overwriting them. Run without `-Execute` to preview.
 
-## Publish full source + archive to this repository
+## Upload every file to this GitHub repository
 
-Prerequisites: Git for Windows, authenticated GitHub access with permission to push to `main`, and the downloaded ZIP on your computer.
-
-Clone this repository and run the **verified** uploader:
+Install Git for Windows and authenticate with GitHub first. Then run:
 
 ```powershell
 git clone https://github.com/Realjustawall/Perfect-AI.git
 cd Perfect-AI
-.\tools\push-perfect-ai.ps1 -ZipPath "C:\Users\YOU\Downloads\Perfect_AI_All_In_One_Codex_Skills.zip"
+.\tools\push-perfect-ai.ps1 -ZipPath "C:\Users\YOU\Downloads\Perfect_AI_by_JustAWall_All_In_One_Codex_Skills.zip"
 ```
 
-The script checks the **exact ZIP SHA-256** and only stages **new additions**. It refuses overwrites of differently hashed files. It pushes extracted source to `package/` and the original ZIP to `releases/`.
-
-Alternatively, run the uploader that is included under `Perfect-AI/tools/push-perfect-ai.ps1` inside the ZIP; that variant verifies the SHA-256 of each of the 6,571 legacy files using the embedded manifest.
+The wrapper verifies the exact ZIP digest, and executes the verified uploader bundled inside it. The uploader checks all source files against the live manifest, refuses conflicting overwrites, and stages source under `package/` and the ZIP under `releases/`.
 
 ## Verification
 
-The ZIP includes `tools/verify-perfect-ai.py` and `PERFECT-AI-LEGACY-SHA256.json`. The original files were individually verified before distribution and no old data was deleted.
+Inside the downloaded archive, run:
 
-## Notice
+```powershell
+python .\tools\verify-perfect-ai-current.py
+```
 
-Skill documentation does not mean every GPU/browser/npm integration has been independently tested. Review individual licensing notes when redistributing third-party references. The old `tools/push-package.ps1` is deprecated and belongs to the prior archive name.
+This verifies the extracted folder against the current checksum manifest. All nested archives are included in the current brand identity.
+
+**Project and collection: JustAWall.** Individual third-party libraries, referenced code and examples remain subject to their own copyright and licenses.
