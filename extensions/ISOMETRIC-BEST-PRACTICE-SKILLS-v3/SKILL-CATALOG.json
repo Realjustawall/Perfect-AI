@@ -1,0 +1,292 @@
+{
+  "extension": "ISOMETRIC-BEST-PRACTICE-SKILLS-v3",
+  "version": 3,
+  "research_date": "2026-10-14",
+  "skill_count": 25,
+  "selection_note": "Source-backed, add-only companion pack. These are instruction files; no runtime dependencies are installed.",
+  "recommended_order": [
+    "ztx14-best-animation-engine-selection",
+    "ztx14-best-motion-ai-kit-for-agents",
+    "ztx14-best-motion-docs-api-version-gate",
+    "ztx14-best-motion-values-no-rerender",
+    "ztx14-best-motion-transform-mapping",
+    "ztx14-best-pointer-capture-cancel-lifecycle",
+    "ztx14-best-touch-scroll-gesture-arbitration",
+    "ztx14-best-a11y-axe-plus-manual-review",
+    "ztx14-best-animation-performance-trace",
+    "ztx14-best-visual-regression-determinism",
+    "ztx14-best-browser-device-test-matrix",
+    "ztx14-best-agent-implementation-evidence-loop"
+  ],
+  "skills": [
+    {
+      "name": "ztx14-best-motion-ai-kit-for-agents",
+      "title": "Use the official Motion AI Kit and MCP deliberately",
+      "description": "Evaluate and document the official Motion AI Kit skill and hosted MCP for the project’s coding agent without silently changing project or agent configuration.",
+      "use": "The task needs current Motion API documentation, usage examples, or an agent-side Motion skill. This is especially useful for Cursor, Claude Code, Copilot, Gemini CLI, Amp, and OpenCode workflows.",
+      "sources": [
+        "https://motion.dev/docs/ai-kit-install",
+        "https://motion.dev/docs/react"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-docs-api-version-gate",
+      "title": "Gate Motion examples on the installed API version",
+      "description": "Prevent agents from copying current Motion APIs into older projects without checking package versions and migration requirements.",
+      "use": "Any Motion implementation, refactor, or use of newly documented hooks/components.",
+      "sources": [
+        "https://motion.dev/docs/react",
+        "https://motion.dev/docs/ai-kit-install"
+      ]
+    },
+    {
+      "name": "ztx14-best-animation-engine-selection",
+      "title": "Choose CSS, Motion, GSAP, or the existing Isometric engine",
+      "description": "Select the smallest animation tool that fits the interaction and assign one owner to each animated property.",
+      "use": "Before introducing an animation library or implementing a new effect on an Isometric component.",
+      "sources": [
+        "https://motion.dev/docs/react",
+        "https://gsap.com/docs/v3/GSAP/gsap.matchMedia/",
+        "https://web.dev/articles/animations-guide",
+        "https://isometric.buildlab.in/llms.txt"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-values-no-rerender",
+      "title": "Drive high-frequency motion with Motion Values",
+      "description": "Implement cursor-follow and continuous gestures without setting React state on every pointer movement.",
+      "use": "Pointer-follow, tilt, magnetic effects, live velocity, scroll-linked values, and any high-frequency visual value.",
+      "sources": [
+        "https://motion.dev/docs/react-motion-value",
+        "https://motion.dev/docs/react-use-spring",
+        "https://motion.dev/docs/react-use-transform"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-transform-mapping",
+      "title": "Map pointer coordinates to bounded visual responses",
+      "description": "Map local pointer coordinates and velocity to limited rotation, depth, highlight, or parallax with stable reset behavior.",
+      "use": "Isometric-adjacent DOM cards, overlays, labels, or decorative layers; not as a replacement for figure hit-testing.",
+      "sources": [
+        "https://motion.dev/docs/react-use-transform",
+        "https://motion.dev/docs/react-use-spring",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-exit-presence",
+      "title": "Animate enter/exit without leaving stale DOM or state",
+      "description": "Use Motion presence patterns to animate conditional React content while keeping keys and state transitions correct.",
+      "use": "Panels, tooltips, menus, object details, modals, badges, and route-adjacent overlays whose exit should finish after state changes.",
+      "sources": [
+        "https://motion.dev/docs/react-animate-presence",
+        "https://motion.dev/docs/react"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-layout-shared-elements",
+      "title": "Animate layout changes and shared visual identity",
+      "description": "Use layout animation for reorder, resize, and shared-element transitions without manually animating competing position values.",
+      "use": "Lists, tabs, selected object details, cards moving between regions, and UI that changes layout after selection.",
+      "sources": [
+        "https://motion.dev/docs/react-layout-animations",
+        "https://motion.dev/docs/react"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-svg-path-and-viewbox",
+      "title": "Animate SVG drawing and viewBox safely",
+      "description": "Create SVG line-drawing and camera-like framing effects while preserving viewBox, hit regions, labels, and layout stability.",
+      "use": "Isometric diagram reveals, route pulses, line-draw illustrations, and SVG camera framing.",
+      "sources": [
+        "https://motion.dev/docs/react-svg-animation",
+        "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/viewBox",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events"
+      ]
+    },
+    {
+      "name": "ztx14-best-gsap-react-context-cleanup",
+      "title": "Use GSAP in React with context and revert cleanup",
+      "description": "Scope imperative GSAP timelines to the component lifecycle and reliably revert animations when dependencies or breakpoints change.",
+      "use": "Complex scroll stories and orchestrated timelines where GSAP is clearly more appropriate than declarative Motion.",
+      "sources": [
+        "https://gsap.com/docs/v3/Installation/",
+        "https://gsap.com/docs/v3/GSAP/gsap.matchMedia/",
+        "https://react.dev/reference/react/useEffect"
+      ]
+    },
+    {
+      "name": "ztx14-best-scroll-animation-ownership",
+      "title": "Select one scroll-animation owner and preserve native scroll",
+      "description": "Choose native CSS, Motion useScroll, or GSAP ScrollTrigger based on scroll choreography complexity and fallback requirements.",
+      "use": "Parallax, progress indicators, scroll reveals, sticky panels, and multi-section narratives.",
+      "sources": [
+        "https://motion.dev/docs/react-use-scroll",
+        "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/animation-timeline"
+      ]
+    },
+    {
+      "name": "ztx14-best-pointer-capture-cancel-lifecycle",
+      "title": "Handle pointer capture, cancellation, and lost input",
+      "description": "Make drag and press interactions robust to pointer leaving the target, browser cancellation, and interrupted device input.",
+      "use": "Dragging isometric objects, sliders, world panning, custom handles, and any interaction that spans beyond the initial hit target.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Element/pointercancel_event"
+      ]
+    },
+    {
+      "name": "ztx14-best-touch-scroll-gesture-arbitration",
+      "title": "Resolve drag versus page-scroll gesture conflicts",
+      "description": "Design mobile interactions that do not trap vertical scrolling or turn a hover-only action into an unusable touch gesture.",
+      "use": "Touch controls for panning/zooming a world, interactive SVG, carousels, draggable isometric components, and stylus support.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/touch-action",
+        "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html"
+      ]
+    },
+    {
+      "name": "ztx14-best-resize-observer-loop-prevention",
+      "title": "Use ResizeObserver without layout feedback loops",
+      "description": "Adapt an isometric scene to its container without causing resize-loop warnings or read/write layout churn.",
+      "use": "Responsive SVG viewBox, canvas sizing, embedded panels, container-aware motion, and split-pane layouts.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API",
+        "https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver"
+      ]
+    },
+    {
+      "name": "ztx14-best-offscreen-motion-pause",
+      "title": "Pause expensive animation when it is not visible",
+      "description": "Use visibility and intersection signals to suspend nonessential animation work for offscreen scenes and hidden tabs.",
+      "use": "Large SVG worlds, animated illustrations below the fold, interactive scenes inside tabs, and expensive decorative motion.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Document/visibilitychange_event",
+        "https://react.dev/reference/react/useEffect"
+      ]
+    },
+    {
+      "name": "ztx14-best-motion-bundle-budget-lazymotion",
+      "title": "Keep Motion bundle cost proportional to the features used",
+      "description": "Use Motion’s lightweight feature-loading options where appropriate and avoid shipping unused animation features.",
+      "use": "Production bundles, landing pages, interactive Isometric demos, and apps where only a small subset of Motion is required.",
+      "sources": [
+        "https://motion.dev/docs/react-lazy-motion",
+        "https://motion.dev/docs/react"
+      ]
+    },
+    {
+      "name": "ztx14-best-animation-performance-trace",
+      "title": "Profile animation in the browser instead of guessing",
+      "description": "Use browser performance traces and rendering diagnostics to isolate jank in pointer and SVG interactions.",
+      "use": "Reports of stutter, frame drops, high CPU/GPU, delayed cursor-follow, or animation that degrades on mobile.",
+      "sources": [
+        "https://developer.chrome.com/docs/devtools/performance",
+        "https://web.dev/articles/animations-guide",
+        "https://motion.dev/docs/react-motion-value"
+      ]
+    },
+    {
+      "name": "ztx14-best-interaction-input-latency",
+      "title": "Keep pointer feedback responsive under main-thread work",
+      "description": "Reduce input delay by keeping pointer handlers lightweight and measuring end-to-end interaction responsiveness.",
+      "use": "Delayed hover/highlight, cursor-follow lag, heavy SVG picking, menus that open late, and motion that degrades during app work.",
+      "sources": [
+        "https://web.dev/articles/optimize-inp",
+        "https://motion.dev/docs/react-motion-value",
+        "https://developer.chrome.com/docs/devtools/performance"
+      ]
+    },
+    {
+      "name": "ztx14-best-visual-regression-determinism",
+      "title": "Make animation visual regression tests deterministic",
+      "description": "Stabilize screenshots for animation-heavy UI with controlled timing, fonts, assets, viewport, and reduced-motion conditions.",
+      "use": "Playwright screenshot baselines, Storybook visual tests, CI screenshot diffs, or flaky animation assertions.",
+      "sources": [
+        "https://playwright.dev/docs/test-snapshots",
+        "https://playwright.dev/docs/emulation",
+        "https://storybook.js.org/docs/writing-tests"
+      ]
+    },
+    {
+      "name": "ztx14-best-browser-device-test-matrix",
+      "title": "Test interactions across input and viewport capability classes",
+      "description": "Build a focused test matrix for fine/coarse pointers, keyboard, reduced motion, orientation, and small viewports.",
+      "use": "Any new responsive animation, drag mechanic, pointer-follow effect, isometric world control, or component release.",
+      "sources": [
+        "https://playwright.dev/docs/emulation",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events/Using_Pointer_Events",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-best-a11y-axe-plus-manual-review",
+      "title": "Combine automated accessibility scans with manual interaction review",
+      "description": "Use axe-core or Storybook a11y checks as a first pass, then manually verify keyboard, focus, semantics, and spatial interaction alternatives.",
+      "use": "Interactive SVG, custom controls, Isometric objects, hover details, drag controls, modals, menus, and reusable component releases.",
+      "sources": [
+        "https://storybook.js.org/docs/writing-tests/accessibility-testing",
+        "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-best-keyboard-equivalent-spatial-control",
+      "title": "Give spatial object interactions keyboard equivalents",
+      "description": "Make isometric selection, navigation, drag, and world controls usable without a mouse or precise pointer movement.",
+      "use": "Selectable buildings, SVG diagrams, drag-and-drop placement, panning/zooming, layered figures, or objects that respond to hover.",
+      "sources": [
+        "https://www.w3.org/WAI/WCAG22/Understanding/keyboard.html",
+        "https://www.w3.org/WAI/WCAG22/Understanding/dragging-movements.html",
+        "https://developer.mozilla.org/en-US/docs/Web/Accessibility/ARIA/Roles/button_role"
+      ]
+    },
+    {
+      "name": "ztx14-best-ssr-hydration-animation-determinism",
+      "title": "Keep initial animation and SVG markup SSR-safe",
+      "description": "Avoid hydration mismatches and first-paint jumps when animated React/SVG components are server-rendered.",
+      "use": "Next.js or other SSR/hydrated React projects, random decorative layouts, measurement-dependent transforms, and first-load transitions.",
+      "sources": [
+        "https://react.dev/reference/react/useEffect",
+        "https://nextjs.org/docs/app/building-your-application/rendering/client-components",
+        "https://motion.dev/docs/react"
+      ]
+    },
+    {
+      "name": "ztx14-best-css-container-query-motion",
+      "title": "Adapt animation to the component container, not only the viewport",
+      "description": "Use container queries and ResizeObserver intentionally so a component behaves well when embedded in narrow panels or split layouts.",
+      "use": "Reusable Isometric cards, side panels, dashboards, documentation embeds, resizable workspaces, and responsive components inside grids.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_containment/Container_queries",
+        "https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API"
+      ]
+    },
+    {
+      "name": "ztx14-best-svg-layer-hit-region-budget",
+      "title": "Optimize SVG layer count and semantic hit regions",
+      "description": "Keep large SVG scenes responsive by separating decorative geometry from stable interaction targets and limiting unnecessary live nodes.",
+      "use": "Large isometric worlds, SVG dashboards, dense diagrams, complex outlines, and object picking that slows as scene complexity grows.",
+      "sources": [
+        "https://developer.mozilla.org/en-US/docs/Web/CSS/pointer-events",
+        "https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/pointer-events",
+        "https://developer.chrome.com/docs/devtools/performance"
+      ]
+    },
+    {
+      "name": "ztx14-best-agent-implementation-evidence-loop",
+      "title": "Run a bounded implement-test-review loop for UI agents",
+      "description": "Give coding agents a concrete acceptance contract for motion tasks so every implementation has observable evidence and no fabricated verification.",
+      "use": "Agent-driven UI implementation, multi-agent workflows, animation bug fixes, design-to-code tasks, and automated repair loops.",
+      "sources": [
+        "https://motion.dev/docs/ai-kit-install",
+        "https://playwright.dev/docs/test-snapshots",
+        "https://react.dev/reference/react/useEffect"
+      ]
+    }
+  ]
+}

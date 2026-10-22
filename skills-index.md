@@ -189,3 +189,7 @@
 - **`$ztx-ux-interactions`** — Interaction feedback and state transitions. Invoke for precise implementation, responsive states, tests and integration into existing code; part of the Perfect_AI OMEGA no-MCP Codex skill collection.
 - **`$ztx-ux-microcopy`** — Persian UX writing and state wording. Invoke for precise implementation, responsive states, tests and integration into existing code; part of the Perfect_AI OMEGA no-MCP Codex skill collection.
 - **`$ztx-ux-research`** — Task-first UX planning. Invoke for precise implementation, responsive states, tests and integration into existing code; part of the Perfect_AI OMEGA no-MCP Codex skill collection.
+
+## Additive on-demand website reference skill
+
+- **`$zt-website-reference-library`** — Search 494 isolated website design references (design notes, theme CSS, tokens and variables); use only for requested visual inspiration/style research. Search first, inspect 1–3 entries, keep brand systems isolated, normalize scales, and never treat references as Perfect AI-authored work. Assets: `extensions/WEBSITE-REFERENCE-LIBRARY-v1/`.

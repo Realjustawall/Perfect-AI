@@ -772,3 +772,8 @@ This is a catalog, not a request to load every skill. Use `python tools/find-ski
 - `$ztg-pmndrs-three-stdlib` — https://github.com/pmndrs/three-stdlib
 
 Original 187 OMEGA Skills, 279 VibeFarsi item specifications, and prior responsive implementation files also remain in the exact paths they had.
+
+
+## Additive optional website reference layer
+
+`extensions/WEBSITE-REFERENCE-LIBRARY-v1/` provides an isolated catalog of 494 website style references. It is opt-in, not part of the default context load: run `tools/find-website-reference.py` and open at most 1–3 selected entries. Keep each theme and its scale separate; refer to that extension's `README-FA.md` and `$zt-website-reference-library` for rules.

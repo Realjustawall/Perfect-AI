@@ -1,0 +1,62 @@
+@theme {
+  /* Colors */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-charcoal-ink: #0a0a0a;
+  --color-focus-gray: #737373;
+
+  /* Typography */
+  --font-space-mono: 'Space Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-avnier-font: 'avnier-font', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-rubik: 'Rubik', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-arial: 'Arial', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-gtstandard-m: 'GTStandard-M', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-utility-link: 12px;
+  --leading-utility-link: 1.4;
+  --tracking-utility-link: 0.996px;
+  --text-body: 13px;
+  --leading-body: 1.2;
+  --tracking-body: 0px;
+  --text-footer-heading: 14px;
+  --leading-footer-heading: 1.43;
+  --tracking-footer-heading: 0px;
+  --text-account-label: 14px;
+  --leading-account-label: 1.2;
+  --tracking-account-label: 0px;
+  --text-image-panel-heading: 15px;
+  --leading-image-panel-heading: 1.14;
+  --tracking-image-panel-heading: 0px;
+  --text-hero-heading: 25px;
+  --leading-hero-heading: 1.18;
+  --tracking-hero-heading: 0px;
+  --text-editorial-heading: 33px;
+  --leading-editorial-heading: 1.3;
+  --tracking-editorial-heading: 0px;
+  --text-category-heading: 55px;
+  --leading-category-heading: 1.18;
+  --tracking-category-heading: 0px;
+
+  /* Spacing */
+  --spacing-4: 4px;
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-12: 12px;
+  --spacing-13: 13px;
+  --spacing-15: 15px;
+  --spacing-16: 16px;
+  --spacing-19: 19px;
+  --spacing-20: 20px;
+  --spacing-22: 22px;
+  --spacing-24: 24px;
+  --spacing-27: 27px;
+  --spacing-30: 30px;
+  --spacing-50: 50px;
+  --spacing-80: 80px;
+
+  /* Shadows */
+  --shadow-subtle: rgb(0, 0, 0) 0px 0px 0px 1px;
+  --shadow-subtle-2: rgba(0, 0, 0, 0.55) 0px 0px 0px 1px;
+}

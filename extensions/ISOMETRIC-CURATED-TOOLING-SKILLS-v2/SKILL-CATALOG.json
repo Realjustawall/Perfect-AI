@@ -1,0 +1,372 @@
+{
+  "extension": "ISOMETRIC-CURATED-TOOLING-SKILLS-v2",
+  "version": 2,
+  "research_date": "2026-10-14",
+  "skill_count": 30,
+  "selection_note": "Curated tooling/integration specialists; use alongside the existing Isometric interaction skills. No runtime dependencies are installed.",
+  "recommended_order": [
+    "ztx14-curated-isometric-component-selection",
+    "ztx14-curated-animation-ownership-boundary",
+    "ztx14-curated-motion-react-pointer-spring",
+    "ztx14-curated-motion-hover-cross-device",
+    "ztx14-curated-responsive-motion-capabilities",
+    "ztx14-curated-reduced-motion-system",
+    "ztx14-curated-shadcn-registry-safe-install",
+    "ztx14-curated-playwright-pointer-e2e",
+    "ztx14-curated-playwright-visual-baselines",
+    "ztx14-curated-css-motion-performance",
+    "ztx14-curated-shared-loop-offscreen-sleep",
+    "ztx14-curated-gsap-responsive-scroll"
+  ],
+  "skills": [
+    {
+      "name": "ztx14-curated-isometric-component-selection",
+      "title": "Choose the smallest correct Isometric component",
+      "description": "Select the smallest relevant Isometric registry item and use its documented interaction contract before implementing isometric UI.",
+      "sources": [
+        "isometric",
+        "registry",
+        "shadcn-registry"
+      ]
+    },
+    {
+      "name": "ztx14-curated-animation-ownership-boundary",
+      "title": "Keep one owner for every animated property",
+      "description": "Prevent conflicting animation engines by assigning each animated SVG/DOM property and state transition to one owner.",
+      "sources": [
+        "isometric",
+        "motion-spring",
+        "react-effect",
+        "web-animation-performance"
+      ]
+    },
+    {
+      "name": "ztx14-curated-motion-react-pointer-spring",
+      "title": "React pointer-follow with Motion values and springs",
+      "description": "Build lightweight pointer-follow, magnetic, tilt, and cursor-responsive DOM motion with Motion for React without rerendering on every pointer move.",
+      "sources": [
+        "motion-spring",
+        "motion-transform",
+        "pointer-events",
+        "reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-curated-motion-hover-cross-device",
+      "title": "Cross-device hover without sticky touch states",
+      "description": "Implement hover affordances with Motion’s gesture recognition or CSS capability queries so touch interactions do not remain in a fake hover state.",
+      "sources": [
+        "motion-hover",
+        "pointer-events",
+        "tailwind-responsive",
+        "reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-curated-gsap-responsive-scroll",
+      "title": "GSAP scroll choreography with responsive cleanup",
+      "description": "Use GSAP timelines and ScrollTrigger for complex coordinated scroll storytelling, with breakpoint-specific setup that is reverted cleanly.",
+      "sources": [
+        "gsap-matchmedia",
+        "gsap-scrolltrigger",
+        "reduced-motion",
+        "react-effect"
+      ]
+    },
+    {
+      "name": "ztx14-curated-css-scroll-timelines",
+      "title": "Progressive enhancement with native CSS scroll timelines",
+      "description": "Prefer native CSS scroll-driven animation for simple progress-linked effects, with a safe fallback for unsupported or reduced-motion environments.",
+      "sources": [
+        "css-scroll",
+        "web-animation-performance",
+        "reduced-motion",
+        "motion-scroll"
+      ]
+    },
+    {
+      "name": "ztx14-curated-lenis-adoption-gate",
+      "title": "Use Lenis only when native scrolling is insufficient",
+      "description": "Evaluate Lenis for intentional smooth scrolling and scroll-synchronized storytelling without degrading native accessibility or mobile behavior.",
+      "sources": [
+        "lenis",
+        "lenis-react",
+        "gsap-scrolltrigger"
+      ]
+    },
+    {
+      "name": "ztx14-curated-svg-pointer-hit-testing",
+      "title": "Reliable pointer picking for SVG and isometric figures",
+      "description": "Debug SVG and projected-geometry hit testing by separating visible outlines from semantic interaction hit regions.",
+      "sources": [
+        "isometric",
+        "registry",
+        "pointer-events"
+      ]
+    },
+    {
+      "name": "ztx14-curated-pointer-capture-drag",
+      "title": "Robust drag interactions with Pointer Capture",
+      "description": "Implement drag and gesture interactions that survive leaving the target, handle cancellation, and share behavior across mouse, pen and touch.",
+      "sources": [
+        "pointer-events",
+        "mdn-pointer-capture",
+        "wcag22"
+      ]
+    },
+    {
+      "name": "ztx14-curated-responsive-motion-capabilities",
+      "title": "Adapt motion to viewport and input capabilities",
+      "description": "Scale interaction intensity using the container size, pointer capability, reduced-motion preference, orientation and device performance.",
+      "sources": [
+        "tailwind-responsive",
+        "pointer-events",
+        "resize-observer",
+        "reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-curated-reduced-motion-system",
+      "title": "Systemic reduced-motion behavior across every engine",
+      "description": "Apply the user motion preference consistently across CSS, Motion, GSAP, Isometric and embedded animation players.",
+      "sources": [
+        "reduced-motion",
+        "motion-spring",
+        "gsap-matchmedia",
+        "wcag22"
+      ]
+    },
+    {
+      "name": "ztx14-curated-react-animation-lifecycle",
+      "title": "React lifecycle safety for animation and browser listeners",
+      "description": "Make imperative animation setup resilient to React Strict Mode, remounts, dependency changes, and hot reload by implementing symmetric cleanup.",
+      "sources": [
+        "react-effect",
+        "react-strictmode"
+      ]
+    },
+    {
+      "name": "ztx14-curated-shared-loop-offscreen-sleep",
+      "title": "Preserve one frame loop and sleep when motion is idle",
+      "description": "Prevent wasteful perpetual animation loops and coordinate offscreen/idle rendering with the existing Isometric engine.",
+      "sources": [
+        "isometric",
+        "react-effect",
+        "r3f-perf",
+        "web-animation-performance"
+      ]
+    },
+    {
+      "name": "ztx14-curated-css-motion-performance",
+      "title": "Keep UI animation on compositor-friendly properties",
+      "description": "Review CSS and DOM animation costs to avoid layout thrash, paint-heavy effects, and excessive GPU layers.",
+      "sources": [
+        "web-animation-performance",
+        "r3f-perf",
+        "reduced-motion"
+      ]
+    },
+    {
+      "name": "ztx14-curated-shadcn-registry-safe-install",
+      "title": "Install Isometric items without overwriting project setup",
+      "description": "Use the shadcn registry CLI safely, preserve existing components.json settings, and verify the exact installed files and dependencies.",
+      "sources": [
+        "isometric",
+        "registry",
+        "shadcn-registry",
+        "shadcn-config"
+      ]
+    },
+    {
+      "name": "ztx14-curated-tailwind-v4-isometric-tokens",
+      "title": "Integrate Tailwind v4 and Isometric tokens cleanly",
+      "description": "Adapt Isometric colors and depth styling to the current shadcn/Tailwind v4 theme without global leakage or token collisions.",
+      "sources": [
+        "isometric",
+        "tailwind-responsive",
+        "shadcn-config"
+      ]
+    },
+    {
+      "name": "ztx14-curated-keyboard-parity-radix",
+      "title": "Preserve keyboard and screen-reader behavior in isometric controls",
+      "description": "Audit isometric primitives and custom figures so hover and pointer behavior has a complete keyboard, focus and semantic counterpart.",
+      "sources": [
+        "storybook-a11y",
+        "storybook-interactions",
+        "wcag22",
+        "isometric"
+      ]
+    },
+    {
+      "name": "ztx14-curated-playwright-pointer-e2e",
+      "title": "Automate realistic pointer and drag journeys with Playwright",
+      "description": "Create browser-level regression tests for pointer hover, dragging, touch-like input, focus, responsive behavior, and cancellation.",
+      "sources": [
+        "playwright-page",
+        "pointer-events",
+        "wcag22"
+      ]
+    },
+    {
+      "name": "ztx14-curated-playwright-visual-baselines",
+      "title": "Make animation screenshots deterministic before visual comparison",
+      "description": "Use Playwright screenshot snapshots to catch layout and motion regressions while controlling time, hover state, fonts, viewport and browser variance.",
+      "sources": [
+        "playwright-snapshots",
+        "playwright-page"
+      ]
+    },
+    {
+      "name": "ztx14-curated-vitest-browser-interactions",
+      "title": "Use Vitest Browser Mode for component-level interaction coverage",
+      "description": "Test real browser DOM behavior of React interaction components using Vitest Browser Mode and a supported browser provider.",
+      "sources": [
+        "vitest-browser",
+        "react-effect",
+        "react-strictmode"
+      ]
+    },
+    {
+      "name": "ztx14-curated-storybook-interaction-a11y",
+      "title": "Use Storybook as an interactive component lab",
+      "description": "Create reproducible component stories and automate interactions and accessibility checks for isometric UI pieces.",
+      "sources": [
+        "storybook-interactions",
+        "storybook-a11y",
+        "wcag22"
+      ]
+    },
+    {
+      "name": "ztx14-curated-react-three-fiber-adoption-gate",
+      "title": "Adopt React Three Fiber only for actual 3D scenes",
+      "description": "Decide whether a feature needs WebGL/real 3D before introducing Three.js and React Three Fiber into a primarily SVG isometric project.",
+      "sources": [
+        "isometric",
+        "r3f-events",
+        "r3f-perf",
+        "three-raycaster"
+      ]
+    },
+    {
+      "name": "ztx14-curated-rive-lottie-decision",
+      "title": "Choose Rive or Lottie by interaction model",
+      "description": "Select Rive state machines or Lottie playback for authored vector animation, without replacing procedural isometric geometry unnecessarily.",
+      "sources": [
+        "rive-react",
+        "reduced-motion",
+        "isometric"
+      ]
+    },
+    {
+      "name": "ztx14-curated-resizeobserver-container-adaptation",
+      "title": "Adapt isometric layout to its container, not just the viewport",
+      "description": "Use ResizeObserver carefully when a component's geometry and hit testing depend on its own container dimensions.",
+      "sources": [
+        "resize-observer",
+        "tailwind-responsive",
+        "pointer-events"
+      ]
+    },
+    {
+      "name": "ztx14-curated-world-pan-zoom-coordinate-stability",
+      "title": "Keep pan and zoom anchored and input-safe in the Isometric World",
+      "description": "Implement or review world pan/zoom without coordinate drift, accidental page gestures, or broken selection after scaling.",
+      "sources": [
+        "isometric",
+        "pointer-events",
+        "mdn-pointer-capture",
+        "resize-observer",
+        "wcag22"
+      ]
+    },
+    {
+      "name": "ztx14-curated-animation-debug-signoff",
+      "title": "Debug animation through state traces, not guesswork",
+      "description": "Troubleshoot jitter, stuck hover, frame drops, disappearing SVG faces, or inconsistent animation using a reproducible trace and evidence-based sign-off.",
+      "sources": [
+        "isometric",
+        "playwright-snapshots",
+        "playwright-page",
+        "web-animation-performance"
+      ]
+    },
+    {
+      "name": "ztx14-curated-animation-performance-budget",
+      "title": "Set a budget for frames, geometry and event work",
+      "description": "Prevent interaction complexity from scaling into frame drops by setting measurable budgets and degradation paths.",
+      "sources": [
+        "web-animation-performance",
+        "r3f-perf",
+        "isometric"
+      ]
+    },
+    {
+      "name": "ztx14-curated-agent-research-version-gate",
+      "title": "Ground implementation in current installed APIs",
+      "description": "Require agents to inspect official current docs and local package versions before using animation or registry APIs.",
+      "sources": [
+        "isometric",
+        "registry",
+        "motion-spring",
+        "gsap-matchmedia",
+        "vitest-browser"
+      ]
+    },
+    {
+      "name": "ztx14-curated-license-and-provenance-gate",
+      "title": "Audit dependency license and source provenance before adding tooling",
+      "description": "Check licenses, provenance, dependency impact and vendor policy before copying code or adding an animation runtime.",
+      "sources": [
+        "shadcn-registry",
+        "isometric",
+        "rive-react"
+      ]
+    },
+    {
+      "name": "ztx14-curated-state-transition-motion-presence",
+      "title": "Animate state transitions without making state animation-dependent",
+      "description": "Coordinate enter/exit and presence transitions so components remain correct when state changes rapidly or routes unmount.",
+      "sources": [
+        "motion-hover",
+        "motion-scroll",
+        "react-effect",
+        "reduced-motion",
+        "wcag22"
+      ]
+    }
+  ],
+  "references": {
+    "isometric": "https://isometric.buildlab.in/llms.txt",
+    "registry": "https://isometric.buildlab.in/r/registry.json",
+    "shadcn-registry": "https://ui.shadcn.com/docs/registry/registry-json",
+    "shadcn-config": "https://ui.shadcn.com/docs/components-json",
+    "motion-spring": "https://motion.dev/docs/react-use-spring",
+    "motion-hover": "https://motion.dev/docs/react-hover-animation",
+    "motion-transform": "https://motion.dev/docs/react-use-transform",
+    "motion-scroll": "https://motion.dev/docs/react-use-scroll",
+    "gsap-matchmedia": "https://gsap.com/docs/v3/GSAP/gsap.matchMedia/",
+    "gsap-scrolltrigger": "https://gsap.com/docs/v3/Plugins/ScrollTrigger/",
+    "css-scroll": "https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Scroll-driven_animations",
+    "pointer-events": "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+    "reduced-motion": "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/At-rules/%40media/prefers-reduced-motion",
+    "resize-observer": "https://developer.mozilla.org/en-US/docs/Web/API/Resize_Observer_API",
+    "react-effect": "https://react.dev/reference/react/useEffect",
+    "react-strictmode": "https://react.dev/reference/react/StrictMode",
+    "tailwind-responsive": "https://tailwindcss.com/docs/responsive-design",
+    "web-animation-performance": "https://web.dev/articles/animations-guide",
+    "lenis": "https://github.com/darkroomengineering/lenis",
+    "lenis-react": "https://github.com/darkroomengineering/lenis/blob/main/packages/react/README.md",
+    "r3f-events": "https://github.com/pmndrs/react-three-fiber/blob/master/docs/API/events.mdx",
+    "r3f-perf": "https://github.com/pmndrs/react-three-fiber/blob/master/docs/advanced/scaling-performance.mdx",
+    "rive-react": "https://rive.app/docs/runtimes/react/react",
+    "playwright-snapshots": "https://playwright.dev/docs/test-snapshots",
+    "playwright-page": "https://playwright.dev/docs/api/class-page",
+    "vitest-browser": "https://vitest.dev/guide/browser/",
+    "storybook-interactions": "https://storybook.js.org/docs/writing-tests/interaction-testing",
+    "storybook-a11y": "https://storybook.js.org/docs/writing-tests/accessibility-testing",
+    "wcag22": "https://www.w3.org/TR/WCAG22/",
+    "mdn-pointer-capture": "https://developer.mozilla.org/en-US/docs/Web/API/Element/setPointerCapture",
+    "three-raycaster": "https://threejs.org/docs/#api/en/core/Raycaster"
+  }
+}

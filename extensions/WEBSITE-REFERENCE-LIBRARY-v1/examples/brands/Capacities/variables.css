@@ -1,0 +1,114 @@
+:root {
+  /* Colors */
+  --color-paper-white: #ffffff;
+  --color-ink: #1a1a1d;
+  --color-charcoal: #454447;
+  --color-graphite: #5c5959;
+  --color-ash: #a7a2a1;
+  --color-porcelain: #f5f4f3;
+  --color-stone: #ecebea;
+  --color-butter-paper: #fffbeb;
+  --color-sunlit-wash: #fef3c7;
+  --gradient-sunlit-wash: radial-gradient(100% 70% at 50% 0%, oklch(0.9243 0.1151 95.76 / 0.5) 0%, rgba(0, 0, 0, 0) 100%);
+  --color-honey-line: #fde68a;
+  --color-amber-ink: #945424;
+  --color-cloud-blue: #eff6ff;
+  --color-blue-note-edge: #d2e6fe;
+  --color-lilac-note-edge: #f0e2ff;
+
+  /* Typography — Font Families */
+  --font-inter: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ui-sans-serif: 'ui-sans-serif', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-jetbrains-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-micro: 10px;
+  --leading-micro: 1.5;
+  --tracking-micro: 0px;
+  --text-mono-metadata: 12px;
+  --leading-mono-metadata: 1.33;
+  --tracking-mono-metadata: 0px;
+  --text-nav: 14px;
+  --leading-nav: 1.43;
+  --tracking-nav: 0px;
+  --text-eyebrow: 14px;
+  --leading-eyebrow: 1.43;
+  --tracking-eyebrow: 0.35px;
+  --text-body: 16px;
+  --leading-body: 1.5;
+  --tracking-body: 0px;
+  --text-heading-small: 18px;
+  --leading-heading-small: 1.56;
+  --tracking-heading-small: -0.45px;
+  --text-heading: 36px;
+  --leading-heading: 1.25;
+  --tracking-heading: -0.9px;
+  --text-display: 48px;
+  --leading-display: 1.05;
+  --tracking-display: -1.44px;
+  --text-hero-display: 64px;
+  --leading-hero-display: 1.05;
+  --tracking-hero-display: -1.92px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extrabold: 800;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-56: 56px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-96: 96px;
+  --spacing-128: 128px;
+  --spacing-224: 224px;
+
+  /* Layout */
+  --page-max-width: 1280px;
+  --section-gap: 73px;
+  --card-padding: 28px;
+  --element-gap: 6px;
+
+  /* Border Radius */
+  --radius-lg: 8px;
+  --radius-xl: 12px;
+  --radius-2xl: 16px;
+  --radius-2xl-2: 20px;
+  --radius-3xl: 24px;
+
+  /* Named Radii */
+  --radius-cards: 16px;
+  --radius-links: 6px;
+  --radius-pills: 9999px;
+  --radius-images: 12px;
+  --radius-inputs: 8px;
+  --radius-buttons: 6px;
+  --radius-icontiles: 8px;
+  --radius-compactcards: 6px;
+  --radius-featurecards: 20px;
+
+  /* Shadows */
+  --shadow-subtle: rgba(0, 0, 0, 0.04) 0px 1px 2px 0px;
+  --shadow-sm: rgba(0, 0, 0, 0.05) 0px 2px 4px 0px, rgba(0, 0, 0, 0.03) 0px 1px 2px 0px;
+  --shadow-subtle-2: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  --shadow-md: rgba(0, 0, 0, 0.08) 0px 4px 12px 0px, rgba(0, 0, 0, 0.04) 0px 2px 4px 0px;
+  --shadow-sm-2: rgba(0, 0, 0, 0.05) 0px 4px 6px -1px, rgba(0, 0, 0, 0.12) 0px 20px 40px -4px, rgba(0, 0, 0, 0.08) 0px 40px 60px -8px;
+
+  /* Surfaces */
+  --surface-paper-white: #ffffff;
+  --surface-butter-paper: #fffbeb;
+  --surface-cloud-blue: #eff6ff;
+}

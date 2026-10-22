@@ -126,3 +126,16 @@ This pack preserves the original OMEGA 187 skills, all 279 VibeFarsi local guide
 6. Only report a production implementation if the code was integrated in the target app, dependencies installed, browser interactions tested and visual QA performed; none of those occur just by installing Skills.
 
 The canonical pack index is `INDEX-TITAN.md`, with IDs for targeted loading. The master skill is not a command to paste all 763+ files into one prompt.
+
+
+## Additive extension — optional website reference library
+
+Use `$zt-website-reference-library` only when visual-reference discovery, a website-style sample, or a deliberate style comparison helps the active request. This is an isolated add-on; do not load it by default and do not inject the full library into context.
+
+- Source checkout: `extensions/WEBSITE-REFERENCE-LIBRARY-v1/`; after installation with `-CopyExtensionAssets`: `.perfect-ai/extensions/WEBSITE-REFERENCE-LIBRARY-v1/`.
+- Search and select 1–3 relevant entries with `extensions/WEBSITE-REFERENCE-LIBRARY-v1/tools/find-website-reference.py` (installed assets: `.perfect-ai/extensions/WEBSITE-REFERENCE-LIBRARY-v1/tools/find-website-reference.py`); read the selected `DESIGN.md` first and only then open its paired tokens/CSS if implementation needs them.
+- Preserve the user's approved brand and the target project's current design tokens. Never merge multiple brands' complete `theme.css` files by default.
+- Normalize typography, spacing, radius, containers and breakpoints into one responsive scale. Namespace provisional reference variables; use accessible color contrast and verify narrow/mobile through wide desktop layouts.
+- The new gallery at `extensions/WEBSITE-REFERENCE-LIBRARY-v1/examples/gallery-site/` (installed: `.perfect-ai/extensions/WEBSITE-REFERENCE-LIBRARY-v1/examples/gallery-site/`) is a browseable catalog UI, not proof that these reference websites were created by Perfect AI. Check third-party rights before reusing logos, fonts, imagery, or assets.
+
+This route is additive. All existing Perfect AI skills, examples and visual defaults remain available and unchanged.

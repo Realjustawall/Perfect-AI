@@ -1,0 +1,40 @@
+name: Verify and publish Perfect AI snapshot
+on:
+  push:
+    branches: [main]
+    paths:
+      - distribution-manifest.json
+      - .github/workflows/publish-snapshot.yml
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: perfect-ai-snapshot-release
+  cancel-in-progress: false
+jobs:
+  verify-and-publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify the complete distribution and source archive
+        run: python tools/verify-distribution.py
+      - name: Reassemble the original ZIP without modification
+        run: |
+          mkdir -p dist
+          cat releases/source/Perfect-AI-2026.10.22.zip.part01 releases/source/Perfect-AI-2026.10.22.zip.part02 releases/source/Perfect-AI-2026.10.22.zip.part03 > dist/Perfect-AI-2026.10.22.zip
+          printf '%s  %s\n' b59d684a098da51ca397fe7499dda348945316c56e8f05c2f0fc2f1ab2c55ffd Perfect-AI-2026.10.22.zip > dist/SHA256SUMS.txt
+          cd dist
+          sha256sum --check SHA256SUMS.txt
+      - name: Publish the verified latest distribution
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag=v2026.10.22
+          if gh release view "$tag" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            gh release upload "$tag" dist/Perfect-AI-2026.10.22.zip dist/SHA256SUMS.txt --clobber --repo "$GITHUB_REPOSITORY"
+            gh release edit "$tag" --latest --notes-file docs/RELEASE-2026.10.22.md --repo "$GITHUB_REPOSITORY"
+          else
+            gh release create "$tag" dist/Perfect-AI-2026.10.22.zip dist/SHA256SUMS.txt --target "$GITHUB_SHA" --title "Perfect AI — 3,109 skills · 2026.10.22" --notes-file docs/RELEASE-2026.10.22.md --latest --repo "$GITHUB_REPOSITORY"
+          fi

@@ -1,0 +1,3039 @@
+{
+  "extension": "ISOMETRIC-INTERACTION-AGENT-SKILLS-v1",
+  "created": "2026-10-14",
+  "mode": "add-only",
+  "homepage": "https://isometric.buildlab.in/",
+  "primary_skill": "ztx14-isometric-buildlab-master",
+  "new_skill_count": 321,
+  "specialist_skill_count": 320,
+  "category_count": 16,
+  "categories": [
+    {
+      "id": "iso",
+      "title": "Isometric registry and installation",
+      "description": "Registry configuration, component resolution, and safe integration of the Isometric buildlab source.",
+      "count": 20,
+      "skills": [
+        "ztx14-isometric-registry-setup",
+        "ztx14-isometric-cli-install-contract",
+        "ztx14-isometric-namespace-registration",
+        "ztx14-isometric-registry-item-validation",
+        "ztx14-isometric-component-import-paths",
+        "ztx14-isometric-react19-compatibility",
+        "ztx14-isometric-tailwind-v4-tokens",
+        "ztx14-isometric-iso-engine-boundary",
+        "ztx14-isometric-component-discovery",
+        "ztx14-isometric-scoped-install",
+        "ztx14-isometric-all-bundle-install",
+        "ztx14-isometric-source-ownership-audit",
+        "ztx14-isometric-registry-version-drift",
+        "ztx14-isometric-docs-component-props",
+        "ztx14-isometric-registry-dependency-resolution",
+        "ztx14-isometric-install-safety-diff",
+        "ztx14-isometric-framework-readiness",
+        "ztx14-isometric-nextjs-client-boundary",
+        "ztx14-isometric-vite-build-integration",
+        "ztx14-isometric-starter-validation"
+      ]
+    },
+    {
+      "id": "pointer",
+      "title": "Pointer and mouse motion",
+      "description": "Precise pointer-driven motion, hover response, mouse/touch modality, and stable movement under real frame timing.",
+      "count": 20,
+      "skills": [
+        "ztx14-motion-pointer-normalization",
+        "ztx14-motion-pointer-velocity-filter",
+        "ztx14-motion-pointer-spring",
+        "ztx14-motion-pointer-proximity-field",
+        "ztx14-motion-local-coordinate-transform",
+        "ztx14-motion-hover-intent-delay",
+        "ztx14-motion-mouse-leave-settle",
+        "ztx14-motion-pointer-capture-drag",
+        "ztx14-motion-multi-pointer-policy",
+        "ztx14-motion-stylus-pen-input",
+        "ztx14-motion-hover-fallback-touch",
+        "ztx14-motion-mouse-device-capability",
+        "ztx14-motion-element-relative-parallax",
+        "ztx14-motion-cursor-follow",
+        "ztx14-motion-pointer-tilt-clamp",
+        "ztx14-motion-pointer-depth-response",
+        "ztx14-motion-movement-deadzone",
+        "ztx14-motion-idle-decay",
+        "ztx14-motion-pointer-frame-coalescing",
+        "ztx14-motion-pointer-latency-budget"
+      ]
+    },
+    {
+      "id": "pick",
+      "title": "Picking and hit testing",
+      "description": "Reliable selection over isometric geometry, overlapping faces, SVG hit regions, and pointer-driven object activation.",
+      "count": 20,
+      "skills": [
+        "ztx14-picking-object-picking",
+        "ztx14-picking-hidden-face-occlusion",
+        "ztx14-picking-hit-region-expansion",
+        "ztx14-picking-svg-pointer-events",
+        "ztx14-picking-z-order-selection",
+        "ztx14-picking-depth-aware-pointer",
+        "ztx14-picking-hover-crossing-stability",
+        "ztx14-picking-hit-test-debounce",
+        "ztx14-picking-pointer-to-world",
+        "ztx14-picking-pointer-cancel-recovery",
+        "ztx14-picking-overlapping-targets",
+        "ztx14-picking-drag-target-drop",
+        "ztx14-picking-hover-surface-events",
+        "ztx14-picking-pointer-target-resolution",
+        "ztx14-picking-nearest-node-selection",
+        "ztx14-picking-nearest-bar-chart",
+        "ztx14-picking-mesh-ray-proxy",
+        "ztx14-picking-keyboard-hit-equivalent",
+        "ztx14-picking-interaction-intent-routing",
+        "ztx14-picking-input-event-arbitration"
+      ]
+    },
+    {
+      "id": "resp",
+      "title": "Responsive motion and layout",
+      "description": "Adapting Isometric figures and motion to viewport, container, touch, orientation, and device-performance constraints.",
+      "count": 20,
+      "skills": [
+        "ztx14-responsive-breakpoint-motion-profiles",
+        "ztx14-responsive-pointer-coarse",
+        "ztx14-responsive-reduced-motion-adaptive",
+        "ztx14-responsive-low-power-quality",
+        "ztx14-responsive-container-size-layout",
+        "ztx14-responsive-fluid-perspective",
+        "ztx14-responsive-viewport-mapping",
+        "ztx14-responsive-touch-gesture-translation",
+        "ztx14-responsive-responsive-svg-viewbox",
+        "ztx14-responsive-card-density-adaptation",
+        "ztx14-responsive-orientation-change",
+        "ztx14-responsive-resize-observer-safe",
+        "ztx14-responsive-mobile-parallax-damping",
+        "ztx14-responsive-animation-budget-breakpoints",
+        "ztx14-responsive-responsive-isometric-scale",
+        "ztx14-responsive-no-hover-layout",
+        "ztx14-responsive-foldable-viewport",
+        "ztx14-responsive-landscape-small-height",
+        "ztx14-responsive-responsive-world-pan",
+        "ztx14-responsive-device-pixel-ratio-policy"
+      ]
+    },
+    {
+      "id": "spring",
+      "title": "Spring physics and timelines",
+      "description": "Stable spring systems, interruption-safe transitions, temporal coordination, and deterministic motion.",
+      "count": 20,
+      "skills": [
+        "ztx14-motion-dynamics-spring-stiffness",
+        "ztx14-motion-dynamics-damping-ratio",
+        "ztx14-motion-dynamics-overshoot-control",
+        "ztx14-motion-dynamics-settle-threshold",
+        "ztx14-motion-dynamics-frame-independent-integration",
+        "ztx14-motion-dynamics-velocity-continuity",
+        "ztx14-motion-dynamics-retargeting",
+        "ztx14-motion-dynamics-coupled-springs",
+        "ztx14-motion-dynamics-timeline-ownership",
+        "ztx14-motion-dynamics-interruptible-transitions",
+        "ztx14-motion-dynamics-stagger-geometry",
+        "ztx14-motion-dynamics-easing-curve-selection",
+        "ztx14-motion-dynamics-state-transition-animation",
+        "ztx14-motion-dynamics-spring-snap-points",
+        "ztx14-motion-dynamics-drag-release-inertia",
+        "ztx14-motion-dynamics-motion-reversal",
+        "ztx14-motion-dynamics-temporal-hysteresis",
+        "ztx14-motion-dynamics-pause-resume-timebase",
+        "ztx14-motion-dynamics-deterministic-time-step",
+        "ztx14-motion-dynamics-spring-rest-state"
+      ]
+    },
+    {
+      "id": "geo",
+      "title": "SVG and isometric geometry",
+      "description": "Projection, face construction, line drawing, geometry budgets, and stable SVG output.",
+      "count": 20,
+      "skills": [
+        "ztx14-isometric-geometry-orthographic-projection",
+        "ztx14-isometric-geometry-iso-coordinate-transform",
+        "ztx14-isometric-geometry-hidden-surface-removal",
+        "ztx14-isometric-geometry-outline-winding",
+        "ztx14-isometric-geometry-curved-solid-outlines",
+        "ztx14-isometric-geometry-mesh-facet-budget",
+        "ztx14-isometric-geometry-depth-axis-convention",
+        "ztx14-isometric-geometry-face-normal-colors",
+        "ztx14-isometric-geometry-line-weight-scaling",
+        "ztx14-isometric-geometry-svg-path-generation",
+        "ztx14-isometric-geometry-texture-coordinate-mapping",
+        "ztx14-isometric-geometry-geometry-culling",
+        "ztx14-isometric-geometry-geometry-instancing-svg",
+        "ztx14-isometric-geometry-shape-decomposition",
+        "ztx14-isometric-geometry-isometric-text-baselines",
+        "ztx14-isometric-geometry-shape-antialiasing",
+        "ztx14-isometric-geometry-viewbox-fit",
+        "ztx14-isometric-geometry-object-pivot-design",
+        "ztx14-isometric-geometry-camera-free-presentation",
+        "ztx14-isometric-geometry-geometry-snapshot-stability"
+      ]
+    },
+    {
+      "id": "component",
+      "title": "Isometric component interaction patterns",
+      "description": "Practical interaction behavior for figures, primitives, blocks, and multi-part objects available from the registry.",
+      "count": 20,
+      "skills": [
+        "ztx14-iso-ui-iso-button-press",
+        "ztx14-iso-ui-iso-card-lift",
+        "ztx14-iso-ui-iso-switch-groove",
+        "ztx14-iso-ui-iso-tabs-state",
+        "ztx14-iso-ui-iso-slider-cube",
+        "ztx14-iso-ui-iso-toggle-group",
+        "ztx14-iso-ui-iso-input-depth",
+        "ztx14-iso-ui-iso-progress-fill",
+        "ztx14-iso-ui-iso-badge-states",
+        "ztx14-iso-ui-keyboard-shortcut-keycap",
+        "ztx14-iso-ui-dashboard-bars-hover",
+        "ztx14-iso-ui-skyline-focus-height",
+        "ztx14-iso-ui-laptop-lid-response",
+        "ztx14-iso-ui-files-layer-reveal",
+        "ztx14-iso-ui-network-route-pulse",
+        "ztx14-iso-ui-cube-layer-twist",
+        "ztx14-iso-ui-pulley-drag-mechanics",
+        "ztx14-iso-ui-pc-case-part-sequencing",
+        "ztx14-iso-ui-reactor-charge-feedback",
+        "ztx14-iso-ui-church-multi-control"
+      ]
+    },
+    {
+      "id": "react",
+      "title": "React, shadcn, and Tailwind integration",
+      "description": "Component architecture and CSS integration for React 19, Tailwind CSS v4, Radix, and shadcn registry installs.",
+      "count": 20,
+      "skills": [
+        "ztx14-react-shadcn-registry-styles-isolation",
+        "ztx14-react-shadcn-tailwind-utility-collision",
+        "ztx14-react-shadcn-css-custom-property-contract",
+        "ztx14-react-shadcn-dark-mode-token-parity",
+        "ztx14-react-shadcn-theme-provider-inheritance",
+        "ztx14-react-shadcn-cn-utility-compatible",
+        "ztx14-react-shadcn-radix-primitive-preservation",
+        "ztx14-react-shadcn-controlled-uncontrolled-state",
+        "ztx14-react-shadcn-effect-cleanup",
+        "ztx14-react-shadcn-strictmode-double-mount",
+        "ztx14-react-shadcn-ssr-hydration-svg",
+        "ztx14-react-shadcn-server-renderable-icons",
+        "ztx14-react-shadcn-client-only-animation-boundary",
+        "ztx14-react-shadcn-dynamic-import-policy",
+        "ztx14-react-shadcn-import-cycle-audit",
+        "ztx14-react-shadcn-component-composition-api",
+        "ztx14-react-shadcn-prop-forwarding",
+        "ztx14-react-shadcn-type-exports",
+        "ztx14-react-shadcn-package-lock-integrity",
+        "ztx14-react-shadcn-design-token-contract"
+      ]
+    },
+    {
+      "id": "a11y",
+      "title": "Accessibility and input parity",
+      "description": "Keyboard, screen reader, reduced motion, touch alternatives, zoom, contrast, and RTL behavior.",
+      "count": 20,
+      "skills": [
+        "ztx14-motion-a11y-keyboard-parity",
+        "ztx14-motion-a11y-focus-visibility-3d",
+        "ztx14-motion-a11y-screen-reader-readout",
+        "ztx14-motion-a11y-reduced-motion-static-meaning",
+        "ztx14-motion-a11y-contrast-outline-layers",
+        "ztx14-motion-a11y-target-size-isometric",
+        "ztx14-motion-a11y-touch-alternative",
+        "ztx14-motion-a11y-drag-alternative",
+        "ztx14-motion-a11y-high-contrast-mode",
+        "ztx14-motion-a11y-forced-colors",
+        "ztx14-motion-a11y-non-color-state",
+        "ztx14-motion-a11y-focus-order",
+        "ztx14-motion-a11y-aria-state-sync",
+        "ztx14-motion-a11y-live-region-rate-limit",
+        "ztx14-motion-a11y-screenreader-motion-summary",
+        "ztx14-motion-a11y-no-trap-gesture",
+        "ztx14-motion-a11y-zoom-reflow",
+        "ztx14-motion-a11y-rtl-pointer-directions",
+        "ztx14-motion-a11y-localization-label-integrity",
+        "ztx14-motion-a11y-wcag-review"
+      ]
+    },
+    {
+      "id": "perf",
+      "title": "Motion performance and lifecycle",
+      "description": "Shared animation loops, frame scheduling, GPU/SVG budgets, offscreen behavior, and leak prevention.",
+      "count": 20,
+      "skills": [
+        "ztx14-motion-performance-single-animation-loop",
+        "ztx14-motion-performance-offscreen-sleep",
+        "ztx14-motion-performance-idle-loop-suspend",
+        "ztx14-motion-performance-visibilitychange-pause",
+        "ztx14-motion-performance-intersectionobserver-pause",
+        "ztx14-motion-performance-raf-lifecycle",
+        "ztx14-motion-performance-svg-node-budget",
+        "ztx14-motion-performance-compositor-safe-properties",
+        "ztx14-motion-performance-layout-read-write-batching",
+        "ztx14-motion-performance-pointer-handler-budget",
+        "ztx14-motion-performance-object-disposal",
+        "ztx14-motion-performance-memory-retention",
+        "ztx14-motion-performance-dpr-clamping",
+        "ztx14-motion-performance-animation-profiler",
+        "ztx14-motion-performance-reduced-quality-under-load",
+        "ztx14-motion-performance-longtask-observability",
+        "ztx14-motion-performance-scheduler-priority",
+        "ztx14-motion-performance-shared-listener-multiplexing",
+        "ztx14-motion-performance-idle-animation-throttle",
+        "ztx14-motion-performance-performance-regression-gate"
+      ]
+    },
+    {
+      "id": "agent",
+      "title": "Agent orchestration and skill routing",
+      "description": "Multi-agent execution contracts, scoped skill selection, evidence-based review, and non-destructive implementation.",
+      "count": 20,
+      "skills": [
+        "ztx14-agent-requirement-normalization",
+        "ztx14-agent-skill-routing",
+        "ztx14-agent-minimal-context-loader",
+        "ztx14-agent-parallel-agent-boundaries",
+        "ztx14-agent-motion-director-agent",
+        "ztx14-agent-responsive-review-agent",
+        "ztx14-agent-a11y-review-agent",
+        "ztx14-agent-performance-review-agent",
+        "ztx14-agent-implementation-agent-contract",
+        "ztx14-agent-review-agent-evidence",
+        "ztx14-agent-disagreement-arbitration",
+        "ztx14-agent-shared-file-locking",
+        "ztx14-agent-token-budget-decomposition",
+        "ztx14-agent-project-memory-sanitization",
+        "ztx14-agent-source-citation-agent",
+        "ztx14-agent-integration-dependency-order",
+        "ztx14-agent-failure-recovery-agent",
+        "ztx14-agent-auto-skill-selection",
+        "ztx14-agent-no-fabricated-verification",
+        "ztx14-agent-final-release-assembler"
+      ]
+    },
+    {
+      "id": "qa",
+      "title": "Testing and quality assurance",
+      "description": "Repeatable unit, browser, visual, interaction, accessibility, and performance evidence for pointer-driven UI.",
+      "count": 20,
+      "skills": [
+        "ztx14-motion-qa-pointer-e2e-matrix",
+        "ztx14-motion-qa-responsive-viewport-matrix",
+        "ztx14-motion-qa-screenshot-determinism",
+        "ztx14-motion-qa-motion-clock-control",
+        "ztx14-motion-qa-reduced-motion-tests",
+        "ztx14-motion-qa-touch-emulation",
+        "ztx14-motion-qa-keyboard-journey",
+        "ztx14-motion-qa-screenreader-smoke",
+        "ztx14-motion-qa-hydration-regression",
+        "ztx14-motion-qa-registry-install-smoke",
+        "ztx14-motion-qa-tailwind-production-build",
+        "ztx14-motion-qa-no-console-errors",
+        "ztx14-motion-qa-svg-visual-diff",
+        "ztx14-motion-qa-hit-testing-geometry-tests",
+        "ztx14-motion-qa-performance-budget-test",
+        "ztx14-motion-qa-memory-leak-test",
+        "ztx14-motion-qa-resize-observer-test",
+        "ztx14-motion-qa-orientation-change-test",
+        "ztx14-motion-qa-rtl-ltr-interaction-test",
+        "ztx14-motion-qa-release-evidence-report"
+      ]
+    },
+    {
+      "id": "theme",
+      "title": "Visual system and theme consistency",
+      "description": "Tokens, contrast, line style, depth, and brand-coherent motion for the Isometric aesthetic.",
+      "count": 20,
+      "skills": [
+        "ztx14-isometric-theme-iso-accent-color-mapping",
+        "ztx14-isometric-theme-face-shading-token",
+        "ztx14-isometric-theme-stroke-width-theme",
+        "ztx14-isometric-theme-stroke-opacity-hierarchy",
+        "ztx14-isometric-theme-depth-variable-scale",
+        "ztx14-isometric-theme-dark-theme-depth",
+        "ztx14-isometric-theme-oklch-gamut-fallback",
+        "ztx14-isometric-theme-semantic-interaction-colors",
+        "ztx14-isometric-theme-brand-motion-signature",
+        "ztx14-isometric-theme-visual-density-calibration",
+        "ztx14-isometric-theme-illustration-line-style",
+        "ztx14-isometric-theme-shadow-depth-coherence",
+        "ztx14-isometric-theme-typography-angle-legibility",
+        "ztx14-isometric-theme-iconography-depth-system",
+        "ztx14-isometric-theme-state-color-independent",
+        "ztx14-isometric-theme-data-viz-palette",
+        "ztx14-isometric-theme-highlight-contrast",
+        "ztx14-isometric-theme-motion-brand-consistency",
+        "ztx14-isometric-theme-theme-reset-isolation",
+        "ztx14-isometric-theme-reference-to-token-translation"
+      ]
+    },
+    {
+      "id": "world",
+      "title": "World, blocks, and gamified interaction",
+      "description": "Pan/zoom, place/mine blocks, inventories, object states, and scene navigation.",
+      "count": 20,
+      "skills": [
+        "ztx14-world-interaction-world-camera-pan",
+        "ztx14-world-interaction-zoom-anchor-preservation",
+        "ztx14-world-interaction-camera-bounds",
+        "ztx14-world-interaction-block-placement-grid-snap",
+        "ztx14-world-interaction-block-mining-feedback",
+        "ztx14-world-interaction-inventory-hotbar-sync",
+        "ztx14-world-interaction-keyboard-hotbar-shortcuts",
+        "ztx14-world-interaction-chest-opening-sequence",
+        "ztx14-world-interaction-torch-flicker-reducedmotion",
+        "ztx14-world-interaction-tree-sway-physics",
+        "ztx14-world-interaction-build-mode-state",
+        "ztx14-world-interaction-day-night-transition",
+        "ztx14-world-interaction-scene-focus-management",
+        "ztx14-world-interaction-world-object-selection",
+        "ztx14-world-interaction-world-performance-budget",
+        "ztx14-world-interaction-object-undo-redo",
+        "ztx14-world-interaction-game-ui-touch-controls",
+        "ztx14-world-interaction-drag-rope-ratio",
+        "ztx14-world-interaction-world-spatial-a11y",
+        "ztx14-world-interaction-game-state-replay"
+      ]
+    },
+    {
+      "id": "resil",
+      "title": "Resilience, security, and provenance",
+      "description": "Safe registry installation, untrusted content boundaries, failure paths, versioning, and rollback.",
+      "count": 20,
+      "skills": [
+        "ztx14-registry-safety-external-registry-trust",
+        "ztx14-registry-safety-dependency-license-audit",
+        "ztx14-registry-safety-remote-registry-failure",
+        "ztx14-registry-safety-malformed-component-guard",
+        "ztx14-registry-safety-animation-exception-isolation",
+        "ztx14-registry-safety-pointer-cancel-reset",
+        "ztx14-registry-safety-stale-raf-protection",
+        "ztx14-registry-safety-stale-async-import",
+        "ztx14-registry-safety-safe-asset-paths",
+        "ztx14-registry-safety-svg-injection-defense",
+        "ztx14-registry-safety-external-text-sanitization",
+        "ztx14-registry-safety-resource-timeout-fallback",
+        "ztx14-registry-safety-offline-component-fallback",
+        "ztx14-registry-safety-unsupported-api-fallback",
+        "ztx14-registry-safety-browser-capability-detection",
+        "ztx14-registry-safety-error-boundary-motion",
+        "ztx14-registry-safety-schema-version-guard",
+        "ztx14-registry-safety-registry-cache-validation",
+        "ztx14-registry-safety-source-license-provenance",
+        "ztx14-registry-safety-safe-upgrade-rollback"
+      ]
+    },
+    {
+      "id": "scroll",
+      "title": "Scroll and cinematic motion",
+      "description": "Scroll-synced scenes, reversible reveals, text motion, route changes, and pointer/scroll coordination.",
+      "count": 20,
+      "skills": [
+        "ztx14-cinematic-motion-scroll-progress-sync",
+        "ztx14-cinematic-motion-scroll-timeline-fallback",
+        "ztx14-cinematic-motion-scroll-scrub-reversibility",
+        "ztx14-cinematic-motion-viewport-enter-stagger",
+        "ztx14-cinematic-motion-hero-camera-beats",
+        "ztx14-cinematic-motion-kinetic-type-iso",
+        "ztx14-cinematic-motion-layered-depth-parallax",
+        "ztx14-cinematic-motion-scroll-motion-preferences",
+        "ztx14-cinematic-motion-scroll-trigger-idempotence",
+        "ztx14-cinematic-motion-timeline-section-coordination",
+        "ztx14-cinematic-motion-sticky-panel-interaction",
+        "ztx14-cinematic-motion-reveal-overlap-budget",
+        "ztx14-cinematic-motion-scroll-jump-resync",
+        "ztx14-cinematic-motion-history-navigation-motion",
+        "ztx14-cinematic-motion-route-transition-ownership",
+        "ztx14-cinematic-motion-animation-interruption-on-nav",
+        "ztx14-cinematic-motion-image-load-layout-stability",
+        "ztx14-cinematic-motion-pointer-scroll-conflict",
+        "ztx14-cinematic-motion-nested-scroll-priority",
+        "ztx14-cinematic-motion-motion-storyboard-translation"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "ztx14-isometric-buildlab-master",
+      "title": "Isometric Buildlab — Master Skill",
+      "category": "master",
+      "path": "skills/ztx14-isometric-buildlab-master/SKILL.md",
+      "description": "Site-specific router and implementation contract for the Isometric buildlab registry."
+    },
+    {
+      "name": "ztx14-isometric-registry-setup",
+      "title": "Isometric Registry Setup",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for isometric registry setup in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-registry-setup/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-cli-install-contract",
+      "title": "shadcn CLI Install Contract",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for shadcn cli install contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-cli-install-contract/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-namespace-registration",
+      "title": "Registry Namespace Registration",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for registry namespace registration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-namespace-registration/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-registry-item-validation",
+      "title": "Registry Item Schema Validation",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for registry item schema validation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-registry-item-validation/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-component-import-paths",
+      "title": "Installed Component Import Paths",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for installed component import paths in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-component-import-paths/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-react19-compatibility",
+      "title": "React 19 Compatibility Gate",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for react 19 compatibility gate in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-react19-compatibility/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-tailwind-v4-tokens",
+      "title": "Tailwind CSS v4 Integration",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for tailwind css v4 integration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-tailwind-v4-tokens/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-iso-engine-boundary",
+      "title": "Isometric Engine Boundary",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for isometric engine boundary in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-iso-engine-boundary/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-component-discovery",
+      "title": "Isometric Component Discovery",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for isometric component discovery in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-component-discovery/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-scoped-install",
+      "title": "Minimal Registry Installation",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for minimal registry installation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-scoped-install/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-all-bundle-install",
+      "title": "Full Isometric Bundle Install",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for full isometric bundle install in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-all-bundle-install/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-source-ownership-audit",
+      "title": "Installed Source Ownership Audit",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for installed source ownership audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-source-ownership-audit/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-registry-version-drift",
+      "title": "Registry Version Drift Check",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for registry version drift check in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-registry-version-drift/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-docs-component-props",
+      "title": "Component Props Evidence",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for component props evidence in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-docs-component-props/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-registry-dependency-resolution",
+      "title": "Registry Dependency Resolution",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for registry dependency resolution in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-registry-dependency-resolution/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-install-safety-diff",
+      "title": "Non-Destructive Install Diff",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for non-destructive install diff in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-install-safety-diff/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-framework-readiness",
+      "title": "Framework Readiness Audit",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for framework readiness audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-framework-readiness/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-nextjs-client-boundary",
+      "title": "Next.js Client Boundary for Motion",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for next.js client boundary for motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-nextjs-client-boundary/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-vite-build-integration",
+      "title": "Vite Build Integration",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for vite build integration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-vite-build-integration/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-starter-validation",
+      "title": "Isometric Starter Validation",
+      "category": "iso",
+      "categoryTitle": "Isometric registry and installation",
+      "description": "Apply a focused implementation and verification workflow for isometric starter validation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-starter-validation/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-normalization",
+      "title": "Pointer Coordinate Normalization",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer coordinate normalization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-normalization/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-velocity-filter",
+      "title": "Pointer Velocity Filtering",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer velocity filtering in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-velocity-filter/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-spring",
+      "title": "Pointer Spring Response",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer spring response in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-spring/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-proximity-field",
+      "title": "Pointer Proximity Field",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer proximity field in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-proximity-field/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-local-coordinate-transform",
+      "title": "Element-Local Pointer Transform",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for element-local pointer transform in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-local-coordinate-transform/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-hover-intent-delay",
+      "title": "Hover Intent Delay",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for hover intent delay in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-hover-intent-delay/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-mouse-leave-settle",
+      "title": "Mouse Leave Settling",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for mouse leave settling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-mouse-leave-settle/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-capture-drag",
+      "title": "Pointer Capture Drag",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer capture drag in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-capture-drag/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-multi-pointer-policy",
+      "title": "Multi-Pointer Input Policy",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for multi-pointer input policy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-multi-pointer-policy/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-stylus-pen-input",
+      "title": "Stylus and Pen Input",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for stylus and pen input in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-stylus-pen-input/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-hover-fallback-touch",
+      "title": "Hover-Free Touch Fallback",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for hover-free touch fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-hover-fallback-touch/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-mouse-device-capability",
+      "title": "Input Capability Detection",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for input capability detection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-mouse-device-capability/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-element-relative-parallax",
+      "title": "Element-Relative Parallax",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for element-relative parallax in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-element-relative-parallax/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-cursor-follow",
+      "title": "Custom Cursor Following",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for custom cursor following in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-cursor-follow/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-tilt-clamp",
+      "title": "Pointer Tilt Clamp",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer tilt clamp in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-tilt-clamp/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-depth-response",
+      "title": "Pointer-to-Depth Response",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer-to-depth response in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-depth-response/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-movement-deadzone",
+      "title": "Pointer Movement Dead Zone",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer movement dead zone in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-movement-deadzone/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-idle-decay",
+      "title": "Pointer Idle Decay",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer idle decay in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-idle-decay/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-frame-coalescing",
+      "title": "Pointer Event Frame Coalescing",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer event frame coalescing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-frame-coalescing/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-pointer-latency-budget",
+      "title": "Pointer Latency Budget",
+      "category": "pointer",
+      "categoryTitle": "Pointer and mouse motion",
+      "description": "Apply a focused implementation and verification workflow for pointer latency budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-pointer-latency-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-object-picking",
+      "title": "Isometric Object Picking",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for isometric object picking in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-object-picking/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-hidden-face-occlusion",
+      "title": "Hidden-Face Occlusion Rules",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for hidden-face occlusion rules in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-hidden-face-occlusion/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-hit-region-expansion",
+      "title": "Accessible Hit Region Expansion",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for accessible hit region expansion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-hit-region-expansion/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-svg-pointer-events",
+      "title": "SVG Pointer-Events Discipline",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for svg pointer-events discipline in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-svg-pointer-events/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-z-order-selection",
+      "title": "Z-Order Selection Priority",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for z-order selection priority in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-z-order-selection/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-depth-aware-pointer",
+      "title": "Depth-Aware Pointer Mapping",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for depth-aware pointer mapping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-depth-aware-pointer/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-hover-crossing-stability",
+      "title": "Hover Boundary Stability",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for hover boundary stability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-hover-crossing-stability/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-hit-test-debounce",
+      "title": "Hit-Test Debounce Policy",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for hit-test debounce policy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-hit-test-debounce/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-pointer-to-world",
+      "title": "Screen-to-World Coordinate Conversion",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for screen-to-world coordinate conversion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-pointer-to-world/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-pointer-cancel-recovery",
+      "title": "Pointer Cancel Recovery",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for pointer cancel recovery in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-pointer-cancel-recovery/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-overlapping-targets",
+      "title": "Overlapping Target Arbitration",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for overlapping target arbitration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-overlapping-targets/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-drag-target-drop",
+      "title": "Drag and Drop Target Resolution",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for drag and drop target resolution in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-drag-target-drop/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-hover-surface-events",
+      "title": "Hover Surface Event Semantics",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for hover surface event semantics in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-hover-surface-events/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-pointer-target-resolution",
+      "title": "Pointer Target Resolution Pipeline",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for pointer target resolution pipeline in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-pointer-target-resolution/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-nearest-node-selection",
+      "title": "Nearest Network Node Selection",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for nearest network node selection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-nearest-node-selection/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-nearest-bar-chart",
+      "title": "Isometric Bar Chart Picking",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for isometric bar chart picking in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-nearest-bar-chart/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-mesh-ray-proxy",
+      "title": "Mesh Ray or Proxy Hit Testing",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for mesh ray or proxy hit testing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-mesh-ray-proxy/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-keyboard-hit-equivalent",
+      "title": "Keyboard Equivalent to Picking",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for keyboard equivalent to picking in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-keyboard-hit-equivalent/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-interaction-intent-routing",
+      "title": "Interaction Intent Routing",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for interaction intent routing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-interaction-intent-routing/SKILL.md"
+    },
+    {
+      "name": "ztx14-picking-input-event-arbitration",
+      "title": "Input Event Arbitration",
+      "category": "pick",
+      "categoryTitle": "Picking and hit testing",
+      "description": "Apply a focused implementation and verification workflow for input event arbitration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-picking-input-event-arbitration/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-breakpoint-motion-profiles",
+      "title": "Breakpoint-Specific Motion Profiles",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for breakpoint-specific motion profiles in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-breakpoint-motion-profiles/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-pointer-coarse",
+      "title": "Coarse-Pointer Adaptation",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for coarse-pointer adaptation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-pointer-coarse/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-reduced-motion-adaptive",
+      "title": "Adaptive Reduced Motion",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for adaptive reduced motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-reduced-motion-adaptive/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-low-power-quality",
+      "title": "Low-Power Quality Profile",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for low-power quality profile in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-low-power-quality/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-container-size-layout",
+      "title": "Container-Based Scene Sizing",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for container-based scene sizing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-container-size-layout/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-fluid-perspective",
+      "title": "Fluid Isometric Scale",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for fluid isometric scale in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-fluid-perspective/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-viewport-mapping",
+      "title": "Viewport-to-Scene Mapping",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for viewport-to-scene mapping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-viewport-mapping/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-touch-gesture-translation",
+      "title": "Touch Gesture Translation",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for touch gesture translation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-touch-gesture-translation/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-responsive-svg-viewbox",
+      "title": "Responsive SVG ViewBox",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for responsive svg viewbox in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-responsive-svg-viewbox/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-card-density-adaptation",
+      "title": "Responsive Isometric Card Density",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for responsive isometric card density in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-card-density-adaptation/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-orientation-change",
+      "title": "Orientation Change Recovery",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for orientation change recovery in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-orientation-change/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-resize-observer-safe",
+      "title": "ResizeObserver Safety",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for resizeobserver safety in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-resize-observer-safe/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-mobile-parallax-damping",
+      "title": "Mobile Parallax Damping",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for mobile parallax damping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-mobile-parallax-damping/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-animation-budget-breakpoints",
+      "title": "Responsive Animation Budget",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for responsive animation budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-animation-budget-breakpoints/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-responsive-isometric-scale",
+      "title": "Isometric Scale Across Devices",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for isometric scale across devices in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-responsive-isometric-scale/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-no-hover-layout",
+      "title": "No-Hover Layout Stability",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for no-hover layout stability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-no-hover-layout/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-foldable-viewport",
+      "title": "Foldable and Segment-Aware Layout",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for foldable and segment-aware layout in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-foldable-viewport/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-landscape-small-height",
+      "title": "Short Landscape Viewports",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for short landscape viewports in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-landscape-small-height/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-responsive-world-pan",
+      "title": "Responsive World Pan and Zoom",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for responsive world pan and zoom in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-responsive-world-pan/SKILL.md"
+    },
+    {
+      "name": "ztx14-responsive-device-pixel-ratio-policy",
+      "title": "Device Pixel Ratio Policy",
+      "category": "resp",
+      "categoryTitle": "Responsive motion and layout",
+      "description": "Apply a focused implementation and verification workflow for device pixel ratio policy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-responsive-device-pixel-ratio-policy/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-spring-stiffness",
+      "title": "Spring Stiffness Selection",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for spring stiffness selection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-spring-stiffness/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-damping-ratio",
+      "title": "Damping Ratio Tuning",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for damping ratio tuning in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-damping-ratio/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-overshoot-control",
+      "title": "Spring Overshoot Control",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for spring overshoot control in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-overshoot-control/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-settle-threshold",
+      "title": "Spring Rest Threshold",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for spring rest threshold in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-settle-threshold/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-frame-independent-integration",
+      "title": "Frame-Independent Spring Integration",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for frame-independent spring integration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-frame-independent-integration/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-velocity-continuity",
+      "title": "Velocity-Continuous Retargeting",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for velocity-continuous retargeting in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-velocity-continuity/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-retargeting",
+      "title": "Live Spring Retargeting",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for live spring retargeting in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-retargeting/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-coupled-springs",
+      "title": "Coupled Spring Chains",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for coupled spring chains in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-coupled-springs/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-timeline-ownership",
+      "title": "Single Timeline Ownership",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for single timeline ownership in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-timeline-ownership/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-interruptible-transitions",
+      "title": "Interruptible State Transitions",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for interruptible state transitions in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-interruptible-transitions/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-stagger-geometry",
+      "title": "Geometry-Aware Stagger",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for geometry-aware stagger in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-stagger-geometry/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-easing-curve-selection",
+      "title": "Easing Curve Selection",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for easing curve selection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-easing-curve-selection/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-state-transition-animation",
+      "title": "State-Transition Motion Contract",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for state-transition motion contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-state-transition-animation/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-spring-snap-points",
+      "title": "Spring Snap Points",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for spring snap points in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-spring-snap-points/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-drag-release-inertia",
+      "title": "Drag Release Inertia",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for drag release inertia in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-drag-release-inertia/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-motion-reversal",
+      "title": "Reversible Motion",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for reversible motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-motion-reversal/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-temporal-hysteresis",
+      "title": "Temporal Hysteresis for Motion",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for temporal hysteresis for motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-temporal-hysteresis/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-pause-resume-timebase",
+      "title": "Pause and Resume Timebase",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for pause and resume timebase in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-pause-resume-timebase/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-deterministic-time-step",
+      "title": "Deterministic Animation Time Step",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for deterministic animation time step in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-deterministic-time-step/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-dynamics-spring-rest-state",
+      "title": "Spring Rest-State Audit",
+      "category": "spring",
+      "categoryTitle": "Spring physics and timelines",
+      "description": "Apply a focused implementation and verification workflow for spring rest-state audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-dynamics-spring-rest-state/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-orthographic-projection",
+      "title": "Orthographic Projection Contract",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for orthographic projection contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-orthographic-projection/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-iso-coordinate-transform",
+      "title": "Isometric Coordinate Transform",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for isometric coordinate transform in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-iso-coordinate-transform/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-hidden-surface-removal",
+      "title": "Hidden Surface Removal",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for hidden surface removal in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-hidden-surface-removal/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-outline-winding",
+      "title": "Outline Winding and Closure",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for outline winding and closure in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-outline-winding/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-curved-solid-outlines",
+      "title": "Curved-Solid Outline Construction",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for curved-solid outline construction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-curved-solid-outlines/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-mesh-facet-budget",
+      "title": "Mesh Facet Budget",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for mesh facet budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-mesh-facet-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-depth-axis-convention",
+      "title": "Depth Axis Convention",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for depth axis convention in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-depth-axis-convention/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-face-normal-colors",
+      "title": "Face-Normal Shading",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for face-normal shading in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-face-normal-colors/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-line-weight-scaling",
+      "title": "Isometric Line Weight Scaling",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for isometric line weight scaling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-line-weight-scaling/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-svg-path-generation",
+      "title": "Deterministic SVG Path Generation",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for deterministic svg path generation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-svg-path-generation/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-texture-coordinate-mapping",
+      "title": "Texture Coordinate Mapping",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for texture coordinate mapping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-texture-coordinate-mapping/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-geometry-culling",
+      "title": "Geometry Culling",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for geometry culling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-geometry-culling/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-geometry-instancing-svg",
+      "title": "Repeated Geometry Reuse",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for repeated geometry reuse in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-geometry-instancing-svg/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-shape-decomposition",
+      "title": "Shape Decomposition",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for shape decomposition in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-shape-decomposition/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-isometric-text-baselines",
+      "title": "Isometric Text Baselines",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for isometric text baselines in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-isometric-text-baselines/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-shape-antialiasing",
+      "title": "Shape Edge Quality",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for shape edge quality in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-shape-antialiasing/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-viewbox-fit",
+      "title": "ViewBox Fit and Safe Margins",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for viewbox fit and safe margins in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-viewbox-fit/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-object-pivot-design",
+      "title": "Object Pivot Design",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for object pivot design in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-object-pivot-design/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-camera-free-presentation",
+      "title": "Camera-Free Isometric Presentation",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for camera-free isometric presentation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-camera-free-presentation/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-geometry-geometry-snapshot-stability",
+      "title": "Geometry Snapshot Stability",
+      "category": "geo",
+      "categoryTitle": "SVG and isometric geometry",
+      "description": "Apply a focused implementation and verification workflow for geometry snapshot stability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-geometry-geometry-snapshot-stability/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-button-press",
+      "title": "Isometric Button Press",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric button press in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-button-press/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-card-lift",
+      "title": "Isometric Card Lift",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric card lift in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-card-lift/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-switch-groove",
+      "title": "Isometric Switch Groove",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric switch groove in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-switch-groove/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-tabs-state",
+      "title": "Isometric Tabs State",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric tabs state in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-tabs-state/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-slider-cube",
+      "title": "Isometric Slider Cube",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric slider cube in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-slider-cube/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-toggle-group",
+      "title": "Isometric Toggle Group",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric toggle group in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-toggle-group/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-input-depth",
+      "title": "Isometric Input Depth",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric input depth in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-input-depth/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-progress-fill",
+      "title": "Isometric Progress Fill",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric progress fill in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-progress-fill/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-iso-badge-states",
+      "title": "Isometric Badge State System",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric badge state system in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-iso-badge-states/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-keyboard-shortcut-keycap",
+      "title": "Keyboard Shortcut Keycaps",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for keyboard shortcut keycaps in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-keyboard-shortcut-keycap/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-dashboard-bars-hover",
+      "title": "Isometric Bar Chart Interaction",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for isometric bar chart interaction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-dashboard-bars-hover/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-skyline-focus-height",
+      "title": "Skyline Focus Height",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for skyline focus height in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-skyline-focus-height/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-laptop-lid-response",
+      "title": "Laptop Lid Response",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for laptop lid response in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-laptop-lid-response/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-files-layer-reveal",
+      "title": "Layered File Reveal",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for layered file reveal in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-files-layer-reveal/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-network-route-pulse",
+      "title": "Network Route Pulse",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for network route pulse in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-network-route-pulse/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-cube-layer-twist",
+      "title": "Cube Layer Twist",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for cube layer twist in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-cube-layer-twist/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-pulley-drag-mechanics",
+      "title": "Pulley Drag Mechanics",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for pulley drag mechanics in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-pulley-drag-mechanics/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-pc-case-part-sequencing",
+      "title": "Multi-Part PC Case Sequence",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for multi-part pc case sequence in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-pc-case-part-sequencing/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-reactor-charge-feedback",
+      "title": "Reactor Charge Feedback",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for reactor charge feedback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-reactor-charge-feedback/SKILL.md"
+    },
+    {
+      "name": "ztx14-iso-ui-church-multi-control",
+      "title": "Church Multi-Control Interaction",
+      "category": "component",
+      "categoryTitle": "Isometric component interaction patterns",
+      "description": "Apply a focused implementation and verification workflow for church multi-control interaction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-iso-ui-church-multi-control/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-registry-styles-isolation",
+      "title": "Registry Style Isolation",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for registry style isolation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-registry-styles-isolation/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-tailwind-utility-collision",
+      "title": "Tailwind Utility Conflict Audit",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for tailwind utility conflict audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-tailwind-utility-collision/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-css-custom-property-contract",
+      "title": "CSS Custom Property Contract",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for css custom property contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-css-custom-property-contract/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-dark-mode-token-parity",
+      "title": "Dark-Mode Token Parity",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for dark-mode token parity in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-dark-mode-token-parity/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-theme-provider-inheritance",
+      "title": "Theme Provider Inheritance",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for theme provider inheritance in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-theme-provider-inheritance/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-cn-utility-compatible",
+      "title": "Class-Name Utility Compatibility",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for class-name utility compatibility in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-cn-utility-compatible/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-radix-primitive-preservation",
+      "title": "Radix Primitive Preservation",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for radix primitive preservation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-radix-primitive-preservation/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-controlled-uncontrolled-state",
+      "title": "Controlled and Uncontrolled State",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for controlled and uncontrolled state in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-controlled-uncontrolled-state/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-effect-cleanup",
+      "title": "React Effect Cleanup",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for react effect cleanup in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-effect-cleanup/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-strictmode-double-mount",
+      "title": "Strict Mode Double-Mount Safety",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for strict mode double-mount safety in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-strictmode-double-mount/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-ssr-hydration-svg",
+      "title": "SSR and SVG Hydration",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for ssr and svg hydration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-ssr-hydration-svg/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-server-renderable-icons",
+      "title": "Server-Renderable Static Figures",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for server-renderable static figures in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-server-renderable-icons/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-client-only-animation-boundary",
+      "title": "Client-Only Motion Boundary",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for client-only motion boundary in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-client-only-animation-boundary/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-dynamic-import-policy",
+      "title": "Dynamic Import Policy",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for dynamic import policy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-dynamic-import-policy/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-import-cycle-audit",
+      "title": "Component Import Cycle Audit",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for component import cycle audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-import-cycle-audit/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-component-composition-api",
+      "title": "Composable Component API",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for composable component api in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-component-composition-api/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-prop-forwarding",
+      "title": "Safe Prop Forwarding",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for safe prop forwarding in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-prop-forwarding/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-type-exports",
+      "title": "TypeScript Public Type Surface",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for typescript public type surface in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-type-exports/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-package-lock-integrity",
+      "title": "Package Manager and Lockfile Integrity",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for package manager and lockfile integrity in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-package-lock-integrity/SKILL.md"
+    },
+    {
+      "name": "ztx14-react-shadcn-design-token-contract",
+      "title": "Design Token Contract",
+      "category": "react",
+      "categoryTitle": "React, shadcn, and Tailwind integration",
+      "description": "Apply a focused implementation and verification workflow for design token contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-react-shadcn-design-token-contract/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-keyboard-parity",
+      "title": "Keyboard Parity for Pointer Effects",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for keyboard parity for pointer effects in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-keyboard-parity/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-focus-visibility-3d",
+      "title": "Visible Focus on Depth Surfaces",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for visible focus on depth surfaces in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-focus-visibility-3d/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-screen-reader-readout",
+      "title": "Accessible Figure Readout",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for accessible figure readout in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-screen-reader-readout/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-reduced-motion-static-meaning",
+      "title": "Reduced Motion Without Information Loss",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for reduced motion without information loss in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-reduced-motion-static-meaning/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-contrast-outline-layers",
+      "title": "Contrast Across Isometric Layers",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for contrast across isometric layers in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-contrast-outline-layers/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-target-size-isometric",
+      "title": "Touch Target Size",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for touch target size in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-target-size-isometric/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-touch-alternative",
+      "title": "Touch Alternative to Hover",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for touch alternative to hover in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-touch-alternative/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-drag-alternative",
+      "title": "Non-Drag Alternative",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for non-drag alternative in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-drag-alternative/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-high-contrast-mode",
+      "title": "High Contrast Mode",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for high contrast mode in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-high-contrast-mode/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-forced-colors",
+      "title": "Forced Colors Compatibility",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for forced colors compatibility in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-forced-colors/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-non-color-state",
+      "title": "Non-Color State Encoding",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for non-color state encoding in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-non-color-state/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-focus-order",
+      "title": "Logical Focus Order in 3D Scenes",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for logical focus order in 3d scenes in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-focus-order/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-aria-state-sync",
+      "title": "ARIA State Synchronization",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for aria state synchronization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-aria-state-sync/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-live-region-rate-limit",
+      "title": "Live Region Rate Limiting",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for live region rate limiting in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-live-region-rate-limit/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-screenreader-motion-summary",
+      "title": "Motion Summary for Screen Readers",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for motion summary for screen readers in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-screenreader-motion-summary/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-no-trap-gesture",
+      "title": "Gesture Does Not Trap Input",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for gesture does not trap input in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-no-trap-gesture/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-zoom-reflow",
+      "title": "Zoom and Reflow in Isometric UI",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for zoom and reflow in isometric ui in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-zoom-reflow/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-rtl-pointer-directions",
+      "title": "RTL-Aware Pointer Direction",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for rtl-aware pointer direction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-rtl-pointer-directions/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-localization-label-integrity",
+      "title": "Localized Labels and Values",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for localized labels and values in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-localization-label-integrity/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-a11y-wcag-review",
+      "title": "WCAG Interaction Review",
+      "category": "a11y",
+      "categoryTitle": "Accessibility and input parity",
+      "description": "Apply a focused implementation and verification workflow for wcag interaction review in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-a11y-wcag-review/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-single-animation-loop",
+      "title": "Single Shared Animation Loop",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for single shared animation loop in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-single-animation-loop/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-offscreen-sleep",
+      "title": "Offscreen Scene Sleep",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for offscreen scene sleep in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-offscreen-sleep/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-idle-loop-suspend",
+      "title": "Idle Loop Suspension",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for idle loop suspension in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-idle-loop-suspend/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-visibilitychange-pause",
+      "title": "Document Visibility Pause",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for document visibility pause in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-visibilitychange-pause/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-intersectionobserver-pause",
+      "title": "IntersectionObserver Lifecycle",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for intersectionobserver lifecycle in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-intersectionobserver-pause/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-raf-lifecycle",
+      "title": "requestAnimationFrame Lifecycle",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for requestanimationframe lifecycle in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-raf-lifecycle/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-svg-node-budget",
+      "title": "SVG Node Count Budget",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for svg node count budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-svg-node-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-compositor-safe-properties",
+      "title": "Compositor-Friendly Animation",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for compositor-friendly animation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-compositor-safe-properties/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-layout-read-write-batching",
+      "title": "Layout Read/Write Batching",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for layout read/write batching in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-layout-read-write-batching/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-pointer-handler-budget",
+      "title": "Pointer Handler Work Budget",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for pointer handler work budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-pointer-handler-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-object-disposal",
+      "title": "Scene Object Disposal",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for scene object disposal in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-object-disposal/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-memory-retention",
+      "title": "Animation Memory Retention Audit",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for animation memory retention audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-memory-retention/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-dpr-clamping",
+      "title": "Device Pixel Ratio Clamping",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for device pixel ratio clamping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-dpr-clamping/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-animation-profiler",
+      "title": "Animation Frame Profiling",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for animation frame profiling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-animation-profiler/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-reduced-quality-under-load",
+      "title": "Graceful Quality Reduction",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for graceful quality reduction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-reduced-quality-under-load/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-longtask-observability",
+      "title": "Long Task Observability",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for long task observability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-longtask-observability/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-scheduler-priority",
+      "title": "Update Priority Scheduling",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for update priority scheduling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-scheduler-priority/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-shared-listener-multiplexing",
+      "title": "Shared Event Listener Multiplexing",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for shared event listener multiplexing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-shared-listener-multiplexing/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-idle-animation-throttle",
+      "title": "Idle Decorative Motion Throttling",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for idle decorative motion throttling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-idle-animation-throttle/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-performance-performance-regression-gate",
+      "title": "Motion Performance Regression Gate",
+      "category": "perf",
+      "categoryTitle": "Motion performance and lifecycle",
+      "description": "Apply a focused implementation and verification workflow for motion performance regression gate in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-performance-performance-regression-gate/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-requirement-normalization",
+      "title": "Requirement Normalization",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for requirement normalization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-requirement-normalization/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-skill-routing",
+      "title": "Specialist Skill Routing",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for specialist skill routing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-skill-routing/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-minimal-context-loader",
+      "title": "Minimal Context Loader",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for minimal context loader in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-minimal-context-loader/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-parallel-agent-boundaries",
+      "title": "Parallel Agent Boundaries",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for parallel agent boundaries in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-parallel-agent-boundaries/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-motion-director-agent",
+      "title": "Motion Director Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for motion director agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-motion-director-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-responsive-review-agent",
+      "title": "Responsive Review Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for responsive review agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-responsive-review-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-a11y-review-agent",
+      "title": "Accessibility Review Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for accessibility review agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-a11y-review-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-performance-review-agent",
+      "title": "Motion Performance Review Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for motion performance review agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-performance-review-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-implementation-agent-contract",
+      "title": "Implementation Agent Contract",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for implementation agent contract in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-implementation-agent-contract/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-review-agent-evidence",
+      "title": "Evidence-First Review Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for evidence-first review agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-review-agent-evidence/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-disagreement-arbitration",
+      "title": "Design and Engineering Arbitration",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for design and engineering arbitration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-disagreement-arbitration/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-shared-file-locking",
+      "title": "Shared File Change Coordination",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for shared file change coordination in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-shared-file-locking/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-token-budget-decomposition",
+      "title": "Large Task Decomposition",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for large task decomposition in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-token-budget-decomposition/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-project-memory-sanitization",
+      "title": "Project Context Sanitization",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for project context sanitization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-project-memory-sanitization/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-source-citation-agent",
+      "title": "Technical Source Verification Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for technical source verification agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-source-citation-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-integration-dependency-order",
+      "title": "Integration Dependency Ordering",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for integration dependency ordering in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-integration-dependency-order/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-failure-recovery-agent",
+      "title": "Failure Recovery Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for failure recovery agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-failure-recovery-agent/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-auto-skill-selection",
+      "title": "Automatic Skill Selection Policy",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for automatic skill selection policy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-auto-skill-selection/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-no-fabricated-verification",
+      "title": "No-Fabricated Verification Rule",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for no-fabricated verification rule in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-no-fabricated-verification/SKILL.md"
+    },
+    {
+      "name": "ztx14-agent-final-release-assembler",
+      "title": "Final Release Assembly Agent",
+      "category": "agent",
+      "categoryTitle": "Agent orchestration and skill routing",
+      "description": "Apply a focused implementation and verification workflow for final release assembly agent in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-agent-final-release-assembler/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-pointer-e2e-matrix",
+      "title": "Pointer Interaction E2E Matrix",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for pointer interaction e2e matrix in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-pointer-e2e-matrix/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-responsive-viewport-matrix",
+      "title": "Responsive Viewport Matrix",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for responsive viewport matrix in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-responsive-viewport-matrix/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-screenshot-determinism",
+      "title": "Deterministic Screenshot Capture",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for deterministic screenshot capture in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-screenshot-determinism/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-motion-clock-control",
+      "title": "Controllable Motion Clock",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for controllable motion clock in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-motion-clock-control/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-reduced-motion-tests",
+      "title": "Reduced Motion Regression Tests",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for reduced motion regression tests in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-reduced-motion-tests/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-touch-emulation",
+      "title": "Touch Input Emulation",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for touch input emulation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-touch-emulation/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-keyboard-journey",
+      "title": "Keyboard Journey Tests",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for keyboard journey tests in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-keyboard-journey/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-screenreader-smoke",
+      "title": "Screen Reader Semantics Smoke Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for screen reader semantics smoke test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-screenreader-smoke/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-hydration-regression",
+      "title": "Hydration Regression Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for hydration regression test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-hydration-regression/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-registry-install-smoke",
+      "title": "Registry Install Smoke Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for registry install smoke test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-registry-install-smoke/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-tailwind-production-build",
+      "title": "Tailwind Production Build Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for tailwind production build test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-tailwind-production-build/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-no-console-errors",
+      "title": "Console and Network Error Gate",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for console and network error gate in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-no-console-errors/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-svg-visual-diff",
+      "title": "SVG Visual Diff",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for svg visual diff in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-svg-visual-diff/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-hit-testing-geometry-tests",
+      "title": "Hit Testing Geometry Tests",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for hit testing geometry tests in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-hit-testing-geometry-tests/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-performance-budget-test",
+      "title": "Interaction Performance Budget Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for interaction performance budget test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-performance-budget-test/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-memory-leak-test",
+      "title": "Memory Leak Smoke Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for memory leak smoke test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-memory-leak-test/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-resize-observer-test",
+      "title": "ResizeObserver Regression Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for resizeobserver regression test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-resize-observer-test/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-orientation-change-test",
+      "title": "Orientation Change Test",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for orientation change test in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-orientation-change-test/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-rtl-ltr-interaction-test",
+      "title": "RTL and LTR Interaction Parity",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for rtl and ltr interaction parity in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-rtl-ltr-interaction-test/SKILL.md"
+    },
+    {
+      "name": "ztx14-motion-qa-release-evidence-report",
+      "title": "Release Evidence Report",
+      "category": "qa",
+      "categoryTitle": "Testing and quality assurance",
+      "description": "Apply a focused implementation and verification workflow for release evidence report in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-motion-qa-release-evidence-report/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-iso-accent-color-mapping",
+      "title": "Isometric Accent Token Mapping",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for isometric accent token mapping in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-iso-accent-color-mapping/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-face-shading-token",
+      "title": "Isometric Face Shading Token",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for isometric face shading token in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-face-shading-token/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-stroke-width-theme",
+      "title": "Theme-Aware Stroke Width",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for theme-aware stroke width in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-stroke-width-theme/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-stroke-opacity-hierarchy",
+      "title": "Stroke Opacity Hierarchy",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for stroke opacity hierarchy in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-stroke-opacity-hierarchy/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-depth-variable-scale",
+      "title": "Depth Variable Scale",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for depth variable scale in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-depth-variable-scale/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-dark-theme-depth",
+      "title": "Dark Theme Depth Readability",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for dark theme depth readability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-dark-theme-depth/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-oklch-gamut-fallback",
+      "title": "OKLCH Gamut Fallback",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for oklch gamut fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-oklch-gamut-fallback/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-semantic-interaction-colors",
+      "title": "Semantic Interaction Colors",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for semantic interaction colors in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-semantic-interaction-colors/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-brand-motion-signature",
+      "title": "Brand Motion Signature",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for brand motion signature in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-brand-motion-signature/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-visual-density-calibration",
+      "title": "Visual Density Calibration",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for visual density calibration in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-visual-density-calibration/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-illustration-line-style",
+      "title": "Illustration Line Style Consistency",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for illustration line style consistency in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-illustration-line-style/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-shadow-depth-coherence",
+      "title": "Shadow and Depth Coherence",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for shadow and depth coherence in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-shadow-depth-coherence/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-typography-angle-legibility",
+      "title": "Isometric Typography Legibility",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for isometric typography legibility in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-typography-angle-legibility/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-iconography-depth-system",
+      "title": "Icon Depth System",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for icon depth system in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-iconography-depth-system/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-state-color-independent",
+      "title": "State Recognition Without Color",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for state recognition without color in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-state-color-independent/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-data-viz-palette",
+      "title": "Isometric Data Visualization Palette",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for isometric data visualization palette in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-data-viz-palette/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-highlight-contrast",
+      "title": "Pointer Highlight Contrast",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for pointer highlight contrast in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-highlight-contrast/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-motion-brand-consistency",
+      "title": "Motion Brand Consistency",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for motion brand consistency in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-motion-brand-consistency/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-theme-reset-isolation",
+      "title": "Theme Reset Isolation",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for theme reset isolation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-theme-reset-isolation/SKILL.md"
+    },
+    {
+      "name": "ztx14-isometric-theme-reference-to-token-translation",
+      "title": "Design Reference to Token Translation",
+      "category": "theme",
+      "categoryTitle": "Visual system and theme consistency",
+      "description": "Apply a focused implementation and verification workflow for design reference to token translation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-isometric-theme-reference-to-token-translation/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-world-camera-pan",
+      "title": "World Camera Pan",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world camera pan in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-world-camera-pan/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-zoom-anchor-preservation",
+      "title": "Zoom Anchor Preservation",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for zoom anchor preservation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-zoom-anchor-preservation/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-camera-bounds",
+      "title": "World Camera Bounds",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world camera bounds in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-camera-bounds/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-block-placement-grid-snap",
+      "title": "Block Placement Grid Snap",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for block placement grid snap in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-block-placement-grid-snap/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-block-mining-feedback",
+      "title": "Block Mining Feedback",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for block mining feedback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-block-mining-feedback/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-inventory-hotbar-sync",
+      "title": "Inventory and Hotbar State Sync",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for inventory and hotbar state sync in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-inventory-hotbar-sync/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-keyboard-hotbar-shortcuts",
+      "title": "Keyboard Hotbar Shortcuts",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for keyboard hotbar shortcuts in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-keyboard-hotbar-shortcuts/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-chest-opening-sequence",
+      "title": "Chest Opening Sequence",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for chest opening sequence in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-chest-opening-sequence/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-torch-flicker-reducedmotion",
+      "title": "Torch Flicker and Reduced Motion",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for torch flicker and reduced motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-torch-flicker-reducedmotion/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-tree-sway-physics",
+      "title": "Tree Sway Physics",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for tree sway physics in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-tree-sway-physics/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-build-mode-state",
+      "title": "World Build Mode State",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world build mode state in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-build-mode-state/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-day-night-transition",
+      "title": "World Day-Night Transition",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world day-night transition in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-day-night-transition/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-scene-focus-management",
+      "title": "Scene Focus Management",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for scene focus management in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-scene-focus-management/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-world-object-selection",
+      "title": "World Object Selection",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world object selection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-world-object-selection/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-world-performance-budget",
+      "title": "World Scene Performance Budget",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world scene performance budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-world-performance-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-object-undo-redo",
+      "title": "World Object Undo and Redo",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world object undo and redo in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-object-undo-redo/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-game-ui-touch-controls",
+      "title": "Game UI Touch Controls",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for game ui touch controls in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-game-ui-touch-controls/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-drag-rope-ratio",
+      "title": "Pulley Rope Ratio Model",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for pulley rope ratio model in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-drag-rope-ratio/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-world-spatial-a11y",
+      "title": "World Spatial Accessibility",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for world spatial accessibility in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-world-spatial-a11y/SKILL.md"
+    },
+    {
+      "name": "ztx14-world-interaction-game-state-replay",
+      "title": "Deterministic World State Replay",
+      "category": "world",
+      "categoryTitle": "World, blocks, and gamified interaction",
+      "description": "Apply a focused implementation and verification workflow for deterministic world state replay in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-world-interaction-game-state-replay/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-external-registry-trust",
+      "title": "External Registry Trust Boundary",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for external registry trust boundary in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-external-registry-trust/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-dependency-license-audit",
+      "title": "Dependency and License Audit",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for dependency and license audit in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-dependency-license-audit/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-remote-registry-failure",
+      "title": "Remote Registry Failure Recovery",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for remote registry failure recovery in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-remote-registry-failure/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-malformed-component-guard",
+      "title": "Malformed Component Guard",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for malformed component guard in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-malformed-component-guard/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-animation-exception-isolation",
+      "title": "Animation Error Isolation",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for animation error isolation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-animation-exception-isolation/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-pointer-cancel-reset",
+      "title": "Pointer Cancellation Reset",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for pointer cancellation reset in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-pointer-cancel-reset/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-stale-raf-protection",
+      "title": "Stale Frame Callback Protection",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for stale frame callback protection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-stale-raf-protection/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-stale-async-import",
+      "title": "Stale Async Import Handling",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for stale async import handling in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-stale-async-import/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-safe-asset-paths",
+      "title": "Safe Asset Path Resolution",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for safe asset path resolution in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-safe-asset-paths/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-svg-injection-defense",
+      "title": "SVG Injection Defense",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for svg injection defense in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-svg-injection-defense/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-external-text-sanitization",
+      "title": "External Text Sanitization",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for external text sanitization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-external-text-sanitization/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-resource-timeout-fallback",
+      "title": "Resource Timeout Fallback",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for resource timeout fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-resource-timeout-fallback/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-offline-component-fallback",
+      "title": "Offline Component Fallback",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for offline component fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-offline-component-fallback/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-unsupported-api-fallback",
+      "title": "Unsupported Browser API Fallback",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for unsupported browser api fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-unsupported-api-fallback/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-browser-capability-detection",
+      "title": "Browser Capability Detection",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for browser capability detection in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-browser-capability-detection/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-error-boundary-motion",
+      "title": "Error Boundary for Interactive Scenes",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for error boundary for interactive scenes in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-error-boundary-motion/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-schema-version-guard",
+      "title": "Registry Schema Version Guard",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for registry schema version guard in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-schema-version-guard/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-registry-cache-validation",
+      "title": "Registry Cache Validation",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for registry cache validation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-registry-cache-validation/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-source-license-provenance",
+      "title": "Source and License Provenance",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for source and license provenance in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-source-license-provenance/SKILL.md"
+    },
+    {
+      "name": "ztx14-registry-safety-safe-upgrade-rollback",
+      "title": "Safe Upgrade and Rollback",
+      "category": "resil",
+      "categoryTitle": "Resilience, security, and provenance",
+      "description": "Apply a focused implementation and verification workflow for safe upgrade and rollback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-registry-safety-safe-upgrade-rollback/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-progress-sync",
+      "title": "Scroll Progress Synchronization",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for scroll progress synchronization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-progress-sync/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-timeline-fallback",
+      "title": "Scroll Timeline Fallback",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for scroll timeline fallback in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-timeline-fallback/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-scrub-reversibility",
+      "title": "Reversible Scroll Scrubbing",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for reversible scroll scrubbing in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-scrub-reversibility/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-viewport-enter-stagger",
+      "title": "Viewport-Entry Stagger",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for viewport-entry stagger in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-viewport-enter-stagger/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-hero-camera-beats",
+      "title": "Hero Scene Camera Beats",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for hero scene camera beats in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-hero-camera-beats/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-kinetic-type-iso",
+      "title": "Kinetic Typography with Isometric Figures",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for kinetic typography with isometric figures in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-kinetic-type-iso/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-layered-depth-parallax",
+      "title": "Layered Depth Parallax",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for layered depth parallax in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-layered-depth-parallax/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-motion-preferences",
+      "title": "Scroll Motion Preferences",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for scroll motion preferences in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-motion-preferences/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-trigger-idempotence",
+      "title": "Idempotent Scroll Triggers",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for idempotent scroll triggers in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-trigger-idempotence/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-timeline-section-coordination",
+      "title": "Cross-Section Timeline Coordination",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for cross-section timeline coordination in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-timeline-section-coordination/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-sticky-panel-interaction",
+      "title": "Sticky Panel Interaction",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for sticky panel interaction in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-sticky-panel-interaction/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-reveal-overlap-budget",
+      "title": "Reveal Overlap Budget",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for reveal overlap budget in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-reveal-overlap-budget/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-scroll-jump-resync",
+      "title": "Scroll Jump Resynchronization",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for scroll jump resynchronization in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-scroll-jump-resync/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-history-navigation-motion",
+      "title": "History Navigation Motion",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for history navigation motion in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-history-navigation-motion/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-route-transition-ownership",
+      "title": "Route Transition Ownership",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for route transition ownership in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-route-transition-ownership/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-animation-interruption-on-nav",
+      "title": "Animation Interruption on Navigation",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for animation interruption on navigation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-animation-interruption-on-nav/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-image-load-layout-stability",
+      "title": "Image Load Layout Stability",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for image load layout stability in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-image-load-layout-stability/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-pointer-scroll-conflict",
+      "title": "Pointer and Scroll Conflict Resolution",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for pointer and scroll conflict resolution in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-pointer-scroll-conflict/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-nested-scroll-priority",
+      "title": "Nested Scroll Priority",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for nested scroll priority in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-nested-scroll-priority/SKILL.md"
+    },
+    {
+      "name": "ztx14-cinematic-motion-motion-storyboard-translation",
+      "title": "Motion Storyboard Translation",
+      "category": "scroll",
+      "categoryTitle": "Scroll and cinematic motion",
+      "description": "Apply a focused implementation and verification workflow for motion storyboard translation in Isometric, React, responsive motion, or interactive UI work.",
+      "path": "skills/ztx14-cinematic-motion-motion-storyboard-translation/SKILL.md"
+    }
+  ],
+  "sources": [
+    "https://isometric.buildlab.in/llms.txt",
+    "https://isometric.buildlab.in/r/registry.json",
+    "https://github.com/Abhishek-Mallick/Isometric",
+    "https://ui.shadcn.com/docs/registry/registry-json",
+    "https://developer.mozilla.org/en-US/docs/Web/API/Pointer_events",
+    "https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-reduced-motion",
+    "https://www.w3.org/WAI/WCAG22/quickref/",
+    "https://playwright.dev/docs/intro"
+  ]
+}

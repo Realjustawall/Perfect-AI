@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <meta name="description" content="گالری جست‌وجوپذیر ۴۹۴ مرجع طراحی وب در Perfect AI؛ هر سبک به‌صورت مستقل و قابل استفاده در صورت نیاز نگهداری می‌شود.">
+  <title>گالری مرجع طراحی وب | Perfect AI</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#references">رفتن به فهرست نمونه‌ها</a>
+  <header class="site-header">
+    <a class="wordmark" href="./index.html" aria-label="Perfect AI — گالری مرجع">
+      <span class="wordmark-mark" aria-hidden="true">P</span>
+      <span>PERFECT <strong>AI</strong><small>WEBSITE REFERENCE LIBRARY</small></span>
+    </a>
+    <span class="header-note">کتابخانهٔ افزایشی و مستقل</span>
+  </header>
+
+  <main>
+    <section class="hero" aria-labelledby="page-title">
+      <p class="eyebrow"><span class="eyebrow-dot"></span> 494 DESIGN REFERENCES · ON-DEMAND</p>
+      <h1 id="page-title">ایده را پیدا کن.<br><span>سیستم را یکپارچه نگه دار.</span></h1>
+      <p class="hero-copy">مرجع‌های طراحی وب برای بررسی رنگ، تایپوگرافی، چیدمان و توکن‌ها؛ هر مرجع جداست و فقط در صورت نیاز وارد فرایند طراحی می‌شود.</p>
+      <div class="stats" aria-label="آمار کتابخانه">
+        <div><strong id="total-count">۴۹۴</strong><span>مرجع طراحی</span></div>
+        <div><strong>۴</strong><span>فایل برای هر مرجع</span></div>
+        <div><strong>۳</strong><span>حالت ظاهری</span></div>
+      </div>
+    </section>
+
+    <section class="controls" aria-label="جست‌وجو و فیلتر مرجع‌ها">
+      <label class="search-field">
+        <span class="sr-only">جست‌وجو میان نام و توضیحات</span>
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" autocomplete="off" placeholder="نام برند، حال‌وهوا، رنگ یا سبک تایپوگرافی…" />
+        <kbd>/</kbd>
+      </label>
+      <label class="theme-filter">تم
+        <select id="theme">
+          <option value="all">همهٔ تم‌ها</option>
+          <option value="light">روشن</option>
+          <option value="dark">تیره</option>
+          <option value="mixed">ترکیبی</option>
+        </select>
+      </label>
+    </section>
+
+    <div class="results-bar">
+      <h2 id="results-title">مرجع‌های طراحی</h2>
+      <p id="results-count" aria-live="polite">در حال بارگذاری فهرست…</p>
+    </div>
+    <section id="references" class="reference-grid" aria-label="فهرست مرجع‌های طراحی">
+      <div class="loading-state" role="status">در حال بارگذاری کاتالوگ محلی…</div>
+    </section>
+    <p id="empty-state" class="empty-state" hidden>مرجعی با این مشخصات پیدا نشد. عبارت یا فیلتر را تغییر بده.</p>
+    <p id="load-error" class="load-error" hidden>کاتالوگ بارگذاری نشد. گالری را از طریق یک وب‌سرور محلی اجرا کن؛ باز کردن مستقیم فایل HTML با file:// ممکن است دسترسی به catalog.json را مسدود کند.</p>
+  </main>
+
+  <footer class="site-footer">
+    <p><strong>نحوهٔ استفاده:</strong> ابتدا یک مرجع را انتخاب کن، سپس فقط فایل‌های همان سبک را بررسی کن. CSS و توکن‌های چند برند را بدون نرمال‌سازی با هم ترکیب نکن.</p>
+    <span>PERFECT AI · OPTIONAL REFERENCE LAYER</span>
+  </footer>
+</body>
+</html>

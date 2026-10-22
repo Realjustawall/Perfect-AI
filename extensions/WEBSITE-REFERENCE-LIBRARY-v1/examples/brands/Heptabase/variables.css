@@ -1,0 +1,105 @@
+:root {
+  /* Colors */
+  --color-eggshell-canvas: #fdfcfb;
+  --color-cloud-surface: #f7f7f7;
+  --color-paper-beige: #f0f0ea;
+  --color-whiteboard-gray: #eeeded;
+  --color-linen-border: #e4ded3;
+  --color-graphite: #2e2e2e;
+  --color-charcoal-copy: #454545;
+  --color-quiet-gray: #6a6972;
+  --color-disabled-ash: #a8a8a8;
+  --color-research-blue: #207dff;
+
+  /* Typography — Font Families */
+  --font-instrument-sans: 'Instrument Sans', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-inter: 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-ui-monospace: 'ui-monospace', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  /* Typography — Scale */
+  --text-utility: 12px;
+  --leading-utility: 1.5;
+  --tracking-utility: 0px;
+  --text-segmented-control: 13px;
+  --leading-segmented-control: 1;
+  --tracking-segmented-control: 0px;
+  --text-caption: 14px;
+  --leading-caption: 1.5;
+  --tracking-caption: 0px;
+  --text-body-nav: 16px;
+  --leading-body-nav: 1.5;
+  --tracking-body-nav: 0px;
+  --text-body-strong: 16px;
+  --leading-body-strong: 1.5;
+  --tracking-body-strong: 0px;
+  --text-card-heading: 20px;
+  --leading-card-heading: 1.5;
+  --tracking-card-heading: 0px;
+  --text-section-heading: 36px;
+  --leading-section-heading: 1.3;
+  --tracking-section-heading: -0.54px;
+  --text-hero-display: 48px;
+  --leading-hero-display: 1.3;
+  --tracking-hero-display: -1.584px;
+
+  /* Typography — Weights */
+  --font-weight-regular: 400;
+  --font-weight-w450: 450;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+
+  /* Spacing */
+  --spacing-unit: 4px;
+  --spacing-4: 4px;
+  --spacing-8: 8px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-32: 32px;
+  --spacing-36: 36px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-52: 52px;
+  --spacing-60: 60px;
+  --spacing-64: 64px;
+  --spacing-80: 80px;
+  --spacing-128: 128px;
+
+  /* Layout */
+  --section-gap: 128px;
+  --card-padding: 16px;
+  --element-gap: 8px;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-xl: 12px;
+  --radius-full: 9999px;
+
+  /* Named Radii */
+  --radius-cards: 12px;
+  --radius-links: 0px;
+  --radius-pills: 9999px;
+  --radius-badges: 6px;
+  --radius-images: 12px;
+  --radius-inputs: 6px;
+  --radius-buttons: 6px;
+  --radius-featurecards: 8px;
+
+  /* Shadows */
+  --shadow-sm: rgba(0, 0, 0, 0.03) 0px 0px 4px 0px, rgba(0, 0, 0, 0.04) 0px 4px 8px 0px, rgba(0, 0, 0, 0.05) 0px 16px 26px 0px;
+  --shadow-subtle: rgba(0, 0, 0, 0.04) 0px 0px 0px 1px, rgba(0, 0, 0, 0.1) 0px 14px 32px 0px, rgba(0, 0, 0, 0.14) 0px 28px 70px 0px;
+  --shadow-subtle-2: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+  --shadow-subtle-3: rgba(15, 15, 15, 0.1) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 2px 4px 0px;
+  --shadow-subtle-4: rgba(0, 0, 0, 0.06) 0px 0px 0px 1px, rgba(0, 0, 0, 0.08) 0px 14px 32px 0px, rgba(0, 0, 0, 0.05) 0px 28px 70px 0px;
+  --shadow-subtle-5: rgba(15, 15, 15, 0.05) 0px 0px 0px 1px, rgba(15, 15, 15, 0.1) 0px 3px 6px 0px, rgba(15, 15, 15, 0.2) 0px 9px 24px 0px;
+  --shadow-sm-2: rgba(0, 0, 0, 0.08) 0px 0px 6px 0px;
+
+  /* Surfaces */
+  --surface-eggshell-canvas: #fdfcfb;
+  --surface-cloud-surface: #f7f7f7;
+  --surface-paper-beige: #f0f0ea;
+  --surface-whiteboard-gray: #eeeded;
+}

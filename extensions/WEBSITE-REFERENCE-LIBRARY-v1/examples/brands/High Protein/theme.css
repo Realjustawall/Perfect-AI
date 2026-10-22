@@ -1,0 +1,79 @@
+@theme {
+  /* Colors */
+  --color-electric-grape: #5b00ed;
+  --color-deep-concord: #3f0791;
+  --color-bubblegum-flash: #e30ba6;
+  --color-sky-scoop: #bfefff;
+  --color-lilac-aisle: #dad9ff;
+  --color-soft-grape: #cac4f4;
+  --color-marshmallow: #ffffff;
+  --color-midnight-cereal: #000000;
+
+  /* Typography */
+  --font-poppins: 'Poppins', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mabry-pro: 'Mabry Pro', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-arial: 'Arial', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-font-awesome-5-pro: 'Font Awesome 5 Pro', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-body: 16px;
+  --leading-body: 1;
+  --tracking-body: 0px;
+  --text-nav: 16px;
+  --leading-nav: 1;
+  --tracking-nav: 0px;
+  --text-review-proof: 16px;
+  --leading-review-proof: 1.2;
+  --tracking-review-proof: 0px;
+  --text-price-label: 24px;
+  --leading-price-label: 1.25;
+  --tracking-price-label: 0px;
+  --text-subscription-callout: 26px;
+  --leading-subscription-callout: 1;
+  --tracking-subscription-callout: 0px;
+  --text-product-card-heading: 32px;
+  --leading-product-card-heading: 1.25;
+  --tracking-product-card-heading: 0px;
+  --text-hero-heading: 60px;
+  --leading-hero-heading: 1.05;
+  --tracking-hero-heading: 0px;
+  --text-section-heading: 64px;
+  --leading-section-heading: 1;
+  --tracking-section-heading: 0px;
+  --text-display: 80px;
+  --leading-display: 1;
+  --tracking-display: 0px;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-9: 9px;
+  --spacing-10: 10px;
+  --spacing-15: 15px;
+  --spacing-16: 16px;
+  --spacing-18: 18px;
+  --spacing-20: 20px;
+  --spacing-22: 22px;
+  --spacing-24: 24px;
+  --spacing-25: 25px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-50: 50px;
+  --spacing-137: 137px;
+
+  /* Border Radius */
+  --radius-lg: 10px;
+  --radius-xl: 12.5px;
+  --radius-xl-2: 15px;
+  --radius-2xl: 20px;
+  --radius-3xl: 25px;
+  --radius-3xl-2: 28px;
+  --radius-full: 52px;
+  --radius-full-2: 9999px;
+
+  /* Shadows */
+  --shadow-subtle: rgb(255, 255, 255) 0px 0px 0px 2px inset;
+  --shadow-xl: rgba(0, 0, 0, 0.08) 0px 15px 50px 0px;
+  --shadow-xl-2: rgba(0, 0, 0, 0.1) 0px 20px 60px 0px;
+}

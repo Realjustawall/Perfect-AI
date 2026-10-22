@@ -1,0 +1,66 @@
+@theme {
+  /* Colors */
+  --color-gallery-black: #000000;
+  --color-paper-cream: #fbfaf6;
+  --color-ink-charcoal: #222222;
+  --color-mist-gray: #e3e3e9;
+  --color-input-ash: #dadbdd;
+  --color-card-white: #ffffff;
+  --color-azione-rust: #813413;
+
+  /* Typography */
+  --font-pp-editorial-old: 'PP Editorial Old', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-saans-trial: 'Saans TRIAL', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-favorit-mono: 'Favorit Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  --font-system-ui: 'system-ui', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  /* Typography — Scale */
+  --text-mono-label: 14px;
+  --leading-mono-label: 1.2;
+  --tracking-mono-label: 0.42px;
+  --text-nav: 14px;
+  --leading-nav: 1.5;
+  --tracking-nav: 0.42px;
+  --text-footer-meta: 16px;
+  --leading-footer-meta: 1.5;
+  --tracking-footer-meta: 0px;
+  --text-input: 20px;
+  --leading-input: 1.2;
+  --tracking-input: 0px;
+  --text-hero-positioning: 28px;
+  --leading-hero-positioning: 1.1;
+  --tracking-hero-positioning: 0px;
+  --text-display: 72px;
+  --leading-display: 1;
+  --tracking-display: 0px;
+  --text-marquee-display: 78px;
+  --leading-marquee-display: 1.5;
+  --tracking-marquee-display: 0px;
+  --text-navigation-display: 100px;
+  --leading-navigation-display: 1.11;
+  --tracking-navigation-display: 0px;
+
+  /* Spacing */
+  --spacing-5: 5px;
+  --spacing-8: 8px;
+  --spacing-10: 10px;
+  --spacing-11: 11px;
+  --spacing-12: 12px;
+  --spacing-16: 16px;
+  --spacing-20: 20px;
+  --spacing-24: 24px;
+  --spacing-28: 28px;
+  --spacing-30: 30px;
+  --spacing-32: 32px;
+  --spacing-40: 40px;
+  --spacing-48: 48px;
+  --spacing-50: 50px;
+  --spacing-60: 60px;
+
+  /* Border Radius */
+  --radius-md: 6px;
+  --radius-2xl: 16px;
+  --radius-3xl: 24px;
+  --radius-full: 1000px;
+  --radius-full-2: 9999px;
+}

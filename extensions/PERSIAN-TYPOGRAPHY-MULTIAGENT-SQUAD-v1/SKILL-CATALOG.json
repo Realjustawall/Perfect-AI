@@ -1,0 +1,199 @@
+{
+  "extension": "PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1",
+  "created_date": "2026-10-14",
+  "append_only": true,
+  "skills_count": 21,
+  "agent_profiles_count": 13,
+  "font_families_cataloged": 21,
+  "mandatory_persian_font_policy": true,
+  "default_persian_font": "Vazirmatn",
+  "skills": [
+    {
+      "name": "ztx15-agent-accessibility",
+      "path": "skills/ztx15-agent-accessibility/SKILL.md",
+      "description": " Audits keyboard, focus, touch target, contrast, semantics, screen readers and reduced motion. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-architecture",
+      "path": "skills/ztx15-agent-architecture/SKILL.md",
+      "description": " Plans stack, file ownership, data flow, SSR, component boundaries and dependency budget. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-code-review",
+      "path": "skills/ztx15-agent-code-review/SKILL.md",
+      "description": " Reviews diffs for correctness, maintainability, regressions, race conditions and requirement coverage. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-frontend",
+      "path": "skills/ztx15-agent-frontend/SKILL.md",
+      "description": " Implements scoped UI components and responsive layouts with existing project conventions. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-handoff-evidence-contract",
+      "path": "skills/ztx15-agent-handoff-evidence-contract/SKILL.md",
+      "description": " Agent handoff evidence contract. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-agent-isometric-motion",
+      "path": "skills/ztx15-agent-isometric-motion/SKILL.md",
+      "description": " Owns pointer hit testing, SVG/isometric mapping, spring motion, timeline ownership and cleanup. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-license-security",
+      "path": "skills/ztx15-agent-license-security/SKILL.md",
+      "description": " Checks font/code/assets licenses, package provenance, dependency risk, script safety and attribution requirements. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-orchestrator",
+      "path": "skills/ztx15-agent-orchestrator/SKILL.md",
+      "description": " Owns task decomposition, scheduling, conflict prevention, handoffs, integration and final acceptance. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-performance",
+      "path": "skills/ztx15-agent-performance/SKILL.md",
+      "description": " Finds layout thrash, excessive React renders, SVG overdraw, heavy bundles, CLS and frame drops. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-persian-typography",
+      "path": "skills/ztx15-agent-persian-typography/SKILL.md",
+      "description": " Ensures Persian script coverage, correct RTL, type hierarchy, numerals, shaping, loading and font license compliance. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-qa",
+      "path": "skills/ztx15-agent-qa/SKILL.md",
+      "description": " Creates and executes unit/browser/visual tests across viewport, input, language and motion preferences. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-release-auditor",
+      "path": "skills/ztx15-agent-release-auditor/SKILL.md",
+      "description": " Checks append-only preservation, manifests, unique paths, ZIP integrity, catalog consistency and final claims. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-research",
+      "path": "skills/ztx15-agent-research/SKILL.md",
+      "description": " Researches official docs, exact version APIs, registry rules and external claims. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-agent-visual-design",
+      "path": "skills/ztx15-agent-visual-design/SKILL.md",
+      "description": " Defines visual hierarchy, motion intent, typography, color, spacing, responsive states and interaction specs. Use this role for tasks requiring specialized review or implementation ownership."
+    },
+    {
+      "name": "ztx15-font-license-provenance",
+      "path": "skills/ztx15-font-license-provenance/SKILL.md",
+      "description": " Font license and provenance audit. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-multiagent-file-ownership",
+      "path": "skills/ztx15-multiagent-file-ownership/SKILL.md",
+      "description": " Multi-agent file ownership protocol. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-multiagent-orchestrator",
+      "path": "skills/ztx15-multiagent-orchestrator/SKILL.md",
+      "description": " Coordinates specialized agents for front-end, Isometric interactions, Persian typography, accessibility, performance, QA, security and release integrity with append-only preservation and a single final owner."
+    },
+    {
+      "name": "ztx15-persian-copy-and-number-format",
+      "path": "skills/ztx15-persian-copy-and-number-format/SKILL.md",
+      "description": " Persian copy, numbers and mixed-script typography. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-persian-font-loading-performance",
+      "path": "skills/ztx15-persian-font-loading-performance/SKILL.md",
+      "description": " Persian font loading and performance. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-persian-font-selection-decision-tree",
+      "path": "skills/ztx15-persian-font-selection-decision-tree/SKILL.md",
+      "description": " Persian font selection decision tree. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    },
+    {
+      "name": "ztx15-persian-typography-mandatory-gate",
+      "path": "skills/ztx15-persian-typography-mandatory-gate/SKILL.md",
+      "description": " Mandatory Persian typography gate. Use this when implementing, reviewing, licensing, or orchestrating Persian-aware web interfaces and agents."
+    }
+  ],
+  "agent_profiles": [
+    {
+      "role": "Team Orchestrator",
+      "slug": "orchestrator",
+      "path": "agents/orchestrator.md",
+      "mission": "Owns task decomposition, scheduling, conflict prevention, handoffs, integration and final acceptance."
+    },
+    {
+      "role": "Evidence Researcher",
+      "slug": "research",
+      "path": "agents/research.md",
+      "mission": "Researches official docs, exact version APIs, registry rules and external claims."
+    },
+    {
+      "role": "Frontend Architect",
+      "slug": "architecture",
+      "path": "agents/architecture.md",
+      "mission": "Plans stack, file ownership, data flow, SSR, component boundaries and dependency budget."
+    },
+    {
+      "role": "Visual UX Designer",
+      "slug": "visual-design",
+      "path": "agents/visual-design.md",
+      "mission": "Defines visual hierarchy, motion intent, typography, color, spacing, responsive states and interaction specs."
+    },
+    {
+      "role": "Frontend Implementer",
+      "slug": "frontend",
+      "path": "agents/frontend.md",
+      "mission": "Implements scoped UI components and responsive layouts with existing project conventions."
+    },
+    {
+      "role": "Isometric & Motion Engineer",
+      "slug": "isometric-motion",
+      "path": "agents/isometric-motion.md",
+      "mission": "Owns pointer hit testing, SVG/isometric mapping, spring motion, timeline ownership and cleanup."
+    },
+    {
+      "role": "Persian Typography & RTL Specialist",
+      "slug": "persian-typography",
+      "path": "agents/persian-typography.md",
+      "mission": "Ensures Persian script coverage, correct RTL, type hierarchy, numerals, shaping, loading and font license compliance."
+    },
+    {
+      "role": "Accessibility Reviewer",
+      "slug": "accessibility",
+      "path": "agents/accessibility.md",
+      "mission": "Audits keyboard, focus, touch target, contrast, semantics, screen readers and reduced motion."
+    },
+    {
+      "role": "Performance Engineer",
+      "slug": "performance",
+      "path": "agents/performance.md",
+      "mission": "Finds layout thrash, excessive React renders, SVG overdraw, heavy bundles, CLS and frame drops."
+    },
+    {
+      "role": "QA Automation Engineer",
+      "slug": "qa",
+      "path": "agents/qa.md",
+      "mission": "Creates and executes unit/browser/visual tests across viewport, input, language and motion preferences."
+    },
+    {
+      "role": "License & Supply-Chain Reviewer",
+      "slug": "license-security",
+      "path": "agents/license-security.md",
+      "mission": "Checks font/code/assets licenses, package provenance, dependency risk, script safety and attribution requirements."
+    },
+    {
+      "role": "Independent Code Reviewer",
+      "slug": "code-review",
+      "path": "agents/code-review.md",
+      "mission": "Reviews diffs for correctness, maintainability, regressions, race conditions and requirement coverage."
+    },
+    {
+      "role": "Release Integrity Auditor",
+      "slug": "release-auditor",
+      "path": "agents/release-auditor.md",
+      "mission": "Checks append-only preservation, manifests, unique paths, ZIP integrity, catalog consistency and final claims."
+    }
+  ],
+  "font_catalog_path": "references/FONTS-CATALOG.json",
+  "font_policy_path": "references/PERSIAN-FONT-MANDATE.md"
+}

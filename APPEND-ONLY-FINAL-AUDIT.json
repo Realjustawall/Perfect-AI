@@ -1,0 +1,31 @@
+{
+  "mode": "append-only",
+  "base_archive": "Perfect-AI_MULTIAGENT_PERSIAN_FONTS_APPEND_ONLY_NO_DELETIONS.zip",
+  "base_entry_count_including_directory_entries": 12612,
+  "base_file_entry_count": 9007,
+  "base_skill_md_count": 3100,
+  "added_file_paths": [
+    "Perfect-AI-main/AGENTS.md",
+    "Perfect-AI-main/FINAL-INDEX-ALL-SKILLS-FA.md",
+    "Perfect-AI-main/FINAL-SKILLS-MANIFEST.json",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/FINAL-CORRECTIONS-AND-OPERATING-POLICY-FA.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/FINAL-OFFICIAL-SOURCES.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/MULTIAGENT-PERSIAN-RELEASE-RUNBOOK-FA.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/references/FONTS-CATALOG-v2.json",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/references/PERSIAN-FONT-CATALOG-v2.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-concurrency-file-ownership-e2e/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-font-coverage-verification/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-font-license-and-commercial-use-gate/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-multiagent-evaluation-and-stop-criteria/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-persian-font-loading-e2e/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-persian-release-blocker/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-persian-rtl-visual-regression/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-runtime-adapter-and-handoffs/SKILL.md",
+    "Perfect-AI-main/extensions/PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1/skills/ztx15-agent-skill-inventory-and-integrity-audit/SKILL.md"
+  ],
+  "added_file_count": 17,
+  "added_skill_md_count": 9,
+  "final_skill_md_count": 3109,
+  "preservation_policy": "No prior path may be removed, renamed, overwritten, or changed. New assets use previously unused paths.",
+  "validation_method": "Final external audit compares path set plus uncompressed size and ZIP CRC for every original entry; ZIP test is run separately."
+}

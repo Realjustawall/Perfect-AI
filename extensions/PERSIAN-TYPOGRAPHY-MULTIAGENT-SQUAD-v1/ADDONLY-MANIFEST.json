@@ -1,0 +1,224 @@
+{
+  "extension": "PERSIAN-TYPOGRAPHY-MULTIAGENT-SQUAD-v1",
+  "mode": "append-only",
+  "created_date": "2026-10-14",
+  "base_archive": "Perfect-AI_BEST_PRACTICES_APPEND_ONLY_NO_DELETIONS.zip",
+  "policy": "No existing path in the base archive may be removed, overwritten, or changed. Every extension path must be new.",
+  "new_files_count": 42,
+  "skills_count": 21,
+  "agent_role_profiles_count": 13,
+  "font_catalog_entries": 21,
+  "mandatory_persian_font_policy": true,
+  "new_files": [
+    {
+      "path": "INDEX.md",
+      "size_bytes": 4390,
+      "sha256": "33db21f6f00b56cb84bccb5f37934b4c2fa4b37bf3e22372529d5ed87100d504"
+    },
+    {
+      "path": "README-FA.md",
+      "size_bytes": 2595,
+      "sha256": "3181704e0a5e5eb5f156482df5ac97f6c4415156ad75ad9e230ffc1df5100bdc"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 1286,
+      "sha256": "9561e9352901589de746228e167a36f6f811782f6a24f122624319b71b4d1bb8"
+    },
+    {
+      "path": "SKILL-CATALOG.json",
+      "size_bytes": 10267,
+      "sha256": "545e7df9947954d59f3a5057fa83e977d8e2779b4b38b7fa037ed2c61d199063"
+    },
+    {
+      "path": "SOURCES.md",
+      "size_bytes": 2496,
+      "sha256": "dfed27ad1722252a8ad5d773d2692cc9de02c5c047883754ffdd35f2f6382e7c"
+    },
+    {
+      "path": "agents/accessibility.md",
+      "size_bytes": 466,
+      "sha256": "7f7e0ae944134137699a6bd2f0e5e52caeb603631591263f7b2ce0fa072feaf8"
+    },
+    {
+      "path": "agents/architecture.md",
+      "size_bytes": 482,
+      "sha256": "dbb4f6c5004044dfa6f192d2ef30a5ddfabc0e717f436bf05787c3210e82a5ce"
+    },
+    {
+      "path": "agents/code-review.md",
+      "size_bytes": 471,
+      "sha256": "75f40cc399ca9f158f53ac1d5be560bdc7a33b3c5f914a4427703646aab47c68"
+    },
+    {
+      "path": "agents/frontend.md",
+      "size_bytes": 488,
+      "sha256": "19fa7924479a5740dd9e6a324fa3e0e870811d1d96aa1c0c48ee48579cffa43e"
+    },
+    {
+      "path": "agents/isometric-motion.md",
+      "size_bytes": 526,
+      "sha256": "f3a30e5678810e78b6e4c2a7b0d7daf9fcf6535e052d9f1336f6e1786e906935"
+    },
+    {
+      "path": "agents/license-security.md",
+      "size_bytes": 525,
+      "sha256": "7052ae620a6de7c449e13b572b5ad79b597c74e8eb40a74ea8e637ff1cf08423"
+    },
+    {
+      "path": "agents/orchestrator.md",
+      "size_bytes": 554,
+      "sha256": "44ca4f67f44533cad8a8b60eafae28f0746d7f43029f1952fb3e2e80ac81c811"
+    },
+    {
+      "path": "agents/performance.md",
+      "size_bytes": 473,
+      "sha256": "71926454218b0bb5b36bec9c943cf8797be0720282a17a9579f5ad5eecc5ab6f"
+    },
+    {
+      "path": "agents/persian-typography.md",
+      "size_bytes": 548,
+      "sha256": "b0905b7cd26b3bc6c3a5bf238c21c5b67362c83a5c687779f1a51ca46076c1cd"
+    },
+    {
+      "path": "agents/qa.md",
+      "size_bytes": 505,
+      "sha256": "d48dcc9cc640a357eeb9590e4096330c31e10ee53867b4418e0ca8c317e69795"
+    },
+    {
+      "path": "agents/release-auditor.md",
+      "size_bytes": 441,
+      "sha256": "fa1f870a741ccf3c6a2066b2f2099c6254dc5956a2e1fb8ff41c3c180c15ebca"
+    },
+    {
+      "path": "agents/research.md",
+      "size_bytes": 444,
+      "sha256": "a0178833104593725324793fd67c6a53f5d6eba0947ce37257da7d8cfd33ae43"
+    },
+    {
+      "path": "agents/visual-design.md",
+      "size_bytes": 521,
+      "sha256": "9e00f8b1e9e3df626ad077d81051999de6e4d3b95a717be2e61b5a7e30d372da"
+    },
+    {
+      "path": "references/FONTS-CATALOG.json",
+      "size_bytes": 16577,
+      "sha256": "868258cac1a3495ff1e0237e015307a2765a814af763cdecf0a8f9d3b5a1f536"
+    },
+    {
+      "path": "references/PERSIAN-FONT-CATALOG.md",
+      "size_bytes": 2366,
+      "sha256": "af1d4c5646e121ed0d2acd27538b9edaca4af817e781345572082ddd991ed2a5"
+    },
+    {
+      "path": "references/PERSIAN-FONT-MANDATE.md",
+      "size_bytes": 4533,
+      "sha256": "5272e4ebc80657ec26a68bb0578025b691a82b98820a962f1d9384cfe7b57422"
+    },
+    {
+      "path": "skills/ztx15-agent-accessibility/SKILL.md",
+      "size_bytes": 1438,
+      "sha256": "54963f30b6692b742a7f745023123723cabaab7a28069178d39390eb71fe4566"
+    },
+    {
+      "path": "skills/ztx15-agent-architecture/SKILL.md",
+      "size_bytes": 1448,
+      "sha256": "6444932767f07e38810d193d60cc48d8cf1591f40cf016ee8646b0d21ba5e136"
+    },
+    {
+      "path": "skills/ztx15-agent-code-review/SKILL.md",
+      "size_bytes": 1450,
+      "sha256": "d96f73139704c4f5c16595267ca1b5ed40ff959cf46fc29194369b11cef0b2dd"
+    },
+    {
+      "path": "skills/ztx15-agent-frontend/SKILL.md",
+      "size_bytes": 1451,
+      "sha256": "2e47cc14ccac318df22afca7f3f70283150f80257e204d6a96b9b33c728a1e5f"
+    },
+    {
+      "path": "skills/ztx15-agent-handoff-evidence-contract/SKILL.md",
+      "size_bytes": 706,
+      "sha256": "c77a45af9772d973c5bbdf98c0bac239218319c3840f18909b09ce18b9041c83"
+    },
+    {
+      "path": "skills/ztx15-agent-isometric-motion/SKILL.md",
+      "size_bytes": 1503,
+      "sha256": "586593b6eb85a0fceb1cd078e5c87475a0bdb0d0401a7359211cf17b56b70431"
+    },
+    {
+      "path": "skills/ztx15-agent-license-security/SKILL.md",
+      "size_bytes": 1521,
+      "sha256": "e3ea8048d1078b749142b5ff0dd82759a04e22b4f016b0f4f50e2368a9abfaf9"
+    },
+    {
+      "path": "skills/ztx15-agent-orchestrator/SKILL.md",
+      "size_bytes": 1533,
+      "sha256": "4360c910b8fa4210f939e83e656ee6bb6a523b94a3deacbd038da9afbfdfe8c8"
+    },
+    {
+      "path": "skills/ztx15-agent-performance/SKILL.md",
+      "size_bytes": 1445,
+      "sha256": "1b5f137f435e38b24f902895846bd631ea1675bf0fa8e500597465aeb69f3d72"
+    },
+    {
+      "path": "skills/ztx15-agent-persian-typography/SKILL.md",
+      "size_bytes": 1549,
+      "sha256": "e78914dd23a7748bac3c2541301604ce874a6c1c1c011cd6566a479f5c810c19"
+    },
+    {
+      "path": "skills/ztx15-agent-qa/SKILL.md",
+      "size_bytes": 1476,
+      "sha256": "23ee15e7b5284428460a5c6209a966f4e89a97a32fbbd5d2702f7009533ed798"
+    },
+    {
+      "path": "skills/ztx15-agent-release-auditor/SKILL.md",
+      "size_bytes": 1432,
+      "sha256": "c927efb5bc86fc4367a67193ccc2f69d40b1f8538c0b6f27014aef2e81044130"
+    },
+    {
+      "path": "skills/ztx15-agent-research/SKILL.md",
+      "size_bytes": 1399,
+      "sha256": "1bf2a186cb65ac030cd2d805d1aa93c0659e31d7ce53f0b452dd16df7ba81041"
+    },
+    {
+      "path": "skills/ztx15-agent-visual-design/SKILL.md",
+      "size_bytes": 1509,
+      "sha256": "c8aa9d79dc9f02577ff3809012cffeee4cf4e6f84f5c91e840a61b4c80ff2a4c"
+    },
+    {
+      "path": "skills/ztx15-font-license-provenance/SKILL.md",
+      "size_bytes": 1126,
+      "sha256": "1ad5f9de3c1714ee02db2ea8358ba58989598d73f7f2da5672f87b286ad19630"
+    },
+    {
+      "path": "skills/ztx15-multiagent-file-ownership/SKILL.md",
+      "size_bytes": 936,
+      "sha256": "4f4ebc9e5140ea1adc3f10df19e852cc0c56b790590fed296814b686fa9cbb7c"
+    },
+    {
+      "path": "skills/ztx15-multiagent-orchestrator/SKILL.md",
+      "size_bytes": 3829,
+      "sha256": "2359b584c680ff554c89f612685ec3afe0357c26e1ee5583070fa6ba97871f10"
+    },
+    {
+      "path": "skills/ztx15-persian-copy-and-number-format/SKILL.md",
+      "size_bytes": 1042,
+      "sha256": "1d64242f7c570b06bc6e9da97aa09ee49c7c320839bb69852f3bbd55159ff24f"
+    },
+    {
+      "path": "skills/ztx15-persian-font-loading-performance/SKILL.md",
+      "size_bytes": 1150,
+      "sha256": "06f34c228be36e2c01602ab504dc395d5c0152678d013a25f08d325ea2d6a6cd"
+    },
+    {
+      "path": "skills/ztx15-persian-font-selection-decision-tree/SKILL.md",
+      "size_bytes": 1306,
+      "sha256": "910f7aab338d673e74831c2d25b4dfdff0e24d356d86397a21992e98d5857527"
+    },
+    {
+      "path": "skills/ztx15-persian-typography-mandatory-gate/SKILL.md",
+      "size_bytes": 1319,
+      "sha256": "2c76cb862242728694d5990d272ff8f9bcf95ba4726d5ce95ae0e2b9f403097c"
+    }
+  ]
+}
