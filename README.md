@@ -108,3 +108,5 @@ The original `PERFECT-AI-CURRENT-SHA256.json`, `SHA256SUMS.txt` and earlier audi
 Created and curated by **[JustAWall / @Realjustawall](https://github.com/Realjustawall)**. Third-party content retains its original copyright and license conditions; this distribution does not grant rights to external projects. Vazirmatn artwork uses version 33.003 under [OFL-1.1](docs/assets/Vazirmatn-OFL.txt); SVG text is shaped and converted to glyph outlines for consistent Persian rendering.
 
 [Report an issue](https://github.com/Realjustawall/Perfect-AI/issues) with the snapshot, skill ID and reproduction steps. Keep credentials and private project files out of reports.
+
+https://notturno-experience-recreation.honeycoati14.chatgpt.site/
